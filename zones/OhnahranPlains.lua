@@ -34,6 +34,28 @@ ns.RegisterPoints(MAPID, {
     achievement=16299, -- Treasures
 })
 
+ns.RegisterPoints(MAPID, {
+    -- Divine Kiss of Ohn'ahra mount:
+    [57593192] = { -- Ohn'ahra
+        npc=194796,
+        quest=72512, -- A Whispering Breeze
+        loot={
+            {198821, mount=1545},
+        },
+        atlas="SanctumUpgrades-Venthyr-32x32",
+        note="* 3x {item:201929} from {npc:186151:Balakar Khan} in The Nokhud Offensive\n* 1x {item:201323:Essence of Awakening} from {npc:196707:Quartermaster Huseng}\n* 1x {item:191507:Exultant Incense} (Rank 3) from Alchemy",
+    },
+    [52006320] = { -- Godoloto
+        -- TODO: confirm location
+        npc=190022,
+        quest=72512, -- A Whispering Breeze
+        texture=ns.atlas_texture("SanctumUpgrades-Venthyr-32x32",{r=0.5, g=1, b=1}),
+        active=ns.conditions.Item(201929, 3),
+        -- hide_before=ns.conditions.QuestComplete()
+        note="Bring 3x {item:201929} from {npc:186151:Balakar Khan} in The Nokhud Offensive to start {quest:72512}",
+    },
+})
+
 -- Rares
 ns.RegisterPoints(MAPID, {
     --[[
