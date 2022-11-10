@@ -3,38 +3,60 @@ local myname, ns = ...
 local MAPID = 2023 -- Ohn'ahran Plains
 
 ns.RegisterPoints(MAPID, {
-    --[[
-    [] = { -- Nokhud Warspear
+    -- https://www.wowhead.com/beta/achievement=16299/treasures-of-the-ohnahran-plains
+    [32413815] = { -- Nokhud Warspear
         criteria=54707,
         quest=67049,
-        loot={},
+        loot={
+            200861, -- Stolen Shikaar Warspear
+        },
+        active={ns.conditions.Item(194540), ns.conditions.QuestComplete(67046), any=true}, -- Nokhud Armorer's Notes
+        note="Find {item:194540} in other treasures"
     },
-    [] = { -- Slightly Chewed Duck Egg
+    [70533549] = { -- Slightly Chewed Duck Egg
         criteria=54708,
         quest=67950,
-        loot={},
+        loot={
+            {199172, pet=3309}, -- Viridescent Duck 
+        },
+        active={ns.conditions.Item(195453), ns.conditions.QuestComplete(67718), any=true}, -- Ludo's Stash Map
+        related={
+            [61014337] = {label="{npc:192997}",quest=67718,loot={{195453,quest=67718}},atlas="poi-workorders",active=false,note="Pet to receive {item:195453}"}, -- Ludo
+        },
+        note="Fetch {item:195453} from {npc:192997}",
     },
+    --[[
     [] = { -- Emerald Gem Cluster
         criteria=54700,
         quest=70391,
         loot={},
-    },
-    [] = { -- Cracked Centaur Horn
-        criteria=54709,
-        quest=70402,
-        loot={},
-    },
-    [] = { -- Gold Swog Coin
-        criteria=54710,
-        quest=70379,
-        loot={},
-    },
-    [] = { -- Yennu's Boat
-        criteria=54711,
-        quest=70400,
-        loot={},
+        active={ns.conditions.Item(198843), ns.conditions.QuestComplete(70392), any=true}, -- Emerald Gardens Explorer's Notes
+        note="Find {item:198843} in other treasures"
     },
     --]]
+    [73475616] = { -- Cracked Centaur Horn
+        criteria=54709,
+        quest=70402,
+        loot={
+            200869, -- Ohn Lite Branded Horn
+        },
+    },
+    [82307338] = { -- Gold Swog Coin
+        criteria=54710,
+        quest=70379,
+        loot={
+            199338, -- Copper Coin of the Isles
+        },
+        note="In cave",
+    },
+    [51985830] = { -- Yennu's Boat
+        criteria=54711,
+        quest=70400,
+        loot={
+            {200878, toy=true}, -- Wheeled Floaty Boaty Controller
+        },
+        note="In the water",
+    },
 }, {
     achievement=16299, -- Treasures
 })
@@ -49,6 +71,7 @@ ns.RegisterPoints(MAPID, {
         },
         atlas="SanctumUpgrades-Venthyr-32x32",
         note="* 3x {item:201929} from {npc:186151:Balakar Khan} in The Nokhud Offensive\n* 1x {item:201323:Essence of Awakening} from {npc:196707:Quartermaster Huseng}\n* 1x {item:191507:Exultant Incense} (Rank 3) from Alchemy",
+        route={57593192,52006320,highlightOnly=true},
     },
     [52006320] = { -- Godoloto
         -- TODO: confirm location
@@ -58,11 +81,13 @@ ns.RegisterPoints(MAPID, {
         active=ns.conditions.Item(201929, 3),
         -- hide_before=ns.conditions.QuestComplete()
         note="Bring 3x {item:201929} from {npc:186151:Balakar Khan} in The Nokhud Offensive to start {quest:72512}",
+        route=57593192,
     },
 })
 
 -- Rares
 ns.RegisterPoints(MAPID, {
+    -- https://www.wowhead.com/beta/achievement=16677/adventurer-of-the-ohnahran-plains
     --[[
     [] = { -- Sparkspitter Vrak
         criteria=56062,
@@ -70,13 +95,15 @@ ns.RegisterPoints(MAPID, {
         npc=193165,
         loot={},
     },
-    [] = { -- Scav Notail
+    --]]
+    [50027484] = { -- Scav Notail
         criteria=56063,
         quest=69863,
         npc=193136,
         loot={},
         vignette=5187,
     },
+    --[[
     [] = { -- Enraged Sapphire
         criteria=56064,
         quest=69840,
@@ -90,26 +117,26 @@ ns.RegisterPoints(MAPID, {
         npc=193188,
         loot={},
     },
-    [] = { -- Zenet Avis
+    --]]
+    [31646421] = { -- Zenet Avis
         criteria=56066,
         quest=nil,
         npc=193209,
         loot={},
     },
-    --]]
     [87406140] = { -- Liskheszaera
         criteria=56067,
         quest=nil,
         npc=197009,
         loot={},
     },
-    --[[
-    [] = { -- Deadwaker Ghendish
+    [29426783] = { -- Deadwaker Ghendish
         criteria=56068,
         quest=nil,
         npc=189652,
         loot={},
     },
+    --[[
     [] = { -- Researcher Sneakwing
         criteria=56069,
         quest=70689,
@@ -134,7 +161,8 @@ ns.RegisterPoints(MAPID, {
         vignette=5205,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- Steamgill
+    --]]
+    [53627281] = { -- Steamgill
         criteria=56072,
         quest=69667,
         npc=193123,
@@ -142,6 +170,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5168,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
+    --[[
     [] = { -- Malsegan
         criteria=56073,
         quest=69871,
@@ -158,7 +187,8 @@ ns.RegisterPoints(MAPID, {
         vignette=5199,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- Fulgurb
+    --]]
+    [74414762] = { -- Fulgurb
         criteria=56075,
         quest=69856,
         npc=193170,
@@ -166,19 +196,22 @@ ns.RegisterPoints(MAPID, {
         vignette=5182,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- Windseeker Avash
+    [58596822] = { -- Windseeker Avash
         criteria=56076,
         quest=nil,
         npc=192045,
         loot={},
     },
-    [] = { -- Eaglemaster Niraak
+    [49496663] = { -- Eaglemaster Niraak
         criteria=56077,
         quest=nil,
         npc=192020,
-        loot={},
+        loot={
+            {197367, quest=69568}, -- Renewed Proto-Drake: Gray Hair
+        },
         vignette=5138,
     },
+    --[[
     [] = { -- Zarizz
         criteria=56078,
         quest=72364,
@@ -193,12 +226,14 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5190,
     },
-    [] = { -- Shade of Grief
+    --]]
+    [29554146] = { -- Shade of Grief
         criteria=56080,
         quest=nil,
         npc=187559,
         loot={},
     },
+    --[[
     [] = { -- Nokhud Warmaster
         criteria=56081,
         quest=nil,
@@ -206,12 +241,14 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5062,
     },
-    [] = { -- Hamett
+    --]]
+    [85221544] = { -- Hamett
         criteria=56082,
         quest=nil,
         npc=187781,
         loot={},
     },
+    --[[
     [] = { -- Hunter of Deep
         criteria=56083,
         quest=nil,
@@ -219,20 +256,22 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5077,
     },
-    [] = { -- Irontree
+    --]]
+    [80413867] = { -- Irontree
         criteria=56084,
         quest=66356,
         npc=188124,
         loot={},
         vignette=5078,
     },
-    [] = { -- Zerimek
+    [72222321] = { -- Zerimek
         criteria=56085,
         quest=nil,
         npc=188451,
         loot={},
         vignette=5087,
     },
+    --[[
     [] = { -- Sulfurion
         criteria=56086,
         quest=nil,
@@ -254,13 +293,15 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5352,
     },
-    [] = { -- Windscale the Stormborn
+    --]]
+    [84214784] = { -- Windscale the Stormborn
         criteria=56089,
         quest=nil,
         npc=192364,
         loot={},
         vignette=5140,
     },
+    --[[
     [] = { -- Vaniik the Stormtouched
         criteria=56090,
         quest=nil,
@@ -282,19 +323,21 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5351,
     },
-    [] = { -- Rustlily
+    --]]
+    [42804428] = { -- Rustlily
         criteria=56093,
         quest=nil,
         npc=195223,
         loot={},
     },
-    [] = { -- Makhra the Ashtouched
+    [32823817] = { -- Makhra the Ashtouched
         criteria=56094,
         quest=nil,
         npc=195409,
         loot={},
         vignette=5365,
     },
+    --[[
     [] = { -- The Great Enla
         criteria=56095,
         quest=nil,

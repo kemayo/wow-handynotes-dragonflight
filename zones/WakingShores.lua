@@ -3,37 +3,53 @@ local myname, ns = ...
 local MAPID = 2022 -- Waking Shores
 
 ns.RegisterPoints(MAPID, {
-    --[[
-    [] = { -- Replica Dragon Goblet
+    -- https://www.wowhead.com/beta/achievement=16297/treasures-of-the-waking-shores
+    [65804182] = { -- Replica Dragon Goblet
         criteria=54698,
         quest=70600,
-        loot={},
+        loot={}, -- just supplies
+        related={
+            [76343420] = {quest=70409,loot={{198854,quest=70409}},atlas="poi-workorders",}, -- Archeologist Artifact Notes
+        },
     },
-    [] = { -- Bubble Drifter
+    [40454136] = { -- Bubble Drifter
         criteria=54699,
         quest=70599,
-        loot={},
+        loot={
+            {193852, pet=3269}, -- Azure Frillfish
+        },
+        active={ns.conditions.QuestComplete(70527), ns.conditions.Item(199061), any=true}, -- A Guide To Rare Fish
+        nearby={40924140, label="{spell:199061:Fragrant Plant Scent}"},
+        note="Find {item:199061} in other treasures to make this appear, then use the Fragrant Plant nearby",
     },
+    --[[
     [] = { -- Ruby Gem Cluster
         criteria=54713,
         quest=70598,
         loot={},
+        active={ns.conditions.Item(198843), ns.conditions.QuestComplete(70392), any=true}, -- Ruby Gem Cluster Map
+        note="Find {item:198843} in other treasures"
     },
-    [] = { -- Yennu's Kite
+    --]]
+    [46713121] = { -- Yennu's Kite
         criteria=54701,
         quest=70345,
         loot={},
+        note="In the tree",
     },
-    [] = { -- Dead Man's Chestplate
+    [69314658] = { -- Dead Man's Chestplate
         criteria=54702,
         quest=70346,
         loot={},
+        note="Inside tower; middle floor",
     },
-    [] = { -- Torn Riding Pack
+    [48498516] = { -- Torn Riding Pack
         criteria=54703,
         quest=70378,
         loot={},
+        note="Top of waterfall",
     },
+    --[[
     [] = { -- Misty Treasure Chest
         criteria=55403,
         quest=65646,
@@ -43,6 +59,11 @@ ns.RegisterPoints(MAPID, {
         criteria=55448,
         quest=72020,
         loot={},
+        active={ns.conditions.Item(200738), ns.conditions.QuestComplete(72021), any=true}, -- Onyx Gem Cluster Map
+        note="Buy {item:200738}"
+        related={
+            [47008280] = {quest=72021,loot={{200738,quest=72021}},atlas="poi-workorders",active=false,}, -- Onyx Gem Cluster Map
+        },
     },
     --]]
 }, {
@@ -51,6 +72,7 @@ ns.RegisterPoints(MAPID, {
 
 -- Rares
 ns.RegisterPoints(MAPID, {
+    -- https://www.wowhead.com/beta/achievement=16676/adventurer-of-the-waking-shores
     --[[
     [] = { -- Gushgut the Beaksinker
         criteria=56033,
@@ -65,45 +87,46 @@ ns.RegisterPoints(MAPID, {
         npc=193256,
         loot={},
     },
-    [] = { -- Anhydros the Tidetaker
+    --]]
+    [58774034] = { -- Anhydros the Tidetaker
         criteria=56035,
         quest=nil,
         npc=187945,
         loot={},
         vignette=5069,
     },
-    [] = { -- Skewersnout
+    [39654122] = { -- Skewersnout
         criteria=56036,
         quest=nil,
         npc=193181,
         loot={},
     },
-    [] = { -- Helmet Missingway
+    [43427361] = { -- Helmet Missingway
         criteria=56037,
         quest=nil,
         npc=199645,
         loot={},
     },
-    [] = { -- Brundin the Dragonbane
+    [48436605] = { -- Brundin the Dragonbane
         criteria=56038,
         quest=nil,
         npc=192738,
         loot={},
     },
-    [] = { -- Drakewing
+    [72824701] = { -- Drakewing
         criteria=56039,
         quest=nil,
         npc=193217,
         loot={},
     },
-    [] = { -- Thunderous Matriarch
+    [45413562] = { -- Thunderous Matriarch
         criteria=56040,
         quest=69841,
         npc=193148,
         loot={},
         vignette=5174,
     },
-    [] = { -- Azra's Prized Peony
+    [54897110] = { -- Azra's Prized Peony
         criteria=56041,
         quest=69839,
         npc=193135,
@@ -111,13 +134,15 @@ ns.RegisterPoints(MAPID, {
         vignette=5172,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
+    --[[
     [] = { -- Snappy
         criteria=56042,
         quest=nil,
         npc=193228,
         loot={},
     },
-    [] = { -- O'nank Shorescour
+    --]]
+    [82214945] = { -- O'nank Shorescour
         criteria=56043,
         quest=70983,
         npc=193118,
@@ -125,7 +150,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5167,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- Smogswog the Firebreather
+    [69016482] = { -- Smogswog the Firebreather
         criteria=56044,
         quest=69668,
         npc=193120,
@@ -133,6 +158,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5169,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
+    --[[
     [] = { -- Amethyzar the Glittering
         criteria=56045,
         quest=69838,
@@ -157,13 +183,15 @@ ns.RegisterPoints(MAPID, {
         vignette=5175,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- Forgotten Gryphon
+    --]]
+    [33007653] = { -- Forgotten Gryphon
         criteria=56048,
         quest=72130,
         npc=193154,
         loot={},
         vignette=5383,
     },
+    --[[
     [] = { -- Enkine the Voracious
         criteria=56049,
         quest=72128,
@@ -171,14 +199,14 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5382,
     },
-    [] = { -- Captain Lancer
+    --]]
+    [26627539] = { -- Captain Lancer
         criteria=56050,
         quest=72127,
         npc=193198,
         loot={},
         vignette=5385,
     },
-    --]]
     [64456922] = { -- Possessive Hornswog
         criteria=56051,
         quest=67048, -- 70864 for cave-access
@@ -202,7 +230,8 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5110,
     },
-    [] = { -- Death's Shadow
+    --]]
+    [31825440] = { -- Death's Shadow
         criteria=56053,
         quest=nil,
         npc=190985,
@@ -210,7 +239,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5113,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- Shas'ith
+    [23825742] = { -- Shas'ith
         criteria=56054,
         quest=nil,
         npc=189822,
@@ -218,6 +247,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5108,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
+    --[[
     [] = { -- Lepidoralia the Resplendent
         criteria=56055,
         quest=69891,
@@ -225,46 +255,48 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5209, -- Resplendent Shimmerwing
     },
-    [] = { -- Cauldronbearer Blakor
+    --]]
+    [25825982] = { -- Cauldronbearer Blakor
         criteria=56056,
         quest=nil,
         npc=186783,
         loot={},
         vignette=5480,
     },
-    [] = { -- Rohzor Forgesmash
+    [25286032] = { -- Rohzor Forgesmash
         criteria=56057,
         quest=nil,
         npc=187598,
         loot={},
     },
-    [] = { -- Turboris
+    [33115569] = { -- Turboris
         criteria=56058,
         quest=nil,
         npc=187886,
         loot={},
         vignette=5109,
     },
-    [] = { -- Battlehorn Pyrhus
+    [28635882] = { -- Battlehorn Pyrhus
         criteria=56059,
         quest=nil,
         npc=190986,
         loot={},
         vignette=5112, -- and 5114
     },
-    [] = { -- Char
+    [29245162] = { -- Char
         criteria=56060,
         quest=nil,
         npc=190991,
         loot={},
         vignette=5115,
     },
-    [] = { -- Rasnar the War Ender
+    [30226045] = { -- Rasnar the War Ender
         criteria=56061,
         quest=nil,
         npc=193232,
         loot={},
     },
+    --[[
     [] = { -- Morchok
         criteria=56988,
         quest=nil,

@@ -3,44 +3,57 @@ local myname, ns = ...
 local MAPID = 2024 -- Azure Span
 
 ns.RegisterPoints(MAPID, {
-    --[[
-    [] = { -- Forgotten Jewel Box
+    -- https://www.wowhead.com/beta/achievement=16300/treasures-of-the-azure-span
+    [45135939] = { -- Forgotten Jewel Box
         criteria=54804,
         quest=70603,
         loot={},
+        active={ns.conditions.QuestComplete(70534), ns.conditions.Item(199065), any=true}, -- Sorrowful Letter
+        note="Find {item:199065} in other treasures",
     },
-    [] = { -- Gnoll Fiend Flail
+    [53964377] = { -- Gnoll Fiend Flail
         criteria=54805,
         quest=70604,
         loot={},
+        active={ns.conditions.QuestComplete(70535), ns.conditions.Item(199066), any=true}, -- Letter of Caution
+        note="Find {item:199066} in other treasures",
     },
+    --[[
     [] = { -- Sapphire Gem Cluster
         criteria=54806,
         quest=70605,
         loot={},
+        active={ns.conditions.QuestComplete(70536), ns.conditions.Item(199067), any=true}, -- Precious Plans
+        note="Find {item:199067} in other treasures",
     },
-    [] = { -- Lost Compass
+    --]]
+    [74905499] = { -- Lost Compass
         criteria=54807,
         quest=70606,
         loot={},
     },
+    --[[
     [] = { -- Rubber Fish
         criteria=54808,
         quest=70380,
         loot={},
     },
-    [] = { -- Pepper Hammer
+    --]]
+    [26544629] = { -- Pepper Hammer
         criteria=54809,
         quest=70441,
-        loot={},
+        loot={
+            {193834, pet=3321}, -- Blackfeather Nester
+        },
+        note="Use the Tree Sap on the stick",
     },
-    --]]
 }, {
     achievement=16300, -- Treasures
 })
 
 -- Rares
 ns.RegisterPoints(MAPID, {
+    -- https://www.wowhead.com/beta/achievement=16678/adventurer-of-the-azure-span
     --[[
     [] = { -- Wilrive
         criteria=56097,
@@ -49,26 +62,28 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5224,
     },
-    [] = { -- Dragonhunter Gorund
+    --]]
+    [27804580] = { -- Dragonhunter Gorund
         criteria=56098,
         quest=66956, -- ?
         npc=193157,
         loot={},
         vignette=5126, -- ?
     },
-    [] = { -- Arcane Devourer
+    [53003560] = { -- Arcane Devourer
         criteria=56099,
         quest=nil,
         npc=194270,
         loot={},
         vignette=5267,
     },
-    [] = { -- Mange the Outcast
+    [40404840] = { -- Mange the Outcast
         criteria=56100,
         quest=nil,
         npc=198004,
         loot={},
     },
+    --[[
     [] = { -- Frostpaw
         criteria=56101,
         quest=67148,
@@ -89,32 +104,35 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5269,
     },
-    [] = { -- Frigidpelt Den Mother
+    --]]
+    [64792998] = { -- Frigidpelt Den Mother
         criteria=56104,
         quest=69985,
         npc=193698,
         loot={},
         vignette=5252,
     },
-    [] = { -- Azure Pathfinder
+    [60733168] = { -- Azure Pathfinder
         criteria=56105,
         quest=nil,
         npc=194210,
         loot={},
     },
-    [] = { -- Beogoka
+    [73002660] = { -- Beogoka
         criteria=56106,
         quest=nil,
         npc=193116,
         loot={},
         vignette=5189,
     },
-    [] = { -- Notfar the Unbearable
+    [36803580] = { -- Notfar the Unbearable
+        -- also 46603980?
         criteria=56107,
         quest=nil,
         npc=193225,
         loot={},
     },
+    --[[
     [] = { -- Blue Terror
         criteria=56108,
         quest=nil,
@@ -135,7 +153,8 @@ ns.RegisterPoints(MAPID, {
         vignette=5440,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- Gruffy
+    --]]
+    [32652915] = { -- Gruffy
         criteria=56111,
         quest=69885,
         npc=193251,
@@ -143,6 +162,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5206,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
+    --[[
     [] = { -- Grumbletrunk
         criteria=56112,
         quest=69892,
@@ -157,38 +177,42 @@ ns.RegisterPoints(MAPID, {
         npc=193693,
         loot={},
     },
-    [] = { -- Trilvarus Loreweaver
+    --]]
+    [70202520] = { -- Trilvarus Loreweaver
         criteria=56114,
         quest=69861,
         npc=193196,
         loot={},
         vignette=5186,
     },
-    [] = { -- Fisherman Tinnak
+    [49463607] = { -- Fisherman Tinnak
         criteria=56115,
         quest=70792,
         npc=193691,
         loot={},
         vignette=5475,
     },
+    --[[
     [] = { -- Snufflegust
         criteria=56116,
         quest=nil,
         npc=193706,
         loot={},
     },
-    [] = { -- Skald the Impaler
+    --]]
+    [33806440] = { -- Skald the Impaler
         criteria=56117,
         quest=nil,
         npc=193708,
         loot={},
     },
-    [] = { -- Seereel, the Spring
+    [81447834] = { -- Seereel, the Spring
         criteria=56118,
         quest=nil,
         npc=193710,
         loot={},
     },
+    --[[
     [] = { -- Moth'go Deeploom
         criteria=56119,
         quest=nil,
@@ -207,12 +231,14 @@ ns.RegisterPoints(MAPID, {
         npc=193167,
         loot={},
     },
-    [] = { -- Bisquius
+    --]]
+    [13604860] = { -- Bisquius
         criteria=55381,
         quest=nil,
         npc=197557,
         loot={},
     },
+    --[[
     [] = { -- Blightfur
         criteria=56122,
         quest=69858,
@@ -226,14 +252,15 @@ ns.RegisterPoints(MAPID, {
         npc=193255,
         loot={},
     },
-    [] = { -- Spellwrought Snowman
+    --]]
+    [54803420] = { -- Spellwrought Snowman
         criteria=56124,
         quest=69879,
         npc=193238,
         loot={},
         vignette=5200,
     },
-    [] = { -- Snarglebone
+    [11093217] = { -- Snarglebone
         criteria=56125,
         quest=nil,
         npc=197344,
@@ -241,7 +268,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5413,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- Blisterhide
+    [14483105] = { -- Blisterhide
         criteria=56126,
         quest=nil,
         npc=197353,
@@ -249,7 +276,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5414,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- Gnarls
+    [14083747] = { -- Gnarls
         criteria=56127,
         quest=nil,
         npc=197354,
@@ -257,7 +284,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5415,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- High Shaman Rotknuckle
+    [16213364] = { -- High Shaman Rotknuckle
         criteria=56128,
         quest=nil,
         npc=197356,
@@ -265,19 +292,20 @@ ns.RegisterPoints(MAPID, {
         vignette=5416,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
+    --[[
     [] = { -- Ravenous Tundra Bear
         criteria=56129,
         quest=nil,
         npc=197371,
         loot={},
     },
-    [] = { -- Astray Splasher
+    --]]
+    [81207780] = { -- Astray Splasher
         criteria=56130,
         quest=nil,
         npc=197411,
         loot={},
     },
-    --]]
 }, {
     achievement=16678, -- Adventurer
 })
