@@ -54,9 +54,10 @@ ns.RegisterPoints(MAPID, {
     --[[
     [] = { -- Gushgut the Beaksinker
         criteria=56033,
-        quest=nil,
+        quest=70718,
         npc=196056,
         loot={},
+        vignette=5380,
     },
     [] = { -- Nulltheria the Void Gazer
         criteria=56034,
@@ -69,6 +70,7 @@ ns.RegisterPoints(MAPID, {
         quest=nil,
         npc=187945,
         loot={},
+        vignette=5069,
     },
     [] = { -- Skewersnout
         criteria=56036,
@@ -96,15 +98,18 @@ ns.RegisterPoints(MAPID, {
     },
     [] = { -- Thunderous Matriarch
         criteria=56040,
-        quest=nil,
+        quest=69841,
         npc=193148,
         loot={},
+        vignette=5174,
     },
     [] = { -- Azra's Prized Peony
         criteria=56041,
-        quest=nil,
+        quest=69839,
         npc=193135,
         loot={},
+        vignette=5172,
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Snappy
         criteria=56042,
@@ -114,87 +119,118 @@ ns.RegisterPoints(MAPID, {
     },
     [] = { -- O'nank Shorescour
         criteria=56043,
-        quest=nil,
+        quest=70983,
         npc=193118,
         loot={},
+        vignette=5167,
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Smogswog the Firebreather
         criteria=56044,
-        quest=nil,
+        quest=69668,
         npc=193120,
         loot={},
+        vignette=5169,
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Amethyzar the Glittering
         criteria=56045,
-        quest=nil,
+        quest=69838,
         npc=193132,
         loot={},
+        vignette=5171,
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Magmaton
         criteria=56046,
-        quest=nil,
+        quest=70979,
         npc=186827,
         loot={},
+        vignette=5116,
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Massive Magmashell
         criteria=56047,
-        quest=nil,
+        quest=69848,
         npc=193152,
         loot={},
+        vignette=5175,
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Forgotten Gryphon
         criteria=56048,
-        quest=nil,
+        quest=72130,
         npc=193154,
         loot={},
+        vignette=5383,
     },
     [] = { -- Enkine the Voracious
         criteria=56049,
-        quest=nil,
+        quest=72128,
         npc=193134,
         loot={},
+        vignette=5382,
     },
     [] = { -- Captain Lancer
         criteria=56050,
-        quest=nil,
+        quest=72127,
         npc=193198,
         loot={},
+        vignette=5385,
     },
-    [] = { -- Possessive Hornswog
+    --]]
+    [64456922] = { -- Possessive Hornswog
         criteria=56051,
-        quest=nil,
+        quest=67048, -- 70864 for cave-access
         npc=192362,
-        loot={},
+        loot={
+            {199916, pet=3365}, -- Roseate Hopper
+        },
+        vignette=5139, -- Hidden Hornswog Hoard
+        note="Bring {item:200064}, {item:200065}, and {item:200066} here to enter",
+        related={
+            [47738363] = {quest=70864,label="{item:200064}",inbag=200064,atlas="Islands-AzeriteChest",}, -- Marmoni's Prize
+            [39648469] = {quest=70864,label="{item:200065}",inbag=200065,atlas="Islands-AzeriteChest",}, -- Adventurer's Lost Soap Bar
+            [66185530] = {quest=70864,label="{item:200066}",inbag=200066,atlas="Islands-AzeriteChest",}, -- Well-Preserved Bone
+        },
     },
+    --[[
     [] = { -- Worldcarver A'tir
         criteria=56052,
-        quest=nil,
+        quest=70763,
         npc=186859,
         loot={},
+        vignette=5110,
     },
     [] = { -- Death's Shadow
         criteria=56053,
         quest=nil,
         npc=190985,
         loot={},
+        vignette=5113,
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Shas'ith
         criteria=56054,
         quest=nil,
         npc=189822,
         loot={},
+        vignette=5108,
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Lepidoralia the Resplendent
         criteria=56055,
-        quest=nil,
+        quest=69891,
         npc=193266,
         loot={},
+        vignette=5209, -- Resplendent Shimmerwing
     },
     [] = { -- Cauldronbearer Blakor
         criteria=56056,
         quest=nil,
         npc=186783,
         loot={},
+        vignette=5480,
     },
     [] = { -- Rohzor Forgesmash
         criteria=56057,
@@ -207,18 +243,21 @@ ns.RegisterPoints(MAPID, {
         quest=nil,
         npc=187886,
         loot={},
+        vignette=5109,
     },
     [] = { -- Battlehorn Pyrhus
         criteria=56059,
         quest=nil,
         npc=190986,
         loot={},
+        vignette=5112, -- and 5114
     },
     [] = { -- Char
         criteria=56060,
         quest=nil,
         npc=190991,
         loot={},
+        vignette=5115,
     },
     [] = { -- Rasnar the War Ender
         criteria=56061,
@@ -231,18 +270,22 @@ ns.RegisterPoints(MAPID, {
         quest=nil,
         npc=187306,
         loot={},
+        vignette=5388, -- 5119 for "Morchock Reformed"?
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Shadeslash Trakken
         criteria=56989,
-        quest=nil,
+        quest=70719,
         npc=193271,
         loot={},
+        vignette=5381,
     },
     [] = { -- Slurpo, the Incredible Snail
         criteria=57003,
-        quest=nil,
+        quest=72126,
         npc=193175,
         loot={},
+        vignette=5384,
     },
     --]]
 }, {

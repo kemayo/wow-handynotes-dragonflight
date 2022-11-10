@@ -72,15 +72,17 @@ ns.RegisterPoints(MAPID, {
     },
     [] = { -- Scav Notail
         criteria=56063,
-        quest=nil,
+        quest=69863,
         npc=193136,
         loot={},
+        vignette=5187,
     },
     [] = { -- Enraged Sapphire
         criteria=56064,
-        quest=nil,
+        quest=69840,
         npc=193142,
         loot={},
+        vignette=5173,
     },
     [] = { -- Seeker Teryx
         criteria=56065,
@@ -94,12 +96,14 @@ ns.RegisterPoints(MAPID, {
         npc=193209,
         loot={},
     },
-    [] = { -- Liskheszaera
+    --]]
+    [87406140] = { -- Liskheszaera
         criteria=56067,
         quest=nil,
         npc=197009,
         loot={},
     },
+    --[[
     [] = { -- Deadwaker Ghendish
         criteria=56068,
         quest=nil,
@@ -108,45 +112,59 @@ ns.RegisterPoints(MAPID, {
     },
     [] = { -- Researcher Sneakwing
         criteria=56069,
-        quest=nil,
+        quest=70689,
         npc=196010,
         loot={},
+        vignette=5378,
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Mikrin of the Raging Winds
         criteria=56070,
-        quest=nil,
+        quest=69857,
         npc=193173,
         loot={},
+        vignette=5183,
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Ronsak the Decimator
         criteria=56071,
-        quest=nil,
+        quest=69878,
         npc=193227,
         loot={},
+        vignette=5205,
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Steamgill
         criteria=56072,
-        quest=nil,
+        quest=69667,
         npc=193123,
         loot={},
+        vignette=5168,
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Malsegan
         criteria=56073,
-        quest=nil,
+        quest=69871,
         npc=193212,
         loot={},
+        vignette=5195,
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Oshigol
         criteria=56074,
-        quest=nil,
+        quest=69877,
         npc=193235,
         loot={},
+        vignette=5199,
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Fulgurb
         criteria=56075,
-        quest=nil,
+        quest=69856,
         npc=193170,
         loot={},
+        vignette=5182,
+        -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [] = { -- Windseeker Avash
         criteria=56076,
@@ -159,18 +177,21 @@ ns.RegisterPoints(MAPID, {
         quest=nil,
         npc=192020,
         loot={},
+        vignette=5138,
     },
     [] = { -- Zarizz
         criteria=56078,
-        quest=nil,
+        quest=72364,
         npc=193140,
         loot={},
+        vignette=5469,
     },
     [] = { -- Scaleseeker Mezeri
         criteria=56079,
-        quest=nil,
+        quest=69865,
         npc=193215,
         loot={},
+        vignette=5190,
     },
     [] = { -- Shade of Grief
         criteria=56080,
@@ -183,6 +204,7 @@ ns.RegisterPoints(MAPID, {
         quest=nil,
         npc=187219,
         loot={},
+        vignette=5062,
     },
     [] = { -- Hamett
         criteria=56082,
@@ -195,60 +217,70 @@ ns.RegisterPoints(MAPID, {
         quest=nil,
         npc=188095,
         loot={},
+        vignette=5077,
     },
     [] = { -- Irontree
         criteria=56084,
-        quest=nil,
+        quest=66356,
         npc=188124,
         loot={},
+        vignette=5078,
     },
     [] = { -- Zerimek
         criteria=56085,
         quest=nil,
         npc=188451,
         loot={},
+        vignette=5087,
     },
     [] = { -- Sulfurion
         criteria=56086,
         quest=nil,
         npc=191842,
         loot={},
+        vignette=5135,
     },
     [] = { -- Porta the Overgrown
         criteria=56087,
         quest=nil,
         npc=191950,
         loot={},
+        vignette=5136,
     },
     [] = { -- The Jolly Giant
         criteria=56088,
         quest=nil,
         npc=195204,
         loot={},
+        vignette=5352,
     },
     [] = { -- Windscale the Stormborn
         criteria=56089,
         quest=nil,
         npc=192364,
         loot={},
+        vignette=5140,
     },
     [] = { -- Vaniik the Stormtouched
         criteria=56090,
         quest=nil,
         npc=192453,
         loot={},
+        vignette=5143, -- Vaniik the Corrupted
     },
     [] = { -- Quackers the Terrible
         criteria=56091,
         quest=nil,
         npc=192557,
         loot={},
+        vignette=5144,
     },
     [] = { -- Cinta the Forgotten
         criteria=56092,
         quest=nil,
         npc=195186,
         loot={},
+        vignette=5351,
     },
     [] = { -- Rustlily
         criteria=56093,
@@ -261,6 +293,7 @@ ns.RegisterPoints(MAPID, {
         quest=nil,
         npc=195409,
         loot={},
+        vignette=5365,
     },
     [] = { -- The Great Enla
         criteria=56095,
