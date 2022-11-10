@@ -7,6 +7,7 @@
 ## X-Category: Map
 ## X-eMail: kemayo @ gmail DOT com
 ## X-Curse-Project-ID: 615651
+## X-Wago-ID: ME6gxnK1
 ## SavedVariables: HandyNotes_DragonflightTreasuresDB
 ## RequiredDeps: HandyNotes
 ## OptionalDeps: !LibUIDropDownMenu
