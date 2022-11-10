@@ -6,42 +6,42 @@ ns.RegisterPoints(MAPID, {
     --[[
     [] = { -- Replica Dragon Goblet
         criteria=54698,
-        quest=nil,
+        quest=70600,
         loot={},
     },
     [] = { -- Bubble Drifter
         criteria=54699,
-        quest=nil,
+        quest=70599,
         loot={},
     },
     [] = { -- Ruby Gem Cluster
         criteria=54713,
-        quest=nil,
+        quest=70598,
         loot={},
     },
     [] = { -- Yennu's Kite
         criteria=54701,
-        quest=nil,
+        quest=70345,
         loot={},
     },
     [] = { -- Dead Man's Chestplate
         criteria=54702,
-        quest=nil,
+        quest=70346,
         loot={},
     },
     [] = { -- Torn Riding Pack
         criteria=54703,
-        quest=nil,
+        quest=70378,
         loot={},
     },
     [] = { -- Misty Treasure Chest
         criteria=55403,
-        quest=nil,
+        quest=65646,
         loot={},
     },
     [] = { -- Onyx Gem Cluster
         criteria=55448,
-        quest=nil,
+        quest=72020,
         loot={},
     },
     --]]

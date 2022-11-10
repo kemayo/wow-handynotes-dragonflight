@@ -6,32 +6,32 @@ ns.RegisterPoints(MAPID, {
     --[[
     [] = { -- Cracked Hourglass
         criteria=54810,
-        quest=nil,
+        quest=70607,
         loot={},
     },
     [] = { -- Sandy Wooden Duck
         criteria=54811,
-        quest=nil,
+        quest=70608,
         loot={},
     },
     [] = { -- Amber Gem Cluster
         criteria=54812,
-        quest=nil,
+        quest=70408,
         loot={},
     },
     [] = { -- Elegant Canvas Brush
         criteria=54813,
-        quest=nil,
+        quest=70609,
         loot={},
     },
     [] = { -- Surveyor's Magnifying Glass
         criteria=54814,
-        quest=nil,
+        quest=70610,
         loot={},
     },
     [] = { -- Acorn Harvester
         criteria=54815,
-        quest=nil,
+        quest=70611,
         loot={},
     },
     --]]

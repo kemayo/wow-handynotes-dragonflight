@@ -4,29 +4,34 @@ local MAPID = 2023 -- Ohn'ahran Plains
 
 ns.RegisterPoints(MAPID, {
     --[[
+    [] = { -- Nokhud Warspear
+        criteria=54707,
+        quest=67049,
+        loot={},
+    },
     [] = { -- Slightly Chewed Duck Egg
         criteria=54708,
-        quest=nil,
+        quest=67950,
         loot={},
     },
     [] = { -- Emerald Gem Cluster
         criteria=54700,
-        quest=nil,
+        quest=70391,
         loot={},
     },
     [] = { -- Cracked Centaur Horn
         criteria=54709,
-        quest=nil,
+        quest=70402,
         loot={},
     },
     [] = { -- Gold Swog Coin
         criteria=54710,
-        quest=nil,
+        quest=70379,
         loot={},
     },
     [] = { -- Yennu's Boat
         criteria=54711,
-        quest=nil,
+        quest=70400,
         loot={},
     },
     --]]

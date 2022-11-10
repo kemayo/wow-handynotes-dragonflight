@@ -6,32 +6,32 @@ ns.RegisterPoints(MAPID, {
     --[[
     [] = { -- Forgotten Jewel Box
         criteria=54804,
-        quest=nil,
+        quest=70603,
         loot={},
     },
     [] = { -- Gnoll Fiend Flail
         criteria=54805,
-        quest=nil,
+        quest=70604,
         loot={},
     },
     [] = { -- Sapphire Gem Cluster
         criteria=54806,
-        quest=nil,
+        quest=70605,
         loot={},
     },
     [] = { -- Lost Compass
         criteria=54807,
-        quest=nil,
+        quest=70606,
         loot={},
     },
     [] = { -- Rubber Fish
         criteria=54808,
-        quest=nil,
+        quest=70380,
         loot={},
     },
     [] = { -- Pepper Hammer
         criteria=54809,
-        quest=nil,
+        quest=70441,
         loot={},
     },
     --]]
