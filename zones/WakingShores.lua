@@ -336,3 +336,52 @@ ns.RegisterPoints(MAPID, {
         vignette=5055,
     },
 })
+
+-- Symbols of Hope
+ns.RegisterPoints(MAPID, {
+    [73193776] = { -- Wingrest Embassy
+        criteria=55841,
+        quest=72096,
+    },
+    [73035290] = { -- Skytop Observatory
+        criteria=55842,
+        quest=72097,
+    },
+    [56735799] = { -- Crumbling Life Archway
+        criteria=55843,
+        quest=72098,
+    },
+    [61718083] = { -- Hatchery Observatory
+        criteria=55844,
+        quest=72099,
+    },
+    [43566381] = { -- Obsidian Observatory
+        criteria=55845,
+        quest=72100,
+    },
+    [24058995] = { -- Apex Canopy
+        criteria=55846,
+        quest=72101,
+    },
+    [57134640] = { -- Concord Observatory
+        criteria=55848,
+        quest=72103,
+    },
+    [50295562] = { -- The Overflowing Spring
+        criteria=55847,
+        quest=72102,
+    },
+    [48843995] = { -- Uktulut Backwater
+        criteria=55849,
+        quest=72104,
+    },
+    [57022000] = { -- Life-Binder Conservatory
+        criteria=55850,
+        quest=72105,
+    },
+}, {
+    achievement=16584,
+    note="Interact with the {npc:198123:Hope Kite}",
+    atlas="CreationCatalyst-32x32",
+    minimap=true,
+})
