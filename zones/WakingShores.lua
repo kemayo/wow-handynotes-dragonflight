@@ -323,3 +323,16 @@ ns.RegisterPoints(MAPID, {
 }, {
     achievement=16676, -- Adventurer
 })
+
+ns.RegisterPoints(MAPID, {
+    [46725013] = { -- Primal Scythid Queen
+        quest=66074, -- 57559, 62396
+        npc=184853,
+        loot={
+            200563, -- Primal Ritual Shell
+            200445, -- Lucky Hunting Charm
+            200195, -- Thunderscale Legguards
+        },
+        vignette=5055,
+    },
+})
