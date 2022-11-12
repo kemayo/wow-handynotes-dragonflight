@@ -1,6 +1,6 @@
 local myname, ns = ...
 
-local MAPID = 2023 -- Ohn'ahran Plains
+local MAPID = ns.OHNAHRANPLAINS -- Ohn'ahran Plains
 
 ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16299/treasures-of-the-ohnahran-plains

@@ -1,6 +1,6 @@
 local myname, ns = ...
 
-local MAPID = 2024 -- Azure Span
+local MAPID = ns.AZURESPAN -- Azure Span
 
 ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16300/treasures-of-the-azure-span

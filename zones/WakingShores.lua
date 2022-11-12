@@ -1,6 +1,6 @@
 local myname, ns = ...
 
-local MAPID = 2022 -- Waking Shores
+local MAPID = ns.WAKINGSHORES -- Waking Shores
 
 ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16297/treasures-of-the-waking-shores
@@ -11,6 +11,7 @@ ns.RegisterPoints(MAPID, {
         related={
             [76343420] = {quest=70409,loot={{198854,quest=70409}},atlas="poi-workorders",}, -- Archeologist Artifact Notes
         },
+        vignette=5367,
     },
     [40454136] = { -- Bubble Drifter
         criteria=54699,

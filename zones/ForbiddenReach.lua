@@ -1,5 +1,5 @@
 local myname, ns = ...
 
-local MAPID = 2026 -- Forbidden Reach
+local MAPID = ns.FORBIDDENREACH -- Forbidden Reach
 
 ns.RegisterPoints(MAPID, {})

@@ -1,6 +1,6 @@
 local myname, ns = ...
 
-local MAPID = 2025 -- Thaldraszus
+local MAPID = ns.THALDRASZUS -- Thaldraszus
 
 ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16301/treasures-of-thaldraszus
