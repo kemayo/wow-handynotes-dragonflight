@@ -185,7 +185,7 @@ ns.RegisterPoints(MAPID, {
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
     --]]
-    [33007653] = { -- Forgotten Gryphon
+    [33417637] = { -- Forgotten Gryphon
         criteria=56048,
         quest=72130,
         npc=193154,
@@ -201,7 +201,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5382,
     },
     --]]
-    [26627539] = { -- Captain Lancer
+    [27017601] = { -- Captain Lancer
         criteria=56050,
         quest=72127,
         npc=193198,
@@ -248,15 +248,13 @@ ns.RegisterPoints(MAPID, {
         vignette=5108,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --[[
-    [] = { -- Lepidoralia the Resplendent
+    [33748639] = { -- Lepidoralia the Resplendent
         criteria=56055,
         quest=69891,
         npc=193266,
         loot={},
         vignette=5209, -- Resplendent Shimmerwing
     },
-    --]]
     [25825982] = { -- Cauldronbearer Blakor
         criteria=56056,
         quest=nil,
