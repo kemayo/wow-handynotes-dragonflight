@@ -26,3 +26,5 @@ zones\ForbiddenReach.lua
 zones\OhnahranPlains.lua
 zones\Thaldraszus.lua
 zones\WakingShores.lua
+
+achievements\HighestPeaks.lua
