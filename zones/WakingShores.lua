@@ -343,6 +343,18 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5055,
     },
+    [64433340] = { -- Dragonhunter Igordan
+        quest=66956, -- 72838
+        npc=191611,
+        loot={
+            200757, -- Qalashi War-Helm
+            {197005, quest=69205}, -- Cliffside Wylderdrake: Horned Nose
+            {197019, quest=69219}, -- Cliffside Wylderdrake: Blunt Spiked Tail
+            -- 198876, -- Technique: Weathered Explorer's Stave (general drop?)
+        },
+        worldquest=65994,
+        vignette=5126,
+    }
 })
 
 -- Symbols of Hope
