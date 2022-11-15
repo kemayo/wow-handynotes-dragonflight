@@ -27,4 +27,6 @@ zones\OhnahranPlains.lua
 zones\Thaldraszus.lua
 zones\WakingShores.lua
 
+shared\ExpeditionScoutsPack.lua
+
 achievements\HighestPeaks.lua
