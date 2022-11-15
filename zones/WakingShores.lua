@@ -7,7 +7,9 @@ ns.RegisterPoints(MAPID, {
     [65804182] = { -- Replica Dragon Goblet
         criteria=54698,
         quest=70600,
-        loot={}, -- just supplies
+        loot={
+            {202019, toy=true}, -- Golden Dragon Goblet
+        },
         related={
             [76343420] = {quest=70409,loot={{198854,quest=70409}},atlas="poi-workorders",}, -- Archeologist Artifact Notes
         },
