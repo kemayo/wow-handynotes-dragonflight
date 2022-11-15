@@ -15,3 +15,5 @@ ns.FORBIDDENREACH = 2026
 ns.FACTION_DRAGONSCALE = 2507
 
 ns.MAXLEVEL = {ns.conditions.QuestComplete(67030), ns.conditions.Level(70)}
+
+-- Rescued Waddles: 70872

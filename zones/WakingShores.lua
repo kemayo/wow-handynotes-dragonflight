@@ -41,8 +41,15 @@ ns.RegisterPoints(MAPID, {
     [69314658] = { -- Dead Man's Chestplate
         criteria=54702,
         quest=70346,
+        loot={
+            202193, -- Dead Man's Tunic
+            202192, -- Dead Man's Leathers
+            202190, -- Dead Man's Chains
+            202191, -- Dead Man's Breastplate
+        },
         loot={},
-        note="Inside tower; middle floor",
+        note="Inside tower; middle floor, requires flying",
+        minimap=true,
     },
     [48498516] = { -- Torn Riding Pack
         criteria=54703,
