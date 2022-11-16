@@ -3,6 +3,7 @@ local myname, ns = ...
 local MAPID = ns.FORBIDDENREACHINTRO -- Forbidden Reach
 
 ns.RegisterPoints(MAPID, {
+	-- treasures
 	[42113436] = { -- Bag of Enchanted Winds
 		quest=65909,
 		loot={
@@ -20,6 +21,36 @@ ns.RegisterPoints(MAPID, {
 		},
 		spell=377087,
 		vignette=5137,
+	},
+	[35596967] = { -- Hessethiash's Poorly Hidden Treasure
+		quest=66876,
+		label="Hessethiash's Poorly Hidden Treasure",
+		loot={
+			195885, -- Black Dragon's Scale Cloak
+		},
+		path=37995806,
+		vignette=5117,
+	},
+	[30536442] = { -- Lost Draconic Hourglass
+		quest=66974,
+		loot={
+			194720, -- Lost Draconic Hourglass
+		},
+		spell=377781,
+		vignette=5134,
+	},
+	[62184311] = { -- Suspicious Bottle
+		quest=65908,
+		loot={
+			195580, -- Suspicious Bottle
+		},
+		path=63384539,
+		vignette=5041,
+	},
+	[14336057] = { -- A mailbox
+		-- ...I'm including this solely because it's the only way to send your new character anything before they reach their faction capital
+		label=MINIMAP_TRACKING_MAILBOX,
+		atlas="mailbox",
 	},
 	-- rares
 	[32884100] = { -- Deathrip
@@ -53,6 +84,29 @@ ns.RegisterPoints(MAPID, {
 		loot={
 			194883, -- Runic Wing
 		},
+	},
+	[56004437] = { -- Stormspine
+		quest=64859,
+		npc=181427,
+		loot={
+			194084, -- Charged Storm Crystal
+		},
+		spell=376238,
+		vignette=4904,
+	},
+	[71233781] = { -- Shimmermaw
+		quest=64971,
+		npc=181833,
+		loot={
+			--194074, -- Gilded Key
+			--194037, -- Heavy Chest
+			194035, -- Glittering Diamonds
+			194036, -- Exquisite Necklace
+			194038, -- Gilded Blade
+			194071, -- Gold Ring
+			194072, -- Sack of Gold
+		},
+		vignette=4906,
 	},
 })
 
