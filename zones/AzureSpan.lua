@@ -309,3 +309,29 @@ ns.RegisterPoints(MAPID, {
 }, {
     achievement=16678, -- Adventurer
 })
+
+-- Dragon Glyphs
+local glyph = {
+    achievement=16577,
+    atlas="Warfront-AllianceHero-Silver",
+    minimap=true,
+    requires=ns.DRAGONRIDING,
+    group="glyphs",
+}
+ns.RegisterPoints(MAPID, {
+    [45772569] = {criteria=55802, quest=16064,}, -- Cobalt Assembly
+    [39206301] = {criteria=55803, quest=16065,}, -- Azure Archives
+    [68656035] = {criteria=55804, quest=16066,}, -- Ruins of Karnthar
+    [70584626] = {criteria=55805, quest=16067,}, -- Lost Ruins
+    [10393582] = {criteria=55806, quest=16068,}, -- Brackenhide Hollow
+    [26733168] = {criteria=55807, quest=16069,}, -- Creektooth Den
+    [60626999] = {criteria=55808, quest=16070,}, -- Imbu
+    [52974904] = {criteria=55809, quest=16071,}, -- Zelthrak Outpost
+    [67642911] = {criteria=55810, quest=16072,}, -- Rhonin's Shield
+    [72593986] = {criteria=55811, quest=16073,}, -- Vakthros Range
+    [36552815] = {criteria=56143, quest=16672,}, -- Forkriver Crossing
+    [56811603] = {criteria=56145, quest=16673,}, -- The Fallen Course
+}, glyph)
+ns.RegisterPoints(ns.OHNAHRANPLAINS, {
+    [70118660] = {criteria=56143, quest=16672,}, -- Forkriver Crossing
+}, glyph)
