@@ -511,6 +511,7 @@ ns.RegisterPoints(MAPID, {
 }, {
     achievement=16424, -- Who's a Good Bakar?
     texture=ns.atlas_texture("WildBattlePet", {}),
+    minimap=true,
     -- icon=930453, -- Inv_stbernarddogpet
 })
 
