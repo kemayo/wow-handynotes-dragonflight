@@ -61,8 +61,8 @@ ns.RegisterPoints(MAPID, {
     achievement=16299, -- Treasures
 })
 
+-- Divine Kiss of Ohn'ahra mount:
 ns.RegisterPoints(MAPID, {
-    -- Divine Kiss of Ohn'ahra mount:
     [57593192] = { -- Ohn'ahra
         npc=194796,
         quest=72512, -- A Whispering Breeze
@@ -70,6 +70,7 @@ ns.RegisterPoints(MAPID, {
             {198821, mount=1545},
         },
         atlas="SanctumUpgrades-Venthyr-32x32",
+        hide_before=ns.conditions.QuestComplete(66676), -- Sneaking In
         note="* 3x {item:201929} from {npc:186151:Balakar Khan} in The Nokhud Offensive\n* 1x {item:201323:Essence of Awakening} from {npc:196707:Quartermaster Huseng}\n* 1x {item:191507:Exultant Incense} (Rank 3) from Alchemy",
         route={57593192,52006320,highlightOnly=true},
     },
@@ -79,10 +80,47 @@ ns.RegisterPoints(MAPID, {
         quest=72512, -- A Whispering Breeze
         texture=ns.atlas_texture("SanctumUpgrades-Venthyr-32x32",{r=0.5, g=1, b=1}),
         active=ns.conditions.Item(201929, 3),
-        -- hide_before=ns.conditions.QuestComplete()
+        hide_before=ns.conditions.QuestComplete(66676), -- Sneaking In
         note="Bring 3x {item:201929} from {npc:186151:Balakar Khan} in The Nokhud Offensive to start {quest:72512}",
         route=57593192,
     },
+})
+
+-- Lizi's Reins mount:
+-- https://www.wowhead.com/beta/item=192799/lizis-reins#comments:id=5443480
+-- (It's the Patient Bufonid again)
+ns.RegisterPoints(MAPID, {
+    [56127701] = {
+        npc=190014, -- Initiate Radiya
+        quest=71195, --todo: generic-daily?
+        progress={71196, 71197, 71198, 71199, 71195},
+        loot={
+            {192799, mount=1639}, -- Lizi's Reins
+        },
+        hide_before=ns.conditions.QuestComplete(66676), -- Sneaking In
+        active=ns.conditions.MajorFaction(2503, 9), -- Maruuk rank 9
+        atlas="stablemaster", minimap=true,
+        note=function()
+            local function q(quest, label)
+                return (C_QuestLog.IsQuestFlaggedCompleted(quest) and GREEN_FONT_COLOR or RED_FONT_COLOR):WrapTextInColorCode(label)
+            end
+            return "Gather items over a week of quests:\n"..
+                q(71196, "Day 1") ..": 20x {item:192615} from insects\n"..
+                q(71197, "Day 2") ..": 20x {item:192658} from plant mobs\n"..
+                q(71198, "Day 3") ..": 10x {item:194966} from fishing\n"..
+                q(71199, "Day 4") ..": 10x {item:192636} from animals\n"..
+                q(71195, "Day 5") ..": 1x {item:200598} from {npc:190015:Ohn Meluun}"
+        end,
+    },
+    [53517898] = {
+        npc=190015,
+        quest=71195,
+        hide_before=ns.conditions.QuestComplete(71199), -- day 4
+        loot={200598}, -- Meluun's Green Curry
+        atlas="food", minimap=true,
+    },
+}, {
+    group="dailymount"
 })
 
 -- Rares

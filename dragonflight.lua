@@ -7,6 +7,7 @@ ns.THALDRASZUS = 2025
 ns.FORBIDDENREACH = 2026
 ns.FORBIDDENREACHINTRO = 2118 -- Dracthyr
 
+ns.FACTION_MARUUK = 2503
 ns.FACTION_DRAGONSCALE = 2507
 
 ns.MAXLEVEL = {ns.conditions.QuestComplete(67030), ns.conditions.Level(70)}
@@ -26,6 +27,7 @@ ns.defaults.profile.groupsHiddenByZone[ns.OHNAHRANPLAINS] = {
 ns.groups["junk"] = BAG_FILTER_JUNK
 ns.groups["scoutpack"] = "Expedition Scout's Pack"
 ns.groups["glyphs"] = "Dragon Glyphs"
+ns.groups["dailymount"] = "Daily Mounts"
 
 -- Intro:
 -- Talked to Azurathel: 72285
