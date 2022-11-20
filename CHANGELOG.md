@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v5
+
+* Added the Ley Line in the Span achievement
+* Avoid a possible error in the world map dropdown
+
 ## Changed in v4
 
 * Added Dragon Glyphs to all zones
