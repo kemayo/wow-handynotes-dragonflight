@@ -310,6 +310,20 @@ ns.RegisterPoints(MAPID, {
     achievement=16678, -- Adventurer
 })
 
+-- Ley Line in the Span
+-- https://www.wowhead.com/achievement=16638/ley-line-in-the-span
+ns.RegisterPoints(MAPID, {
+    [43786190] = {criteria=55972, quest=72138,}, -- Azure Archives
+    [26303631] = {criteria=55973, quest=72139,}, -- Ancient Outlook
+    [65402835] = {criteria=55976, quest=72140,}, -- Slyvern Plunge
+    [66075111] = {criteria=55974, quest=72136,}, -- Rustpine Den
+    [66725958] = {criteria=55975, quest=72141,}, -- Ruins of Karnthar
+}, {
+    achievement=16638,
+    atlas="AzeriteReady",
+    note="Interact with the {npc:198260}; sometimes a Miner will need to break a rock wall before you can get in",
+})
+
 -- Dragon Glyphs
 local glyph = {
     achievement=16577,
