@@ -524,19 +524,19 @@ local glyph = {
     group="glyphs",
 }
 ns.RegisterPoints(MAPID, {
-    [57793081] = {criteria=55792, quest=16054,}, -- Ohn'ahra's Roost
-    [30393607] = {criteria=55793, quest=16055,}, -- Nokhudon Hold
-    [30156156] = {criteria=55794, quest=16056,}, -- Emerald Gardens
-    [29547543] = {criteria=55795, quest=16057,}, -- The Eternal Kurgans
-    [44736457] = {criteria=55796, quest=16058,}, -- Szar Skeleth
-    [47327216] = {criteria=55797, quest=16059,}, -- Mirror of the Sky
-    [57138010] = {criteria=55798, quest=16060,}, -- Ohn'iri Springs
-    [84077727] = {criteria=55799, quest=16061,}, -- Dragonsprings Summit
-    [86543932] = {criteria=55800, quest=16062,}, -- Rusza'thar Reach
-    [61376423] = {criteria=55801, quest=16063,}, -- Windsong Rise
-    [80001300] = {criteria=56134, quest=16670,}, -- Rubyscale Outpost
-    [78422117] = {criteria=56139, quest=16671,}, -- Mirewood Fen
+    [57793081] = {criteria=55792}, -- Ohn'ahra's Roost
+    [30393607] = {criteria=55793}, -- Nokhudon Hold
+    [30156156] = {criteria=55794}, -- Emerald Gardens
+    [29547543] = {criteria=55795}, -- The Eternal Kurgans
+    [44736457] = {criteria=55796}, -- Szar Skeleth
+    [47327216] = {criteria=55797}, -- Mirror of the Sky
+    [57138010] = {criteria=55798}, -- Ohn'iri Springs
+    [84077727] = {criteria=55799}, -- Dragonsprings Summit
+    [86543932] = {criteria=55800}, -- Rusza'thar Reach
+    [61376423] = {criteria=55801}, -- Windsong Rise
+    [80001300] = {criteria=56134}, -- Rubyscale Outpost
+    [78422117] = {criteria=56139}, -- Mirewood Fen
 }, glyph)
 ns.RegisterPoints(ns.WAKINGSHORES, {
-    [48828664] = {criteria=56134, quest=16670,}, -- Rubyscale Outpost
+    [48828664] = {criteria=56134}, -- Rubyscale Outpost
 }, glyph)
