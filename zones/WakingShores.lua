@@ -362,6 +362,7 @@ ns.RegisterPoints(MAPID, {
     [73193776] = { -- Wingrest Embassy
         criteria=55841,
         quest=72096,
+        note="Top of tower",
     },
     [73035290] = { -- Skytop Observatory
         criteria=55842,

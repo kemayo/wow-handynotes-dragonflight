@@ -22,6 +22,7 @@ local scoutpack = {
     vignette=5468,
 }
 ns.RegisterPoints(ns.WAKINGSHORES, {
+    [60833547] = {},
     [62002537] = {},
     -- the rest of this is a dump of locations on wowhead, with minor duplicate-filtering...
     [22607720] = {},
