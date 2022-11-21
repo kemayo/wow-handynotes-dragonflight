@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v6
+
+* Use Blizzard waypoints if they're available and TomTom isn't present
+* Cleaned up some Dragon Glyph data (had two swapped in Waking Shores... and their achievement-criteria assetids aren't questids, since they're account-wide)
+
 ## Changed in v5
 
 * Added the Ley Line in the Span achievement
