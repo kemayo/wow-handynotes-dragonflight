@@ -267,9 +267,12 @@ ns.RegisterPoints(MAPID, {
     --]]
     [29554146] = { -- Shade of Grief
         criteria=56080,
-        quest=nil,
+        quest=nil, -- ...no quest changed
         npc=187559,
-        loot={},
+        loot={
+            {196985, quest=69185}, -- Cliffside Wylderdrake: Horned Jaw
+        },
+        vignette=5181, -- Solethus' Gravestone
     },
     --[[
     [] = { -- Nokhud Warmaster
