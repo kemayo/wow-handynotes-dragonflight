@@ -234,6 +234,23 @@ ns.RegisterPoints(MAPID, {
 }, {
     achievement=16679, -- Adventurer
 })
+ns.RegisterPoints(MAPID, {
+    [37538339] = { -- Private Shikzar
+        quest=70986,
+        npc=193127,
+        loot={},
+        vignette=5406,
+    },
+    [36808557] = { -- Lookout Mordren
+        quest=72813, -- 69967 on vignette?
+        npc=193668,
+        loot={
+            200182, -- Riveted Drape
+        },
+        vignette=5239,
+        -- despawns without any loot, asks you to help comrades at the South Hold Gate... -- something to remove his debuff first, maybe?
+    },
+})
 
 -- Dragon Glyphs
 ns.RegisterPoints(MAPID, {
