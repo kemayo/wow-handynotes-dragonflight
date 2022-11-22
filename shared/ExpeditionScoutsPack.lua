@@ -95,6 +95,10 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
 }, scoutpack)
 -- TODO: find more, split into dedicated file?
 ns.RegisterPoints(ns.OHNAHRANPLAINS, {
+    [35925854] = {},
+    [60577712] = {},
+    [86513680] = {},
+    --
     [34503700] = {},
     [57402710] = {},
     [60202730] = {},
@@ -117,4 +121,22 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [83603230] = {},
     [83603520] = {},
     [86403940] = {},
+}, scoutpack)
+ns.RegisterPoints(ns.AZURESPAN, {
+    [10254317] = {},
+    [12434313] = {},
+    [12934166] = {},
+    [14953300] = {},
+    [42625622] = {},
+    [68746050] = {},
+    [70144609] = {},
+    [72604267] = {},
+    [66733050] = {},
+    [65712841] = {},
+    [65952788] = {},
+    [66783133] = {},
+}, scoutpack)
+ns.RegisterPoints(ns.THALDRASZUS, {
+    [36798246] = {},
+    [35628577] = {},
 }, scoutpack)
