@@ -22,6 +22,15 @@ ns.RegisterPoints(MAPID, {
 		spell=377087,
 		vignette=5137,
 	},
+	[46212173] = { -- Abandoned Weapon Rack
+		quest=66965,
+		label="Abandoned Weapon Rack",
+		loot={
+			194073, -- Distinguished Dracthyr's Implement
+			194888, -- Dracthyr's Inscribed Blade
+		},
+		vignette=5128,
+	},
 	[35596967] = { -- Hessethiash's Poorly Hidden Treasure
 		quest=66876,
 		label="Hessethiash's Poorly Hidden Treasure",
