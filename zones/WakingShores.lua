@@ -354,7 +354,17 @@ ns.RegisterPoints(MAPID, {
         },
         worldquest=65994,
         vignette=5126,
-    }
+    },
+    [54808220] = { -- Klozicc the Ascended
+        quest=66960, -- verify; this is just from vignette
+        npc=187209,
+        loot={
+            {197023, quest=69223}, -- Cliffside Wylderdrake: Maned Neck
+            {200198, toy=true}, -- Primalist Prison
+            200246, -- Lost Delving Lamp
+        },
+        vignette=5127,
+    },
 })
 
 -- Symbols of Hope
