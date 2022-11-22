@@ -233,10 +233,14 @@ ns.RegisterPoints(MAPID, {
     },
     --]]
     [13604860] = { -- Bisquius
+        -- also get achievement 16444, Leftovers' Revenge
         criteria=55381,
         quest=nil,
         npc=197557,
-        loot={},
+        loot={
+            200882,
+        },
+        note="Complete {spell:388961:Community Feasts}",
     },
     --[[
     [] = { -- Blightfur
@@ -308,6 +312,26 @@ ns.RegisterPoints(MAPID, {
     },
 }, {
     achievement=16678, -- Adventurer
+})
+ns.RegisterPoints(MAPID, {
+    [23443327] = { -- Cascade
+        npc=186962,
+        quest=72836,
+        loot={
+            {197098, quest=69299}, -- Highland Drake: Finned Back
+            200135, -- Corroded Greatsword
+        },
+        vignette=5050,
+    },
+    [38185903] = { -- Forgotten Creation
+        npc=193214,
+        quest=72840,
+        loot={
+            200210, -- Amnesia
+            200758, -- Breastplate of Storied Antiquity
+        },
+        vignette=5191,
+    },
 })
 
 -- Ley Line in the Span
