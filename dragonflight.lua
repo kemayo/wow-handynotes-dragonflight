@@ -1,5 +1,6 @@
 local myname, ns = ...
 
+ns.VALDRAKKEN = 2112
 ns.WAKINGSHORES = 2022
 ns.OHNAHRANPLAINS = 2023
 ns.AZURESPAN = 2024

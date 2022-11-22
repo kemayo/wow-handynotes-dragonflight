@@ -70,7 +70,8 @@ ns.RegisterPoints(MAPID, {
         npc=193126,
         loot={},
     },
-    [90204020] = { -- Blightpaw the Depraved
+    [31737253] = { -- Blightpaw the Depraved
+        -- overlaps a bit with plains @ 90204020
         criteria=56136,
         quest=nil,
         npc=193128,
@@ -186,14 +187,15 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5177,
     },
-    [] = { -- The Weeping Vilomah
+    --]]
+    [46287298] = { -- The Weeping Vilomah
+        -- TODO: this is the vignette-location, I haven't actually found the route to it yet...
         criteria=56153,
         quest=65365,
         npc=183984,
         loot={},
         vignette=4958,
     },
-    --]]
     [52806760] = { -- Craggravated Elemental
         criteria=56154,
         quest=69964,
@@ -214,6 +216,7 @@ ns.RegisterPoints(MAPID, {
         npc=193658,
         loot={},
         vignette=5235,
+        note="Interact with the egg inside the cave",
     },
     --[[
     [] = { -- Lord Epochbrgl
@@ -250,9 +253,31 @@ ns.RegisterPoints(MAPID, {
         vignette=5239,
         -- despawns without any loot, asks you to help comrades at the South Hold Gate... -- something to remove his debuff first, maybe?
     },
+    [39207560] = { -- Acrosoth
+        quest=72114,
+        npc=193243,
+        loot={},
+        vignette=5436,
+        note="Flying nearby",
+    },
+    [55797732] = { -- Henlare
+        quest=72814, -- 69873 on vignette
+        npc=193229,
+        loot={
+            200880, -- Wind-Sealet Mana Capsule
+        },
+        vignette=5196,
+    },
 })
 
 -- Dragon Glyphs
+local glyph = {
+    achievement=16578,
+    atlas="Warfront-AllianceHero-Silver",
+    minimap=true,
+    requires=ns.DRAGONRIDING,
+    group="glyphs",
+}
 ns.RegisterPoints(MAPID, {
     [66018234] = {criteria=55812}, -- Temporal Conflux
     [46097388] = {criteria=55813}, -- Stormshroud Peak
@@ -266,10 +291,7 @@ ns.RegisterPoints(MAPID, {
     [72966914] = {criteria=55821}, -- Thaldraszus Apex
     [52656743] = {criteria=56159}, -- Gelikyr Overlook
     [55767233] = {criteria=56160}, -- Passage of Time
-}, {
-    achievement=16578,
-    atlas="Warfront-AllianceHero-Silver",
-    minimap=true,
-    requires=ns.DRAGONRIDING,
-    group="glyphs",
-})
+}, glyph)
+ns.RegisterPoints(ns.VALDRAKKEN, {
+    [59183784] = {criteria=55815}, -- Valdrakken
+}, glyph)
