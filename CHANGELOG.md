@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v7
+
+* Add a missing treasure to the Dracthyr starting experience
+* Add various non-achievement rares
+* More (hidden-by-default) expedition scout pack locations
+
 ## Changed in v6
 
 * Use Blizzard waypoints if they're available and TomTom isn't present
