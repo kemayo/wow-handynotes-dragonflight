@@ -365,6 +365,17 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5127,
     },
+    [77602220] = { -- Ancient Hornswog
+        quest=66076, -- verify; vignette
+        npc=187111,
+        loot={
+            {196992, quest=69192}, -- Cliffside Wylderdrake: Heavy Horns
+            {197403, quest=69604}, -- Renewed Proto-Drake: Club Tail
+            {200249, toy=true}, -- Mage's Chewed Wand
+            200442, -- Basilisk Hide Jerkin
+        },
+        vignette=5057,
+    },
 })
 
 -- Symbols of Hope

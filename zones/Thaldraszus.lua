@@ -203,12 +203,16 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5237,
     },
-    [38406800] = { -- The Great Shellkhan
+    [38436824] = { -- The Great Shellkhan
         criteria=56155,
         quest=72121,
         npc=191305,
-        loot={},
+        loot={
+            {200999, toy=true,}, -- The Super Shellkhan Gang
+        },
+        note="Bring a {item:200949:Case of Fresh Gleamfish} from 45.6, 54.8 in Azure Span",
         vignette=5439,
+        route={38436824, 32009999, highlightOnly=true},
     },
     [44806900] = { -- Corrupted Proto-Dragon
         criteria=56156,
@@ -267,6 +271,14 @@ ns.RegisterPoints(MAPID, {
             200880, -- Wind-Sealet Mana Capsule
         },
         vignette=5196,
+    },
+    [36737280] = { -- Liskron the Dazzling
+        quest=72842, -- vignette 72116
+        npc=193273,
+        loot={
+            {196976, quest=69176}, -- Cliffside Wylderdrake: Head Mane
+        },
+        vignette=5437,
     },
 })
 

@@ -60,6 +60,17 @@ ns.RegisterPoints(MAPID, {
 }, {
     achievement=16299, -- Treasures
 })
+ns.RegisterPoints(MAPID, {
+    [56017879] = {
+        quest=71033,
+        label="Water-Bound Chest",
+        loot={
+            197955, -- Sword of the Eternal Guard
+        },
+        note="Survive the trial of the elements",
+        vignette=5407,
+    },
+})
 
 -- Divine Kiss of Ohn'ahra mount:
 ns.RegisterPoints(MAPID, {
@@ -289,15 +300,13 @@ ns.RegisterPoints(MAPID, {
         npc=187781,
         loot={},
     },
-    --[[
-    [] = { -- Hunter of Deep
+    [80364198] = { -- Hunter of the Deep
         criteria=56083,
-        quest=nil,
+        quest=nil, -- no quest tripped
         npc=188095,
-        loot={},
-        vignette=5077,
+        loot={}, -- supplies and centaur rep...
+        vignette=5077, -- vignette wasn't actually shown, just a swarm of no-data vignettes
     },
-    --]]
     [80413867] = { -- Irontree
         criteria=56084,
         quest=66356,
@@ -394,6 +403,26 @@ ns.RegisterPoints(MAPID, {
     --]]
 }, {
     achievement=16677, -- Adventurer
+})
+ns.RegisterPoints(MAPID, {
+    [59926695] = { -- Prozela Galeshot
+        quest=69968, -- 72815 also
+        npc=193669,
+        loot={
+            {197383, quest=69584}, -- Renewed Proto-Drake: Heavy Horns
+        },
+        vignette=5240,
+    },
+    [44904923] = { -- Skaara
+        quest=70783, -- 72847 also
+        npc=192949,
+        loot={
+            200442, -- Basilisk Hide Jerkin
+            198411, -- Claw of Preparedness
+            {196976, quest=69176}, -- Cliffside Wylderdrake: Head Mane
+        },
+        vignette=5389,
+    },
 })
 
 -- Who's a Good Bakar?
