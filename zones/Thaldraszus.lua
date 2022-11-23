@@ -50,6 +50,7 @@ ns.RegisterPoints(MAPID, {
     },
 }, {
     achievement=16301, -- Treasures
+    minimap=true,
 })
 
 -- Rares
