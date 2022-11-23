@@ -22,10 +22,15 @@ local scoutpack = {
     vignette=5468,
 }
 ns.RegisterPoints(ns.WAKINGSHORES, {
+    [22547718] = {},
+    [25007818] = {},
+    [50028560] = {},
+    [50348179] = {},
+    [54188369] = {},
+    [55388537] = {},
     [60833547] = {},
     [62002537] = {},
     -- the rest of this is a dump of locations on wowhead, with minor duplicate-filtering...
-    [22607720] = {},
     [23606160] = {},
     [23609650] = {},
     [24206960] = {},
@@ -95,11 +100,15 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
 }, scoutpack)
 -- TODO: find more, split into dedicated file?
 ns.RegisterPoints(ns.OHNAHRANPLAINS, {
+    [23934019] = {},
+    [26203719] = {},
     [35925854] = {},
-    [60577712] = {},
-    [86513680] = {},
-    [64415503] = {},
     [41964521] = {},
+    [47103262] = {},
+    [47364563] = {},
+    [60577712] = {},
+    [64415503] = {},
+    [86513680] = {},
     --
     [34503700] = {},
     [57402710] = {},

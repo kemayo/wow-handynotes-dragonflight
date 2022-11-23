@@ -424,6 +424,32 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5389,
     },
+    [26356534] = { -- Ripsaw the Stalker
+        quest=69851, -- also 72845
+        npc=193153,
+        loot={
+            200137, -- Chitin Dreadbringer
+        },
+        vignette=5178,
+    },
+    [22996667] = { -- Territorial Coastling
+        quest=69852, -- also 72851
+        npc=193163,
+        loot={
+            200212, -- Sand-Encrusted Greaves
+            200442, -- Basilisk Hide Jerkin
+        },
+        vignette=5179,
+    },
+    [26073414] = { -- Ty'foon the Ascended
+        quest=66970, -- also 72852
+        npc=191354,
+        loot={
+            198429, -- Typhoon Bringer
+        },
+        path=24503340,
+        vignette=5131,
+    },
 })
 
 -- Who's a Good Bakar?

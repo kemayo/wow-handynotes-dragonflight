@@ -56,7 +56,7 @@ ns.RegisterPoints(MAPID, {
     [48498516] = { -- Torn Riding Pack
         criteria=54703,
         quest=70378,
-        loot={},
+        loot={}, -- just supplies
         note="Top of waterfall",
     },
     --[[
@@ -199,7 +199,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56048,
         quest=72130,
         npc=193154,
-        loot={},
+        loot={
+            200858, -- Plume of the Forgotten
+        },
         vignette=5383,
     },
     --[[
@@ -357,10 +359,11 @@ ns.RegisterPoints(MAPID, {
         vignette=5126,
     },
     [54808220] = { -- Klozicc the Ascended
-        quest=66960, -- verify; this is just from vignette
+        quest=66960, -- also 72841
         npc=187209,
         loot={
             {197023, quest=69223}, -- Cliffside Wylderdrake: Maned Neck
+            {197602, quest=69806}, -- Windborne Velocidrake: Cluster Horns
             {200198, toy=true}, -- Primalist Prison
             200246, -- Lost Delving Lamp
         },
