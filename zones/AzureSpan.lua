@@ -357,29 +357,3 @@ ns.RegisterPoints(MAPID, {
     atlas="AzeriteReady",
     note="Interact with the {npc:198260}; sometimes a Miner will need to break a rock wall before you can get in",
 })
-
--- Dragon Glyphs
-local glyph = {
-    achievement=16577,
-    atlas="Warfront-AllianceHero-Silver",
-    minimap=true,
-    requires=ns.DRAGONRIDING,
-    group="glyphs",
-}
-ns.RegisterPoints(MAPID, {
-    [45772569] = {criteria=55802}, -- Cobalt Assembly
-    [39206301] = {criteria=55803}, -- Azure Archives
-    [68656035] = {criteria=55804}, -- Ruins of Karnthar
-    [70584626] = {criteria=55805}, -- Lost Ruins
-    [10393582] = {criteria=55806}, -- Brackenhide Hollow
-    [26733168] = {criteria=55807}, -- Creektooth Den
-    [60626999] = {criteria=55808}, -- Imbu
-    [52974904] = {criteria=55809}, -- Zelthrak Outpost
-    [67642911] = {criteria=55810}, -- Rhonin's Shield
-    [72593986] = {criteria=55811}, -- Vakthros Range
-    [36552815] = {criteria=56143}, -- Forkriver Crossing
-    [56811603] = {criteria=56145}, -- The Fallen Course
-}, glyph)
-ns.RegisterPoints(ns.OHNAHRANPLAINS, {
-    [70118660] = {criteria=56143}, -- Forkriver Crossing
-}, glyph)

@@ -427,25 +427,3 @@ ns.RegisterPoints(MAPID, {
     atlas="CreationCatalyst-32x32",
     minimap=true,
 })
-
--- Dragon Glyphs
-ns.RegisterPoints(MAPID, {
-    [75005700] = {criteria=55782}, -- Skytop Observatory Tower
-    [74345754] = {criteria=56131}, -- Skytop Observatory Rostrum
-    [58097858] = {criteria=56132}, -- Flashfrost Enclave
-    [54467421] = {criteria=55785}, -- Ruby Life Pools Peaks
-    [73082051] = {criteria=55790}, -- Wingrest Embassy
-    [40957193] = {criteria=55784}, -- Obsidian Bulwark
-    [46405214] = {criteria=55786}, -- The Overflowing Spring
-    [52601721] = {criteria=55787}, -- Life-Binder Observatory
-    [57705491] = {criteria=55788}, -- Crumbling Life Archway
-    [69274623] = {criteria=55789}, -- Dragonheart Outpost
-    [74873733] = {criteria=55783}, -- Scalecracker Peak
-    [21765140] = {criteria=55791}, -- Obsidian Throne
-}, {
-    achievement=16575,
-    atlas="Warfront-AllianceHero-Silver",
-    minimap=true,
-    requires=ns.DRAGONRIDING,
-    group="glyphs",
-})

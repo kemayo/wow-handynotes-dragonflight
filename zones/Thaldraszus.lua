@@ -281,29 +281,3 @@ ns.RegisterPoints(MAPID, {
         vignette=5437,
     },
 })
-
--- Dragon Glyphs
-local glyph = {
-    achievement=16578,
-    atlas="Warfront-AllianceHero-Silver",
-    minimap=true,
-    requires=ns.DRAGONRIDING,
-    group="glyphs",
-}
-ns.RegisterPoints(MAPID, {
-    [66018234] = {criteria=55812}, -- Temporal Conflux
-    [46097388] = {criteria=55813}, -- Stormshroud Peak
-    [35568556] = {criteria=55814}, -- South Hold Gate
-    [41265827] = {criteria=55815}, -- Valdrakken
-    [49854023] = {criteria=55816}, -- Algeth'era
-    [61575661] = {criteria=55817}, -- Tyrhold
-    [62414046] = {criteria=55818}, -- Algeth'ar Academy
-    [67091176] = {criteria=55819}, -- Veiled Ossuary
-    [72405171] = {criteria=55820}, -- Vault of the Incarnates
-    [72966914] = {criteria=55821}, -- Thaldraszus Apex
-    [52656743] = {criteria=56159}, -- Gelikyr Overlook
-    [55767233] = {criteria=56160}, -- Passage of Time
-}, glyph)
-ns.RegisterPoints(ns.VALDRAKKEN, {
-    [59183784] = {criteria=55815}, -- Valdrakken
-}, glyph)
