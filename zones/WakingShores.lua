@@ -37,7 +37,9 @@ ns.RegisterPoints(MAPID, {
     [46713121] = { -- Yennu's Kite
         criteria=54701,
         quest=70345,
-        loot={},
+        loot={
+            {202022, toy=true}, -- Yennu's Kite
+        },
         note="In the tree",
     },
     [69314658] = { -- Dead Man's Chestplate
@@ -113,10 +115,12 @@ ns.RegisterPoints(MAPID, {
         loot={},
     },
     [43427361] = { -- Helmet Missingway
+        -- no quest, no loot, it just deaggros and runs away and you get achievement-credit
         criteria=56037,
         quest=nil,
-        npc=199645,
+        npc=193263, -- 199645 is the criteria asset
         loot={},
+        minimap=true, -- just a neutral mob wandering, no vignette
     },
     [48436605] = { -- Brundin the Dragonbane
         criteria=56038,
@@ -228,6 +232,7 @@ ns.RegisterPoints(MAPID, {
             {199916, pet=3365}, -- Roseate Hopper
         },
         vignette=5139, -- Hidden Hornswog Hoard
+        atlas="VignetteLootElite", scale=1.2,
         note="Bring {item:200064}, {item:200065}, and {item:200066} here to enter",
         related={
             [47738363] = {quest=70864,label="{item:200064}",inbag=200064,atlas="Islands-AzeriteChest",}, -- Marmoni's Prize
@@ -379,6 +384,24 @@ ns.RegisterPoints(MAPID, {
             200442, -- Basilisk Hide Jerkin
         },
         vignette=5057,
+    },
+    [46715715] = { -- Monsoo, The Boiling Rage
+        -- This is rare-flagged, but has no quest, no loot, and no criteria-completion...
+        quest=nil,
+        npc=190718,
+        loot={},
+        vignette=nil,
+        note="Kill {npc:190719:Primalist Arlin} to trigger",
+    },
+    [54512137] = { -- Firava the Rekindler
+        quest=72839, -- also 70648
+        npc=195915,
+        loot={
+            {197135, quest=69336}, -- Highland Drake: Toothy Mouth
+            200133, -- Volcanic Chakram
+            200217, -- Blazing Essence
+        },
+        vignette=5372,
     },
 })
 
