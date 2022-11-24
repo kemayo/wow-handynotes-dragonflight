@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v9
+
+* Ley Line in the Span on the minimap as well
+* Fill out the "Treasures of" achievement-treasures -- still missing the Misty Chest in Waking Shores, loot that's still not implemented in beta builds in Thaldraszus, and loot for some Azure Span ones that require drops from packs to unlock
+* Assorted new rares and packs
+
 ## Changed in v8
 
 * Show all the "Treasures of" items on the minimap by default
