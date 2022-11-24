@@ -357,5 +357,6 @@ ns.RegisterPoints(MAPID, {
 }, {
     achievement=16638,
     atlas="AzeriteReady",
+    minimap=true,
     note="Interact with the {npc:198260}; sometimes a Miner will need to break a rock wall before you can get in",
 })
