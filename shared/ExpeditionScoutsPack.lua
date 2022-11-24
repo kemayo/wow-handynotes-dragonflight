@@ -16,12 +16,15 @@ local scoutpack = {
         201395, -- Wingcrest Scimitar
         201396, -- Hidepiercing Claw Extensions
     },
+    -- quest 72023 (after 70822 Lost Expedition Camp) at basecamp *says* it unlocks these, but I saw them before
     requires=ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 2),
     texture=ns.atlas_texture("VignetteLoot", {r=0.5, g=1, b=0.5}),
     group="scoutpack",
     vignette=5468,
 }
 ns.RegisterPoints(ns.WAKINGSHORES, {
+    [22129642] = {note="In cave"},
+    [22409724] = {note="In cave"},
     [22547718] = {},
     [25007818] = {},
     [29947646] = {},
@@ -48,6 +51,11 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
     [55388537] = {},
     [60833547] = {},
     [62002537] = {},
+    [63845472] = {},
+    [65245333] = {},
+    [65525325] = {},
+    [69076532] = {},
+    [72165969] = {note="Requires a miner"},
     -- the rest of this is a dump of locations on wowhead, with minor duplicate-filtering...
     [23606160] = {},
     [23609650] = {},
@@ -118,6 +126,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
 }, scoutpack)
 -- TODO: find more, split into dedicated file?
 ns.RegisterPoints(ns.OHNAHRANPLAINS, {
+    [21875785] = {},
     [23934019] = {},
     [26203719] = {},
     [35925854] = {},
@@ -157,13 +166,23 @@ ns.RegisterPoints(ns.AZURESPAN, {
     [12934166] = {},
     [14953300] = {},
     [42625622] = {},
+    [57734492] = {},
+    [62055170] = {},
+    [62215064] = {},
     [65712841] = {},
     [65952788] = {},
+    [66126002] = {},
     [66733050] = {},
     [66783133] = {},
     [68746050] = {},
+    [70084345] = {},
     [70144609] = {},
+    [70623172] = {},
+    [71713541] = {},
+    [71784392] = {},
     [72604267] = {},
+    [77883303] = {},
+    [78963094] = {},
 }, scoutpack)
 ns.RegisterPoints(ns.THALDRASZUS, {
     [34107306] = {},
@@ -175,6 +194,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     [48806725] = {},
     [49347891] = {},
     [50098074] = {},
+    [59003659] = {},
     [59152912] = {},
     [59547955] = {},
     [59682931] = {},

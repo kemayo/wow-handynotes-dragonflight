@@ -225,7 +225,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56050,
         quest=72127,
         npc=193198,
-        loot={},
+        loot={
+            200286, -- Dragonbane Lance
+        },
         vignette=5385,
     },
     [64456922] = { -- Possessive Hornswog
@@ -407,7 +409,44 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5372,
     },
+    [60598286] = { -- Terillod the Devout
+        quest=72850, -- also 70751, 71240
+        npc=193171,
+        loot={
+            200208, -- Cloud Coalescing Handwraps
+        },
+        vignette=5387,
+    },
+    [28047868] = { -- Beakers
+        -- no quest, no vignette, just a random rare-flagged mob
+        quest=nil,
+        npc=193177,
+        loot={},
+    },
 })
+
+--[[
+-- Grand Hunt
+ns.RegisterPoints(MAPID, {
+    [41158455] = { -- Degmakh
+        npc=194251,
+        loot={
+            198990, -- Drakewatcher's Cord
+        },
+        vignette=5266,
+    },
+    [47767707] = { -- Muugurv
+        npc=194225,
+        loot={
+            198985, -- Drakewatcher's Vestement
+        },
+        vignette=5264,
+    },
+}, {
+    achievement=16545, criteria=true,
+})
+--]]
+
 
 -- Symbols of Hope
 ns.RegisterPoints(MAPID, {

@@ -36,3 +36,5 @@ ns.groups["dailymount"] = "Daily Mounts"
 -- Talked to Turalyon and Shaw: 72287
 
 -- Rescued Waddles: 70872
+
+-- unlocked dragon customization: 68797

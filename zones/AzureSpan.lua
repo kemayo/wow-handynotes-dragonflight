@@ -346,6 +346,15 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5191,
     },
+    [70063318] = { -- Summoned Destroyer
+        npc=193288,
+        quest=72848, -- also 69895
+        loot={
+            200163, -- Ring of Embers
+            200868, -- Integrated Primal Fire
+        },
+        vignette=5213,
+    },
 })
 
 -- Ley Line in the Span
