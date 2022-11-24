@@ -18,15 +18,16 @@ ns.RegisterPoints(MAPID, {
         active={ns.conditions.QuestComplete(70535), ns.conditions.Item(199066), any=true}, -- Letter of Caution
         note="Find {item:199066} in other treasures",
     },
-    --[[
-    [] = { -- Sapphire Gem Cluster
+    [48632466] = { -- Sapphire Gem Cluster
         criteria=54806,
         quest=70605,
-        loot={},
+        loot={
+            200866, -- Glimmering Malygite Cluster
+        },
+        hide_before=ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 21),
         active={ns.conditions.QuestComplete(70536), ns.conditions.Item(199067), any=true}, -- Precious Plans
         note="Find {item:199067} in other treasures",
     },
-    --]]
     [74905499] = { -- Lost Compass
         criteria=54807,
         quest=70606,

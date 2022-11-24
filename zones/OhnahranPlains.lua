@@ -25,15 +25,16 @@ ns.RegisterPoints(MAPID, {
         },
         note="Fetch {item:195453} from {npc:192997}",
     },
-    --[[
-    [] = { -- Emerald Gem Cluster
+    [33205532] = { -- Emerald Gem Cluster
         criteria=54700,
         quest=70391,
-        loot={},
+        loot={
+            200865, -- Glimmering Ysemerald Cluster
+        },
+        hide_before=ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 21),
         active={ns.conditions.Item(198843), ns.conditions.QuestComplete(70392), any=true}, -- Emerald Gardens Explorer's Notes
         note="Find {item:198843} in other treasures"
     },
-    --]]
     [73475616] = { -- Cracked Centaur Horn
         criteria=54709,
         quest=70402,

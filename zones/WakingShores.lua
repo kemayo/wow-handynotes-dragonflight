@@ -25,15 +25,16 @@ ns.RegisterPoints(MAPID, {
         nearby={40924140, label="{spell:199061:Fragrant Plant Scent}"},
         note="Find {item:199061} in other treasures to make this appear, then use the Fragrant Plant nearby",
     },
-    --[[
-    [] = { -- Ruby Gem Cluster
+    [61347079] = { -- Ruby Gem Cluster
         criteria=54713,
         quest=70598,
-        loot={},
+        loot={
+            200864, -- Glimmering Alexstraszite Cluster
+        },
+        hide_before=ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 21),
         active={ns.conditions.Item(198843), ns.conditions.QuestComplete(70392), any=true}, -- Ruby Gem Cluster Map
         note="Find {item:198843} in other treasures"
     },
-    --]]
     [46713121] = { -- Yennu's Kite
         criteria=54701,
         quest=70345,
@@ -67,17 +68,20 @@ ns.RegisterPoints(MAPID, {
         quest=65646,
         loot={},
     },
-    [] = { -- Onyx Gem Cluster
+    --]]
+    [29454699] = { -- Onyx Gem Cluster
         criteria=55448,
         quest=72020,
-        loot={},
+        loot={
+            200867, -- Glimmering Neltharite Cluster
+        },
+        hide_before=ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 21),
         active={ns.conditions.Item(200738), ns.conditions.QuestComplete(72021), any=true}, -- Onyx Gem Cluster Map
-        note="Buy {item:200738}"
+        note="Buy {item:200738}",
         related={
             [47008280] = {quest=72021,loot={{200738,quest=72021}},atlas="poi-workorders",active=false,}, -- Onyx Gem Cluster Map
         },
     },
-    --]]
 }, {
     achievement=16297, -- Treasures
     minimap=true,

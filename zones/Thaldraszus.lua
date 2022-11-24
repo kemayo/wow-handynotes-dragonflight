@@ -21,15 +21,14 @@ ns.RegisterPoints(MAPID, {
             [54937543] = {quest=70538,loot={{199069,quest=70538},},atlas="poi-workorders",active=false,}, -- Yennu's Map
         },
     },
-    --[[
-    [] = { -- Amber Gem Cluster
+    [52607673] = { -- Amber Gem Cluster
         criteria=54812,
         quest=70408,
         loot={},
+        hide_before=ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 21),
         active={ns.conditions.QuestComplete(70407), ns.conditions.Item(198852), any=true}, -- Bear Termination Orders
         note="Find {item:198852} in other treasures",
     },
-    --]]
     [60234160] = { -- Elegant Canvas Brush
         criteria=54813,
         quest=70609,
