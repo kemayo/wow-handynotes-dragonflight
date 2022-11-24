@@ -31,22 +31,24 @@ ns.RegisterPoints(MAPID, {
     [74905499] = { -- Lost Compass
         criteria=54807,
         quest=70606,
-        loot={},
+        loot={
+            {202711, toy=true}, -- Lost Compass
+        },
     },
-    --[[
-    [] = { -- Rubber Fish
+    [54642933] = { -- Rubber Fish
         criteria=54808,
         quest=70380,
-        loot={},
+        loot={
+            202712, -- Rubber Fish
+        },
     },
-    --]]
     [26544629] = { -- Pepper Hammer
         criteria=54809,
         quest=70441,
         loot={
             {193834, pet=3321}, -- Blackfeather Nester
         },
-        note="Use the Tree Sap on the stick",
+        note="Climb the tree, then use the Tree Sap on the stick to summon {npc:195373}",
     },
 }, {
     achievement=16300, -- Treasures

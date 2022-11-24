@@ -32,14 +32,14 @@ ns.RegisterPoints(MAPID, {
     [60234160] = { -- Elegant Canvas Brush
         criteria=54813,
         quest=70609,
-        loot={},
+        loot={}, -- as of 20221123 this is still placeholder loot item (190190)
     },
     [64851650] = { -- Surveyor's Magnifying Glass
         criteria=54814,
         quest=70610,
-        loot={},
+        loot={}, -- as of 20221123 this is still placeholder loot item (190190)
     },
-    [64801650] = { -- Acorn Harvester
+    [49456291] = { -- Acorn Harvester
         criteria=54815,
         quest=70611,
         loot={
