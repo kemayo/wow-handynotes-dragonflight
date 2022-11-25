@@ -173,7 +173,10 @@ ns.RegisterPoints(MAPID, {
         criteria=56066,
         quest=nil,
         npc=193209,
-        loot={},
+        loot={
+            {200879, note="Hatches into..."}, -- Zenet Egg
+            {198825, mount=1672}, -- Zenet Hatchling
+        },
     },
     [87406140] = { -- Liskheszaera
         criteria=56067,

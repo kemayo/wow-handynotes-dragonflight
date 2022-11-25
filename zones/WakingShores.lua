@@ -2,6 +2,11 @@ local myname, ns = ...
 
 local MAPID = ns.WAKINGSHORES -- Waking Shores
 
+--[[ mining walls
+52344167 herb
+41079405 ?
+--]]
+
 ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16297/treasures-of-the-waking-shores
     [65804182] = { -- Replica Dragon Goblet
@@ -90,14 +95,16 @@ ns.RegisterPoints(MAPID, {
 -- Rares
 ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16676/adventurer-of-the-waking-shores
-    --[[
-    [] = { -- Gushgut the Beaksinker
+    [52535855] = { -- Gushgut the Beaksinker
         criteria=56033,
-        quest=70718,
+        quest=70718, -- didn't actually trigger?
         npc=196056,
-        loot={},
+        loot={
+            {197098, quest=69299}, -- Highland Drake: Finned Back
+        },
         vignette=5380,
     },
+    --[[
     [] = { -- Nulltheria the Void Gazer
         criteria=56034,
         quest=nil,
@@ -276,7 +283,9 @@ ns.RegisterPoints(MAPID, {
         quest=69891,
         npc=193266,
         loot={},
+        note="In the Fluttering Cavern",
         vignette=5209, -- Resplendent Shimmerwing
+        path=35228165,
     },
     [25825982] = { -- Cauldronbearer Blakor
         criteria=56056,
