@@ -574,3 +574,18 @@ ns.RegisterPoints(MAPID, {
     minimap=true,
     -- icon=930453, -- Inv_stbernarddogpet
 })
+
+-- Sleeping on the Job
+ns.RegisterPoints(MAPID, {
+    [33515321] = {criteria=55776, npc=198064,}, -- Dreamguard Felyasra
+    [29876222] = {criteria=55777, npc=198068, path=29696022}, -- Dreamguard Erezsra
+    [25296540] = {criteria=55778, npc=198069,}, -- Dreamguard Sayliasra
+    [18025378] = {criteria=55779, npc=198074,}, -- Dreamguard Aiyelasra
+    [19088289] = {criteria=55780, npc=198073,}, -- Dreamguard Lucidra
+    [29404153] = {criteria=55781, npc=198075,}, -- Dreamguard Taelyasra
+}, {
+    achievement=16574,
+    note="/sleep",
+    texture=ns.atlas_texture("VenthyrAssaultsQuest-32x32", {r=0, g=1, b=0}), scale=1.2,
+    minimap=true,
+})
