@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v10
+
+* Add Sleeping on the Job achievement
+* New item in the right-click menu if you have TomTom: add waypoint for all related points
+* Assorted new rares and packs
+
 ## Changed in v9
 
 * Ley Line in the Span on the minimap as well
