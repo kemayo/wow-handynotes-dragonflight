@@ -67,13 +67,14 @@ ns.RegisterPoints(MAPID, {
         loot={}, -- just supplies
         note="Top of waterfall",
     },
-    --[[
-    [] = { -- Misty Treasure Chest
+    [58585301] = { -- Misty Treasure Chest
         criteria=55403,
         quest=65646,
-        loot={},
+        loot={
+            202194, -- Misty Satchel (34 slot bag)
+        },
+        note="On a well-hidden ledge just below the top of the waterfall",
     },
-    --]]
     [29454699] = { -- Onyx Gem Cluster
         criteria=55448,
         quest=72020,
