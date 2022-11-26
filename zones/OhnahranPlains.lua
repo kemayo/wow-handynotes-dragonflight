@@ -177,6 +177,7 @@ ns.RegisterPoints(MAPID, {
             {200879, note="Hatches into..."}, -- Zenet Egg
             {198825, mount=1672}, -- Zenet Hatchling
         },
+        note="Flying",
     },
     [87406140] = { -- Liskheszaera
         criteria=56067,
@@ -233,15 +234,16 @@ ns.RegisterPoints(MAPID, {
         vignette=5195,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- Oshigol
+    --]]
+    [60812677] = { -- Oshigol
         criteria=56074,
         quest=69877,
         npc=193235,
         loot={},
+        note="Patrols",
         vignette=5199,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --]]
     [74414762] = { -- Fulgurb
         criteria=56075,
         quest=69856,

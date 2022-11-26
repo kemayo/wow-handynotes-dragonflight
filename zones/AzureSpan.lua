@@ -369,6 +369,14 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5194,
     },
+    [27004840] = { -- Breezebiter
+        npc=195353,
+        quest=nil,
+        loot={
+            {201440, mount=1553},
+        },
+        note="Flying",
+    },
 })
 
 -- Ley Line in the Span

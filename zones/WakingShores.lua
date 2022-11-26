@@ -339,13 +339,15 @@ ns.RegisterPoints(MAPID, {
         vignette=5388, -- 5119 for "Morchock Reformed"?
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- Shadeslash Trakken
+    [47297386] = { -- Shadeslash Trakken
         criteria=56989,
         quest=70719,
         npc=193271,
         loot={},
+        path=48457426,
         vignette=5381,
     },
+    --[[
     [] = { -- Slurpo, the Incredible Snail
         criteria=57003,
         quest=72126,
