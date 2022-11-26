@@ -265,17 +265,19 @@ ns.RegisterPoints(MAPID, {
     --]]
     [31825440] = { -- Death's Shadow
         criteria=56053,
-        quest=nil,
+        quest=67027, -- check
         npc=190985,
         loot={},
+        note="Give 20x{item:191264:Restored Obsidian Key} to {npc:191640:Sabellian} to trigger {quest:67027}",
         vignette=5113,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [23825742] = { -- Shas'ith
         criteria=56054,
-        quest=nil,
+        quest=66903, -- check
         npc=189822,
         loot={},
+        note="Give 20x{item:191264:Restored Obsidian Key} to {npc:186681:Wrathion} to trigger {quest:66903}",
         vignette=5108,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
@@ -328,12 +330,12 @@ ns.RegisterPoints(MAPID, {
         npc=193232,
         loot={},
     },
-    --[[
-    [] = { -- Morchok
+    [32215221] = { -- Morchok
         criteria=56988,
-        quest=nil,
+        quest=66901, -- check
         npc=187306,
         loot={},
+        note="Give 20x{item:191264:Restored Obsidian Key} to {npc:187275:Igys the Believer} to trigger {quest:66901}",
         vignette=5388, -- 5119 for "Morchock Reformed"?
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
