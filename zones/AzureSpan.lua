@@ -68,15 +68,15 @@ ns.RegisterPoints(MAPID, {
 -- Rares
 ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16678/adventurer-of-the-azure-span
-    --[[
-    [] = { -- Wilrive
+    [59405520] = { -- Wilrive
         criteria=56097,
-        quest=69948,
+        quest=69948, -- didn't actually trigger
         npc=193632,
-        loot={},
+        loot={
+            200174, -- Bonesigil Shoulderguards
+        },
         vignette=5224,
     },
-    --]]
     [27804580] = { -- Dragonhunter Gorund
         criteria=56098,
         quest=66956, -- ?
@@ -105,12 +105,17 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5153,
     },
-    [] = { -- Mucka the Raker
+    --]]
+    [57685441] = { -- Mucka the Raker
+        -- ...very prone to resetting+evading and healing to full
         criteria=56102,
-        quest=nil,
+        quest=nil, -- no quest popped
         npc=193201,
-        loot={},
+        loot={
+            {200249, toy=true}, -- Mage's Chewed Wand
+        },
     },
+    --[[
     [] = { -- Brackle
         criteria=56103,
         quest=70165,
@@ -354,6 +359,15 @@ ns.RegisterPoints(MAPID, {
             200868, -- Integrated Primal Fire
         },
         vignette=5213,
+    },
+    [17394121] = { -- Vakril, the Strongest Tuskarr
+        npc=193223,
+        quest=72853, -- 69872
+        loot={
+            {201728, quest=72853}, -- Vakril's Strongbox
+            {197001, quest=69201}, -- Cliffside Wylderdrake: Finned Cheek
+        },
+        vignette=5194,
     },
 })
 
