@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v11
+
+* "Treasure Of" treasures finally complete
+* More rares and packs
+
 ## Changed in v10
 
 * Add Sleeping on the Job achievement
