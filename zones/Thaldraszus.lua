@@ -2,6 +2,10 @@ local myname, ns = ...
 
 local MAPID = ns.THALDRASZUS -- Thaldraszus
 
+--[[ mining walls
+40857586 ?
+--]]
+
 ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16301/treasures-of-thaldraszus
     [33957694] = { -- Cracked Hourglass
@@ -14,12 +18,13 @@ ns.RegisterPoints(MAPID, {
     [58158005] = { -- Sandy Wooden Duck
         criteria=54811,
         quest=70608,
-        loot={},
+        loot={}, -- as of 20221127 this is still placeholder loot item (190190)
         active={ns.conditions.QuestComplete(70538), ns.conditions.Item(199069), any=true}, -- Yennu's Map
         note="Find {item:199069} nearby",
         related={
             [54937543] = {quest=70538,loot={{199069,quest=70538},},atlas="poi-workorders",active=false,}, -- Yennu's Map
         },
+        vignette=5371,
     },
     [52607673] = { -- Amber Gem Cluster
         criteria=54812,
@@ -74,11 +79,13 @@ ns.RegisterPoints(MAPID, {
         vignette=5180,
     },
     --]]
-    [57808380] = { -- Innumerable Ruination
+    [57968158] = { -- Innumerable Ruination
         criteria=56135,
         quest=nil,
         npc=193126,
-        loot={},
+        loot={
+            200760, -- Unstable Arcane Cell
+        },
     },
     [31737253] = { -- Blightpaw the Depraved
         -- overlaps a bit with plains @ 90204020
@@ -267,15 +274,17 @@ ns.RegisterPoints(MAPID, {
         vignette=5239,
         -- despawns without any loot, asks you to help comrades at the South Hold Gate... -- something to remove his debuff first, maybe?
     },
-    [39207560] = { -- Acrosoth
-        quest=72114,
+    [37777413] = { -- Acrosoth
+        quest=72834, -- 72114
         npc=193243,
-        loot={},
+        loot={
+            {197403, quest=69604}, -- Renewed Proto-Drake: Club Tail
+        },
         vignette=5436,
         note="Flying nearby",
     },
     [55797732] = { -- Henlare
-        quest=72814, -- 69873 on vignette
+        quest=69873, -- 72814
         npc=193229,
         loot={
             200880, -- Wind-Sealet Mana Capsule

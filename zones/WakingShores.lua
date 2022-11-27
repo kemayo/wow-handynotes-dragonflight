@@ -74,6 +74,7 @@ ns.RegisterPoints(MAPID, {
             202194, -- Misty Satchel (34 slot bag)
         },
         note="On a well-hidden ledge just below the top of the waterfall",
+        -- (the clue is the nearby scouts and non-interactable handhold-objects)
     },
     [29454699] = { -- Onyx Gem Cluster
         criteria=55448,

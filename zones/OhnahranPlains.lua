@@ -471,6 +471,11 @@ ns.RegisterPoints(MAPID, {
         path=24503340,
         vignette=5131,
     },
+    [72615598] = { -- Biryuk
+        quest=nil,
+        npc=193168,
+        loot={}, -- only supplies and commendations
+    }
 })
 
 -- Who's a Good Bakar?
