@@ -280,10 +280,19 @@ ns.RegisterPoints(MAPID, {
     --]]
     [54803420] = { -- Spellwrought Snowman
         criteria=56124,
-        quest=69879,
+        quest=69879, -- didn't actually trigger?
         npc=193238,
         loot={},
         vignette=5200,
+        note="Collect 10x {npc:193424:Arcane Energy} for {npc:193255: Archmage Cleary} nearby",
+        related={
+            [53913570] = {label="{npc:193255: Archmage Cleary}", atlas="mechagon-projects", note="Gather {npc:193424:Arcane Energy}",},
+        },
+        nearby={
+            54013628, 54083719, 54163467, 53493476, 53393655, 52923710, 52203733, 51683682, 51953565,
+            label="{npc:193424:Arcane Energy}",
+            note="Bring to {npc:193242:Arcane Pedestal}",
+        },
     },
     [11093217] = { -- Snarglebone
         criteria=56125,
