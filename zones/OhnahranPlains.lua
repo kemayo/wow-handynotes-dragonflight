@@ -49,6 +49,7 @@ ns.RegisterPoints(MAPID, {
             199338, -- Copper Coin of the Isles
         },
         note="In cave",
+        path=81667175,
     },
     [51985830] = { -- Yennu's Boat
         criteria=54711,
@@ -71,6 +72,20 @@ ns.RegisterPoints(MAPID, {
         },
         note="Survive the trial of the elements",
         vignette=5407,
+    },
+    [82317322] = { -- The Great Swog
+        npc=191608,
+        loot={
+            199341, -- Regurgitated
+            199342, -- Weighted
+            202102, -- Immaculate
+            {202042, toy=true, note="In bags"}, -- Aquatic Shades
+            {199234, note="In bags"}, -- Schematic: Khaz'gorite Fisherfriend
+        },
+        active={ns.conditions.Item(199338), ns.conditions.Item(199339), ns.conditions.Item(199340), any=true},
+        texture=ns.atlas_texture("Fishing-Hole", {r=1, g=0.5, b=0.5}), scale=1.2,
+        minimap=true,
+        path=81657175,
     },
 })
 
