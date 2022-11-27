@@ -427,6 +427,20 @@ ns.RegisterPoints(MAPID, {
     achievement=16677, -- Adventurer
 })
 ns.RegisterPoints(MAPID, {
+    [81447834] = { -- Seereel, the Spring
+        achievement=16678, -- Adventurer of the *Azure Span*
+        criteria=56118,
+        quest=nil,
+        npc=193710,
+        loot={},
+    },
+    [81207780] = { -- Astray Splasher
+        achievement=16678, -- Adventurer of the *Azure Span*
+        criteria=56130,
+        quest=nil,
+        npc=197411,
+        loot={},
+    },
     [59926695] = { -- Prozela Galeshot
         quest=69968, -- 72815 also
         npc=193669,

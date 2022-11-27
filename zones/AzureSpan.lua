@@ -227,12 +227,6 @@ ns.RegisterPoints(MAPID, {
         npc=193708,
         loot={},
     },
-    [81447834] = { -- Seereel, the Spring
-        criteria=56118,
-        quest=nil,
-        npc=193710,
-        loot={},
-    },
     --[[
     [] = { -- Moth'go Deeploom
         criteria=56119,
@@ -334,12 +328,6 @@ ns.RegisterPoints(MAPID, {
         loot={},
     },
     --]]
-    [81207780] = { -- Astray Splasher
-        criteria=56130,
-        quest=nil,
-        npc=197411,
-        loot={},
-    },
 }, {
     achievement=16678, -- Adventurer
 })
