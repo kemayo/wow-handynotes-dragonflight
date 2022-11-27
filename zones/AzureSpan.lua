@@ -131,11 +131,13 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5252,
     },
-    [60733168] = { -- Azure Pathfinder
+    [61213127] = { -- Azure Pathfinder
         criteria=56105,
         quest=nil,
         npc=194210,
         loot={},
+        note="Patrols the icy area",
+        route={61213127, 59163080, 57562986, 54223190, 52023452, 49283837},
     },
     [73002660] = { -- Beogoka
         criteria=56106,
@@ -335,7 +337,7 @@ ns.RegisterPoints(MAPID, {
 ns.RegisterPoints(MAPID, {
     [23443327] = { -- Cascade
         npc=186962,
-        quest=72836,
+        quest=72836, -- 72358?
         loot={
             {197098, quest=69299}, -- Highland Drake: Finned Back
             200135, -- Corroded Greatsword
