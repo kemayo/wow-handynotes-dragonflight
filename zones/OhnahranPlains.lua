@@ -153,6 +153,37 @@ ns.RegisterPoints(MAPID, {
     group="dailymount"
 })
 
+-- Honor Our Ancestors
+local ancestor = ns.nodeMaker{
+    achievement=16423,
+    requires=ns.conditions.AuraActive(369277), -- Essence of Awakening
+    atlas="poi-soulspiritghost",
+}
+ns.RegisterPoints(MAPID, {
+    [85662085] = {
+        label="{spell:369277:Essence of Awakening}",
+        spell=369277,
+        loot={
+            {200630, toy=true}, -- Ohn'ir Windsage's Hearthstone
+        },
+        note="Get the buff, then go talk to the ghosts. They will want stuff...",
+        related={
+            [59703765] = ancestor{criteria=55302, quest=71167, active=ns.conditions.Item(197776)}, -- Maruukai Ancestor, Thrice-Spiced Mammoth Kabob (Cooking)
+            [84902343] = ancestor{criteria=55303, quest=71168, active=ns.conditions.Item(200018)}, -- Timberstep Outpost Ancestor, Enchant Boots - Plainsrunner's Breeze (Enchanting)
+            [75914208] = ancestor{criteria=55304, quest=71169, active=ns.conditions.Item(194690)}, -- Horn of Drusahl Ancestor, Horn o' Mead
+            [73005500] = ancestor{criteria=55305, quest=71170, active=ns.conditions.Item(202070)}, -- Toghusuq Village Ancestor, Exceptional Pelt
+            [84554842] = ancestor{criteria=55306, quest=71171, active=ns.conditions.Item(193470)}, -- Shikaar Highlands Ancestor, Feral Hide Drums (Leatherworking?)
+            [74706980] = ancestor{criteria=55307, quest=71172, active=ns.conditions.Item(190327)}, -- The Carving Winds Ancestor, Awakened Air
+            [63265727] = ancestor{criteria=55308, quest=71173, active=ns.conditions.Item(197788, 2)}, -- Sylvan Glade Ancestor, 2x Braised Bruffalon Brisket
+            [54707838] = ancestor{criteria=55309, quest=71174, active=ns.conditions.Item(202071)}, -- Ohn'iri Springs Ancestor, Elemental Mote
+            [41635670] = ancestor{criteria=55310, quest=71175, active=ns.conditions.Item(190501)}, -- Teerakai Ancestor, Primal Molten Greatbelt (Blacksmithing)
+            [32757029] = ancestor{criteria=55311, quest=71176, active=ns.conditions.Item(191470, 5)}, -- The Eternal Kurgans Ancestor, 5x Writhebark (Herbalism)
+        },
+    },
+}, {
+    achievement=16423,
+})
+
 -- Rares
 ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16677/adventurer-of-the-ohnahran-plains
