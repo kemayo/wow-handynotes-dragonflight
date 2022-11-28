@@ -56,12 +56,13 @@ ns.RegisterPoints(MAPID, {
 })
 
 ns.RegisterPoints(MAPID, {
-    [45635482] = {
+    [45635482] = { -- for The Great Shellkhan in Thaldraszus
         achievement=16679, criteria=56155,
         quest=72121,
         loot={200949}, -- Case of Fresh Gleamfish
         note="Quickly take this to {npc:191305} in Thaldraszus @ 38.4, 68.2",
         route={45635482, 52550000, highlightOnly=true},
+        minimap=true,
     },
 })
 
