@@ -38,3 +38,8 @@ ns.groups["dailymount"] = "Daily Mounts"
 -- Rescued Waddles: 70872
 
 -- unlocked dragon customization: 68797
+
+-- TODO achievements:
+-- Selfie achievements: Framing A New Perspective (16634), That's Pretty Neat! (16446)
+-- Fragments of History (16323)
+-- Honor our Ancestors (16423)
