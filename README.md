@@ -11,6 +11,8 @@ This includes:
 * [Who's A Good Bakar?](https://www.wowhead.com/achievement=16424/whos-a-good-bakar)
 * [The Highest Peaks](https://www.wowhead.com/achievement=15890/dragonscale-expedition-the-highest-peaks)
 * [Symbols of Hope](https://www.wowhead.com/achievement=16584/symbols-of-hope)
+* [Honor Our Ancestors](https://www.wowhead.com/achievement=16423/honor-our-ancestors)
+* [Sleeping on the Job](https://www.wowhead.com/achievement=16574/sleeping-on-the-job)
 * Hidden-away quests for nifty things like the [Divine Kiss of Ohn'ahra](https://www.wowhead.com/item=198821/divine-kiss-of-ohnahra) and [Lizi's Reins](https://www.wowhead.com/item=192799/lizis-reins)
 * ...and everything tucked away in the Dracthyr intro experience
 
