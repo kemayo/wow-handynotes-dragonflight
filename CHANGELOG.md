@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v15
+
+* Add the Honor Our Ancestors achievement to Ohn'ahran Plains
+* Don't show highlight-only routes on the minimap
+
 ## Changed in v14
 
 * Fix an error in non-Dragonflight zones (thanks PatrM!)
