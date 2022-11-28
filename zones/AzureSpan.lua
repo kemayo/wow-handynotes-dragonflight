@@ -138,6 +138,7 @@ ns.RegisterPoints(MAPID, {
         loot={},
         note="Patrols the icy area",
         route={61213127, 59163080, 57562986, 54223190, 52023452, 49283837},
+        minimap=true,
     },
     [73002660] = { -- Beogoka
         criteria=56106,

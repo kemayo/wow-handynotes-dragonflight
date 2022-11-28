@@ -2,6 +2,8 @@ local myname, ns = ...
 
 local MAPID = ns.OHNAHRANPLAINS -- Ohn'ahran Plains
 
+-- forgotten dragon treasure: 53246888
+
 ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16299/treasures-of-the-ohnahran-plains
     [32413815] = { -- Nokhud Warspear
