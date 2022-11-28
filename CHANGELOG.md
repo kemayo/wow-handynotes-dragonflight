@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v13
+
+* Show route paths on the minimap
+* Explain the Spellwrought Snowman in Azure Span
+* Minor tweaks to rare positions and loots and explorer packs, before the release tomorrow
+
 ## Changed in v12
 
 * Show the Great Swog on the map if you've got coins for it
