@@ -55,6 +55,7 @@ ns.RegisterPoints(MAPID, {
 }, {
     achievement=16301, -- Treasures
     minimap=true,
+    hide_before=ns.conditions.Level(64),
 })
 ns.RegisterPoints(MAPID, {
     [56264118] = { -- Forgetful Apprentice's Tome
