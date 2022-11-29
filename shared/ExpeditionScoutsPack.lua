@@ -62,6 +62,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
     [65525325] = {},
     [69076532] = {},
     [72165969] = {note="Requires a miner"},
+    [81364441] = {},
     -- the rest of this is a dump of locations on wowhead, with minor duplicate-filtering...
     [23606160] = {},
     [23609650] = {},
