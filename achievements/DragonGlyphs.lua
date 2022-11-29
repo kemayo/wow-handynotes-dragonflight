@@ -3,7 +3,7 @@ local myname, ns = ...
 -- Dragon Glyphs
 local GLYPH = ns.nodeMaker{
 	atlas="Warfront-AllianceHero-Silver",
-	scale=1.2,
+	scale=1.4,
     minimap=true,
     requires=ns.DRAGONRIDING,
     group="glyphs",
