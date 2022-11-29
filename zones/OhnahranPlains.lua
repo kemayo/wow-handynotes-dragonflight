@@ -337,6 +337,7 @@ ns.RegisterPoints(MAPID, {
         npc=187559,
         loot={
             {196985, quest=69185}, -- Cliffside Wylderdrake: Horned Jaw
+            {197382, quest=69583}, -- Renewed Proto-Drake: White Horns
         },
         vignette=5181, -- Solethus' Gravestone
     },
@@ -475,7 +476,7 @@ ns.RegisterPoints(MAPID, {
         loot={},
     },
     [59926695] = { -- Prozela Galeshot
-        quest=69968, -- 72815 also
+        quest=72815, -- 69968 also
         npc=193669,
         loot={
             {197383, quest=69584}, -- Renewed Proto-Drake: Heavy Horns

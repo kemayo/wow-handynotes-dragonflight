@@ -373,7 +373,7 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5055,
     },
-    [64433340] = { -- Dragonhunter Igordan
+    [64173289] = { -- Dragonhunter Igordan
         quest=66956, -- 72838
         npc=191611,
         loot={
@@ -420,13 +420,15 @@ ns.RegisterPoints(MAPID, {
         npc=195915,
         loot={
             {197135, quest=69336}, -- Highland Drake: Toothy Mouth
+            {197379, quest=69580}, -- Renewed Proto-Drake: Impaler Horns
             200133, -- Volcanic Chakram
             200217, -- Blazing Essence
         },
+        route={54512137, 56202250, 56502480, r=1, g=0, b=0},
         vignette=5372,
     },
     [60598286] = { -- Terillod the Devout
-        quest=72850, -- also 70751, 71240
+        quest=72850, -- also 70751
         npc=193171,
         loot={
             200208, -- Cloud Coalescing Handwraps

@@ -83,7 +83,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56098,
         quest=66956, -- ?
         npc=193157,
-        loot={},
+        loot={
+            200302, -- Magmaforged Scimitar
+        },
         vignette=5126, -- ?
     },
     [53003560] = { -- Arcane Devourer
