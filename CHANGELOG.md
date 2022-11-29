@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v17
+
+* Fill out more Adventurer rares; Waking Shores is complete
+* Note that Azure Span treasures require level 63 and Thaldraszus treasures require level 64
+* Some other assorted loot and packs
+
 ## Changed in v16
 
 * Make the Dragon Glyph icons bigger, since they're so high-priority right at the start
