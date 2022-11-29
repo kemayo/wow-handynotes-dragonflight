@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v16
+
+* Make the Dragon Glyph icons bigger, since they're so high-priority right at the start
+* Put a few more achievement-icons behind having dragonriding unlocked, to avoid initial clutter
+* Minor amounts of new loot and packs
+
 ## Changed in v15
 
 * Add the Honor Our Ancestors achievement to Ohn'ahran Plains
