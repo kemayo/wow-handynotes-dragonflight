@@ -106,14 +106,15 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5380,
     },
-    --[[
-    [] = { -- Nulltheria the Void Gazer
+    [55994587] = { -- Nulltheria the Void Gazer
         criteria=56034,
         quest=nil,
         npc=193256,
-        loot={},
+        loot={
+            200236, -- Memory of Nulltheria
+        },
+        note="Top of the tower",
     },
-    --]]
     [58774034] = { -- Anhydros the Tidetaker
         criteria=56035,
         quest=nil,
@@ -162,14 +163,12 @@ ns.RegisterPoints(MAPID, {
         vignette=5172,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --[[
-    [] = { -- Snappy
+    [78575019] = { -- Snappy
         criteria=56042,
         quest=nil,
         npc=193228,
         loot={},
     },
-    --]]
     [82214945] = { -- O'nank Shorescour
         criteria=56043,
         quest=70983,
@@ -186,8 +185,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5169,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --[[
-    [] = { -- Amethyzar the Glittering
+    [62705455] = { -- Amethyzar the Glittering
         criteria=56045,
         quest=69838,
         npc=193132,
@@ -195,7 +193,8 @@ ns.RegisterPoints(MAPID, {
         vignette=5171,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- Magmaton
+    [40206516] = { -- Magmaton
+        -- Obsidian Citadel objective-bonus
         criteria=56046,
         quest=70979,
         npc=186827,
@@ -203,15 +202,16 @@ ns.RegisterPoints(MAPID, {
         vignette=5116,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- Massive Magmashell
+    [21947690] = { -- Massive Magmashell
         criteria=56047,
         quest=69848,
         npc=193152,
-        loot={},
+        loot={
+            200563, -- Primal Ritual Shell
+        },
         vignette=5175,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --]]
     [33417637] = { -- Forgotten Gryphon
         criteria=56048,
         quest=72130,
@@ -221,15 +221,13 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5383,
     },
-    --[[
-    [] = { -- Enkine the Voracious
+    [59283082] = { -- Enkine the Voracious
         criteria=56049,
         quest=72128,
         npc=193134,
         loot={},
         vignette=5382,
     },
-    --]]
     [27017601] = { -- Captain Lancer
         criteria=56050,
         quest=72127,
@@ -255,15 +253,16 @@ ns.RegisterPoints(MAPID, {
             [66185530] = {quest=70864,label="{item:200066}",inbag=200066,atlas="Islands-AzeriteChest",}, -- Well-Preserved Bone
         },
     },
-    --[[
-    [] = { -- Worldcarver A'tir
+    [30005530] = { -- Worldcarver A'tir
+        -- TODO: verify vignette-coords
         criteria=56052,
         quest=70763,
         npc=186859,
         loot={},
+        nearby={30005520, label="{npc:197395:Wurmling Bones}"},
+        note="Gather 3x {item:191211:Wurmling Bones} from {npc:187366:Worldcarver Wurmling} then click on the {npc:197395:Wurmling Bones}",
         vignette=5110,
     },
-    --]]
     [31825440] = { -- Death's Shadow
         criteria=56053,
         quest=67027, -- check
@@ -348,15 +347,13 @@ ns.RegisterPoints(MAPID, {
         path=48457426,
         vignette=5381,
     },
-    --[[
-    [] = { -- Slurpo, the Incredible Snail
+    [84163456] = { -- Slurpo, the Incredible Snail
         criteria=57003,
         quest=72126,
         npc=193175,
         loot={},
         vignette=5384,
     },
-    --]]
 }, {
     achievement=16676, -- Adventurer
 })
