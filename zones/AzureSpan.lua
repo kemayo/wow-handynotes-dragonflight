@@ -52,6 +52,7 @@ ns.RegisterPoints(MAPID, {
     },
 }, {
     achievement=16300, -- Treasures
+    hide_before=ns.conditions.Level(63),
     minimap=true,
 })
 
