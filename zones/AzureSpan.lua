@@ -158,19 +158,20 @@ ns.RegisterPoints(MAPID, {
         npc=193225,
         loot={},
     },
-    --[[
-    [] = { -- Blue Terror
+    [16412781] = { -- Blue Terror
         criteria=56108,
         quest=nil,
         npc=193259,
         loot={},
     },
-    [] = { -- Mahg the Trampler
+    [36803580] = { -- Mahg the Trampler
         criteria=56109,
         quest=nil,
         npc=190244,
         loot={},
+        route={36803580, 46004100, r=0, g=1, b=0}, -- verify
     },
+    --[[
     [] = { -- Skag the Thrower
         criteria=56110,
         quest=72154,
@@ -270,7 +271,8 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5184,
     },
-    [] = { -- Archmage Cleary
+    [53803560] = { -- Archmage Cleary
+        -- ...does this trigger when you get the snowman? verify before uncommenting
         criteria=56123,
         quest=nil,
         npc=193255,

@@ -94,6 +94,7 @@ ns.RegisterPoints(MAPID, {
         quest=nil,
         npc=193128,
         loot={},
+        note="Talk to {npc:193222:Archaeologist Koranir} to spawn",
     },
     --[[
     [] = { -- Pleasant Alpha
@@ -212,6 +213,7 @@ ns.RegisterPoints(MAPID, {
         quest=65365,
         npc=183984,
         loot={},
+        note="In cave",
         vignette=4958,
     },
     [52806760] = { -- Craggravated Elemental

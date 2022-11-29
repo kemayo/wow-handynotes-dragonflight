@@ -248,7 +248,8 @@ ns.RegisterPoints(MAPID, {
         vignette=5378,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- Mikrin of the Raging Winds
+    --]]
+    [62987932] = { -- Mikrin of the Raging Winds
         criteria=56070,
         quest=69857,
         npc=193173,
@@ -256,6 +257,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5183,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
+    --[[
     [] = { -- Ronsak the Decimator
         criteria=56071,
         quest=69878,
@@ -407,14 +409,14 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5140,
     },
-    --[[
-    [] = { -- Vaniik the Stormtouched
+    [83786215] = { -- Vaniik the Stormtouched
         criteria=56090,
         quest=nil,
         npc=192453,
         loot={},
         vignette=5143, -- Vaniik the Corrupted
     },
+    --[[
     [] = { -- Quackers the Terrible
         criteria=56091,
         quest=nil,
