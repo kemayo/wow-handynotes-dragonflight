@@ -4,6 +4,7 @@ local HIGHEST = {
 	achievement=15890,
 	minimap=false, -- there's a flag once they're unlocked
 	texture=ns.atlas_texture("racing", {r=0, g=1, b=0}),
+	requires=ns.DRAGONRIDING,
 	hide_before={
 		ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 7),
 		ns.conditions.GarrisonTalent(2164),

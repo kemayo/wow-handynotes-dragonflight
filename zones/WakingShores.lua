@@ -510,5 +510,6 @@ ns.RegisterPoints(MAPID, {
     achievement=16584,
     note="Interact with the {npc:198123:Hope Kite}",
     atlas="CreationCatalyst-32x32",
+    requires=ns.DRAGONRIDING,
     minimap=true,
 })
