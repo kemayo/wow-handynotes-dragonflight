@@ -37,6 +37,8 @@ ns.groups["dailymount"] = "Daily Mounts"
 
 -- Rescued Waddles: 70872
 
+-- Talked to Lethanak at the Life Pools: 72059
+
 -- unlocked dragon customization: 68797
 
 -- TODO achievements:

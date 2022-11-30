@@ -94,6 +94,17 @@ ns.RegisterPoints(MAPID, {
     minimap=true,
 })
 
+ns.RegisterPoints(MAPID, {
+    [43156738] = { -- FullSails Supply Chest
+        quest=65965,
+        label="FullSails Supply Chest",
+        -- loot={}, -- 20g
+        active=ns.conditions.Item(191122), -- Fullsails Supply Chest Key
+        note="{item:191122:Fullsails Supply Chest Key} drops from {npc:187971} or {npc:187320} south of Wingrest Embassy",
+        vignette=5046,
+    },
+})
+
 -- Rares
 ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16676/adventurer-of-the-waking-shores
@@ -227,6 +238,7 @@ ns.RegisterPoints(MAPID, {
         quest=72127,
         npc=193198,
         loot={
+            {197005, quest=69205}, -- Cliffside Wylderdrake: Horned Nose
             200286, -- Dragonbane Lance
         },
         vignette=5385,
@@ -284,11 +296,13 @@ ns.RegisterPoints(MAPID, {
         vignette=5209, -- Resplendent Shimmerwing
         path=35228165,
     },
-    [25825982] = { -- Cauldronbearer Blakor
+    [30915494] = { -- Cauldronbearer Blakor
+        -- also 25825982?
         criteria=56056,
         quest=nil,
         npc=186783,
         loot={},
+        note="Patrols",
         vignette=5480,
     },
     [25286032] = { -- Rohzor Forgesmash
@@ -337,7 +351,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56989,
         quest=70719,
         npc=193271,
-        loot={},
+        loot={
+            200297, -- Hastily Cobbled Maul
+        },
         note="Use the three Pilfered objects inside the cave to summon",
         path=48457426,
         vignette=5381,
