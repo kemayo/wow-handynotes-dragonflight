@@ -283,7 +283,7 @@ ns.RegisterPoints(MAPID, {
         quest=66903, -- check
         npc=189822,
         loot={},
-        note="Give 20x{item:191264:Restored Obsidian Key} to {npc:186681:Wrathion} to trigger {quest:66903}",
+        note="Under the Obsidian Citadel. Give 20x{item:191264:Restored Obsidian Key} to {npc:186681:Wrathion} to trigger {quest:66903}",
         vignette=5108,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
@@ -465,6 +465,14 @@ ns.RegisterPoints(MAPID, {
         quest=nil,
         npc=193177,
         loot={},
+    },
+    [24205400] = { -- Penumbrus
+        quest=nil,
+        npc=189289,
+        loot={
+            200144, -- Band of the Unscalable
+        },
+        note="Under the Obsidian Citadel",
     },
 })
 
