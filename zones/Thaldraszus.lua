@@ -71,15 +71,15 @@ ns.RegisterPoints(MAPID, {
 -- Rares
 ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16679/adventurer-of-thaldraszus
-    --[[
-    [] = { -- Razk'vex the Untamed
+    [51534871] = { -- Razk'vex the Untamed
         criteria=56133,
         quest=69853,
         npc=193143,
         loot={},
+        note="Runs around, you can jump on it",
+        route={53104363, 53124230, 51624534, 50304953, 51534871, 52714652, loop=true},
         vignette=5180,
     },
-    --]]
     [57968158] = { -- Innumerable Ruination
         criteria=56135,
         quest=nil,
@@ -104,12 +104,14 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5479,
     },
-    [] = { -- Goremaul the Gluttonous
+    --]]
+    [53424101] = { -- Goremaul the Gluttonous
         criteria=56138,
         quest=nil,
         npc=193125,
         loot={},
     },
+    --[[
     [] = { -- Phenran
         criteria=56140,
         quest=69976,
@@ -180,16 +182,15 @@ ns.RegisterPoints(MAPID, {
         -- hide_before=ns.MAXLEVEL, -- TODO
         -- path=59416977, -- too close to need
     },
-    --[[
-    [] = { -- Sandana the Tempest
+    [37387792] = { -- Sandana the Tempest
         criteria=56150,
         quest=69859,
         npc=193176,
         loot={},
+        path=38517642,
         vignette=5185,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --]]
     [50005180] = { -- Rokmur
         criteria=56151,
         quest=69966,
@@ -198,15 +199,14 @@ ns.RegisterPoints(MAPID, {
         vignette=5238,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --[[
-    [] = { -- Woolfang
+    [47914980] = { -- Woolfang
         criteria=56152,
         quest=69850,
         npc=193161,
         loot={},
+        note="Pet {npc:193156:Wooly Lamb}",
         vignette=5177,
     },
-    --]]
     [46287298] = { -- The Weeping Vilomah
         -- TODO: this is the vignette-location, I haven't actually found the route to it yet...
         criteria=56153,
@@ -281,10 +281,12 @@ ns.RegisterPoints(MAPID, {
         quest=72834, -- 72114
         npc=193243,
         loot={
+            {196992, quest=69192}, -- Cliffside Wylderdrake: Heavy Horns
             {197403, quest=69604}, -- Renewed Proto-Drake: Club Tail
         },
-        vignette=5436,
         note="Flying nearby",
+        route={37777413, 36307560, 36507860, 38407940, 40107780, 39507500, loop=true},
+        vignette=5436,
     },
     [55797732] = { -- Henlare
         quest=69873, -- 72814
@@ -299,6 +301,7 @@ ns.RegisterPoints(MAPID, {
         npc=193273,
         loot={
             {196976, quest=69176}, -- Cliffside Wylderdrake: Head Mane
+            200193, -- Manafrond Sandals
         },
         vignette=5437,
     },
