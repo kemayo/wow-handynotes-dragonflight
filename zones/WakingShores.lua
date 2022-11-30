@@ -142,12 +142,6 @@ ns.RegisterPoints(MAPID, {
         npc=192738,
         loot={},
     },
-    [72824701] = { -- Drakewing
-        criteria=56039,
-        quest=nil,
-        npc=193217,
-        loot={},
-    },
     [45413562] = { -- Thunderous Matriarch
         criteria=56040,
         quest=69841,
@@ -250,7 +244,7 @@ ns.RegisterPoints(MAPID, {
         related={
             [47738363] = {quest=70864,label="{item:200064}",inbag=200064,atlas="Islands-AzeriteChest",}, -- Marmoni's Prize
             [39648469] = {quest=70864,label="{item:200065}",inbag=200065,atlas="Islands-AzeriteChest",}, -- Adventurer's Lost Soap Bar
-            [66185530] = {quest=70864,label="{item:200066}",inbag=200066,atlas="Islands-AzeriteChest",}, -- Well-Preserved Bone
+            [66185530] = {quest=70864,label="{item:200066}",note="Top of tower",inbag=200066,atlas="Islands-AzeriteChest",}, -- Well-Preserved Bone
         },
     },
     [30005530] = { -- Worldcarver A'tir
@@ -344,6 +338,7 @@ ns.RegisterPoints(MAPID, {
         quest=70719,
         npc=193271,
         loot={},
+        note="Use the three Pilfered objects inside the cave to summon",
         path=48457426,
         vignette=5381,
     },
@@ -357,6 +352,23 @@ ns.RegisterPoints(MAPID, {
 }, {
     achievement=16676, -- Adventurer
 })
+-- Drakewing
+local drakewing = {
+    achievement=16676, -- Adventurer
+    criteria=56039,
+    quest=nil,
+    npc=193217,
+    note="Flying",
+    loot={
+        200219, -- Dangerous Drapery
+    },
+}
+ns.RegisterPoints(MAPID, {
+    [49806960] = {route={49806960, 49807220, 48007680, 47207700, r=1, g=1, b=0}},
+    [52205060] = {route={52205060, 53605320, 55205820, r=1, g=1, b=0}},
+    [69205480] = {route={69205480, 69405940, 67606020, 63605860, r=1, g=1, b=0}},
+    [72824701] = {},
+}, drakewing)
 
 ns.RegisterPoints(MAPID, {
     [46725013] = { -- Primal Scythid Queen
@@ -383,7 +395,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5126,
     },
     [54808220] = { -- Klozicc the Ascended
-        quest=66960, -- also 72841
+        quest=72841, -- also 66960
         npc=187209,
         loot={
             {197023, quest=69223}, -- Cliffside Wylderdrake: Maned Neck
