@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v18
+
+* Minor data improvements in Waking Shores
+* Clean up minimap route lines better when refreshing data
+* Hide the route lines to related points if the connected point is hidden
+
 ## Changed in v17
 
 * Fill out more Adventurer rares; Waking Shores is complete
