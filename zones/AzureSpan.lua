@@ -151,12 +151,12 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5189,
     },
-    [36803580] = { -- Notfar the Unbearable
-        -- also 46603980?
+    [34053080] = { -- Notfar the Unbearable
         criteria=56107,
         quest=nil,
         npc=193225,
         loot={},
+        note="In cave",
     },
     [16412781] = { -- Blue Terror
         criteria=56108,
@@ -164,12 +164,12 @@ ns.RegisterPoints(MAPID, {
         npc=193259,
         loot={},
     },
-    [36803580] = { -- Mahg the Trampler
+    [36323583] = { -- Mahg the Trampler
         criteria=56109,
         quest=nil,
         npc=190244,
         loot={},
-        route={36803580, 46004100, r=0, g=1, b=0}, -- verify
+        route={36323583, 46004100, r=0, g=1, b=0}, -- verify
     },
     --[[
     [] = { -- Skag the Thrower
@@ -337,6 +337,16 @@ ns.RegisterPoints(MAPID, {
     --]]
 }, {
     achievement=16678, -- Adventurer
+})
+ns.RegisterPoints(2132, { -- Kargpaw's Den
+    [36803580] = { -- Notfar the Unbearable
+        -- or 46603980?
+        achievement=16678, -- Adventurer
+        criteria=56107,
+        quest=nil,
+        npc=193225,
+        loot={},
+    },
 })
 ns.RegisterPoints(MAPID, {
     [23443327] = { -- Cascade
