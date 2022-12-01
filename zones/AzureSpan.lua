@@ -393,6 +393,18 @@ ns.RegisterPoints(MAPID, {
         },
         note="Flying",
     },
+    [36793249] = { -- Sharpfang
+        quest=72846, -- 67173
+        npc=192749,
+        loot={
+            {196982, quest=69182}, -- Cliffside Wylderdrake: Ears
+            {197150, quest=69351}, -- Highland Drake: Spiked Club Tail
+            200266, -- Gnollish Chewtoy Launcher
+            200283, -- Gnoll-Gnawed Breeches
+        },
+        note="Kill the gnolls to summon",
+        vignette=5158, -- Thieving Gnolls (also 5484 Sharpfang)
+    },
 })
 
 -- Ley Line in the Span
