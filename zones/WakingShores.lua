@@ -119,7 +119,7 @@ ns.RegisterPoints(MAPID, {
     },
     [55994587] = { -- Nulltheria the Void Gazer
         criteria=56034,
-        quest=nil,
+        quest=72103,
         npc=193256,
         loot={
             200236, -- Memory of Nulltheria
