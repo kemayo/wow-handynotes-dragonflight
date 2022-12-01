@@ -541,6 +541,7 @@ ns.RegisterPoints(MAPID, {
         criteria=55316,
         quest=nil,
         npc=189274,
+        hide_before=ns.conditions.QuestComplete(66006), -- Return to Roscha
     },
     [48994107] = { -- Baga
         criteria=55329,
@@ -556,6 +557,7 @@ ns.RegisterPoints(MAPID, {
         criteria=55317,
         quest=nil,
         npc=187840,
+        hide_before=ns.conditions.QuestComplete(65954), -- Release the Hounds
     },
     [76683055] = { -- Ellam
         criteria=55321,
@@ -588,6 +590,7 @@ ns.RegisterPoints(MAPID, {
         criteria=55319,
         quest=nil,
         npc=189278,
+        hide_before=ns.conditions.QuestComplete(65954), -- Release the Hounds
     },
     [81115841] = { -- Rotti
         criteria=55330,
@@ -598,11 +601,13 @@ ns.RegisterPoints(MAPID, {
         criteria=55347,
         quest=nil,
         npc=197514,
+        hide_before=ns.conditions.QuestComplete(67772), -- The Trouble with Taivan
     },
     [84082295] = { -- Tseg
         criteria=55318,
         quest=nil,
         npc=189276,
+        hide_before=ns.conditions.QuestComplete(65954), -- Release the Hounds
     },
     [81035949] = { -- Wish
         criteria=55324,
@@ -639,11 +644,13 @@ ns.RegisterPoints(MAPID, {
         criteria=55315,
         quest=nil,
         npc=189387,
+        hide_before=ns.conditions.QuestComplete(65954), -- Release the Hounds
     },
     [84942509] = { -- Zephyr
         criteria=55314,
         quest=nil,
         npc=189388,
+        hide_before=ns.conditions.QuestComplete(65954), -- Release the Hounds
     },
 }, {
     achievement=16424, -- Who's a Good Bakar?
