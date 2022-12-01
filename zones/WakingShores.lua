@@ -329,7 +329,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56060,
         quest=nil,
         npc=190991,
-        loot={},
+        loot={
+            {197602, quest=69806}, -- Windborne Velocidrake: Cluster Horns
+        },
         vignette=5115,
     },
     [30226045] = { -- Rasnar the War Ender
