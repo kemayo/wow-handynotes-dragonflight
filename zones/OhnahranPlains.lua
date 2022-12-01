@@ -114,6 +114,8 @@ ns.RegisterPoints(MAPID, {
         note="Bring 3x {item:201929} from {npc:186151:Balakar Khan} in The Nokhud Offensive to start {quest:72512}",
         route=57593192,
     },
+}, {
+    minimap=true,
 })
 
 -- Lizi's Reins mount:

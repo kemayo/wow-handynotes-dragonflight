@@ -170,6 +170,7 @@ ns.RegisterPoints(MAPID, {
         npc=190244,
         loot={},
         route={36323583, 46004100, r=0, g=1, b=0}, -- verify
+        minimap=true,
     },
     --[[
     [] = { -- Skag the Thrower

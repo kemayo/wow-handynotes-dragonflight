@@ -152,6 +152,8 @@ ns.RegisterPoints(MAPID, {
         quest=nil,
         npc=192738,
         loot={},
+        route={48436605, 47706890, 48007100, 46907360, 45407400, 42607250, 41706940},
+        minimap=true,
     },
     [45413562] = { -- Thunderous Matriarch
         criteria=56040,
@@ -380,6 +382,7 @@ local drakewing = {
     loot={
         200219, -- Dangerous Drapery
     },
+    minimap=true,
 }
 ns.RegisterPoints(MAPID, {
     [49806960] = {route={49806960, 49807220, 48007680, 47207700, r=1, g=1, b=0}},

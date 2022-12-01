@@ -78,6 +78,7 @@ ns.RegisterPoints(MAPID, {
         loot={},
         note="Runs around, you can jump on it",
         route={53104363, 53124230, 51624534, 50304953, 51534871, 52714652, loop=true},
+        minimap=true,
         vignette=5180,
     },
     [57968158] = { -- Innumerable Ruination
@@ -286,6 +287,7 @@ ns.RegisterPoints(MAPID, {
         },
         note="Flying nearby",
         route={37777413, 36307560, 36507860, 38407940, 40107780, 39507500, loop=true},
+        minimap=true,
         vignette=5436,
     },
     [55797732] = { -- Henlare
