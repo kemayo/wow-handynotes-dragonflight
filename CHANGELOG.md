@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v20
+
+* Made some points with routes always show on the minimap
+* Adding of various rares and treasures across all zones
+
 ## Changed in v19
 
 * Adding of various rares and treasures across all zones
