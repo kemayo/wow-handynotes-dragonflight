@@ -7,6 +7,7 @@ This includes:
 * Items in treasure chests
 * Items dropped by rare mobs
 * Dragon Glyphs
+* Dragon Races
 * [Ley Line in the Span](https://www.wowhead.com/achievement=16638/ley-line-in-the-span)
 * [Who's A Good Bakar?](https://www.wowhead.com/achievement=16424/whos-a-good-bakar)
 * [The Highest Peaks](https://www.wowhead.com/achievement=15890/dragonscale-expedition-the-highest-peaks)
