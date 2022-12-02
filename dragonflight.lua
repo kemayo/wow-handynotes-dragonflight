@@ -14,6 +14,16 @@ ns.FACTION_DRAGONSCALE = 2507
 ns.MAXLEVEL = {ns.conditions.QuestComplete(67030), ns.conditions.Level(70)}
 ns.DRAGONRIDING = ns.conditions.SpellKnown(376777)
 
+-- Dragonflight Professions (used for profession knowledge)
+ns.PROF_DF_ALCHEMY = ns.conditions.SpellKnown(366261) -- Dragon Isles Alchemy
+ns.PROF_DF_BLACKSMITHING = ns.conditions.SpellKnown(365677) -- Dragon Isles Blacksmithing
+ns.PROF_DF_ENCHANTING = ns.conditions.SpellKnown(366255) -- Dragon Isles Enchanting
+ns.PROF_DF_ENGINEERING = ns.conditions.SpellKnown(366254) -- Dragon Isles Engineering
+ns.PROF_DF_INSCRIPTION = ns.conditions.SpellKnown(366251) -- Dragon Isles Inscription
+ns.PROF_DF_JEWELCRAFTING = ns.conditions.SpellKnown(366250) -- Dragon Isles Jewelcrafting
+ns.PROF_DF_LEATHERWORKING = ns.conditions.SpellKnown(366249) -- Dragon Isles Leatherworking
+ns.PROF_DF_TAILORING = ns.conditions.SpellKnown(366258) -- Dragon Isles Tailoring
+
 ns.hiddenConfig = {
     groupsHidden = true,
 }
@@ -30,6 +40,7 @@ ns.groups["scoutpack"] = "Expedition Scout's Pack"
 ns.groups["glyphs"] = "Dragon Glyphs"
 ns.groups["dailymount"] = "Daily Mounts"
 ns.groups["races"] = "{achievement:15939:Dragon Racing Completionist}"
+ns.groups["professionknowledge"] = "Profession Knowledge Points"
 
 -- Intro:
 -- Talked to Azurathel: 72285

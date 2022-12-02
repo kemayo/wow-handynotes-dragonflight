@@ -57,16 +57,6 @@ ns.RegisterPoints(MAPID, {
     minimap=true,
     hide_before=ns.conditions.Level(64),
 })
-ns.RegisterPoints(MAPID, {
-    [56264118] = { -- Forgetful Apprentice's Tome
-        quest=70264,
-        loot={
-            198659, -- Forgetful Apprentice's Tome (+inscription)
-        },
-        note="Inscription",
-        vignette=5291,
-    },
-})
 
 -- Rares
 ns.RegisterPoints(MAPID, {
