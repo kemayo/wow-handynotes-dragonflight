@@ -32,3 +32,12 @@ shared\ExpeditionScoutsPack.lua
 achievements\HighestPeaks.lua
 achievements\DragonGlyphs.lua
 achievements\Races.lua
+
+profession_knowledge\Alchemy.lua
+profession_knowledge\Blacksmithing.lua
+profession_knowledge\Enchanting.lua
+profession_knowledge\Engineering.lua
+profession_knowledge\Inscription.lua
+profession_knowledge\Jewelcrafting.lua
+profession_knowledge\Leatherworking.lua
+profession_knowledge\Tailoring.lua
