@@ -101,10 +101,10 @@ ns.RegisterPoints(ns.AZURESPAN, {
 	[42265674] = Race(67741, {15849, 15852}, {2089, 2090}), -- Archive Ambit ?
 })
 ns.RegisterPoints(ns.THALDRASZUS, {
-	[57767501] = Race(67095, {15829, 15832}, {2080, 2081}), -- The Flowing Forest Flight ?
-	[57256690] = Race(69957, {15857, 15860}, {2092, 2093}), -- Tyrhold Trial ?
-	[37654894] = Race(70051, {15893, 15896}, {2096, 2097}), -- Cliffside Circuit ?
-	[60264179] = Race(70059, {15899, 15902}, {2098, 2099}), -- Academy Ascent ?
-	[39487621] = Race(70157, {15905, 15908}, {2101, 2102}), -- Garden Gallivant ?
-	[58043367] = Race(70161, {15911, 15914}, {2103, 2104}), -- Caverns Criss-Cross ?
+	[57777501] = Race(67095, {15829, 15832}, {2080, 2081}), -- The Flowing Forest Flight
+	[57236690] = Race(69957, {15857, 15860}, {2092, 2093}), -- Tyrhold Trial
+	[37654893] = Race(70051, {15893, 15896}, {2096, 2097}), -- Cliffside Circuit
+	[60294159] = Race(70059, {15899, 15902}, {2098, 2099}), -- Academy Ascent
+	[39517619] = Race(70157, {15905, 15908}, {2101, 2102}), -- Garden Gallivant
+	[58053361] = Race(70161, {15911, 15914}, {2103, 2104}), -- Caverns Criss-Cross
 })
