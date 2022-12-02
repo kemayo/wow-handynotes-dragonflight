@@ -14,15 +14,19 @@ ns.FACTION_DRAGONSCALE = 2507
 ns.MAXLEVEL = {ns.conditions.QuestComplete(67030), ns.conditions.Level(70)}
 ns.DRAGONRIDING = ns.conditions.SpellKnown(376777)
 
--- Dragonflight Professions (used for profession knowledge)
-ns.PROF_DF_ALCHEMY = ns.conditions.SpellKnown(366261) -- Dragon Isles Alchemy
-ns.PROF_DF_BLACKSMITHING = ns.conditions.SpellKnown(365677) -- Dragon Isles Blacksmithing
-ns.PROF_DF_ENCHANTING = ns.conditions.SpellKnown(366255) -- Dragon Isles Enchanting
-ns.PROF_DF_ENGINEERING = ns.conditions.SpellKnown(366254) -- Dragon Isles Engineering
-ns.PROF_DF_INSCRIPTION = ns.conditions.SpellKnown(366251) -- Dragon Isles Inscription
-ns.PROF_DF_JEWELCRAFTING = ns.conditions.SpellKnown(366250) -- Dragon Isles Jewelcrafting
-ns.PROF_DF_LEATHERWORKING = ns.conditions.SpellKnown(366249) -- Dragon Isles Leatherworking
-ns.PROF_DF_TAILORING = ns.conditions.SpellKnown(366258) -- Dragon Isles Tailoring
+ns.PROF_DF_ALCHEMY = 2823 -- spell: 366261
+ns.PROF_DF_BLACKSMITHING = 2822 -- spell: 365677
+ns.PROF_DF_COOKING = 2824
+ns.PROF_DF_ENCHANTING = 2825 -- spell: 366255
+ns.PROF_DF_ENGINEERING = 2827 -- spell: 366254
+ns.PROF_DF_FISHING = 2826
+ns.PROF_DF_HERBALISM = 2832
+ns.PROF_DF_INSCRIPTION = 2828 -- spell: 366251
+ns.PROF_DF_JEWELCRAFTING = 2829 -- spell: 366250
+ns.PROF_DF_LEATHERWORKING = 2830 -- spell: 366249
+ns.PROF_DF_MINING = 2833
+ns.PROF_DF_SKINNING = 2834
+ns.PROF_DF_TAILORING = 2831 -- spell: 366258
 
 ns.hiddenConfig = {
     groupsHidden = true,

@@ -3,7 +3,8 @@ local myname, ns = ...
 local dfjcknowledge = {
     label = "Jewelcrafter's Knowledge",
 	note= "This can only be looted once per character.",
-    requires = ns.PROF_DF_JEWELCRAFTING,
+    requires = ns.conditions.Profession(ns.PROF_DF_JEWELCRAFTING),
+    hide_before = ns.conditions.Profession(ns.PROF_DF_JEWELCRAFTING, 25),
     group = "professionknowledge",
 	minimap = true,
 }

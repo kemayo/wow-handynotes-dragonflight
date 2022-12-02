@@ -3,7 +3,8 @@ local myname, ns = ...
 local dftlrknowledge = {
     label = "Tailor's Knowledge",
 	note= "This can only be looted once per character.",
-    requires = ns.PROF_DF_TAILORING,
+    requires = ns.conditions.Profession(ns.PROF_DF_TAILORING),
+    hide_before = ns.conditions.Profession(ns.PROF_DF_TAILORING, 25),
     group = "professionknowledge",
 	minimap = true,
 }

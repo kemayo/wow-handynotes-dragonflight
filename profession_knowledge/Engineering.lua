@@ -2,8 +2,9 @@ local myname, ns = ...
 
 local dfengknowledge = {
     label = "Engineer's Knowledge",
-	note= "This can only be looted once per character.",
-    requires = ns.PROF_DF_ENGINEERING,
+	note = "This can only be looted once per character.",
+    requires = ns.conditions.Profession(ns.PROF_DF_ENGINEERING),
+    hide_before = ns.conditions.Profession(ns.PROF_DF_ENGINEERING, 25),
     group = "professionknowledge",
 	minimap = true,
 }

@@ -2,8 +2,9 @@ local myname, ns = ...
 
 local dfenchknowledge = {
     label = "Enchanter's Knowledge",
-	note= "This can only be looted once per character.",
-    requires = ns.PROF_DF_ENCHANTING,
+	note = "This can only be looted once per character.",
+    requires = ns.conditions.Profession(ns.PROF_DF_ENCHANTING),
+    hide_before = ns.conditions.Profession(ns.PROF_DF_ENCHANTING, 25),
     group = "professionknowledge",
 	minimap = true,
 }
