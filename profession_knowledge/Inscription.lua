@@ -11,7 +11,7 @@ local dfinsknowledge = {
 -- https://www.wowhead.com/guide/professions/knowledge-point-treasure-locations-dragon-isles
 ns.RegisterPoints(ns.WAKINGSHORES, {
     [67905800] = {
-		note = "Behind a small stone table behind a small stone table. Loot this before looting the {item:198669:How to Train Your Whelpling} item due to a possible bug!",
+		note = "In a crate behind a small stone table. Loot this before looting the {item:198669:How to Train Your Whelpling} in Valdrakken item due to a possible bug!",
 		loot = {
 			198704, -- Pulsing Earth Rune
 		},
@@ -52,7 +52,9 @@ ns.RegisterPoints(ns.THALDRASZUS, {
 		loot = {
 			198659, -- Forgetful Apprentice's Tome #1
 		},
-		quest = nil,
+		quest = 70264,
+		vignette = 5291,
+		hide_before = false, -- this one doesn't require a specific level of inscription to collect
 	},
     [47244010] = {
 		note = "Above Algeth'era FP, just west in a small building. Interactable {item:380584:Curious Glyph} inside. Click and phase, cross the bridge with some 70 mobs, and kill the neutral mob inside the house. Deliver its dropped item to the glyph to get the item. Tome #2",
@@ -72,7 +74,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
 
 ns.RegisterPoints(ns.VALDRAKKEN, {
     [13206368] = {
-		note = "Little Scales Day Care area, brown book lying in the sandbox.\nLoot the {item:198704:Pulsing Earth Rune} before looting this due to a possible bug!",
+		note = "Little Scales Day Care area, brown book lying in the sandbox.\nLoot the {item:198704:Pulsing Earth Rune} in Waking Shores before looting this due to a possible bug!",
 		loot = {
 			198669, -- How to Train Your Whelpling
 		},
