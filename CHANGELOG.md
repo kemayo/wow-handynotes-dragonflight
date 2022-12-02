@@ -1,5 +1,15 @@
 # Changelog
 
+## Changed in v22
+
+* [Profession knowledge treasures](https://www.wowhead.com/guide/professions/knowledge-point-treasure-locations-dragon-isles) have been added, thanks to Marthammor!
+	* They mostly still need questids added, so they won't disappear when you collect them... but expect that in another few days. Getting a character through with every single crafting profession is a pain, who knew?
+* Added missing loot to some achievement treasures that wasn't implemented in beta
+* Dragon race tooltips now show your best times and general loot-rewards from the achievements
+* If you add waypoints for all related points the arrow should now wind up pointing to the closest one
+* The Highest Peaks points now have questids associated, and so will properly disappear once you find them
+* Some additional rares and loot
+
 ## Changed in v21
 
 * Add dragon race locations
