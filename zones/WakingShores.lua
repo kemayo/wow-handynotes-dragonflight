@@ -241,6 +241,7 @@ ns.RegisterPoints(MAPID, {
         npc=193198,
         loot={
             {197005, quest=69205}, -- Cliffside Wylderdrake: Horned Nose
+            {197019, quest=69219}, -- Cliffside Wylderdrake: Blunt Spiked Tail
             200286, -- Dragonbane Lance
         },
         vignette=5385,
