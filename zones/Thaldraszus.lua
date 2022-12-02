@@ -81,7 +81,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56133,
         quest=69853,
         npc=193143,
-        loot={},
+        loot={
+            200131, -- Reclaimed Survivalist's Dagger
+        },
         note="Runs around, you can jump on it",
         route={53104363, 53124230, 51624534, 50304953, 51534871, 52714652, loop=true},
         minimap=true,
@@ -103,15 +105,17 @@ ns.RegisterPoints(MAPID, {
         loot={},
         note="Talk to {npc:193222:Archaeologist Koranir} to spawn",
     },
-    --[[
-    [] = { -- Pleasant Alpha
+    [38107820] = { -- Pleasant Alpha
         criteria=56137,
-        quest=72806,
+        quest=73889, -- 72806 on criteria?
         npc=193130,
-        loot={},
+        loot={
+            {197111, quest=69312}, -- Highland Drake: Maned Head
+            200174, -- Bonesigil Shoulderguards
+            200186, -- Amberquill Shroud
+        },
         vignette=5479,
     },
-    --]]
     [53424101] = { -- Goremaul the Gluttonous
         criteria=56138,
         quest=nil,
