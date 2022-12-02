@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v21
+
+* Add dragon race locations
+* Fix the label for groups in the tooltip showing in unreadable black text
+
 ## Changed in v20
 
 * Made some points with routes always show on the minimap
