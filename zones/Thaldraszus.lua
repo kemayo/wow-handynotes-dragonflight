@@ -18,11 +18,13 @@ ns.RegisterPoints(MAPID, {
     [58158005] = { -- Sandy Wooden Duck
         criteria=54811,
         quest=70608,
-        loot={}, -- as of 20221127 this is still placeholder loot item (190190)
+        loot={
+            200827, -- Weathered Sculpture
+        },
         active={ns.conditions.QuestComplete(70538), ns.conditions.Item(199069), any=true}, -- Yennu's Map
         note="Find {item:199069} nearby",
         related={
-            [54937543] = {quest=70538,loot={{199069,quest=70538},},atlas="poi-workorders",active=false,}, -- Yennu's Map
+            [54937543] = {quest=70538,loot={{199069,quest=70538},},atlas="poi-islands-table",active=false,}, -- Yennu's Map
         },
         vignette=5371,
     },
@@ -37,12 +39,16 @@ ns.RegisterPoints(MAPID, {
     [60234160] = { -- Elegant Canvas Brush
         criteria=54813,
         quest=70609,
-        loot={}, -- as of 20221123 this is still placeholder loot item (190190)
+        loot={
+            203206, -- Elegant Canvas Brush (sells for 2112g)
+        },
     },
     [64851650] = { -- Surveyor's Magnifying Glass
         criteria=54814,
         quest=70610,
-        loot={}, -- as of 20221123 this is still placeholder loot item (190190)
+        loot={
+            193036, -- Left-Handed Magnifying Glass (inscription accessory, boe...)
+        },
     },
     [49456291] = { -- Acorn Harvester
         criteria=54815,
