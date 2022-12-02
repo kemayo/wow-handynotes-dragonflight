@@ -57,15 +57,6 @@ ns.RegisterPoints(ns.AZURESPAN, {
 		},
 		quest = nil,
 	},
-	--[[ -- Wrong location. This is for the inscription Frosted Parchment item.
-    [43703090] = {
-		note = "Behind an Arcane Commander",
-		loot = {
-			198656, -- Painter's Pretty Jewel
-		},
-		quest = nil,
-	},
-	]]
 }, dfjcknowledge)
 
 ns.RegisterPoints(ns.THALDRASZUS, {
@@ -75,5 +66,12 @@ ns.RegisterPoints(ns.THALDRASZUS, {
 			198682, -- Alexstraszite Cluster
 		},
 		quest = 70285,
+	},
+    [56914372] = {
+		note = "Inside the lantern.",
+		loot = {
+			198656, -- Painter's Pretty Jewel
+		},
+		quest = nil,
 	},
 }, dfjcknowledge)

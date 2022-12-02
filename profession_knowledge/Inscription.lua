@@ -10,7 +10,7 @@ local dfinsknowledge = {
 -- https://www.wowhead.com/guide/professions/knowledge-point-treasure-locations-dragon-isles
 ns.RegisterPoints(ns.WAKINGSHORES, {
     [67905800] = {
-		note = "Behind a small stone tablebehind a small stone table. Maybe???",
+		note = "Behind a small stone table behind a small stone table. Loot this before looting the {item:198669:How to Train Your Whelpling} item due to a possible bug!",
 		loot = {
 			198704, -- Pulsing Earth Rune
 		},
@@ -71,7 +71,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
 
 ns.RegisterPoints(ns.VALDRAKKEN, {
     [13206368] = {
-		note = "Little Scales Day Care area, brown book lying in the sandbox. Don't ask how it got there.",
+		note = "Little Scales Day Care area, brown book lying in the sandbox.\nLoot the {item:198704:Pulsing Earth Rune} before looting this due to a possible bug!",
 		loot = {
 			198669, -- How to Train Your Whelpling
 		},
