@@ -29,6 +29,7 @@ ns.groups["junk"] = BAG_FILTER_JUNK
 ns.groups["scoutpack"] = "Expedition Scout's Pack"
 ns.groups["glyphs"] = "Dragon Glyphs"
 ns.groups["dailymount"] = "Daily Mounts"
+ns.groups["races"] = "{achievement:15939:Dragon Racing Completionist}"
 
 -- Intro:
 -- Talked to Azurathel: 72285

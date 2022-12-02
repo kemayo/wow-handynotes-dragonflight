@@ -31,3 +31,4 @@ shared\ExpeditionScoutsPack.lua
 
 achievements\HighestPeaks.lua
 achievements\DragonGlyphs.lua
+achievements\Races.lua
