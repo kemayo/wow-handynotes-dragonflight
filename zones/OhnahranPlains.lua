@@ -528,7 +528,15 @@ ns.RegisterPoints(MAPID, {
         quest=nil,
         npc=193168,
         loot={}, -- only supplies and commendations
-    }
+    },
+    [63044855] = { -- Sunscale Behemoth
+        quest=69837, -- 72849
+        npc=193133,
+        loot={
+            {198409, toy=true},
+        },
+        note="Behind the waterfall",
+    },
 })
 
 -- Who's a Good Bakar?
