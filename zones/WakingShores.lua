@@ -57,7 +57,6 @@ ns.RegisterPoints(MAPID, {
             202190, -- Dead Man's Chains
             202191, -- Dead Man's Breastplate
         },
-        loot={},
         note="Inside tower; middle floor, requires flying",
         minimap=true,
     },

@@ -90,10 +90,12 @@ ns.RegisterPoints(MAPID, {
     [31737253] = { -- Blightpaw the Depraved
         -- overlaps a bit with plains @ 90204020
         criteria=56136,
-        quest=nil,
+        quest=73869,
         npc=193128,
-        loot={},
-        note="Talk to {npc:193222:Archaeologist Koranir} to spawn",
+        loot={
+            {197150, quest=69351}, -- Highland Drake: Spiked Club Tail
+        },
+        note="Talk to {npc:193222:Archaeologist Koranir} to spawn. Also spawns with {npc:193231:Ancient Tundrafur}. Casts a curse as well.",
     },
     [38107820] = { -- Pleasant Alpha
         criteria=56137,
