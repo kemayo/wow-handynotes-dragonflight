@@ -1,5 +1,14 @@
 # Changelog
 
+## Changed in v23
+
+* Added the one-time profession masters to the progression knowledge group. (*Also* mostly missing questids, for the same reason.)
+* Improved the check for profession levels - it previously required that the trade skill UI had been opened in that login session before it was reliable; now it'll *mostly* work
+* Added questids for profession knowledge in Inscription, Jewelcrafting, Mining, and Herbalism (thanks again to Marthammor!)
+* Added two missing profession knowledge treasures
+* Added the Temperamental Skyclaw mount in Azure Span
+* Adding some rares and loot across zones
+
 ## Changed in v22
 
 * [Profession knowledge treasures](https://www.wowhead.com/guide/professions/knowledge-point-treasure-locations-dragon-isles) have been added, thanks to Marthammor!
