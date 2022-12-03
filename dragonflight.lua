@@ -10,6 +10,8 @@ ns.FORBIDDENREACHINTRO = 2118 -- Dracthyr
 
 ns.FACTION_MARUUK = 2503
 ns.FACTION_DRAGONSCALE = 2507
+ns.FACTION_VALDRAKKEN = 2510
+ns.FACTION_ISKAARA = 2511
 
 ns.MAXLEVEL = {ns.conditions.QuestComplete(67030), ns.conditions.Level(70)}
 ns.DRAGONRIDING = ns.conditions.SpellKnown(376777)
