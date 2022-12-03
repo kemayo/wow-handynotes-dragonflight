@@ -33,6 +33,7 @@ achievements\HighestPeaks.lua
 achievements\DragonGlyphs.lua
 achievements\Races.lua
 
+profession_knowledge\Masters.lua
 profession_knowledge\Alchemy.lua
 profession_knowledge\Blacksmithing.lua
 profession_knowledge\Enchanting.lua
