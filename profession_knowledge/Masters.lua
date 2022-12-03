@@ -82,11 +82,12 @@ ns.RegisterPoints(ns.AZURESPAN, {
 
 ns.RegisterPoints(ns.THALDRASZUS, {
     [61427695] = { -- Bridgette Holdug
-        quest=nil,
+        quest=70258,
         npc=194843,
         currency=2035,
         requires=ns.conditions.Profession(ns.PROF_DF_MINING),
         active=ns.conditions.Profession(ns.PROF_DF_MINING, 25),
+		note = "On top of a rock spire.",
     },
 }, master)
 

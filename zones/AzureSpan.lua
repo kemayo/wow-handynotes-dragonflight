@@ -239,8 +239,13 @@ ns.RegisterPoints(MAPID, {
         criteria=56115,
         quest=70792,
         npc=193691,
-        loot={},
+        loot={200245, 200552, 198070, 190454, 197382, 200164,},
         vignette=5475,
+		related = {
+			[50523672] = {label="{item:381654:Broken Fishing Pole}", note="Click this first!",},
+			[49973821] = {label="{item:385046:Torn Fishing Net}", note="Click this second!",},
+			[49223842] = {label="{item:385047:Old Harpoon}", note="Click this Third! {npc:193691: Fisherman Tinnak's Ghost} spawns closely nearby.",},
+		},
     },
     --[[
     [] = { -- Snufflegust
