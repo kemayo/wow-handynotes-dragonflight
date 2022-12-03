@@ -170,7 +170,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56106,
         quest=nil,
         npc=193116,
-        loot={},
+        loot={
+            200673, -- Beogoka's Tooth and Claw
+        },
         vignette=5189,
     },
     [34053080] = { -- Notfar the Unbearable
@@ -230,10 +232,12 @@ ns.RegisterPoints(MAPID, {
     --]]
     [70202520] = { -- Trilvarus Loreweaver
         criteria=56114,
-        quest=69861,
+        quest=69861, -- 74087
         npc=193196,
         loot={},
         vignette=5186,
+        note="Use crystals in the tower to the North and bring the energies to {npc:193782}",
+        nearby={70402370, label="{spell:382076}"},
     },
     [49463607] = { -- Fisherman Tinnak
         criteria=56115,
