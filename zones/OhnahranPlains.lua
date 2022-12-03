@@ -26,6 +26,7 @@ ns.RegisterPoints(MAPID, {
             [61014337] = {label="{npc:192997}",quest=67718,loot={{195453,quest=67718}},atlas="poi-workorders",active=false,note="Pet to receive {item:195453}"}, -- Ludo
         },
         note="Fetch {item:195453} from {npc:192997}",
+        vignette=5214,
     },
     [33205532] = { -- Emerald Gem Cluster
         criteria=54700,
