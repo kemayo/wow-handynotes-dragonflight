@@ -33,7 +33,8 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         loot = {
             198670, -- Lofty Malygite
         },
-        quest = nil,
+        quest = 70282,
+		vignette = 5304,
     },
     [61771302] = {
         note = "Neltharan Plains, crumbled building with a tree growing inside. Look for it under the tree's roots. Comes with a bonus treasure.",
@@ -69,11 +70,11 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         },
         quest = 70285,
     },
-    [56914372] = {
-        note = "Inside the lantern.",
+    [56914366] = {
+        note = "Inside the lantern. Currently bugged and need to use the interact key to loot it.",
         loot = {
             198656, -- Painter's Pretty Jewel
         },
-        quest = nil,
+        quest = 70261,
     },
 }, dfjcknowledge)
