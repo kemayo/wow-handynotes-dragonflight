@@ -1,11 +1,12 @@
 local myname, ns = ...
 
 local dfinsknowledge = {
-    label = "Inscriptionist's Knowledge",
     note = "This can only be looted once per character.",
+    currency=2028,
     requires = ns.conditions.Profession(ns.PROF_DF_INSCRIPTION),
     hide_before = ns.conditions.Profession(ns.PROF_DF_INSCRIPTION, 25),
     group = "professionknowledge",
+    texture=ns.atlas_texture("VignetteLoot", {r=0.5,g=1,b=1,}),
     minimap = true,
 }
 -- https://www.wowhead.com/guide/professions/knowledge-point-treasure-locations-dragon-isles

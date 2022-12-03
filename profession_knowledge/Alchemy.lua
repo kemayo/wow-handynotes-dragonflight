@@ -1,11 +1,12 @@
 local myname, ns = ...
 
 local dfalcknowledge = {
-    label = "Alchemist's Knowledge",
     note = "This can only be looted once per character.",
+    currency=2024,
     requires = ns.conditions.Profession(ns.PROF_DF_ALCHEMY),
     hide_before = ns.conditions.Profession(ns.PROF_DF_ALCHEMY, 25),
     group = "professionknowledge",
+    texture=ns.atlas_texture("VignetteLoot", {r=0.5,g=1,b=1,}),
     minimap = true,
 }
 -- https://www.wowhead.com/guide/professions/knowledge-point-treasure-locations-dragon-isles
