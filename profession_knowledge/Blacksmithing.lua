@@ -10,6 +10,13 @@ local dfbsknowledge = {
 }
 -- https://www.wowhead.com/guide/professions/knowledge-point-treasure-locations-dragon-isles
 ns.RegisterPoints(ns.WAKINGSHORES, {
+    [56401950] = {
+        note = "Craft Primal Molten Alloy near the Dim Forge to make it appear the Slack Tub",
+        loot = {
+            198791, -- Glimmer of Blacksmithing Wisdom
+        },
+        quest = nil,
+    },
     [22008700] = {
         note = "Apex Canopy; four yellow Enchanted Bulwarks surrounding a sword on a pedestal.",
         loot = {

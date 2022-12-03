@@ -18,16 +18,23 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
         quest = nil,
         related = {
             [56054494] = {
-            label = "Note on the floor.",
-            note = "Read this first!",
+                label = "Note on the floor",
+                note = "Read this first!",
             },
             [55924519] = {
-            label = "{item:198815:Ash}",
+                label = "{item:198815:Ash}",
             },
             [57844446] = {
-            label = "Look for {item:198814:Boom Fumes}/{item:198817:Durable Crystal}/{item:198816:Aerospace Grade Draconium} around this area.",
+                label = "Look for {item:198814:Boom Fumes}/{item:198817:Durable Crystal}/{item:198816:Aerospace Grade Draconium} around this area",
             },
         },
+    },
+    [49097754] = {
+        note = "Click 3x Exposed Wires nearby before looting",
+        loot = {
+            198789, -- Intact Coil Capacitor
+        },
+        quest = nil,
     },
 }, dfengknowledge)
 --[[
