@@ -65,6 +65,28 @@ ns.RegisterPoints(MAPID, {
         route={45635482, 52550000, highlightOnly=true},
         minimap=true,
     },
+    [18802540] = { -- Temperamental Skyclaw
+        -- Position is deliberately off because he overlaps with the flight point otherwise...
+        -- https://www.wowhead.com/news/how-to-obtain-the-temperament-skyclaw-secret-mount-in-dragonflight-330267
+        label="{item:201454:Temperamental Skyclaw}",
+        npc=190892, -- Zon'Wogi
+        loot={
+            {201454, mount=1674}, -- Temperamental Skyclaw
+        },
+        active={
+            ns.conditions.Item(201420, 20), -- Gnolan's House Special
+            ns.conditions.Item(201421, 20), -- Tuskarr Jerky
+            ns.conditions.Item(201422, 20), -- Flash Frozen Meat
+        },
+        note="Bring stacks of foods that drop from gnolls elsewhere",
+        related={
+            [23074372] = {label="{item:201420}", loot={201420}, note="Kill gnolls in the Inn", active=false,}, -- Gnolan's House Special
+            [34824533] = {label="{item:201421}", loot={201421}, note="Kill Darktooth gnolls", active=false,}, -- Tuskarr Jerky
+            [58234353] = {label="{item:201422}", loot={201422}, note="Kill gnolls; you may need to have done {quest:66730} or {quest:66270} before this will drop", active=false,}, -- Flash Frozen Meat
+        },
+        texture=ns.atlas_texture("stablemaster", {r=0, g=0.8, b=1, scale=1.2}),
+        minimap=true,
+    },
 })
 
 -- Rares
@@ -383,6 +405,7 @@ ns.RegisterPoints(MAPID, {
         loot={
             {201728, quest=72853}, -- Vakril's Strongbox
             {197001, quest=69201}, -- Cliffside Wylderdrake: Finned Cheek
+            {197098, quest=69299}, -- Highland Drake: Finned Back
         },
         vignette=5194,
     },
