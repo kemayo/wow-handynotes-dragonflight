@@ -159,7 +159,7 @@ ns.RegisterPoints(MAPID, {
     },
     [61213127] = { -- Azure Pathfinder
         criteria=56105,
-        quest=nil,
+        quest=73867,
         npc=194210,
         loot={},
         note="Patrols the icy area",
@@ -308,9 +308,11 @@ ns.RegisterPoints(MAPID, {
     --]]
     [54803420] = { -- Spellwrought Snowman
         criteria=56124,
-        quest=69879, -- didn't actually trigger?
+        quest=74082, -- 69879 on vignette, didn't actually trigger?
         npc=193238,
-        loot={},
+        loot={
+            200211, -- Snowman's Icy Gaze
+        },
         vignette=5200,
         note="Collect 10x {npc:193424:Arcane Energy} for {npc:193255: Archmage Cleary} nearby",
         related={
