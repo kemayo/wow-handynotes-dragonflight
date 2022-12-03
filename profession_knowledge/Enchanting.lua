@@ -59,8 +59,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
         },
         quest = nil,
     },
-    [21004500] = {
-        note = "Inside the mountain.", -- Need info on how to access it!
+    [21564554] = {
         loot = {
             198694, -- Enriched Earthen Shard
         },
