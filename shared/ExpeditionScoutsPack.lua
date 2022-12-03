@@ -18,7 +18,7 @@ local scoutpack = {
     },
     -- quest 72023 (after 70822 Lost Expedition Camp) at basecamp *says* it unlocks these, but I saw them before
     requires=ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 2),
-    texture=ns.atlas_texture("VignetteLoot", {r=0.5, g=1, b=0.5}),
+    texture=ns.atlas_texture("VignetteLoot", {r=0.5, g=1, b=0.5, scale=0.9}),
     group="scoutpack",
     vignette=5468,
 }
