@@ -90,10 +90,12 @@ ns.RegisterPoints(MAPID, {
     [31737253] = { -- Blightpaw the Depraved
         -- overlaps a bit with plains @ 90204020
         criteria=56136,
-        quest=nil,
+        quest=73869,
         npc=193128,
-        loot={},
-        note="Talk to {npc:193222:Archaeologist Koranir} to spawn",
+        loot={
+            {197150, quest=69351}, -- Highland Drake: Spiked Club Tail
+        },
+        note="Talk to {npc:193222:Archaeologist Koranir} to spawn. Also spawns with {npc:193231:Ancient Tundrafur}. Casts a curse as well.",
     },
     [38107820] = { -- Pleasant Alpha
         criteria=56137,
@@ -263,20 +265,21 @@ ns.RegisterPoints(MAPID, {
     achievement=16679, -- Adventurer
 })
 ns.RegisterPoints(MAPID, {
-    [37538339] = { -- Private Shikzar
+    [37538339] = { -- Private Shikzar. -- despawns without any loot, asks you to help comrades at the South Hold Gate... -- something to remove his debuff first, maybe?
         quest=70986,
         npc=193127,
         loot={},
         vignette=5406,
+        note = "Ask him what's wrong. He attacks after.",
     },
     [36808557] = { -- Lookout Mordren
         quest=72813, -- 69967 on vignette?
         npc=193668,
         loot={
             200182, -- Riveted Drape
+            200292, -- Cragforge Pauldrons
         },
         vignette=5239,
-        -- despawns without any loot, asks you to help comrades at the South Hold Gate... -- something to remove his debuff first, maybe?
     },
     [37777413] = { -- Acrosoth
         quest=72834, -- 72114
@@ -284,6 +287,7 @@ ns.RegisterPoints(MAPID, {
         loot={
             {196992, quest=69192}, -- Cliffside Wylderdrake: Heavy Horns
             {197403, quest=69604}, -- Renewed Proto-Drake: Club Tail
+            200228, -- Protoscale Pauldrons
         },
         note="Flying nearby",
         route={37777413, 36307560, 36507860, 38407940, 40107780, 39507500, loop=true},
@@ -304,6 +308,8 @@ ns.RegisterPoints(MAPID, {
         loot={
             {196976, quest=69176}, -- Cliffside Wylderdrake: Head Mane
             200193, -- Manafrond Sandals
+            200174, -- Bonesigil Shoulderguards
+            198048, -- Titan Training Matric 1. Random loot??
         },
         vignette=5437,
     },

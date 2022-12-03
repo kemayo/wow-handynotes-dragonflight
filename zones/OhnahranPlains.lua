@@ -638,7 +638,7 @@ ns.RegisterPoints(MAPID, {
         note="The version summoned by the toy doesn't count",
     },
     --
-    [64014119] = { -- Katei
+    [64004118] = { -- Katei
         criteria=55323,
         quest=nil,
         npc=196650,
@@ -649,7 +649,7 @@ ns.RegisterPoints(MAPID, {
         npc=196651,
     },
     --
-    [84942509] = { -- Fogl
+    [84932508] = { -- Fogl
         criteria=55315,
         quest=nil,
         npc=189387,
