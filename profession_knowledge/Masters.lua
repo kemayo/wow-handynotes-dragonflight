@@ -87,7 +87,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         currency=2035,
         requires=ns.conditions.Profession(ns.PROF_DF_MINING),
         active=ns.conditions.Profession(ns.PROF_DF_MINING, 25),
-		note = "On top of a rock spire.",
+        note = "On top of a rock spire.",
     },
 }, master)
 

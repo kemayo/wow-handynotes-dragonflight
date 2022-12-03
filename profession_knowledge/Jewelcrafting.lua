@@ -34,7 +34,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
             198670, -- Lofty Malygite
         },
         quest = 70282,
-		vignette = 5304,
+        vignette = 5304,
     },
     [61771302] = {
         note = "Neltharan Plains, crumbled building with a tree growing inside. Look for it under the tree's roots. Comes with a bonus treasure.",

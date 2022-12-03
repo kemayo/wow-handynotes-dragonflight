@@ -159,7 +159,7 @@ ns.RegisterPoints(MAPID, {
     },
     [61213127] = { -- Azure Pathfinder
         criteria=56105,
-        quest=nil,
+        quest=73867,
         npc=194210,
         loot={},
         note="Patrols the icy area",
@@ -170,7 +170,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56106,
         quest=nil,
         npc=193116,
-        loot={},
+        loot={
+            200673, -- Beogoka's Tooth and Claw
+        },
         vignette=5189,
     },
     [34053080] = { -- Notfar the Unbearable
@@ -230,22 +232,30 @@ ns.RegisterPoints(MAPID, {
     --]]
     [70202520] = { -- Trilvarus Loreweaver
         criteria=56114,
-        quest=69861,
+        quest=69861, -- 74087
         npc=193196,
         loot={},
         vignette=5186,
+        note="Use crystals in the tower to the North and bring the energies to {npc:193782}",
+        nearby={70402370, label="{spell:382076}"},
     },
     [49463607] = { -- Fisherman Tinnak
         criteria=56115,
         quest=70792,
         npc=193691,
-        loot={200245, 200552, 198070, 190454, 197382, 200164,},
+        loot={
+            {197382, quest=69583}, -- Renewed Proto-Drake: White Horns
+            198070, -- Tattered Seavine
+            200245, -- Leviathan Lure
+            200552, -- Torrent Caller's Shell
+            200164, -- Iceloop
+        },
         vignette=5475,
-		related = {
-			[50523672] = {label="{item:381654:Broken Fishing Pole}", note="Click this first!",},
-			[49973821] = {label="{item:385046:Torn Fishing Net}", note="Click this second!",},
-			[49223842] = {label="{item:385047:Old Harpoon}", note="Click this Third! {npc:193691: Fisherman Tinnak's Ghost} spawns closely nearby.",},
-		},
+        related={
+            [50523672] = {label="{item:381654:Broken Fishing Pole}", note="Click this first!",},
+            [49973821] = {label="{item:385046:Torn Fishing Net}", note="Click this second!",},
+            [49223842] = {label="{item:385047:Old Harpoon}", note="Click this Third! {npc:193691: Fisherman Tinnak's Ghost} spawns closely nearby.",},
+        },
     },
     --[[
     [] = { -- Snufflegust
@@ -299,19 +309,14 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5184,
     },
-    [53803560] = { -- Archmage Cleary
-        -- ...does this trigger when you get the snowman? verify before uncommenting
-        criteria=56123,
-        quest=nil,
-        npc=193255,
-        loot={},
-    },
     --]]
     [54803420] = { -- Spellwrought Snowman
         criteria=56124,
-        quest=69879, -- didn't actually trigger?
+        quest=74082, -- 69879 on vignette, didn't actually trigger?
         npc=193238,
-        loot={},
+        loot={
+            200211, -- Snowman's Icy Gaze
+        },
         vignette=5200,
         note="Collect 10x {npc:193424:Arcane Energy} for {npc:193255: Archmage Cleary} nearby",
         related={
