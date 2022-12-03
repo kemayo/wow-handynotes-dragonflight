@@ -20,6 +20,7 @@ local Race = ns.Class{
 	end,
 	-- achievement=15941, -- Dragon Racing Completionist: Gold
 	atlas="racing", scale=1.2,
+	requires=ns.DRAGONRIDING,
 	_loot={
 		[ns.WAKINGSHORES] = extend({
 			{197370, quest=69571}, -- Renewed Proto-Drake: Red Hair
