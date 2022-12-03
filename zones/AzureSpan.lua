@@ -305,13 +305,6 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5184,
     },
-    [53803560] = { -- Archmage Cleary
-        -- ...does this trigger when you get the snowman? verify before uncommenting
-        criteria=56123,
-        quest=nil,
-        npc=193255,
-        loot={},
-    },
     --]]
     [54803420] = { -- Spellwrought Snowman
         criteria=56124,
