@@ -32,8 +32,8 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
 }, master)
 
 ns.RegisterPoints(ns.OHNAHRANPLAINS, {
-    [62421870] = { -- Shalasar Glimmerdusk
-        quest=nil,
+    [62471867] = { -- Shalasar Glimmerdusk
+        quest=70251,
         npc=194837,
         currency=2030,
         requires=ns.conditions.Profession(ns.PROF_DF_ENCHANTING),

@@ -35,12 +35,12 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
 }, dfenchknowledge)
 
 ns.RegisterPoints(ns.OHNAHRANPLAINS, {
-    [61406760] = {
+    [61556763] = {
         note = "Windsong Rise, north of Ohn'iri Springsr.",
         loot = {
             198689, -- Stormbound Horn
         },
-        quest = nil,
+        quest = 70291,
     },
 }, dfenchknowledge)
 
