@@ -481,29 +481,6 @@ ns.RegisterPoints(MAPID, {
     },
 })
 
---[[
--- Grand Hunt
-ns.RegisterPoints(MAPID, {
-    [41158455] = { -- Degmakh
-        npc=194251,
-        loot={
-            198990, -- Drakewatcher's Cord
-        },
-        vignette=5266,
-    },
-    [47767707] = { -- Muugurv
-        npc=194225,
-        loot={
-            198985, -- Drakewatcher's Vestement
-        },
-        vignette=5264,
-    },
-}, {
-    achievement=16545, criteria=true,
-})
---]]
-
-
 -- Symbols of Hope
 ns.RegisterPoints(MAPID, {
     [73193776] = { -- Wingrest Embassy
