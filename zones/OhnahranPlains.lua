@@ -566,16 +566,11 @@ ns.RegisterPoints(MAPID, {
     [76683055] = { -- Ellam
         criteria=55321,
         npc=187667,
-        -- might require 66698 to be up
+        hide_before={ns.conditions.MajorFaction(ns.FACTION_MARUUK, 4), ns.conditions.OnQuest(66698)}, -- Counting Argali
     },
     [83902592] = { -- Gentara
         criteria=55320,
         npc=186189,
-    },
-    [70636364] = { -- Hugo
-        criteria=55327,
-        npc=189377,
-        -- in the great hunt camp...
     },
     [80685891] = { -- Laila
         criteria=55331,
@@ -647,6 +642,20 @@ ns.RegisterPoints(MAPID, {
     texture=ns.atlas_texture("WildBattlePet", {}),
     minimap=true,
     -- icon=930453, -- Inv_stbernarddogpet
+})
+-- Hugo
+ns.RegisterPoints(MAPID, {
+    [55605240] = {},
+    [70636364] = {},
+    [71193156] = {},
+}, {
+    achievement=16424, -- Who's a Good Bakar?
+    criteria=55327,
+    npc=189377,
+    note="In the Aylaag Clan camp, wherever it currently is",
+    hide_before=ns.conditions.MajorFaction(ns.FACTION_MARUUK, 4),
+    texture=ns.atlas_texture("WildBattlePet", {}),
+    minimap=true,
 })
 
 -- Sleeping on the Job
