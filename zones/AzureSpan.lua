@@ -107,6 +107,10 @@ ns.RegisterPoints(MAPID, {
         npc=193157,
         loot={
             200302, -- Magmaforged Scimitar
+            200169, -- Protector's Molten Cudgel
+            200757, -- Qalashi War-Helm
+            {197005, quest=69205}, -- Cliffside Wylderdrake: Horned Nose
+            {197019, quest=69219}, -- Cliffside Wylderdrake: Blunt Spiked Tail
         },
     },
     [53003560] = { -- Arcane Devourer
