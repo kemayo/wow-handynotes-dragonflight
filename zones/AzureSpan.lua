@@ -103,12 +103,11 @@ ns.RegisterPoints(MAPID, {
     },
     [27804580] = { -- Dragonhunter Gorund
         criteria=56098,
-        quest=66956, -- ?
+        quest=nil,
         npc=193157,
         loot={
             200302, -- Magmaforged Scimitar
         },
-        vignette=5126, -- ?
     },
     [53003560] = { -- Arcane Devourer
         criteria=56099,
