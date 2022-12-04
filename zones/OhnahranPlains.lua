@@ -313,9 +313,10 @@ ns.RegisterPoints(MAPID, {
     },
     [49496663] = { -- Eaglemaster Niraak
         criteria=56077,
-        quest=nil,
+        quest=74063,
         npc=192020,
         loot={
+            200536, -- Tamed Eagle
             {197367, quest=69568}, -- Renewed Proto-Drake: Gray Hair
         },
         vignette=5138,
@@ -494,8 +495,10 @@ ns.RegisterPoints(MAPID, {
         loot={
             200442, -- Basilisk Hide Jerkin
             198411, -- Claw of Preparedness
+            {200249, toy=true}, -- Mage's Chewed Wand
             {196976, quest=69176}, -- Cliffside Wylderdrake: Head Mane
         },
+        note="In cave",
         vignette=5389,
     },
     [26356534] = { -- Ripsaw the Stalker
