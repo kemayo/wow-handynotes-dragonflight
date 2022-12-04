@@ -47,7 +47,7 @@ ns.groups["glyphs"] = "Dragon Glyphs"
 ns.groups["dailymount"] = "Daily Mounts"
 ns.groups["races"] = "{achievement:15939:Dragon Racing Completionist}"
 ns.groups["professionknowledge"] = "Profession Knowledge"
-ns.groups["hunts"] = "{achievement:16540:Hunt Master}",
+ns.groups["hunts"] = "{achievement:16540:Hunt Master}"
 
 -- Intro:
 -- Talked to Azurathel: 72285
