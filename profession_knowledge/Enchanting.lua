@@ -18,19 +18,19 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
         },
         quest = nil,
     },
-    [68002680] = {
+    [67962677] = {
         note = "Scalecracker Keep, next to a lava flower in a flower.",
         loot = {
             198675, -- Lava-Infused Seed
         },
-        quest = nil,
+        quest = 70283,
     },
-    [57505850] = {
+    [57525849] = {
         note = "Use Disenchanted Broom and follow Enchanted Broom, then loot the debris at path's end.",
         loot = {
             201012, -- Enchanted Debris
         },
-        quest = nil,
+        quest = 70272,
     },
 }, dfenchknowledge)
 
