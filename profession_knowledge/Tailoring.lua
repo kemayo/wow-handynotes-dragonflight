@@ -28,12 +28,12 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
 }, dftlrknowledge)
 
 ns.RegisterPoints(ns.OHNAHRANPLAINS, {
-    [32203800] = {
+    [35374016] = {
         note = "Nokhudon Hold. Sitting in a small hut on the floor right before entering the arena for the quest fight. 3 elites in the hut.",
         loot = {
             198692, -- Noteworthy Scrap of Carpet
         },
-        quest = nil,
+        quest = 70295,
     },
     [65935327] = {
         note = "Cleverwood Hollow. Use the {item:380599:Catnip Frond} and collect it.",

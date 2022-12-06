@@ -92,8 +92,8 @@ ns.RegisterPoints(ns.THALDRASZUS, {
 }, master)
 
 ns.RegisterPoints(ns.VALDRAKKEN, {
-    [27964579] = { -- Elysa Raywinder
-        quest=nil,
+    [28134583] = { -- Elysa Raywinder
+        quest=70260,
         npc=194845,
         currency=2026,
         requires=ns.conditions.Profession(ns.PROF_DF_TAILORING),
