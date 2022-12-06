@@ -271,6 +271,7 @@ ns.RegisterPoints(MAPID, {
             200158, -- Eerie Spectral Ring
             200310, -- Stole of the Iron Phantom
         },
+        hide_before=ns.conditions.MajorFaction(ns.FACTION_ISKAARA, 7),
         vignette=5475,
         related={
             [50523672] = {label="{item:381654:Broken Fishing Pole}", note="Click this first!",},
