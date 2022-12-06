@@ -30,6 +30,7 @@ zones\WakingShores.lua
 shared\ExpeditionScoutsPack.lua
 shared\GrandHunts.lua
 
+achievements\FragmentsOfHistory.lua
 achievements\HighestPeaks.lua
 achievements\DragonGlyphs.lua
 achievements\Races.lua
