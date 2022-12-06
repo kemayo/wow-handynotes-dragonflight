@@ -384,7 +384,7 @@ ns.RegisterPoints(MAPID, {
     },
     [16213364] = { -- High Shaman Rotknuckle
         criteria=56128,
-        quest=nil,
+        quest=74004,
         npc=197356,
         loot={
             {200178, toy=true}, -- Infected Ichor
