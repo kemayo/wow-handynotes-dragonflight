@@ -4,6 +4,8 @@ local MAPID = ns.OHNAHRANPLAINS -- Ohn'ahran Plains
 
 -- forgotten dragon treasure: 53246888
 
+-- Aylaag camp SE: areaPoi 7101
+
 ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16299/treasures-of-the-ohnahran-plains
     [32413815] = { -- Nokhud Warspear
@@ -102,18 +104,19 @@ ns.RegisterPoints(MAPID, {
         },
         atlas="SanctumUpgrades-Venthyr-32x32",
         hide_before=ns.conditions.QuestComplete(66676), -- Sneaking In
+        active=ns.conditions.OnQuest(72512), -- A Whispering Breeze
         note="* 3x {item:201929} from {npc:186151:Balakar Khan} in The Nokhud Offensive\n* 1x {item:201323:Essence of Awakening} from {npc:196707:Quartermaster Huseng}\n* 1x {item:191507:Exultant Incense} (Rank 3) from Alchemy",
-        route={57593192,52006320,highlightOnly=true},
-    },
-    [52006320] = { -- Godoloto
-        -- TODO: confirm location
-        npc=190022,
-        quest=72512, -- A Whispering Breeze
-        texture=ns.atlas_texture("SanctumUpgrades-Venthyr-32x32",{r=0.5, g=1, b=1}),
-        active=ns.conditions.Item(201929, 3),
-        hide_before=ns.conditions.QuestComplete(66676), -- Sneaking In
-        note="Bring 3x {item:201929} from {npc:186151:Balakar Khan} in The Nokhud Offensive to start {quest:72512}",
-        route=57593192,
+        related={
+            [56467328] = { -- Godoloto
+                -- (at 56797587 before sneaking in)
+                label="{npc:190022:Godoloto}",
+                quest=72512, -- A Whispering Breeze
+                texture=ns.atlas_texture("SanctumUpgrades-Venthyr-32x32",{r=0.5, g=1, b=1}),
+                hide_before=ns.conditions.QuestComplete(66676), -- Sneaking In
+                active=ns.conditions.Item(201929, 3),
+                note="Bring 3x {item:201929} from {npc:186151:Balakar Khan} in The Nokhud Offensive to start {quest:72512}",
+            },
+        },
     },
 }, {
     minimap=true,
@@ -144,13 +147,16 @@ ns.RegisterPoints(MAPID, {
                 q(71199, "Day 4") ..": 10x {item:192636} from animals\n"..
                 q(71195, "Day 5") ..": 1x {item:200598} from {npc:190015:Ohn Meluun}"
         end,
-    },
-    [53517898] = {
-        npc=190015,
-        quest=71195,
-        hide_before=ns.conditions.QuestComplete(71199), -- day 4
-        loot={200598}, -- Meluun's Green Curry
-        atlas="food", minimap=true,
+        related={
+            [53517898] = {
+                label="{item:200598}",
+                npc=190015,
+                quest=71195,
+                hide_before=ns.conditions.QuestComplete(71199), -- day 4
+                loot={200598}, -- Meluun's Green Curry
+                atlas="food", minimap=true,
+            },
+        },
     },
 }, {
     group="dailymount"
