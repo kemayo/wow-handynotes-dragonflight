@@ -190,36 +190,46 @@ ns.RegisterPoints(MAPID, {
 -- Rares
 ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16677/adventurer-of-the-ohnahran-plains
-    --[[
-    [] = { -- Sparkspitter Vrak
+    [20403800] = { -- Sparkspitter Vrak
         criteria=56062,
         quest=nil,
         npc=193165,
-        loot={},
+        loot={
+            {196999, quest=69199}, -- Cliffside Wylderdrake: Swept Horns
+            200234, -- Vrak's Embossed Aegis
+        },
     },
-    --]]
     [50027484] = { -- Scav Notail
         criteria=56063,
         quest=69863,
         npc=193136,
-        loot={},
+        loot={
+            200168, -- Gnoll Hide Belt
+        },
         vignette=5187,
     },
-    --[[
-    [] = { -- Enraged Sapphire
+    [56408160] = { -- Enraged Sapphire
         criteria=56064,
         quest=69840,
         npc=193142,
-        loot={},
+        loot={
+            200309, -- Rock Encrusted Chestguard
+        },
         vignette=5173,
     },
-    [] = { -- Seeker Teryx
+    [61801300] = { -- Seeker Teryx
         criteria=56065,
         quest=nil,
         npc=193188,
-        loot={},
+        loot={
+            {196970, quest=69170}, -- Cliffside Wylderdrake: Spiked Back
+            {197105, quest=69306}, -- Highland Drake: Spined Chin
+            {197586, quest=69790}, -- Windborne Velocidrake: Spiked Back
+            {197138, quest=69339}, -- Highland Drake: Striped Pattern
+            200875, -- Seeker's Bands
+            200758, -- Breastplate of Storied Antiquity
+        },
     },
-    --]]
     [31646421] = { -- Zenet Avis
         criteria=56066,
         quest=nil,
@@ -234,13 +244,20 @@ ns.RegisterPoints(MAPID, {
         criteria=56067,
         quest=nil,
         npc=197009,
-        loot={},
+        loot={
+            {197106, quest=69307}, -- Highland Drake: Finned Head
+            {197400, quest=69601}, -- Renewed Proto-Drake: Shark Snout
+            200434, -- Anund's Mana-Singed Amice
+            200446, -- Crystalized Sigil
+        },
     },
     [29426783] = { -- Deadwaker Ghendish
         criteria=56068,
         quest=nil,
         npc=189652,
-        loot={},
+        loot={
+            189055, -- Ghendish's Backup Talisman
+        },
     },
     --[[
     [] = { -- Researcher Sneakwing
@@ -256,7 +273,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56070,
         quest=69857,
         npc=193173,
-        loot={},
+        loot={
+            200542, -- Breezy Companion
+        },
         vignette=5183,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
@@ -274,20 +293,22 @@ ns.RegisterPoints(MAPID, {
         criteria=56072,
         quest=69667,
         npc=193123,
-        loot={},
+        loot={
+            200216, -- Water Heating Cord
+        },
         vignette=5168,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --[[
-    [] = { -- Malsegan
+    [71204620] = { -- Malsegan
         criteria=56073,
         quest=69871,
         npc=193212,
-        loot={},
+        loot={
+            200197, -- Armoredon Herding Crook
+        },
         vignette=5195,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --]]
     [60812677] = { -- Oshigol
         criteria=56074,
         quest=69877,
@@ -301,7 +322,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56075,
         quest=69856,
         npc=193170,
-        loot={},
+        loot={
+            200433, -- Footwraps of Subjugation
+        },
         vignette=5182,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
@@ -309,7 +332,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56076,
         quest=nil,
         npc=192045,
-        loot={},
+        loot={
+            200141, -- Wind Generating Band
+        },
     },
     [49496663] = { -- Eaglemaster Niraak
         criteria=56077,
@@ -344,6 +369,14 @@ ns.RegisterPoints(MAPID, {
         loot={
             {196985, quest=69185}, -- Cliffside Wylderdrake: Horned Jaw
             {197382, quest=69583}, -- Renewed Proto-Drake: White Horns
+            {196996, quest=69196}, -- Cliffside Wylderdrake: Branched Horns
+            {197115, quest=69316}, -- Highland Drake: Thorned Jaw
+            200437, -- Dreamsong Censer
+            200444, -- Mantle of the Gatekeeper
+            -- these might all be generic undead-drops:
+            200256, -- Darkmaul Soul Horn
+            200158, -- Eerie Spectral Ring
+            200310, -- Stole of the Iron Phantom
         },
         vignette=5181, -- Solethus' Gravestone
     },
@@ -468,11 +501,15 @@ ns.RegisterPoints(MAPID, {
 })
 ns.RegisterPoints(MAPID, {
     [81447834] = { -- Seereel, the Spring
+        -- TODO: find the spawn point in Azure Span, which presumably exists?
         achievement=16678, -- Adventurer of the *Azure Span*
         criteria=56118,
         quest=nil,
         npc=193710,
-        loot={},
+        loot={
+            200086, -- Khaz'gorite-infused Resin
+        },
+        note="Throw 5x {item:194701:Ominous Conch} into a Lurker Sighting to summon",
     },
     [81207780] = { -- Astray Splasher
         achievement=16678, -- Adventurer of the *Azure Span*
@@ -486,6 +523,7 @@ ns.RegisterPoints(MAPID, {
         npc=193669,
         loot={
             {197383, quest=69584}, -- Renewed Proto-Drake: Heavy Horns
+            200134, -- Ohuna Mass-Binding Totem
         },
         vignette=5240,
     },
@@ -536,7 +574,7 @@ ns.RegisterPoints(MAPID, {
         quest=69837, -- 72849
         npc=193133,
         loot={
-            {198409, toy=true},
+            {198409, toy=true}, -- Personal Shell
         },
         note="Behind the waterfall",
     },

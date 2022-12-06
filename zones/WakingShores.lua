@@ -136,7 +136,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56036,
         quest=nil,
         npc=193181,
-        loot={},
+        loot={
+            200132, -- Skewer's Snout
+        },
     },
     [43427361] = { -- Helmet Missingway
         -- no quest, no loot, it just deaggros and runs away and you get achievement-credit
@@ -165,7 +167,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56041,
         quest=69839,
         npc=193135,
-        loot={},
+        loot={
+            200229, -- Slightly Digested Leggings
+        },
         vignette=5172,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
@@ -179,7 +183,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56043,
         quest=70983,
         npc=193118,
-        loot={},
+        loot={
+            200435, -- Brackish Breeches
+        },
         vignette=5167,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
@@ -187,7 +193,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56044,
         quest=69668,
         npc=193120,
-        loot={},
+        loot={
+            200209, -- Firebreather's Cowl
+        },
         vignette=5169,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
@@ -195,7 +203,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56045,
         quest=69838,
         npc=193132,
-        loot={},
+        loot={
+            200156, -- Amethyzarite Geode
+        },
         vignette=5171,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
@@ -213,6 +223,7 @@ ns.RegisterPoints(MAPID, {
         quest=69848,
         npc=193152,
         loot={
+            200192, -- Handheld Geyser
             200563, -- Primal Ritual Shell
         },
         vignette=5175,
@@ -223,6 +234,7 @@ ns.RegisterPoints(MAPID, {
         quest=72130,
         npc=193154,
         loot={
+            {196985, quest=69185}, -- Cliffside Wylderdrake: Horned Jaw
             200858, -- Plume of the Forgotten
         },
         vignette=5383,
@@ -266,7 +278,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56052,
         quest=70763,
         npc=186859,
-        loot={},
+        loot={
+            200213, -- Lava-Splattered Breastplate
+        },
         nearby={30005520, label="{npc:197395:Wurmling Bones}"},
         note="Gather 3x {item:191211:Wurmling Bones} from {npc:187366:Worldcarver Wurmling} then click on the {npc:197395:Wurmling Bones}",
         vignette=5110,
@@ -275,7 +289,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56053,
         quest=67027, -- check
         npc=190985,
-        loot={},
+        loot={
+            200159, -- Blaze Ring
+        },
         note="Give 20x{item:191264:Restored Obsidian Key} to {npc:191640:Sabellian} to trigger {quest:67027}",
         vignette=5113,
         -- hide_before=ns.MAXLEVEL, -- TODO
@@ -311,7 +327,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56057,
         quest=nil,
         npc=187598,
-        loot={},
+        loot={
+            194503, -- Plans: Black Dragon Touched Hammer
+        },
     },
     [33115569] = { -- Turboris
         criteria=56058,
@@ -346,7 +364,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56988,
         quest=66901, -- check
         npc=187306,
-        loot={},
+        loot={
+            200207, -- Petrified Fungal Spores
+        },
         note="Give 20x{item:191264:Restored Obsidian Key} to {npc:187275:Igys the Believer} to trigger {quest:66901}",
         vignette=5388, -- 5119 for "Morchock Reformed"?
         -- hide_before=ns.MAXLEVEL, -- TODO
@@ -357,6 +377,8 @@ ns.RegisterPoints(MAPID, {
         npc=193271,
         loot={
             200297, -- Hastily Cobbled Maul
+            200152, -- Gleaming Blade of Insight
+            200689, -- Rimetalon Band
         },
         note="Use the three Pilfered objects inside the cave to summon",
         path=48457426,
@@ -422,6 +444,7 @@ ns.RegisterPoints(MAPID, {
             {197023, quest=69223}, -- Cliffside Wylderdrake: Maned Neck
             {197602, quest=69806}, -- Windborne Velocidrake: Cluster Horns
             {200198, toy=true}, -- Primalist Prison
+            200253, -- Snowspring Incanter's Knife
             200246, -- Lost Delving Lamp
         },
         vignette=5127,
@@ -478,6 +501,14 @@ ns.RegisterPoints(MAPID, {
             200144, -- Band of the Unscalable
         },
         note="Under the Obsidian Citadel",
+    },
+    [78405000] = { -- Gorjo the Crab Shackler
+        -- [78405000, 78405060, 78604920, 78604980]
+        quest=nil,
+        npc=193226,
+        loot={
+            200281, -- Gorjo's Riding Crop
+        },
     },
 })
 

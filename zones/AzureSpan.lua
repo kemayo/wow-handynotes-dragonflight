@@ -189,43 +189,51 @@ ns.RegisterPoints(MAPID, {
         criteria=56108,
         quest=nil,
         npc=193259,
-        loot={},
+        loot={
+            {197595, quest=69799}, -- Windborne Velocidrake: Finned Ears
+        },
     },
     [36323583] = { -- Mahg the Trampler
         criteria=56109,
         quest=nil,
         npc=190244,
-        loot={},
+        loot={
+            200157, -- Pathmaker
+        },
         route={36323583, 46004100, r=0, g=1, b=0}, -- verify
         minimap=true,
     },
-    --[[
-    [] = { -- Skag the Thrower
+    [26804940] = { -- Skag the Thrower
         criteria=56110,
         quest=72154,
         npc=193149,
-        loot={},
+        loot={
+            200279, -- Competitive Throwing Gauntlets
+        },
         vignette=5440,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --]]
     [32652915] = { -- Gruffy
         criteria=56111,
         quest=69885,
         npc=193251,
-        loot={},
+        loot={
+            200755, -- Gruffy's Dented Horn
+        },
         vignette=5206,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --[[
-    [] = { -- Grumbletrunk
+    [19204360] = { -- Grumbletrunk
         criteria=56112,
         quest=69892,
         npc=193269,
-        loot={},
+        loot={
+            200206, -- Behemoth Slayer Greatbow
+        },
         vignette=5210,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
+    --[[
     [] = { -- Rusthide
         criteria=56113,
         quest=nil,
@@ -237,7 +245,9 @@ ns.RegisterPoints(MAPID, {
         criteria=56114,
         quest=69861, -- 74087
         npc=193196,
-        loot={},
+        loot={
+            200549, -- Restored Titan Artifact
+        },
         vignette=5186,
         note="Use crystals in the tower to the North and bring the energies to {npc:193782}",
         nearby={70402370, label="{spell:382076}"},
@@ -248,10 +258,18 @@ ns.RegisterPoints(MAPID, {
         npc=193691,
         loot={
             {197382, quest=69583}, -- Renewed Proto-Drake: White Horns
+            {196985, quest=69185}, -- Cliffside Wylderdrake: Horned Jaw
+            {197098, quest=69299}, -- Highland Drake: Finned Back
+            {197001, quest=69201}, -- Cliffside Wylderdrake: Finned Cheek
             198070, -- Tattered Seavine
+            200187, -- Rod of Glacial Force
             200245, -- Leviathan Lure
             200552, -- Torrent Caller's Shell
             200164, -- Iceloop
+            -- generic undead?
+            200256, -- Darkmaul Soul Horn
+            200158, -- Eerie Spectral Ring
+            200310, -- Stole of the Iron Phantom
         },
         vignette=5475,
         related={
@@ -304,15 +322,19 @@ ns.RegisterPoints(MAPID, {
         },
         note="Complete {spell:388961:Community Feasts}",
     },
-    --[[
-    [] = { -- Blightfur
+    [13602200] = { -- Blightfur
         criteria=56122,
         quest=69858,
         npc=193178,
-        loot={},
+        loot={
+            {197404, quest=69605}, -- Renewed Proto-Drake: Finned Tail
+            {197150, quest=69351}, -- Highland Drake: Spiked Club Tail
+            200310, -- Stole of the Iron Phantom
+            200127, -- Gold-Alloy Blade
+            200432, -- Rotguard Cowl
+        },
         vignette=5184,
     },
-    --]]
     [54803420] = { -- Spellwrought Snowman
         criteria=56124,
         quest=74082, -- 69879 on vignette, didn't actually trigger?
@@ -351,7 +373,10 @@ ns.RegisterPoints(MAPID, {
         criteria=56127,
         quest=nil,
         npc=197354,
-        loot={},
+        loot={
+            {197398, quest=69599}, -- Renewed Proto-Drake: Snub Snout
+            200267, -- Reinforced Garden Tenders
+        },
         vignette=5415,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
@@ -359,7 +384,17 @@ ns.RegisterPoints(MAPID, {
         criteria=56128,
         quest=nil,
         npc=197356,
-        loot={},
+        loot={
+            {200178, toy=true}, -- Infected Ichor
+            {197150, quest=69351}, -- Highland Drake: Spiked Club Tail
+            {196986, quest=69186}, -- Cliffside Wylderdrake: Black Hair
+            {196973, quest=69173}, -- Cliffside Wylderdrake: Dual Horned Chin
+            {196982, quest=69182}, -- Cliffside Wylderdrake: Ears
+            200283, -- Gnoll-Gnawed Breeches
+            200266, -- Gnollish Chewtoy Launcher
+            200127, -- Gold-Alloy Blade
+            200432, -- Rotguard Cowl
+        },
         vignette=5416,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },

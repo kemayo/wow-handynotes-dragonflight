@@ -93,7 +93,14 @@ ns.RegisterPoints(MAPID, {
         quest=73869,
         npc=193128,
         loot={
+            {200178, toy=true}, -- Infected Ichor
             {197150, quest=69351}, -- Highland Drake: Spiked Club Tail
+            {196986, quest=69186}, -- Cliffside Wylderdrake: Black Hair
+            {196973, quest=69173}, -- Cliffside Wylderdrake: Dual Horned Chin
+            {196982, quest=69182}, -- Cliffside Wylderdrake: Ears
+            200266, -- Gnollish Chewtoy Launcher
+            200127, -- Gold-Alloy Blade
+            200432, -- Rotguard Cowl
         },
         note="Talk to {npc:193222:Archaeologist Koranir} to spawn. Also spawns with {npc:193231:Ancient Tundrafur}. Casts a curse as well.",
     },
@@ -112,31 +119,39 @@ ns.RegisterPoints(MAPID, {
         criteria=56138,
         quest=nil,
         npc=193125,
-        loot={},
+        loot={
+            200436, -- Gorestained Hauberk
+        },
     },
-    --[[
-    [] = { -- Phenran
+    [59806100] = { -- Phenran
         criteria=56140,
         quest=69976,
         npc=193688,
-        loot={},
+        loot={
+            200146, -- Phenran's Discordant Smasher
+        },
         vignette=5248,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [] = { -- Matriarch Remalla
+    [52805920] = { -- Matriarch Remalla
         criteria=56141,
         quest=69883,
         npc=193246,
-        loot={},
+        loot={
+            200257, -- Decay Infused Branch
+        },
         vignette=5204,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --]]
     [57208420] = { -- Phleep
         criteria=56142,
         quest=69866,
         npc=193210,
-        loot={},
+        loot={
+            {197130, quest=69331}, -- Highland Drake: Stag Horns
+            {200148, toy=true,}, -- A Collection Of Me
+            200202, -- Tomorrow's Chains
+        },
         vignette=5192,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
@@ -158,15 +173,17 @@ ns.RegisterPoints(MAPID, {
         vignette=5431,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --[[
-    [] = { -- Eldoren the Reborn
+    [47805120] = { -- Eldoren the Reborn
         criteria=56147,
         quest=69875,
         npc=193234,
-        loot={},
+        loot={
+            200284, -- Phoenix Feather Pendant
+        },
         vignette=5198,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
+    --[[
     [] = { -- Riverwalker Tamopo
         criteria=56148,
         quest=69880,
@@ -211,19 +228,23 @@ ns.RegisterPoints(MAPID, {
         vignette=5177,
     },
     [46287298] = { -- The Weeping Vilomah
-        -- TODO: this is the vignette-location, I haven't actually found the route to it yet...
         criteria=56153,
         quest=65365,
         npc=183984,
-        loot={},
-        note="In cave",
+        loot={
+            200214, -- Grasp of the Weeping Widow
+        },
+        note="In cave, talk to {npc:193206:Boomhooch the Lost} to summon",
+        path=47537168,
         vignette=4958,
     },
     [52806760] = { -- Craggravated Elemental
         criteria=56154,
         quest=69964,
         npc=193663,
-        loot={},
+        loot={
+            200298, -- Stoneshaped Greatbelt
+        },
         vignette=5237,
     },
     [38436824] = { -- The Great Shellkhan
@@ -241,19 +262,21 @@ ns.RegisterPoints(MAPID, {
         criteria=56156,
         quest=69962,
         npc=193658,
-        loot={},
+        loot={
+            200166, -- Corrupted Drake Horn
+        },
         vignette=5235,
         note="Interact with the egg inside the cave",
     },
-    --[[
-    [] = { -- Lord Epochbrgl
+    [62208180] = { -- Lord Epochbrgl
         criteria=56157,
         quest=69882,
         npc=193241,
-        loot={},
+        loot={
+            200185, -- Grips of the Everflowing Ocean
+        },
         vignette=5203,
     },
-    --]]
     [59545917] = { -- Ancient Protector
         criteria=56158,
         quest=69963,
@@ -276,6 +299,7 @@ ns.RegisterPoints(MAPID, {
         quest=72813, -- 69967 on vignette?
         npc=193668,
         loot={
+            -- 200122, -- Temporal Spyglass
             200182, -- Riveted Drape
             200292, -- Cragforge Pauldrons
         },
