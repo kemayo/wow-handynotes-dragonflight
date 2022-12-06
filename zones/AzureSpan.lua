@@ -254,7 +254,7 @@ ns.RegisterPoints(MAPID, {
     },
     [49463607] = { -- Fisherman Tinnak
         criteria=56115,
-        quest=70792,
+        quest=74064, -- 70792
         npc=193691,
         loot={
             {197382, quest=69583}, -- Renewed Proto-Drake: White Horns
@@ -356,7 +356,7 @@ ns.RegisterPoints(MAPID, {
     },
     [11093217] = { -- Snarglebone
         criteria=56125,
-        quest=nil,
+        quest=74032,
         npc=197344,
         loot={},
         vignette=5413,
@@ -364,7 +364,7 @@ ns.RegisterPoints(MAPID, {
     },
     [14483105] = { -- Blisterhide
         criteria=56126,
-        quest=nil,
+        quest=73985,
         npc=197353,
         loot={},
         vignette=5414,
@@ -372,10 +372,11 @@ ns.RegisterPoints(MAPID, {
     },
     [14083747] = { -- Gnarls
         criteria=56127,
-        quest=nil,
+        quest=73996,
         npc=197354,
         loot={
             {197398, quest=69599}, -- Renewed Proto-Drake: Snub Snout
+            200259, -- Forest Dweller's Shield
             200267, -- Reinforced Garden Tenders
         },
         vignette=5415,

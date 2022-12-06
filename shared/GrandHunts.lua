@@ -1,5 +1,11 @@
 local myname, ns = ...
 
+--[[
+areaPois
+Azure Span continent: 7345
+Ohn'Ahran Plains: 7090 @ 81104940
+--]]
+
 local hunt = {
     achievement=16545, criteria=true,
     group="hunts",

@@ -229,7 +229,7 @@ ns.RegisterPoints(MAPID, {
     },
     [46287298] = { -- The Weeping Vilomah
         criteria=56153,
-        quest=65365,
+        quest=74086, -- 65365
         npc=183984,
         loot={
             200214, -- Grasp of the Weeping Widow
@@ -260,7 +260,7 @@ ns.RegisterPoints(MAPID, {
     },
     [44806900] = { -- Corrupted Proto-Dragon
         criteria=56156,
-        quest=69962,
+        quest=74060, --69962
         npc=193658,
         loot={
             200166, -- Corrupted Drake Horn
@@ -279,7 +279,7 @@ ns.RegisterPoints(MAPID, {
     },
     [59545917] = { -- Ancient Protector
         criteria=56158,
-        quest=69963,
+        quest=74055, -- 69963
         npc=193664,
         loot={},
         vignette=5236,
@@ -327,13 +327,12 @@ ns.RegisterPoints(MAPID, {
         vignette=5196,
     },
     [36737280] = { -- Liskron the Dazzling
-        quest=72842, -- vignette 72116
+        quest=72116, -- 72842
         npc=193273,
         loot={
             {196976, quest=69176}, -- Cliffside Wylderdrake: Head Mane
             200193, -- Manafrond Sandals
             200174, -- Bonesigil Shoulderguards
-            198048, -- Titan Training Matric 1. Random loot??
         },
         vignette=5437,
     },

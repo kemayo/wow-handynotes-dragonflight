@@ -317,7 +317,7 @@ ns.RegisterPoints(MAPID, {
     [30915494] = { -- Cauldronbearer Blakor
         -- also 25825982?
         criteria=56056,
-        quest=nil,
+        quest=74042,
         npc=186783,
         loot={},
         note="Patrols",
@@ -325,7 +325,7 @@ ns.RegisterPoints(MAPID, {
     },
     [25286032] = { -- Rohzor Forgesmash
         criteria=56057,
-        quest=nil,
+        quest=74052,
         npc=187598,
         loot={
             194503, -- Plans: Black Dragon Touched Hammer
@@ -333,21 +333,21 @@ ns.RegisterPoints(MAPID, {
     },
     [33115569] = { -- Turboris
         criteria=56058,
-        quest=nil,
+        quest=74054,
         npc=187886,
         loot={},
         vignette=5109,
     },
     [28635882] = { -- Battlehorn Pyrhus
         criteria=56059,
-        quest=nil,
+        quest=74040,
         npc=190986,
         loot={},
         vignette=5112, -- and 5114
     },
     [29245162] = { -- Char
         criteria=56060,
-        quest=nil,
+        quest=74043,
         npc=190991,
         loot={
             {197602, quest=69806}, -- Windborne Velocidrake: Cluster Horns
@@ -362,10 +362,11 @@ ns.RegisterPoints(MAPID, {
     },
     [32215221] = { -- Morchok
         criteria=56988,
-        quest=66901, -- check
+        quest=74067, -- 66901
         npc=187306,
         loot={
             200207, -- Petrified Fungal Spores
+            200244, -- Enchanted Muckstompers, can drop off multiple rares
         },
         note="Give 20x{item:191264:Restored Obsidian Key} to {npc:187275:Igys the Believer} to trigger {quest:66901}",
         vignette=5388, -- 5119 for "Morchock Reformed"?
