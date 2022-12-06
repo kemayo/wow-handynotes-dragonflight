@@ -176,6 +176,7 @@ ns.RegisterPoints(MAPID, {
             {200630, toy=true}, -- Ohn'ir Windsage's Hearthstone
         },
         note="Get the buff, then go talk to the ghosts. They will want stuff...",
+        hide_before=ns.conditions.MajorFaction(ns.FACTION_MARUUK, 7),
         related={
             [59703765] = ancestor{criteria=55302, quest=71167, active=ns.conditions.Item(197776)}, -- Maruukai Ancestor, Thrice-Spiced Mammoth Kabob (Cooking)
             [84902343] = ancestor{criteria=55303, quest=71168, active=ns.conditions.Item(200018)}, -- Timberstep Outpost Ancestor, Enchant Boots - Plainsrunner's Breeze (Enchanting)
@@ -352,15 +353,15 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5138,
     },
-    --[[
-    [] = { -- Zarizz
+    [29756131] = { -- Zarizz
         criteria=56078,
-        quest=72364,
+        quest=72364, -- 74091
         npc=193140,
-        loot={},
+        loot={
+            200193, -- Manafrond Sandals
+        },
         vignette=5469,
     },
-    --]]
     [20304370] = { -- Scaleseeker Mezeri
         criteria=56079,
         quest=74073, -- 69865?
@@ -555,6 +556,7 @@ ns.RegisterPoints(MAPID, {
         npc=193153,
         loot={
             200137, -- Chitin Dreadbringer
+            200186, -- Amberquill Shroud
         },
         vignette=5178,
     },

@@ -2,6 +2,7 @@ local myname, ns = ...
 
 --[[
 areaPois
+Waking Shores continent: 7343
 Azure Span continent: 7345
 Ohn'Ahran Plains: 7090 @ 81104940
 --]]
