@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v25
+
+* Major addition of new rares and loot
+* More profession knowledge thanks to tfmonk; Enchanting and Tailoring are now filled out
+
 ## Changed in v24
 
 * Profession knowledge: fixed some locations, added some questids thanks to tfmonk
