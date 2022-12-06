@@ -56,7 +56,7 @@ ns.RegisterPoints(MAPID, {
         loot={
             {193066, pet=3275}, -- Chestnut
         },
-        note="Give an acorn to the squirrel",
+        note="Give an acorn to the squirrel; you may have to /reloadui after picking up the acorn before you can give it",
     },
 }, {
     achievement=16301, -- Treasures
