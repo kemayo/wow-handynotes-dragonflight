@@ -354,14 +354,19 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5469,
     },
-    [] = { -- Scaleseeker Mezeri
-        criteria=56079,
-        quest=69865,
-        npc=193215,
-        loot={},
-        vignette=5190,
-    },
     --]]
+    [20304370] = { -- Scaleseeker Mezeri
+        criteria=56079,
+        quest=74073, -- 69865?
+        npc=193215,
+        loot={
+            200293, -- Primal Scion's Twinblade
+        },
+        vignette=5190,
+        related={
+            [16605120] = {label="{npc:193224:Dawnbell}",note="Bring {item:194681:Sugarwing Cupcakes} from an innkeeper, then follow her to {npc:193215:Scaleseeker Mezeri}"},
+        }
+    },
     [29554146] = { -- Shade of Grief
         criteria=56080,
         quest=nil, -- ...no quest changed
