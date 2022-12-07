@@ -199,7 +199,7 @@ ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16677/adventurer-of-the-ohnahran-plains
     [20403800] = { -- Sparkspitter Vrak
         criteria=56062,
-        quest=nil,
+        quest=73896,
         npc=193165,
         loot={
             {196999, quest=69199}, -- Cliffside Wylderdrake: Swept Horns
@@ -337,7 +337,7 @@ ns.RegisterPoints(MAPID, {
     },
     [58596822] = { -- Windseeker Avash
         criteria=56076,
-        quest=nil,
+        quest=74088,
         npc=192045,
         loot={
             200141, -- Wind Generating Band
@@ -376,7 +376,7 @@ ns.RegisterPoints(MAPID, {
     },
     [29554146] = { -- Shade of Grief
         criteria=56080,
-        quest=nil, -- ...no quest changed
+        quest=74075,
         npc=187559,
         loot={
             {196985, quest=69185}, -- Cliffside Wylderdrake: Horned Jaw
@@ -420,6 +420,7 @@ ns.RegisterPoints(MAPID, {
         npc=188124,
         loot={},
         vignette=5078,
+        path=79383649,
     },
     [72222321] = { -- Zerimek
         criteria=56085,
@@ -573,6 +574,7 @@ ns.RegisterPoints(MAPID, {
         quest=66970, -- also 72852
         npc=191354,
         loot={
+            {197372, quest=69573}, -- Renewed Proto-Drake: Purple Hair
             198429, -- Typhoon Bringer
         },
         path=24503340,
