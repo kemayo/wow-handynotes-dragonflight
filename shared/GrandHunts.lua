@@ -4,7 +4,12 @@ local myname, ns = ...
 areaPois
 Waking Shores continent: 7343
 Azure Span continent: 7345
+Ohn'Ahran Plains: 7053 @ 82202030
+Ohn'Ahran Plains: 7089 @ 61005330
 Ohn'Ahran Plains: 7090 @ 81104940
+
+Grand hunt spoils: 200468 (epic)
+{194089, quest=71046}, -- Bakar Companion Color: Orange
 --]]
 
 local hunt = {
@@ -28,6 +33,17 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
             198985, -- Drakewatcher's Vestement
         },
         vignette=5264,
+    },
+}, hunt)
+
+ns.RegisterPoints(ns.AZURESPAN, {
+    [72374558] = { -- Zumakh
+        quest=70003, -- 70906
+        npc=194624,
+        loot={
+            200563, -- Primal Ritual Shell
+        },
+        vignette=5277,
     },
 }, hunt)
 
