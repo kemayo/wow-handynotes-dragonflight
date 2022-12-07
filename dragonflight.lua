@@ -30,23 +30,9 @@ ns.PROF_DF_MINING = 2833
 ns.PROF_DF_SKINNING = 2834
 ns.PROF_DF_TAILORING = 2831 -- spell: 366258
 
-ns.hiddenConfig = {
-    groupsHidden = true,
-}
+ns.hiddenConfig = {}
 
-ns.defaults.profile.groupsHiddenByZone[ns.WAKINGSHORES] = {
-    scoutpack = true,
-    warsupply = true,
-}
-ns.defaults.profile.groupsHiddenByZone[ns.OHNAHRANPLAINS] = {
-    scoutpack = true,
-    warsupply = true,
-}
-ns.defaults.profile.groupsHiddenByZone[ns.AZURESPAN] = {
-    scoutpack = true,
-    warsupply = true,
-}
-ns.defaults.profile.groupsHiddenByZone[ns.THALDRASZUS] = {
+ns.defaults.profile.groupsHidden = {
     scoutpack = true,
     warsupply = true,
 }
@@ -73,4 +59,3 @@ ns.groups["hunts"] = "{achievement:16540:Hunt Master}"
 
 -- TODO achievements:
 -- Selfie achievements: Framing A New Perspective (16634), That's Pretty Neat! (16446)
--- Fragments of History (16323)
