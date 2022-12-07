@@ -87,6 +87,12 @@ ns.RegisterPoints(MAPID, {
         texture=ns.atlas_texture("stablemaster", {r=0, g=0.8, b=1, scale=1.2}),
         minimap=true,
     },
+    [66403330] = {
+        quest=71002, -- Best Spell Ever
+        loot={200205}, -- Tome of Polymorph: Duck
+        path={66433179, note="Blink through the blocked cave entrance with a duck above it"},
+        requires=ns.conditions.Class("MAGE"),
+    },
 })
 
 -- Rares
