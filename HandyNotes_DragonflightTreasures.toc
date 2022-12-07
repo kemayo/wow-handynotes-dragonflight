@@ -28,6 +28,7 @@ zones\Thaldraszus.lua
 zones\WakingShores.lua
 
 shared\ExpeditionScoutsPack.lua
+shared\WarSupplyChest.lua
 shared\GrandHunts.lua
 
 achievements\FragmentsOfHistory.lua

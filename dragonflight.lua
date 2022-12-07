@@ -36,13 +36,24 @@ ns.hiddenConfig = {
 
 ns.defaults.profile.groupsHiddenByZone[ns.WAKINGSHORES] = {
     scoutpack = true,
+    warsupply = true,
 }
 ns.defaults.profile.groupsHiddenByZone[ns.OHNAHRANPLAINS] = {
     scoutpack = true,
+    warsupply = true,
+}
+ns.defaults.profile.groupsHiddenByZone[ns.AZURESPAN] = {
+    scoutpack = true,
+    warsupply = true,
+}
+ns.defaults.profile.groupsHiddenByZone[ns.THALDRASZUS] = {
+    scoutpack = true,
+    warsupply = true,
 }
 
 ns.groups["junk"] = BAG_FILTER_JUNK
 ns.groups["scoutpack"] = "Expedition Scout's Pack"
+ns.groups["warsupply"] = "War Supply Chest"
 ns.groups["glyphs"] = "Dragon Glyphs"
 ns.groups["dailymount"] = "Daily Mounts"
 ns.groups["races"] = "{achievement:15939:Dragon Racing Completionist}"
