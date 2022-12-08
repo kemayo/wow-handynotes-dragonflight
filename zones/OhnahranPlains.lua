@@ -163,20 +163,31 @@ ns.RegisterPoints(MAPID, {
 })
 
 -- Honor Our Ancestors
-local ancestor = ns.nodeMaker{
-    achievement=16423,
-    requires=ns.conditions.AuraActive(369277), -- Essence of Awakening
-    atlas="poi-soulspiritghost",
-}
+local ancestor = function(details)
+    return ns.merge({
+        label=function(self)
+            print("ancestor", self.achievement, self.criteria, self.quest)
+            self.label = ("{achievement:%d.%d}"):format(self.achievement, self.criteria)
+            return self.label
+        end,
+        achievement=16423,
+        requires=ns.conditions.AuraActive(369277), -- Essence of Awakening
+        atlas="poi-soulspiritghost",
+        minimap=true,
+    }, details)
+end
 ns.RegisterPoints(MAPID, {
     [85662085] = {
+        achievement=16423,
         label="{spell:369277:Essence of Awakening}",
         spell=369277,
         loot={
             {200630, toy=true}, -- Ohn'ir Windsage's Hearthstone
         },
-        note="Get the buff, then go talk to the ghosts. They will want stuff...",
+        note="Get the buff from a small purple pile of dust in the hut, then go talk to the ghosts. They will want stuff...",
         hide_before=ns.conditions.MajorFaction(ns.FACTION_MARUUK, 7),
+        texture=ns.atlas_texture("poi-soulspiritghost", {r=1, g=0, b=0.8}),
+        minimap=true,
         related={
             [59703765] = ancestor{criteria=55302, quest=71167, active=ns.conditions.Item(197776)}, -- Maruukai Ancestor, Thrice-Spiced Mammoth Kabob (Cooking)
             [84902343] = ancestor{criteria=55303, quest=71168, active={ns.conditions.Item(199934), ns.conditions.Item(199976), ns.conditions.Item(200018), any=true}}, -- Timberstep Outpost Ancestor, Enchant Boots - Plainsrunner's Breeze (Enchanting)
@@ -190,8 +201,6 @@ ns.RegisterPoints(MAPID, {
             [32757029] = ancestor{criteria=55311, quest=71176, active=ns.conditions.Item(191470, 5)}, -- The Eternal Kurgans Ancestor, 5x Writhebark (Herbalism)
         },
     },
-}, {
-    achievement=16423,
 })
 
 -- Rares
