@@ -23,7 +23,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
         active=ns.conditions.Profession(ns.PROF_DF_ALCHEMY, 25),
     },
     [43326660] = { -- Grekka Anvilsmash
-        quest=nil,
+        quest=70250,
         npc=194836,
         currency=2023,
         requires=ns.conditions.Profession(ns.PROF_DF_BLACKSMITHING),
