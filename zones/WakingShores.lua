@@ -231,7 +231,7 @@ ns.RegisterPoints(MAPID, {
     },
     [33417637] = { -- Forgotten Gryphon
         criteria=56048,
-        quest=72130,
+        quest=72130, -- 73073
         npc=193154,
         loot={
             {196985, quest=69185}, -- Cliffside Wylderdrake: Horned Jaw

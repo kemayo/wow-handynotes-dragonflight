@@ -134,8 +134,8 @@ ns.RegisterPoints(MAPID, {
             {192799, mount=1639}, -- Lizi's Reins
         },
         hide_before=ns.conditions.QuestComplete(66676), -- Sneaking In
-        active=ns.conditions.MajorFaction(2503, 9), -- Maruuk rank 9
-        atlas="stablemaster", minimap=true,
+        active={ns.conditions.MajorFaction(2503, 9), ns.conditions.Level(70)}, -- Maruuk rank 9
+        texture=ns.atlas_texture("stablemaster", {r=0, g=0.5, b=1}), scale=1.2, minimap=true,
         note=function()
             local function q(quest, label)
                 return (C_QuestLog.IsQuestFlaggedCompleted(quest) and GREEN_FONT_COLOR or RED_FONT_COLOR):WrapTextInColorCode(label)
