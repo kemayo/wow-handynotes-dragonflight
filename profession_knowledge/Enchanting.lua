@@ -11,12 +11,12 @@ local dfenchknowledge = {
 }
 -- https://www.wowhead.com/guide/professions/knowledge-point-treasure-locations-dragon-isles
 ns.RegisterPoints(ns.WAKINGSHORES, {
-    [57508360] = {
+    [57508359] = {
         note = "Flashfrozen Enclave, in frozen cave system.",
         loot = {
             198798, -- Flashfrozen Scroll
         },
-        quest = nil,
+        quest = 70320,
     },
     [67962677] = {
         note = "Scalecracker Keep, next to a lava flower in a flower.",
