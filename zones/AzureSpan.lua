@@ -465,13 +465,13 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5194,
     },
-    [27004840] = { -- Breezebiter
+    [29814613] = { -- Breezebiter
         npc=195353,
         quest=nil,
         loot={
             {201440, mount=1553},
         },
-        note="Flying",
+        note="Spawns in this cave, then flies around the area in a big circle",
     },
     [36793249] = { -- Sharpfang
         quest=72846, -- 67173
