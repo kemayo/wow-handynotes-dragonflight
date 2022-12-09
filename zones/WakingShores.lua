@@ -239,7 +239,7 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5383,
     },
-    [21606478] = { -- Enkine the Voracious
+    [21606478] = ns.SUPERRARE{ -- Enkine the Voracious
         criteria=56049,
         quest=73072, -- 72128
         npc=193134,
@@ -256,7 +256,7 @@ ns.RegisterPoints(MAPID, {
         note="Kill nearby mobs for {item:201092:Lava Spices}, then fish here to summon",
         vignette=5382,
     },
-    [27017601] = { -- Captain Lancer
+    [27017601] = ns.SUPERRARE{ -- Captain Lancer
         criteria=56050,
         quest=72127,
         npc=193198,
@@ -264,6 +264,8 @@ ns.RegisterPoints(MAPID, {
             {197005, quest=69205}, -- Cliffside Wylderdrake: Horned Nose
             {197019, quest=69219}, -- Cliffside Wylderdrake: Blunt Spiked Tail
             200286, -- Dragonbane Lance
+            200169, -- Protector's Molten Cudgel
+            200757, -- Qalashi War-Helm
         },
         vignette=5385,
         note="Spawns after Dragonbane Keep event",
@@ -325,7 +327,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5209, -- Resplendent Shimmerwing
         path=35228165,
     },
-    [30915494] = { -- Cauldronbearer Blakor
+    [30915494] = ns.SUPERRARE{ -- Cauldronbearer Blakor
         -- also 25825982?
         criteria=56056,
         quest=74042,
@@ -334,34 +336,66 @@ ns.RegisterPoints(MAPID, {
         note="Patrols",
         vignette=5480,
     },
-    [25286032] = { -- Rohzor Forgesmash
+    [25286032] = ns.SUPERRARE{ -- Rohzor Forgesmash
         criteria=56057,
         quest=74052,
         npc=187598,
         loot={
+            200757, -- Qalashi War-Helm
+            200169, -- Protector's Molten Cudgel
             194503, -- Plans: Black Dragon Touched Hammer
+            194508, -- Plans: Alvin the Anvil
+            {197005, quest=69205}, -- Cliffside Wylderdrake: Horned Nose
+            {197019, quest=69219}, -- Cliffside Wylderdrake: Blunt Spiked Tail
         },
     },
-    [33115569] = { -- Turboris
+    [33115569] = ns.SUPERRARE{ -- Turboris
         criteria=56058,
         quest=74054,
         npc=187886,
-        loot={},
+        loot={
+            200246, -- Lost Delving Lamp
+            200244, -- Enchanted Muckstompers
+            200683, -- Legguards of the Deep Strata
+            {196991, quest=69191}, -- Cliffside Wylderdrake: Black Horns
+            {197624, quest=69828}, -- Windborne Velocidrake: Club Tail
+        },
         vignette=5109,
     },
-    [28635882] = { -- Battlehorn Pyrhus
+    [28635882] = ns.SUPERRARE{ -- Battlehorn Pyrhus
         criteria=56059,
         quest=74040,
         npc=190986,
-        loot={},
+        loot={
+            200247, -- Inextinguishable Gavel
+            200252, -- Molten Flak Cannon
+            200217, -- Blazing Essence
+            200163, -- Ring of Embers
+            200133, -- Volcanic Chakram
+            {197135, quest=69336}, -- Highland Drake: Toothy Mouth
+            {197379, quest=69580}, -- Renewed Proto-Drake: Impaler Horns
+        },
         vignette=5112, -- and 5114
     },
-    [29245162] = { -- Char
+    [29245162] = ns.SUPERRARE{ -- Char
         criteria=56060,
         quest=74043,
         npc=190991,
         loot={
+            {200198, toy=true}, -- Primalist Prison
+            200244, -- Enchanted Muckstompers
+            200683, -- Legguards of the Deep Strata
+            200246, -- Lost Delving Lamp
+            200292, -- Cragforge Pauldrons
+            200313, -- Earthen Protoscale Drape
+            200439, -- Earthpact Scepter
+            200293, -- Primal Scion's Twinblade
+            200199, -- Elements' Burden
+            200294, -- Primal Chain Hauberk
+            {196991, quest=69191}, -- Cliffside Wylderdrake: Black Horns
+            {197624, quest=69828}, -- Windborne Velocidrake: Club Tail
             {197602, quest=69806}, -- Windborne Velocidrake: Cluster Horns
+            {197383, quest=69584}, -- Renewed Proto-Drake: Heavy Horns
         },
         vignette=5115,
     },
@@ -405,6 +439,12 @@ ns.RegisterPoints(MAPID, {
     },
 }, {
     achievement=16676, -- Adventurer
+})
+-- The super-rares
+ns.RegisterPoints(MAPID, {
+
+}, {
+
 })
 -- Drakewing
 local drakewing = {

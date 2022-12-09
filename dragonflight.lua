@@ -46,6 +46,11 @@ ns.groups["races"] = "{achievement:15939:Dragon Racing Completionist}"
 ns.groups["professionknowledge"] = "Profession Knowledge"
 ns.groups["hunts"] = "{achievement:16540:Hunt Master}"
 
+ns.SUPERRARE = ns.nodeMaker{
+    texture=ns.atlas_texture("VignetteKillElite", {r=1, g=0.5, b=1, scale=1.5}),
+    note="This is a \"super rare\" which can drop higher level loot",
+}
+
 -- Intro:
 -- Talked to Azurathel: 72285
 -- Talked to Genn and Shaw: 72286

@@ -277,11 +277,19 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5203,
     },
-    [59545917] = { -- Ancient Protector
+    [59545917] = ns.SUPERRARE{ -- Ancient Protector
         criteria=56158,
         quest=74055, -- 69963
         npc=193664,
-        loot={},
+        loot={
+            200138, -- Ancient Dancer's Longspear
+            200299, -- Strange Clockwork Gladius
+            200303, -- Dreamweaver Acolyte's Staff
+            200758, -- Breastplate of Storied Antiquity
+            {197100, quest=69301}, -- Highland Drake: Crested Brow
+            {197138, quest=69339}, -- Highland Drake: Striped Pattern
+            {197586, quest=69790}, -- Windborne Velocidrake: Spiked Back
+        },
         vignette=5236,
     },
 }, {

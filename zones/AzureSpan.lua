@@ -361,7 +361,7 @@ ns.RegisterPoints(MAPID, {
             note="Bring to {npc:193242:Arcane Pedestal}",
         },
     },
-    [11093217] = { -- Snarglebone
+    [11093217] = ns.SUPERRARE{ -- Snarglebone
         criteria=56125,
         quest=74032,
         npc=197344,
@@ -375,7 +375,7 @@ ns.RegisterPoints(MAPID, {
         note="On ~10 minute rotation with the other Brackenhide Hollow rares ({npc:197344}, {npc:197353}, {npc:197354}, {npc:197356})",
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [14483105] = { -- Blisterhide
+    [14483105] = ns.SUPERRARE{ -- Blisterhide
         criteria=56126,
         quest=73985,
         npc=197353,
@@ -392,7 +392,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5414,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [14083747] = { -- Gnarls
+    [14083747] = ns.SUPERRARE{ -- Gnarls
         criteria=56127,
         quest=73996,
         npc=197354,
@@ -405,7 +405,7 @@ ns.RegisterPoints(MAPID, {
         note="On ~10 minute rotation with the other Brackenhide Hollow rares ({npc:197344}, {npc:197353}, {npc:197354}, {npc:197356})",
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [16213364] = { -- High Shaman Rotknuckle
+    [16213364] = ns.SUPERRARE{ -- High Shaman Rotknuckle
         criteria=56128,
         quest=74004,
         npc=197356,
