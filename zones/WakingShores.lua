@@ -266,6 +266,7 @@ ns.RegisterPoints(MAPID, {
             200286, -- Dragonbane Lance
         },
         vignette=5385,
+        note="Spawns after Dragonbane Keep event",
     },
     [64456922] = { -- Possessive Hornswog
         criteria=56051,
