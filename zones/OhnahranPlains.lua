@@ -166,7 +166,6 @@ ns.RegisterPoints(MAPID, {
 local ancestor = function(details)
     return ns.merge({
         label=function(self)
-            print("ancestor", self.achievement, self.criteria, self.quest)
             self.label = ("{achievement:%d.%d}"):format(self.achievement, self.criteria)
             return self.label
         end,
