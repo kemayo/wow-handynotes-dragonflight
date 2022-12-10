@@ -35,7 +35,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
         loot = {
             198789, -- Intact Coil Capacitor
         },
-        quest = nil,
+        quest = 70275,
     },
 }, dfengknowledge)
 --[[

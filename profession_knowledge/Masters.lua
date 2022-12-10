@@ -48,7 +48,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         active=ns.conditions.Profession(ns.PROF_DF_HERBALISM, 25),
     },
     [82455067] = { -- Erden
-        quest=nil,
+        quest=70256,
         npc=194842,
         currency=2025,
         requires=ns.conditions.Profession(ns.PROF_DF_LEATHERWORKING),
@@ -58,7 +58,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
 
 ns.RegisterPoints(ns.AZURESPAN, {
     [17772168] = { -- Frizz Buzzcrank
-        quest=nil,
+        quest=70252,
         npc=194838,
         currency=2027,
         requires=ns.conditions.Profession(ns.PROF_DF_ENGINEERING),
