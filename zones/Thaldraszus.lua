@@ -277,9 +277,9 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5203,
     },
-    [59545917] = ns.SUPERRARE{ -- Ancient Protector
+    [59105874] = ns.SUPERRARE{ -- Ancient Protector
         criteria=56158,
-        quest=74055, -- 69963
+        quest=74055, -- 69963 bonus objective, and 72050
         npc=193664,
         loot={
             200138, -- Ancient Dancer's Longspear
@@ -290,6 +290,8 @@ ns.RegisterPoints(MAPID, {
             {197138, quest=69339}, -- Highland Drake: Striped Pattern
             {197586, quest=69790}, -- Windborne Velocidrake: Spiked Back
         },
+        nearby={61005510,59405680,59506070,60906240, label="Pillar"},
+        note="Collect 20x {item:197708:Unstable Matrix Core} from {npc:193244:Titan Defense Matrix} to make 4x {item:197733:Unsustainable Containment Core}, then use one at all four pillars. You'll probably need a group to get this in time.",
         vignette=5236,
     },
 }, {
