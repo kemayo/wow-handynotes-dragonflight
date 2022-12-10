@@ -148,13 +148,23 @@ ns.RegisterPoints(MAPID, {
         loot={},
         minimap=true, -- just a neutral mob wandering, no vignette
     },
-    [48436605] = { -- Brundin the Dragonbane
+    [52906590] = { -- Brundin the Dragonbane
         criteria=56038,
-        quest=nil,
+        quest=73890, -- TODO: verify; got this for killing the mammoth when it was all that was left
         npc=192738,
-        loot={},
-        route={48436605, 47706890, 48007100, 46907360, 45407400, 42607250, 41706940},
+        loot={
+            -- this is somewhat consolidated with the entire war party
+            200133, -- Volcanic Chakram
+            200217, -- Blazing Essence
+        },
+        route={
+            52906590, 53006650, 52006670, 51306660, 49606530, 48706530, 48436605, 47706890,
+            48007100, 46907360, 45407400, 42607250, 41706940, 40306820, 39306830, 37906960,
+            37607070, 36507160, 34607110,
+        },
+        note="Patrols with {npc:192737:Qalashi War Mammoth}",
         minimap=true,
+        vignette=5386, -- Qalashi War Party
     },
     [45413562] = { -- Thunderous Matriarch
         criteria=56040,
