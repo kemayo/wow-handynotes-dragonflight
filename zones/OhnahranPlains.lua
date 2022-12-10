@@ -92,6 +92,13 @@ ns.RegisterPoints(MAPID, {
         minimap=true,
         path=81657175,
     },
+    [52043344] = { -- Khadin
+        npc=193110,
+        hide_before=ns.conditions.QuestComplete(69979), -- A worthy hunt
+        note="Trade {item:191784:Dragon Shard of Knowledge} for Profession Knowledge",
+        atlas="profession", minimap=true,
+        group="professionknowledge",
+    },
 })
 
 -- Divine Kiss of Ohn'ahra mount:
