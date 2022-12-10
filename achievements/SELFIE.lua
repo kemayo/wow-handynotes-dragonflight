@@ -53,7 +53,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
 ns.RegisterPoints(ns.THALDRASZUS, {
     [36617301] = {criteria=55399,}, -- Liskron the Dazzling (npc=197649)
     [43627201] = {criteria=55388,}, -- Chef Fry-Aerie (npc=197614)
-    [49605120] = {criteria=55398,}, -- Eldoren the Reborn (npc=197648)
+    [48405200] = {criteria=55398,}, -- Eldoren the Reborn (npc=197648)
     [53235342] = {criteria=55389,}, -- Iridescent Peafowl (npc=197616)
 }, neat)
 ns.RegisterPoints(2080, { -- Neltharus
