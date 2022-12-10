@@ -268,7 +268,7 @@ ns.RegisterPoints(MAPID, {
     },
     [27017601] = ns.SUPERRARE{ -- Captain Lancer
         criteria=56050,
-        quest=72127,
+        quest=72127, -- 73075
         npc=193198,
         loot={
             {197005, quest=69205}, -- Cliffside Wylderdrake: Horned Nose
