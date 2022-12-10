@@ -221,9 +221,14 @@ ns.RegisterPoints(MAPID, {
     },
     [47914980] = { -- Woolfang
         criteria=56152,
-        quest=69850,
+        quest=74089, -- 69850,
         npc=193161,
-        loot={},
+        loot={
+            200195, -- Thunderscale Legguards
+            200442, -- Basilisk Hide Jerkin
+            {196976, quest=69176}, -- Cliffside Wylderdrake: Head Mane
+            {197111, quest=69312}, -- Highland Drake: Maned Head
+        },
         note="Pet {npc:193156:Wooly Lamb}",
         vignette=5177,
     },
