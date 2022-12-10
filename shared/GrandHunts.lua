@@ -3,15 +3,20 @@ local myname, ns = ...
 --[[
 areaPois
 Waking Shores continent: 7343
+Waking Shores: 7092 @ 68906680
 Azure Span continent: 7345
 Ohn'Ahran Plains: 7053 @ 82202030
 Ohn'Ahran Plains: 7089 @ 61005330
-Ohn'Ahran Plains: 7090 @ 81104940
+Ohn'Ahran Plains: 7090 @ 81104940 (71137?)
 Ohn'Ahran Plains: 7091 @ 54401840 (/ Waking Shores 23909520)
 
 Grand hunt spoils: 200468 (epic), 200513 (rare)
 {194089, quest=71046}, -- Bakar Companion Color: Orange
 {194095, quest=71052}, -- Ohuna Companion Color: Sepia
+
+Siege on Dragonsbane Keep: 7267 @ Waking Shores 30607790, quest 71210 (+72671)
+Dragonbane Keep Strongbox: 200072 (epic)
+192007, -- Wyrmforged Sabatons
 --]]
 
 local hunt = {
@@ -52,7 +57,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
     },
 }, hunt)
 
-ns.RegisterPoints(ns.AZURESPAN, {
+ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [72374558] = { -- Zumakh
         quest=70003, -- 70906
         npc=194624,
@@ -60,6 +65,12 @@ ns.RegisterPoints(ns.AZURESPAN, {
             200563, -- Primal Ritual Shell
         },
         vignette=5277,
+    },
+    [80715432] = { -- Kholdeg
+        quest=73920,
+        npc=194608,
+        loot={},
+        vignette=5276,
     },
 }, hunt)
 
