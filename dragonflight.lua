@@ -61,6 +61,3 @@ ns.SUPERRARE = ns.nodeMaker{
 -- Talked to Lethanak at the Life Pools: 72059
 
 -- unlocked dragon customization: 68797
-
--- TODO achievements:
--- Selfie achievements: Framing A New Perspective (16634), That's Pretty Neat! (16446)

@@ -35,6 +35,7 @@ achievements\FragmentsOfHistory.lua
 achievements\HighestPeaks.lua
 achievements\DragonGlyphs.lua
 achievements\Races.lua
+achievements\SELFIE.lua
 
 profession_knowledge\Masters.lua
 profession_knowledge\Alchemy.lua
