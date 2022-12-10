@@ -4,11 +4,12 @@ local myname, ns = ...
 areaPois
 Waking Shores continent: 7343
 Waking Shores: 7092 @ 68906680
-Azure Span continent: 7345
 Ohn'Ahran Plains: 7053 @ 82202030
 Ohn'Ahran Plains: 7089 @ 61005330 (70002 / 70519?)
 Ohn'Ahran Plains: 7090 @ 81104940 (71137?)
 Ohn'Ahran Plains: 7091 @ 54401840 (/ Waking Shores 23909520)
+Azure Span continent: 7345
+Azure Span: 7096 @ 68505370
 
 Grand hunt spoils: 200468 (epic), 200513 (rare), 200515 (uncommon), 200516 (common)
 {194089, quest=71046}, -- Bakar Companion Color: Orange

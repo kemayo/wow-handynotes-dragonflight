@@ -369,6 +369,7 @@ ns.RegisterPoints(MAPID, {
             {197005, quest=69205}, -- Cliffside Wylderdrake: Horned Nose
             {197019, quest=69219}, -- Cliffside Wylderdrake: Blunt Spiked Tail
         },
+        vignette=5513,
     },
     [33115569] = ns.SUPERRARE{ -- Turboris
         criteria=56058,
@@ -422,9 +423,15 @@ ns.RegisterPoints(MAPID, {
     },
     [30226045] = { -- Rasnar the War Ender
         criteria=56061,
-        quest=nil,
+        quest=74051,
         npc=193232,
-        loot={},
+        loot={
+            200757, -- Qalashi War-Helm
+            200169, -- Protector's Molten Cudgel
+            {197005, quest=69205}, -- Cliffside Wylderdrake: Horned Nose
+            {197019, quest=69219}, -- Cliffside Wylderdrake: Blunt Spiked Tail
+        },
+        vignette=5512,
     },
     [32215221] = { -- Morchok
         criteria=56988,

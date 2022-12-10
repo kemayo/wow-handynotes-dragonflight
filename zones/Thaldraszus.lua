@@ -317,6 +317,7 @@ ns.RegisterPoints(MAPID, {
             -- 200122, -- Temporal Spyglass
             200182, -- Riveted Drape
             200292, -- Cragforge Pauldrons
+            200163, -- Ring of Embers
         },
         vignette=5239,
     },
