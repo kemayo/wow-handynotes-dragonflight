@@ -102,6 +102,17 @@ ns.RegisterPoints(MAPID, {
         note="{item:191122:Fullsails Supply Chest Key} drops from {npc:187971} or {npc:187320} south of Wingrest Embassy",
         vignette=5046,
     },
+    [23246049] = { -- Continuing Veritistrasz's story
+        label="{item:198661:Partially Destroyed Diary}",
+        achievement=16406,
+        criteria=55245,
+        quest=70268, -- Memories Revived
+        onquest=true,
+        loot={198661}, -- Partially Destroyed Diary
+        -- hide_before=ns.conditions.QuestComplete(70132), -- Stay a While
+        atlas="profession", minimap=true,
+        path=27176090,
+    },
 })
 
 -- Rares
