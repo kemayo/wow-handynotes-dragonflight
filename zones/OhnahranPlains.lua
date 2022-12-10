@@ -135,7 +135,7 @@ ns.RegisterPoints(MAPID, {
 ns.RegisterPoints(MAPID, {
     [56127701] = {
         npc=190014, -- Initiate Radiya
-        quest=71195, --todo: generic-daily?
+        quest={71195, 71203, any=true}, -- 71203 is the daily
         progress={71196, 71197, 71198, 71199, 71195},
         loot={
             {192799, mount=1639}, -- Lizi's Reins
