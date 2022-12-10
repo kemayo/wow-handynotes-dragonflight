@@ -6,11 +6,11 @@ Waking Shores continent: 7343
 Waking Shores: 7092 @ 68906680
 Azure Span continent: 7345
 Ohn'Ahran Plains: 7053 @ 82202030
-Ohn'Ahran Plains: 7089 @ 61005330
+Ohn'Ahran Plains: 7089 @ 61005330 (70002 / 70519?)
 Ohn'Ahran Plains: 7090 @ 81104940 (71137?)
 Ohn'Ahran Plains: 7091 @ 54401840 (/ Waking Shores 23909520)
 
-Grand hunt spoils: 200468 (epic), 200513 (rare)
+Grand hunt spoils: 200468 (epic), 200513 (rare), 200515 (uncommon), 200516 (common)
 {194089, quest=71046}, -- Bakar Companion Color: Orange
 {194095, quest=71052}, -- Ohuna Companion Color: Sepia
 
@@ -71,6 +71,18 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         npc=194608,
         loot={},
         vignette=5276,
+    },
+    [57554763] = { -- Ergburk
+        quest=73914,
+        npc=194409,
+        loot={},
+        vignette=5270,
+    },
+    [55765070] = { -- Rokzul
+        quest=73930,
+        npc=194458,
+        note="In cave",
+        vignette=5274,
     },
 }, hunt)
 
