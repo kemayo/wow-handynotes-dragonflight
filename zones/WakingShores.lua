@@ -133,6 +133,7 @@ ns.RegisterPoints(MAPID, {
             [46923071] = drink{label="{item:198045}", inbag=198045}, -- Slam Bam Swill
             -- only after:
             [35934792] = drink{label="{item:197738}", inbag=197738, note="Complete {npc:185627:Ingot}'s quests first"}, -- Flameslinger Rum
+            [39454833] = drink{label="{npc:185627}", quest=65691, note="Complete this questline to unlock {npc:193310:Dealer Vexil}"}, -- Ingot, if you've not completed The Shadow of His Wings
             [39303832] = drink{label="{item:197737}", inbag=197737, note="In shipwreck"}, -- Popfizz Punch
             [25705514] = drink{label="{item:198043}", inbag=198043, note="Buy from {npc:188349:Outfitter Tipech}"}, --Stealthy Elven Port
             [43106730] = drink{label="{item:197739}", inbag=197739, note="Buy from {npc:186752:Firstmate Kaleson}"}, -- Happy Trigger Sour
