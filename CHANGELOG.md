@@ -1,5 +1,15 @@
 # Changelog
 
+## Changed in v30
+
+* Add the S.E.L.F.I.E. achievements: Framing a New Perspective, and That's Pretty Neat!
+* Explain the Ancient Protector's summoning method
+* Profession knowledge: Engineering and Leatherworking, thanks to InvisiBill!
+* Note where to find the book to continue Veritistrasz's story
+* Waking Shores: A Dragon's Day Off hidden quest
+* A few more rare quests and loot
+* Actually embed Krowi_WorldMapButtons-1.4 since it's spreading (this means I'll play better with Rarescanner's icon, since it loaded after me)
+
 ## Changed in v29
 
 * Give the known ["super rares"](https://www.wowhead.com/news/defeat-super-rares-each-day-for-up-to-385-item-level-gear-330298) a distinctive icon and a note explaining the concept
