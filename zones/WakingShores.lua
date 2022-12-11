@@ -486,21 +486,28 @@ ns.RegisterPoints(MAPID, {
         path=48457426,
         vignette=5381,
     },
-    [84163456] = { -- Slurpo, the Incredible Snail
+    [34628978] = { -- Slurpo, the Incredible Snail
+        -- at ~65001620 in Ohn'ahran...
         criteria=57003,
         quest=72126,
         npc=193175,
         loot={},
         vignette=5384,
+        note="Bring {item:201033:Magical Salt Crystal} from Azure Span and throw into the pool to spawn; this only works when the pool is full of baby snails",
+        path=36048985,
     },
 }, {
     achievement=16676, -- Adventurer
 })
--- The super-rares
-ns.RegisterPoints(MAPID, {
-
-}, {
-
+ns.RegisterPoints(ns.AZURESPAN, {
+    [11614107] = { -- Salt Crystal for Slurpo
+        achievement=16676, -- Adventurer
+        criteria=57003,
+        loot={201033}, -- Magical Salt Crystal
+        note="In the corner of the cave; take to Waking Shores to spawn {npc:193175}",
+        atlas="AzeriteSpawning", minimap=true,
+        path=11024139,
+    },
 })
 -- Drakewing
 local drakewing = {
