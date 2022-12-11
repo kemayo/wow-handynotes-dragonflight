@@ -202,12 +202,12 @@ ns.RegisterPoints(MAPID, {
     },
     [36323583] = { -- Mahg the Trampler
         criteria=56109,
-        quest=nil,
+        quest=73883,
         npc=190244,
         loot={
             200157, -- Pathmaker
+            {197149, quest=69350}, -- Highland Drake: Club Tail
         },
-        route={36323583, 46004100, r=0, g=1, b=0}, -- verify
         minimap=true,
     },
     [26804940] = { -- Skag the Thrower

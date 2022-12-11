@@ -496,6 +496,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5384,
         note="Bring {item:201033:Magical Salt Crystal} from Azure Span and throw into the pool to spawn; this only works when the pool is full of baby snails",
         path=36048985,
+        minimap=true,
     },
 }, {
     achievement=16676, -- Adventurer
