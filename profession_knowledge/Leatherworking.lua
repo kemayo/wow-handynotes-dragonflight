@@ -23,7 +23,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
         loot = {
             198667, -- Spare Djardin Tools
         },
-        quest = nil,
+        quest = 70280,
     },
 }, dflwknowledge)
 
@@ -33,7 +33,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         loot = {
             198696, -- Wind-Blessed Hide
         },
-        quest = nil,
+        quest = 70300,
     },
 }, dflwknowledge)
 
@@ -43,7 +43,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
         loot = {
             201018, -- Well-Danced Drum
         },
-        quest = nil,
+        quest = 70269,
     },
     [16703880] = {
         note = "North of Iskaara, in the barrel in a gnoll camp.",
@@ -57,7 +57,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
         loot = {
             198683, -- Treated Hides
         },
-        quest = nil,
+        quest = 70286,
     },
 }, dflwknowledge)
 
@@ -67,6 +67,6 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         loot = {
             198690, -- Decayed Scales
         },
-        quest = nil,
+        quest = 70294,
     },
 }, dflwknowledge)
