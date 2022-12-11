@@ -113,6 +113,31 @@ ns.RegisterPoints(MAPID, {
         atlas="profession", minimap=true,
         path=27176090,
     },
+    [20163958] = { -- A Dragon's Day Off
+        label="{quest:65875}",
+        quest=65875,
+        loot={{198622, pet=3342}}, -- Spyragos
+        hide_before=ns.conditions.QuestComplete(66057), -- restoring the faith, end of Wrathion's questline in zone
+        note="Wait for {npc:196000:Vazallia} to land, then fetch booze for her",
+        atlas="EmberCourt-32x32", minimap=true,
+    }
+})
+ns.RegisterPoints(MAPID, {
+    -- available before the quest starts:
+    [63247992] = {label="{item:195543}"}, -- Riptide Brew
+    [46923071] = {label="{item:198045}"}, -- Slam Bam Swill
+    -- only after:
+    [35934792] = {label="{item:197738}", note="Complete {npc:185627:Ingot}'s quests first"}, -- Flameslinger Rum
+    [39303832] = {label="{item:197737}", note="In shipwreck"}, -- Popfizz Punch
+    [25705514] = {label="{item:198043}", note="Buy from {npc:188349:Outfitter Tipech}"}, --Stealthy Elven Port
+    [43106730] = {label="{item:197739}", note="Buy from {npc:186752:Firstmate Kaleson}"}, -- Happy Trigger Sour
+    [76184290] = {label="{item:198044}", note="Buy {item:198047} from {npc:186454:Kora Fullsails} to throw at {npc:187494:Rampaging Wind}"}, -- Whirlwind Wine
+    -- for the previous:
+    [43106732] = {label="{item:198047}", note="Buy from {npc:186454:Kora Fullsails} to throw at {npc:187494:Rampaging Wind}"}, -- Kul Tiran Red
+}, {
+    atlas="EmberCourt-32x32",
+    requires=ns.conditions.OnQuest(65875), -- A Dragon's Day Off
+    -- route=20163958,
 })
 
 -- Rares
