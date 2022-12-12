@@ -321,7 +321,7 @@ ns.RegisterPoints(MAPID, {
         note="Spawns after Dragonbane Keep event",
     },
     [64456922] = { -- Possessive Hornswog
-        criteria=56051,
+        criteria=57852,
         quest=67048, -- 70864 for cave-access
         npc=192362,
         loot={
@@ -571,14 +571,16 @@ ns.RegisterPoints(MAPID, {
         vignette=5127,
     },
     [77602220] = { -- Ancient Hornswog
-        quest=66076, -- verify; vignette
+        quest=72835, -- 66076
         npc=187111,
         loot={
+            {196976, quest=69176}, -- Cliffside Wylderdrake: Head Mane
             {196992, quest=69192}, -- Cliffside Wylderdrake: Heavy Horns
             {197403, quest=69604}, -- Renewed Proto-Drake: Club Tail
             {200249, toy=true}, -- Mage's Chewed Wand
             200442, -- Basilisk Hide Jerkin
         },
+        note="In cave",
         vignette=5057,
     },
     [46715715] = { -- Monsoo, The Boiling Rage
