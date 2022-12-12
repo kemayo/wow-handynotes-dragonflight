@@ -9,7 +9,8 @@ Ohn'Ahran Plains: 7089 @ 61005330 (70002 / 70519?)
 Ohn'Ahran Plains: 7090 @ 81104940 (71137?)
 Ohn'Ahran Plains: 7091 @ 54401840 (/ Waking Shores 23909520)
 Azure Span continent: 7345
-Azure Span: 7096 @ 68505370
+Azure Span: 7094 @ 38603540
+Azure Span: 7096 @ 68505370 (70006)
 
 Grand hunt spoils: 200468 (epic), 200513 (rare), 200515 (uncommon), 200516 (common)
 {194089, quest=71046}, -- Bakar Companion Color: Orange
@@ -92,4 +93,13 @@ ns.RegisterPoints(ns.AZURESPAN, {
         npc=194761,
         quest=73922,
     },
+    [66035180] = { -- Yamakh
+        npc=195283,
+        quest=73947,
+        loot={
+            200193, -- Manafrond Sandals
+        },
+        vignette=5359,
+    },
+
 }, hunt)

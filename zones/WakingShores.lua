@@ -474,9 +474,9 @@ ns.RegisterPoints(MAPID, {
         vignette=5388, -- 5119 for "Morchock Reformed"?
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [47297386] = { -- Shadeslash Trakken
+    [46987332] = { -- Shadeslash Trakken
         criteria=56989,
-        quest=70719,
+        quest=74076, -- 70719
         npc=193271,
         loot={
             200297, -- Hastily Cobbled Maul
@@ -485,16 +485,19 @@ ns.RegisterPoints(MAPID, {
         },
         note="Use the three Pilfered objects inside the cave to summon",
         path=48457426,
+        nearby={47727445, 46857355, }, -- TODO: last one
         vignette=5381,
     },
     [34628978] = { -- Slurpo, the Incredible Snail
         -- at ~65001620 in Ohn'ahran...
         criteria=57003,
-        quest=72126,
+        quest=74079, -- 72126
         npc=193175,
-        loot={},
+        loot={
+            200189, -- Hydroforged Shell Helm
+        },
         vignette=5384,
-        note="Bring {item:201033:Magical Salt Crystal} from Azure Span and throw into the pool to spawn; this only works when the pool is full of baby snails",
+        note="Bring {item:201033:Magical Salt Crystal} from Azure Span and {spell:392947:Toss Salt} to spawn; this only works when the pool is full of {npc:198216:Unsalted Water Snail}",
         path=36048985,
         minimap=true,
     },
@@ -506,6 +509,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
         achievement=16676, -- Adventurer
         criteria=57003,
         loot={201033}, -- Magical Salt Crystal
+        inbag=201033,
         note="In the corner of the cave; take to Waking Shores to spawn {npc:193175}",
         atlas="AzeriteSpawning", minimap=true,
         path=11024139,

@@ -434,7 +434,7 @@ ns.RegisterPoints(MAPID, {
     },
     [80413867] = { -- Irontree
         criteria=56084,
-        quest=66356,
+        quest=73967, -- 66356
         npc=188124,
         loot={},
         vignette=5078,

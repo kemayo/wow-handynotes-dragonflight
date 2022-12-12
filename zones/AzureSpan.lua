@@ -343,7 +343,7 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5184,
     },
-    [54803420] = { -- Spellwrought Snowman
+    [55043408] = { -- Spellwrought Snowman
         criteria=56124,
         quest=74082, -- 69879 on vignette, didn't actually trigger?
         npc=193238,
