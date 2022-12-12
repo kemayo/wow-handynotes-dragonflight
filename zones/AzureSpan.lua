@@ -2,6 +2,11 @@ local myname, ns = ...
 
 local MAPID = ns.AZURESPAN -- Azure Span
 
+-- heart of the deck (66846), in case it becomes relevant later...
+-- 66992 dragon
+-- 66983 life-giver
+-- 66995 adaptive
+
 ns.RegisterPoints(MAPID, {
     -- https://www.wowhead.com/beta/achievement=16300/treasures-of-the-azure-span
     [45135939] = { -- Forgotten Jewel Box
@@ -457,7 +462,7 @@ ns.RegisterPoints(MAPID, {
     },
     [38185903] = { -- Forgotten Creation
         npc=193214,
-        quest=72840,
+        quest=69864, -- 72840
         loot={
             200210, -- Amnesia
             200758, -- Breastplate of Storied Antiquity

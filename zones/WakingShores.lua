@@ -375,7 +375,7 @@ ns.RegisterPoints(MAPID, {
         loot={},
         note="In the Fluttering Cavern",
         vignette=5209, -- Resplendent Shimmerwing
-        path=35228165,
+        path=35808453,
     },
     [30915494] = ns.SUPERRARE{ -- Cauldronbearer Blakor
         -- also 25825982?

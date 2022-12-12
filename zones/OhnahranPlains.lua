@@ -76,6 +76,7 @@ ns.RegisterPoints(MAPID, {
         quest=71033,
         label="Water-Bound Chest",
         loot={
+            197948, -- Stone Sentinel's Greatsword
             197955, -- Sword of the Eternal Guard
         },
         note="Survive the trial of the elements",
