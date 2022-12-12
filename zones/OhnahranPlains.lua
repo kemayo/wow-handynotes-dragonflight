@@ -155,7 +155,7 @@ ns.RegisterPoints(MAPID, {
                 q(71196, "Day 1") ..": 20x {item:192615} from insects\n"..
                 q(71197, "Day 2") ..": 20x {item:192658} from plant mobs\n"..
                 q(71198, "Day 3") ..": 10x {item:194966} from fishing\n"..
-                q(71199, "Day 4") ..": 10x {item:192636} from animals\n"..
+                q(71199, "Day 4") ..": 20x {item:192636} from animals\n"..
                 q(71195, "Day 5") ..": 1x {item:200598} from {npc:190015:Ohn Meluun}"
         end,
         related={
