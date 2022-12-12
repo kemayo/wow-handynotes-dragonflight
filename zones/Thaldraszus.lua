@@ -87,10 +87,10 @@ ns.RegisterPoints(MAPID, {
             200760, -- Unstable Arcane Cell
         },
     },
-    [31737253] = { -- Blightpaw the Depraved
-        -- overlaps a bit with plains @ 90204020
+    [31107120] = { -- Blightpaw the Depraved
+        -- overlaps a bit with plains @ 90454003
         criteria=56136,
-        quest=73869,
+        quest=73869, -- also 74096
         npc=193128,
         loot={
             {200178, toy=true}, -- Infected Ichor
@@ -102,7 +102,7 @@ ns.RegisterPoints(MAPID, {
             200127, -- Gold-Alloy Blade
             200432, -- Rotguard Cowl
         },
-        note="Talk to {npc:193222:Archaeologist Koranir} to spawn. Also spawns with {npc:193231:Ancient Tundrafur}. Casts a curse as well.",
+        note="Talk to {npc:193222:Archaeologist Koranir} to engage, along with {npc:193231:Ancient Tundrafur}",
     },
     [38107820] = { -- Pleasant Alpha
         criteria=56137,
