@@ -259,7 +259,7 @@ ns.RegisterPoints(MAPID, {
         loot={
             {200999, toy=true,}, -- The Super Shellkhan Gang
         },
-        note="Bring a {item:200949:Case of Fresh Gleamfish} from 45.6, 54.8 in Azure Span",
+        note="Bring a {item:200949:Case of Fresh Gleamfish} from 45.6, 54.8 in Azure Span and give it to {npc:191416:Patient Vaargo}; other quests in the area might interfere with this",
         vignette=5439,
         route={38436824, 32009999, highlightOnly=true},
     },
