@@ -11,6 +11,8 @@ Ohn'Ahran Plains: 7091 @ 54401840 (/ Waking Shores 23909520)
 Azure Span continent: 7345
 Azure Span: 7094 @ 38603540
 Azure Span: 7096 @ 68505370 (70006)
+Thaldraszus continent: 7344
+Thaldraszus: 7097 @ 34406750
 
 Grand hunt spoils: 200468 (epic), 200513 (rare), 200515 (uncommon), 200516 (common)
 {194089, quest=71046}, -- Bakar Companion Color: Orange

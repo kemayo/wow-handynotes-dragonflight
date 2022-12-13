@@ -497,7 +497,7 @@ ns.RegisterPoints(MAPID, {
             200189, -- Hydroforged Shell Helm
         },
         vignette=5384,
-        note="Bring {item:201033:Magical Salt Crystal} from Azure Span and {spell:392947:Toss Salt} to spawn; this only works when the pool is full of {npc:198216:Unsalted Water Snail}",
+        note="Bring {item:201033:Magical Salt Crystal} from Azure Span @ 11.6 41.0 and {spell:392947:Toss Salt} to spawn; this only works when the pool is full of {npc:198216:Unsalted Water Snail}",
         path=36048985,
         minimap=true,
     },
@@ -508,6 +508,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
     [11614107] = { -- Salt Crystal for Slurpo
         achievement=16676, -- Adventurer
         criteria=57003,
+        quest=74079, -- 72126
         loot={201033}, -- Magical Salt Crystal
         inbag=201033,
         note="In the corner of the cave; take to Waking Shores to spawn {npc:193175}",

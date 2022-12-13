@@ -52,9 +52,11 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [81103757] = {note="In cave"}, -- bugged?
     [82814024] = {},
     [83083330] = {},
+    [83184162] = {},
     [83253607] = {},
 }, dirt)
 ns.RegisterPoints(ns.AZURESPAN, {
+    [06174151] = {},
     [15422052] = {},
     [15922084] = {},
     [20052526] = {},
