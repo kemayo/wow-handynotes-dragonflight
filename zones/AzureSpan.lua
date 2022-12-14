@@ -137,15 +137,15 @@ ns.RegisterPoints(MAPID, {
         npc=198004,
         loot={},
     },
-    --[[
-    [] = { -- Frostpaw
+    [58204380] = { -- Frostpaw
         criteria=56101,
         quest=67148,
         npc=191356,
         loot={},
         vignette=5153,
+        note="Use the hammer nearby to smash the toys",
+        nearby={58664340, label="Wooden Hammer"},
     },
-    --]]
     [57685441] = { -- Mucka the Raker
         -- ...very prone to resetting+evading and healing to full
         criteria=56102,
@@ -155,15 +155,20 @@ ns.RegisterPoints(MAPID, {
             {200249, toy=true}, -- Mage's Chewed Wand
         },
     },
-    --[[
-    [] = { -- Brackle
+    [08804860] = { -- Brackle
         criteria=56103,
         quest=70165,
         npc=194392,
-        loot={},
+        loot={
+            {197589, quest=69793}, -- Windborne Velocidrake: Large Head Fin
+            {197022, quest=69222}, -- Cliffside Wylderdrake: Finned Neck
+            200448, -- Abyssal Ward
+            200435, -- Brackish Breeches
+            200151, -- Seamist Blade
+            200552, -- Torrent Caller's Shell
+        },
         vignette=5269,
     },
-    --]]
     [64792998] = { -- Frigidpelt Den Mother
         criteria=56104,
         quest=69985,
@@ -291,40 +296,12 @@ ns.RegisterPoints(MAPID, {
             [49223842] = {label="{item:385047:Old Harpoon}", note="Click this Third! {npc:193691: Fisherman Tinnak's Ghost} spawns closely nearby.",},
         },
     },
-    --[[
-    [] = { -- Snufflegust
-        criteria=56116,
-        quest=nil,
-        npc=193706,
-        loot={},
-    },
-    --]]
     [33806440] = { -- Skald the Impaler
         criteria=56117,
         quest=nil,
         npc=193708,
         loot={},
     },
-    --[[
-    [] = { -- Moth'go Deeploom
-        criteria=56119,
-        quest=nil,
-        npc=193735,
-        loot={},
-    },
-    [] = { -- Swog'ranka
-        criteria=56120,
-        quest=nil,
-        npc=193634,
-        loot={},
-    },
-    [] = { -- Swagraal the Swollen
-        criteria=56121,
-        quest=nil,
-        npc=193167,
-        loot={},
-    },
-    --]]
     [13604860] = { -- Bisquius
         -- also get achievement 16444, Leftovers' Revenge
         criteria=55381,
@@ -430,8 +407,40 @@ ns.RegisterPoints(MAPID, {
         note="On ~10 minute rotation with the other Brackenhide Hollow rares ({npc:197344}, {npc:197353}, {npc:197354}, {npc:197356})",
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
+    -- Lunker rares
+    -- Needs Iskaara 5 to actually summon
+    -- TODO: split these out somewhere
+    [58763255] = { -- Snufflegust
+        criteria=56116,
+        quest=nil,
+        npc=193706,
+        loot={
+            {197098, quest=69299}, -- Highland Drake: Finned Back
+            200245, -- Leviathan Lure
+        },
+        note="Summon with {item:194701:Ominous Conch}",
+    },
     --[[
-    [] = { -- Ravenous Tundra Bear
+    [] = { -- Moth'go Deeploom
+        criteria=56119,
+        quest=nil,
+        npc=193735,
+        loot={},
+    },
+    [] = { -- Swog'ranka
+        criteria=56120,
+        quest=nil,
+        npc=193634,
+        loot={},
+    },
+    [] = { -- Swagraal the Swollen
+        -- not certain this is a lunker rare, as wowhead has never seen it
+        criteria=56121,
+        quest=nil,
+        npc=193167,
+        loot={},
+    },
+    [58803260] = { -- Ravenous Tundra Bear
         criteria=56129,
         quest=nil,
         npc=197371,

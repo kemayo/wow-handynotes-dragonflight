@@ -285,8 +285,7 @@ ns.RegisterPoints(MAPID, {
             189055, -- Ghendish's Backup Talisman
         },
     },
-    --[[
-    [] = { -- Researcher Sneakwing
+    [37005400] = { -- Researcher Sneakwing
         criteria=56069,
         quest=70689,
         npc=196010,
@@ -294,7 +293,6 @@ ns.RegisterPoints(MAPID, {
         vignette=5378,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --]]
     [62987932] = { -- Mikrin of the Raging Winds
         criteria=56070,
         quest=69857,
@@ -305,8 +303,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5183,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --[[
-    [] = { -- Ronsak the Decimator
+    [43805560] = { -- Ronsak the Decimator
         criteria=56071,
         quest=69878,
         npc=193227,
@@ -314,7 +311,6 @@ ns.RegisterPoints(MAPID, {
         vignette=5205,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --]]
     [53627281] = { -- Steamgill
         criteria=56072,
         quest=69667,
@@ -485,22 +481,13 @@ ns.RegisterPoints(MAPID, {
         loot={},
         vignette=5143, -- Vaniik the Corrupted
     },
-    --[[
-    [] = { -- Quackers the Terrible
-        criteria=56091,
-        quest=nil,
-        npc=192557,
-        loot={},
-        vignette=5144,
-    },
-    [] = { -- Cinta the Forgotten
+    [31607660] = { -- Cinta the Forgotten
         criteria=56092,
         quest=nil,
         npc=195186,
         loot={},
         vignette=5351,
     },
-    --]]
     [42804428] = { -- Rustlily
         criteria=56093,
         quest=nil,
@@ -515,13 +502,23 @@ ns.RegisterPoints(MAPID, {
         vignette=5365,
     },
     --[[
+    [] = { -- Quackers the Terrible
+        -- Spawns during the Aylaag Caravan escort from Eaglewatch Outpost to Aylaag Outpost
+        criteria=56091,
+        quest=nil,
+        npc=192557,
+        loot={},
+        vignette=5144,
+    },
     [] = { -- The Great Enla
+        -- Spawns during the Aylaag Caravan escort from Eaglewatch Outpost to Aylaag Outpost
         criteria=56095,
         quest=nil,
         npc=196334,
         loot={},
     },
     [] = { -- Old Stormhide
+        -- Spawns during the Aylaag Caravan escort from Eaglewatch Outpost to Aylaag Outpost
         criteria=56096,
         quest=nil,
         npc=196350,

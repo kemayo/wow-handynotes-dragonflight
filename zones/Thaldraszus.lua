@@ -155,8 +155,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5192,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --[[
-    [] = { -- Tempestrian
+    [49207980] = { -- Tempestrian
         criteria=56144,
         quest=69886,
         npc=193258,
@@ -164,7 +163,6 @@ ns.RegisterPoints(MAPID, {
         vignette=5207,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --]]
     [35027001] = { -- Treasure-Mad Trambladd
         criteria=56146,
         quest=70947,
@@ -183,8 +181,7 @@ ns.RegisterPoints(MAPID, {
         vignette=5198,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --[[
-    [] = { -- Riverwalker Tamopo
+    [39807000] = { -- Riverwalker Tamopo
         criteria=56148,
         quest=69880,
         npc=193240,
@@ -192,7 +189,6 @@ ns.RegisterPoints(MAPID, {
         vignette=5201,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    --]]
     [59607012] = { -- Broodweaver Araznae
         criteria=56149,
         quest=69868,
