@@ -189,9 +189,9 @@ ns.RegisterPoints(MAPID, {
         },
         vignette=5189,
     },
-    [34053080] = { -- Notfar the Unbearable
+    [20674974] = { -- Notfar the Unbearable
         criteria=56107,
-        quest=nil,
+        quest=73887,
         npc=193225,
         loot={},
         note="In cave",
@@ -439,16 +439,6 @@ ns.RegisterPoints(MAPID, {
     --]]
 }, {
     achievement=16678, -- Adventurer
-})
-ns.RegisterPoints(2132, { -- Kargpaw's Den
-    [36803580] = { -- Notfar the Unbearable
-        -- or 46603980?
-        achievement=16678, -- Adventurer
-        criteria=56107,
-        quest=nil,
-        npc=193225,
-        loot={},
-    },
 })
 ns.RegisterPoints(MAPID, {
     [23443327] = { -- Cascade
