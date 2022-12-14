@@ -4,7 +4,8 @@ local myname, ns = ...
 
 local repchest = ns.nodeMaker{
     -- loot={200071}, -- Sacred Tuskarr Totem
-    -- requires=ns.conditions.MajorFaction(ns.FACTION_ISKAARA, 5),
+    -- not actually sure this is required to see the chests, and you can definitely get them before quest 70936 "unlocks" them...
+    -- requires=ns.conditions.MajorFaction(ns.FACTION_ISKAARA, 2),
     texture=ns.atlas_texture("VignetteLoot", {r=0.5, g=0.5, b=1, scale=0.9}),
     minimap=true,
     note="Bring to {npc:186448:Elder Poa} for rep",

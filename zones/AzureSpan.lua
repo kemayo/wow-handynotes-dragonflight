@@ -114,7 +114,7 @@ ns.RegisterPoints(MAPID, {
     },
     [27804580] = { -- Dragonhunter Gorund
         criteria=56098,
-        quest=nil,
+        quest=73873,
         npc=193157,
         loot={
             200302, -- Magmaforged Scimitar
