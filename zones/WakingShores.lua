@@ -113,6 +113,15 @@ ns.RegisterPoints(MAPID, {
         atlas="profession", minimap=true,
         path=27176090,
     },
+    [71202540] = { -- Magmashell mount
+        label="{npc:199010:Empowered Snail}",
+        loot={{192777, mount=1469}}, -- Magmashell
+        note="Bring a {item:201883:Empty Magma Shell} dropped by {npc:186623:Lavaslurper}, and channel it for 16 seconds in the lava",
+        related={
+            [22607160] = {label="{npc:186623:Lavaslurper}", note="Drops a {item:201883:Empty Magma Shell} that you should take to {npc:199010:Empowered Snail}"},
+        },
+        atlas="stablemaster", minimap=true,
+    }
 })
 local drink = ns.nodeMaker{
     atlas="EmberCourt-32x32",
