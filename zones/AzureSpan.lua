@@ -328,10 +328,11 @@ ns.RegisterPoints(MAPID, {
     [13604860] = { -- Bisquius
         -- also get achievement 16444, Leftovers' Revenge
         criteria=55381,
-        quest=nil,
+        quest=74097,
         npc=197557,
         loot={
-            200882,
+            200882, -- Big Kinook's Spare Ladle
+            200247, -- Inextinguishable Gavel
         },
         note="Complete {spell:388961:Community Feasts}",
     },
