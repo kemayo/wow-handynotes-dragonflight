@@ -29,6 +29,7 @@ zones\WakingShores.lua
 
 shared\ExpeditionScoutsPack.lua
 shared\DisturbedDirt.lua
+shared\TuskarrChests.lua
 shared\WarSupplyChest.lua
 shared\GrandHunts.lua
 

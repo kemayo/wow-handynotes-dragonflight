@@ -35,12 +35,14 @@ ns.hiddenConfig = {}
 ns.defaults.profile.groupsHidden = {
     scoutpack = true,
     disturbeddirt = true,
+    tuskarrchests = true,
     warsupply = true,
 }
 
 ns.groups["junk"] = BAG_FILTER_JUNK
 ns.groups["scoutpack"] = "Expedition Scout's Pack"
 ns.groups["disturbeddirt"] = "{spell:340561:Disturbed Dirt}"
+ns.groups["tuskarrchests"] = "{item:200071:Sacred Tuskarr Totem}"
 ns.groups["warsupply"] = "War Supply Chest"
 ns.groups["glyphs"] = "Dragon Glyphs"
 ns.groups["dailymount"] = "Daily Mounts"
