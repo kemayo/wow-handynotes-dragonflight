@@ -9,7 +9,7 @@ Ohn'Ahran Plains: 7089 @ 61005330 (70002 / 70519?)
 Ohn'Ahran Plains: 7090 @ 81104940 (71137?)
 Ohn'Ahran Plains: 7091 @ 54401840 (/ Waking Shores 23909520)
 Azure Span continent: 7345
-Azure Span: 7094 @ 38603540
+Azure Span: 7094 @ 38603540 (70004 / 70906?)
 Azure Span: 7096 @ 68505370 (70006)
 Thaldraszus continent: 7344
 Thaldraszus: 7097 @ 34406750
@@ -91,9 +91,10 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
 }, hunt)
 
 ns.RegisterPoints(ns.AZURESPAN, {
-    [38654365] = { -- Khuumog
+    [38634371] = { -- Khuumog
         npc=194761,
         quest=73922,
+        vignette=5282,
     },
     [66035180] = { -- Yamakh
         npc=195283,
@@ -102,6 +103,14 @@ ns.RegisterPoints(ns.AZURESPAN, {
             200193, -- Manafrond Sandals
         },
         vignette=5359,
+    },
+    [36733726] = { -- Uurhilt
+        npc=194760,
+        quest=73944,
+        loot={
+            200131, -- Reclaimed Survivalist's Dagger
+        },
+        vignette=5281,
     },
 
 }, hunt)
