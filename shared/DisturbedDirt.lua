@@ -70,6 +70,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
     [65163016] = {note="In cave"},
     [65193152] = {},
     [68301743] = {},
+    [72344323] = {note="In cave"},
     [78923703] = {},
 }, dirt)
 ns.RegisterPoints(ns.THALDRASZUS, {
@@ -80,4 +81,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     [50278321] = {},
     [61057953] = {},
     [62296972] = {},
+}, dirt)
+ns.RegisterPoints(ns.VALDRAKKEN, {
+    [13206380] = {parent=true,},
 }, dirt)
