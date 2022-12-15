@@ -87,7 +87,7 @@ ns.RegisterPoints(ns.VALDRAKKEN, {
         loot = {
             198669, -- How to Train Your Whelpling
         },
-        quest = nil, -- couldn't actually loot this on 20221202
+        quest = 70281,
         vignette = 5305, -- How to Train Your Whelpling
         parent = true,
     },
