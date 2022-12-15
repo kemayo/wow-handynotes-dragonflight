@@ -161,7 +161,13 @@ ns.RegisterPoints(MAPID, {
         quest=70718, -- didn't actually trigger?
         npc=196056,
         loot={
-            {197098, quest=69299}, -- Highland Drake: Finned Back
+            {197001,quest=69201,}, -- Cliffside Wylderdrake: Finned Cheek
+            {197098,quest=69299,}, -- Highland Drake: Finned Back
+            200164, -- Iceloop
+            200187, -- Rod of Glacial Force
+            200245, -- Leviathan Lure
+            200552, -- Torrent Caller's Shell
+            200563, -- Primal Ritual Shell
         },
         vignette=5380,
     },
@@ -170,7 +176,13 @@ ns.RegisterPoints(MAPID, {
         quest=72103,
         npc=193256,
         loot={
+            {196985,quest=69185,}, -- Cliffside Wylderdrake: Horned Jaw
+            {196992,quest=69192,}, -- Cliffside Wylderdrake: Heavy Horns
+            {197382,quest=69583,}, -- Renewed Proto-Drake: White Horns
+            {197403,quest=69604,}, -- Renewed Proto-Drake: Club Tail
+            200158, -- Eerie Spectral Ring
             200236, -- Memory of Nulltheria
+            200310, -- Stole of the Iron Phantom
         },
         note="Top of the tower",
     },
@@ -178,7 +190,15 @@ ns.RegisterPoints(MAPID, {
         criteria=56035,
         quest=nil,
         npc=187945,
-        loot={},
+        loot={
+            {197001,quest=69201,}, -- Cliffside Wylderdrake: Finned Cheek
+            {197098,quest=69299,}, -- Highland Drake: Finned Back
+            200164, -- Iceloop
+            200187, -- Rod of Glacial Force
+            200245, -- Leviathan Lure
+            200552, -- Torrent Caller's Shell
+            200563, -- Primal Ritual Shell
+        },
         vignette=5069,
     },
     [39654122] = { -- Skewersnout
@@ -186,7 +206,16 @@ ns.RegisterPoints(MAPID, {
         quest=nil,
         npc=193181,
         loot={
+            {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
+            {197022,quest=69222,}, -- Cliffside Wylderdrake: Finned Neck
+            {197111,quest=69312,}, -- Highland Drake: Maned Head
+            {197589,quest=69793,}, -- Windborne Velocidrake: Large Head Fin
             200132, -- Skewer's Snout
+            200193, -- Manafrond Sandals
+            200232, -- Raptor Talonglaive
+            200445, -- Lucky Hunting Charm
+            200448, -- Abyssal Ward
+            200552, -- Torrent Caller's Shell
         },
     },
     [43427361] = { -- Helmet Missingway
@@ -203,8 +232,26 @@ ns.RegisterPoints(MAPID, {
         npc=192738,
         loot={
             -- this is somewhat consolidated with the entire war party
+            {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
+            {197111,quest=69312,}, -- Highland Drake: Maned Head
+            {197135,quest=69336,}, -- Highland Drake: Toothy Mouth
+            {197379,quest=69580,}, -- Renewed Proto-Drake: Impaler Horns
+            200131, -- Reclaimed Survivalist's Dagger
             200133, -- Volcanic Chakram
+            200163, -- Ring of Embers
+            200174, -- Bonesigil Shoulderguards
+            200186, -- Amberquill Shroud
+            200193, -- Manafrond Sandals
+            200195, -- Thunderscale Legguards
             200217, -- Blazing Essence
+            200232, -- Raptor Talonglaive
+            200247, -- Inextinguishable Gavel
+            {200249,toy=true,}, -- Mage's Chewed Wand
+            200252, -- Molten Flak Cannon
+            200442, -- Basilisk Hide Jerkin
+            200445, -- Lucky Hunting Charm
+            200563, -- Primal Ritual Shell
+            200859, -- Seasoned Hunter's Trophy
         },
         route={
             52906590, 53006650, 52006670, 51306660, 49606530, 48706530, 48436605, 47706890,
@@ -219,7 +266,21 @@ ns.RegisterPoints(MAPID, {
         criteria=56040,
         quest=69841,
         npc=193148,
-        loot={},
+        loot={
+            {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
+            {197111,quest=69312,}, -- Highland Drake: Maned Head
+            200131, -- Reclaimed Survivalist's Dagger
+            200174, -- Bonesigil Shoulderguards
+            200186, -- Amberquill Shroud
+            200193, -- Manafrond Sandals
+            200195, -- Thunderscale Legguards
+            200232, -- Raptor Talonglaive
+            {200249,toy=true,}, -- Mage's Chewed Wand
+            200442, -- Basilisk Hide Jerkin
+            200445, -- Lucky Hunting Charm
+            200563, -- Primal Ritual Shell
+            200859, -- Seasoned Hunter's Trophy
+        },
         vignette=5174,
     },
     [54897110] = { -- Azra's Prized Peony
@@ -227,7 +288,10 @@ ns.RegisterPoints(MAPID, {
         quest=69839,
         npc=193135,
         loot={
+            {197121,quest=69322,}, -- Highland Drake: Tan Horns
+            {197398,quest=69599,}, -- Renewed Proto-Drake: Snub Snout
             200229, -- Slightly Digested Leggings
+            200259, -- Forest Dweller's Shield
         },
         vignette=5172,
         -- hide_before=ns.MAXLEVEL, -- TODO
@@ -243,7 +307,11 @@ ns.RegisterPoints(MAPID, {
         quest=70983,
         npc=193118,
         loot={
+            {197022,quest=69222,}, -- Cliffside Wylderdrake: Finned Neck
+            {197589,quest=69793,}, -- Windborne Velocidrake: Large Head Fin
             200435, -- Brackish Breeches
+            200448, -- Abyssal Ward
+            200552, -- Torrent Caller's Shell
         },
         vignette=5167,
         -- hide_before=ns.MAXLEVEL, -- TODO
@@ -253,7 +321,13 @@ ns.RegisterPoints(MAPID, {
         quest=69668,
         npc=193120,
         loot={
+            {197379,quest=69580,}, -- Renewed Proto-Drake: Impaler Horns
+            200133, -- Volcanic Chakram
+            200193, -- Manafrond Sandals
             200209, -- Firebreather's Cowl
+            200217, -- Blazing Essence
+            200563, -- Primal Ritual Shell
+            200859, -- Seasoned Hunter's Trophy
         },
         vignette=5169,
         -- hide_before=ns.MAXLEVEL, -- TODO
@@ -263,7 +337,9 @@ ns.RegisterPoints(MAPID, {
         quest=69838,
         npc=193132,
         loot={
+            {196991,quest=69191,}, -- Cliffside Wylderdrake: Black Horns
             200156, -- Amethyzarite Geode
+            200246, -- Lost Delving Lamp
         },
         vignette=5171,
         -- hide_before=ns.MAXLEVEL, -- TODO
@@ -273,7 +349,20 @@ ns.RegisterPoints(MAPID, {
         criteria=56046,
         quest=70979,
         npc=186827,
-        loot={},
+        loot={
+            {197135,quest=69336,}, -- Highland Drake: Toothy Mouth
+            {197149,quest=69350,}, -- Highland Drake: Club Tail
+            {197379,quest=69580,}, -- Renewed Proto-Drake: Impaler Horns
+            {197608,quest=69812,}, -- Windborne Velocidrake: Gray Horns
+            200133, -- Volcanic Chakram
+            200163, -- Ring of Embers
+            200203, -- Repurposed Giant's Thimble
+            200217, -- Blazing Essence
+            200247, -- Inextinguishable Gavel
+            200252, -- Molten Flak Cannon
+            200563, -- Primal Ritual Shell
+            200684, -- Emerald Tailbone
+        },
         vignette=5116,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
@@ -282,8 +371,9 @@ ns.RegisterPoints(MAPID, {
         quest=69848,
         npc=193152,
         loot={
+            {197022,quest=69222,}, -- Cliffside Wylderdrake: Finned Neck
             200192, -- Handheld Geyser
-            200563, -- Primal Ritual Shell
+            200448, -- Abyssal Ward
         },
         vignette=5175,
         -- hide_before=ns.MAXLEVEL, -- TODO
@@ -293,7 +383,9 @@ ns.RegisterPoints(MAPID, {
         quest=72130, -- 73073
         npc=193154,
         loot={
-            {196985, quest=69185}, -- Cliffside Wylderdrake: Horned Jaw
+            {196985,quest=69185,}, -- Cliffside Wylderdrake: Horned Jaw
+            {197382,quest=69583,}, -- Renewed Proto-Drake: White Horns
+            200256, -- Darkmaul Soul Horn
             200858, -- Plume of the Forgotten
         },
         vignette=5383,
@@ -320,10 +412,11 @@ ns.RegisterPoints(MAPID, {
         quest=72127, -- 73075
         npc=193198,
         loot={
-            {197005, quest=69205}, -- Cliffside Wylderdrake: Horned Nose
-            {197019, quest=69219}, -- Cliffside Wylderdrake: Blunt Spiked Tail
-            200286, -- Dragonbane Lance
+            {197005,quest=69205,}, -- Cliffside Wylderdrake: Horned Nose
+            {197019,quest=69219,}, -- Cliffside Wylderdrake: Blunt Spiked Tail
             200169, -- Protector's Molten Cudgel
+            200286, -- Dragonbane Lance
+            200289, -- Valdrakken Accord Insignia
             200757, -- Qalashi War-Helm
         },
         vignette=5385,
@@ -351,7 +444,13 @@ ns.RegisterPoints(MAPID, {
         quest=70763,
         npc=186859,
         loot={
+            {197135,quest=69336,}, -- Highland Drake: Toothy Mouth
+            {197379,quest=69580,}, -- Renewed Proto-Drake: Impaler Horns
+            200133, -- Volcanic Chakram
+            200163, -- Ring of Embers
             200213, -- Lava-Splattered Breastplate
+            200252, -- Molten Flak Cannon
+            200563, -- Primal Ritual Shell
         },
         nearby={30005520, label="{npc:197395:Wurmling Bones}"},
         note="Gather 3x {item:191211:Wurmling Bones} from {npc:187366:Worldcarver Wurmling} then click on the {npc:197395:Wurmling Bones}",
@@ -372,7 +471,22 @@ ns.RegisterPoints(MAPID, {
         criteria=56054,
         quest=66903, -- check
         npc=189822,
-        loot={},
+        loot={
+            {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
+            {197111,quest=69312,}, -- Highland Drake: Maned Head
+            200131, -- Reclaimed Survivalist's Dagger
+            200174, -- Bonesigil Shoulderguards
+            200186, -- Amberquill Shroud
+            200193, -- Manafrond Sandals
+            200195, -- Thunderscale Legguards
+            200232, -- Raptor Talonglaive
+            {200249,toy=true,}, -- Mage's Chewed Wand
+            200442, -- Basilisk Hide Jerkin
+            200445, -- Lucky Hunting Charm
+            200447, -- Centaur Hunting Trophy
+            200563, -- Primal Ritual Shell
+            200859, -- Seasoned Hunter's Trophy
+        },
         note="Under the Obsidian Citadel. Give 20x{item:191264:Restored Obsidian Key} to {npc:186681:Wrathion} to trigger {quest:66903}",
         vignette=5108,
         -- hide_before=ns.MAXLEVEL, -- TODO
@@ -381,7 +495,18 @@ ns.RegisterPoints(MAPID, {
         criteria=56055,
         quest=69891,
         npc=193266,
-        loot={},
+        loot={
+            {197111,quest=69312,}, -- Highland Drake: Maned Head
+            200131, -- Reclaimed Survivalist's Dagger
+            200174, -- Bonesigil Shoulderguards
+            200186, -- Amberquill Shroud
+            200193, -- Manafrond Sandals
+            200232, -- Raptor Talonglaive
+            {200249,toy=true,}, -- Mage's Chewed Wand
+            200442, -- Basilisk Hide Jerkin
+            200445, -- Lucky Hunting Charm
+            200859, -- Seasoned Hunter's Trophy
+        },
         note="In the Fluttering Cavern",
         vignette=5209, -- Resplendent Shimmerwing
         path=35808453,
@@ -391,7 +516,12 @@ ns.RegisterPoints(MAPID, {
         criteria=56056,
         quest=74042,
         npc=186783,
-        loot={},
+        loot={
+            {197005,quest=69205,}, -- Cliffside Wylderdrake: Horned Nose
+            {197019,quest=69219,}, -- Cliffside Wylderdrake: Blunt Spiked Tail
+            200169, -- Protector's Molten Cudgel
+            200757, -- Qalashi War-Helm
+        },
         note="Patrols",
         vignette=5480,
     },
@@ -400,12 +530,12 @@ ns.RegisterPoints(MAPID, {
         quest=74052,
         npc=187598,
         loot={
-            200757, -- Qalashi War-Helm
-            200169, -- Protector's Molten Cudgel
             194503, -- Plans: Black Dragon Touched Hammer
             194508, -- Plans: Alvin the Anvil
-            {197005, quest=69205}, -- Cliffside Wylderdrake: Horned Nose
-            {197019, quest=69219}, -- Cliffside Wylderdrake: Blunt Spiked Tail
+            {197005,quest=69205,}, -- Cliffside Wylderdrake: Horned Nose
+            {197019,quest=69219,}, -- Cliffside Wylderdrake: Blunt Spiked Tail
+            200169, -- Protector's Molten Cudgel
+            200757, -- Qalashi War-Helm
         },
         vignette=5513,
     },
@@ -414,11 +544,12 @@ ns.RegisterPoints(MAPID, {
         quest=74054,
         npc=187886,
         loot={
-            200246, -- Lost Delving Lamp
+            {196991,quest=69191,}, -- Cliffside Wylderdrake: Black Horns
+            {197624,quest=69828,}, -- Windborne Velocidrake: Club Tail
             200244, -- Enchanted Muckstompers
+            200246, -- Lost Delving Lamp
+            200563, -- Primal Ritual Shell
             200683, -- Legguards of the Deep Strata
-            {196991, quest=69191}, -- Cliffside Wylderdrake: Black Horns
-            {197624, quest=69828}, -- Windborne Velocidrake: Club Tail
         },
         vignette=5109,
     },
@@ -427,13 +558,23 @@ ns.RegisterPoints(MAPID, {
         quest=74040,
         npc=190986,
         loot={
+            {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
+            {197135,quest=69336,}, -- Highland Drake: Toothy Mouth
+            {197379,quest=69580,}, -- Renewed Proto-Drake: Impaler Horns
+            200131, -- Reclaimed Survivalist's Dagger
+            200133, -- Volcanic Chakram
+            200163, -- Ring of Embers
+            200186, -- Amberquill Shroud
+            200193, -- Manafrond Sandals
+            200195, -- Thunderscale Legguards
+            200217, -- Blazing Essence
+            200232, -- Raptor Talonglaive
             200247, -- Inextinguishable Gavel
             200252, -- Molten Flak Cannon
-            200217, -- Blazing Essence
-            200163, -- Ring of Embers
-            200133, -- Volcanic Chakram
-            {197135, quest=69336}, -- Highland Drake: Toothy Mouth
-            {197379, quest=69580}, -- Renewed Proto-Drake: Impaler Horns
+            200442, -- Basilisk Hide Jerkin
+            200445, -- Lucky Hunting Charm
+            200563, -- Primal Ritual Shell
+            200859, -- Seasoned Hunter's Trophy
         },
         vignette=5112, -- and 5114
     },
@@ -442,20 +583,19 @@ ns.RegisterPoints(MAPID, {
         quest=74043,
         npc=190991,
         loot={
-            {200198, toy=true}, -- Primalist Prison
+            {196991,quest=69191,}, -- Cliffside Wylderdrake: Black Horns
+            {197383,quest=69584,}, -- Renewed Proto-Drake: Heavy Horns
+            {197602,quest=69806,}, -- Windborne Velocidrake: Cluster Horns
+            {197624,quest=69828,}, -- Windborne Velocidrake: Club Tail
+            {200198,toy=true,}, -- Primalist Prison
             200244, -- Enchanted Muckstompers
-            200683, -- Legguards of the Deep Strata
             200246, -- Lost Delving Lamp
             200292, -- Cragforge Pauldrons
+            200293, -- Primal Scion's Twinblade
             200313, -- Earthen Protoscale Drape
             200439, -- Earthpact Scepter
-            200293, -- Primal Scion's Twinblade
-            200199, -- Elements' Burden
-            200294, -- Primal Chain Hauberk
-            {196991, quest=69191}, -- Cliffside Wylderdrake: Black Horns
-            {197624, quest=69828}, -- Windborne Velocidrake: Club Tail
-            {197602, quest=69806}, -- Windborne Velocidrake: Cluster Horns
-            {197383, quest=69584}, -- Renewed Proto-Drake: Heavy Horns
+            200563, -- Primal Ritual Shell
+            200683, -- Legguards of the Deep Strata
         },
         vignette=5115,
     },
@@ -464,10 +604,10 @@ ns.RegisterPoints(MAPID, {
         quest=74051,
         npc=193232,
         loot={
-            200757, -- Qalashi War-Helm
+            {197005,quest=69205,}, -- Cliffside Wylderdrake: Horned Nose
+            {197019,quest=69219,}, -- Cliffside Wylderdrake: Blunt Spiked Tail
             200169, -- Protector's Molten Cudgel
-            {197005, quest=69205}, -- Cliffside Wylderdrake: Horned Nose
-            {197019, quest=69219}, -- Cliffside Wylderdrake: Blunt Spiked Tail
+            200757, -- Qalashi War-Helm
         },
         vignette=5512,
     },
@@ -476,8 +616,12 @@ ns.RegisterPoints(MAPID, {
         quest=74067, -- 66901
         npc=187306,
         loot={
+            {196991,quest=69191,}, -- Cliffside Wylderdrake: Black Horns
+            {197624,quest=69828,}, -- Windborne Velocidrake: Club Tail
             200207, -- Petrified Fungal Spores
-            200244, -- Enchanted Muckstompers, can drop off multiple rares
+            200244, -- Enchanted Muckstompers
+            200246, -- Lost Delving Lamp
+            200683, -- Legguards of the Deep Strata
         },
         note="Give 20x{item:191264:Restored Obsidian Key} to {npc:187275:Igys the Believer} to trigger {quest:66901}",
         vignette=5388, -- 5119 for "Morchock Reformed"?
@@ -488,8 +632,10 @@ ns.RegisterPoints(MAPID, {
         quest=74076, -- 70719
         npc=193271,
         loot={
-            200297, -- Hastily Cobbled Maul
+            {196999,quest=69199,}, -- Cliffside Wylderdrake: Swept Horns
+            {197116,quest=69317,}, -- Highland Drake: Ears
             200152, -- Gleaming Blade of Insight
+            200297, -- Hastily Cobbled Maul
             200689, -- Rimetalon Band
         },
         note="Use the three Pilfered objects inside the cave to summon",
@@ -503,7 +649,12 @@ ns.RegisterPoints(MAPID, {
         quest=74079, -- 72126
         npc=193175,
         loot={
+            {197001,quest=69201,}, -- Cliffside Wylderdrake: Finned Cheek
+            {197098,quest=69299,}, -- Highland Drake: Finned Back
+            198966, -- Molten Globule
             200189, -- Hydroforged Shell Helm
+            200245, -- Leviathan Lure
+            200563, -- Primal Ritual Shell
         },
         vignette=5384,
         note="Bring {item:201033:Magical Salt Crystal} from Azure Span @ 11.6 41.0 and {spell:392947:Toss Salt} to spawn; this only works when the pool is full of {npc:198216:Unsalted Water Snail}",
@@ -534,6 +685,16 @@ local drakewing = {
     note="Flying",
     loot={
         200219, -- Dangerous Drapery
+        {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
+        {197111,quest=69312,}, -- Highland Drake: Maned Head
+        198876, -- Technique: Weathered Explorer's Stave
+        200131, -- Reclaimed Survivalist's Dagger
+        200174, -- Bonesigil Shoulderguards
+        200193, -- Manafrond Sandals
+        200195, -- Thunderscale Legguards
+        200232, -- Raptor Talonglaive
+        {200249,toy=true,}, -- Mage's Chewed Wand
+        200563, -- Primal Ritual Shell
     },
     minimap=true,
 }
@@ -549,10 +710,19 @@ ns.RegisterPoints(MAPID, {
         quest=66074, -- 57559, 62396
         npc=184853,
         loot={
-            {197111, quest=69312}, -- Highland Drake: Maned Head
-            200563, -- Primal Ritual Shell
-            200445, -- Lucky Hunting Charm
+            {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
+            {197111,quest=69312,}, -- Highland Drake: Maned Head
+            200131, -- Reclaimed Survivalist's Dagger
+            200174, -- Bonesigil Shoulderguards
+            200186, -- Amberquill Shroud
+            200193, -- Manafrond Sandals
             200195, -- Thunderscale Legguards
+            200232, -- Raptor Talonglaive
+            {200249,toy=true,}, -- Mage's Chewed Wand
+            200442, -- Basilisk Hide Jerkin
+            200445, -- Lucky Hunting Charm
+            200563, -- Primal Ritual Shell
+            200859, -- Seasoned Hunter's Trophy
         },
         vignette=5055,
     },
@@ -560,9 +730,10 @@ ns.RegisterPoints(MAPID, {
         quest=66956, -- 72838
         npc=191611,
         loot={
+            {197005,quest=69205,}, -- Cliffside Wylderdrake: Horned Nose
+            {197019,quest=69219,}, -- Cliffside Wylderdrake: Blunt Spiked Tail
+            200169, -- Protector's Molten Cudgel
             200757, -- Qalashi War-Helm
-            {197005, quest=69205}, -- Cliffside Wylderdrake: Horned Nose
-            {197019, quest=69219}, -- Cliffside Wylderdrake: Blunt Spiked Tail
             -- 198876, -- Technique: Weathered Explorer's Stave (general drop?)
         },
         worldquest=65994,
@@ -572,11 +743,21 @@ ns.RegisterPoints(MAPID, {
         quest=72841, -- also 66960
         npc=187209,
         loot={
-            {197023, quest=69223}, -- Cliffside Wylderdrake: Maned Neck
-            {197602, quest=69806}, -- Windborne Velocidrake: Cluster Horns
-            {200198, toy=true}, -- Primalist Prison
-            200253, -- Snowspring Incanter's Knife
+            {196991,quest=69191,}, -- Cliffside Wylderdrake: Black Horns
+            {197023,quest=69223,}, -- Cliffside Wylderdrake: Maned Neck
+            {197383,quest=69584,}, -- Renewed Proto-Drake: Heavy Horns
+            {197602,quest=69806,}, -- Windborne Velocidrake: Cluster Horns
+            {197624,quest=69828,}, -- Windborne Velocidrake: Club Tail
+            {200198,toy=true,}, -- Primalist Prison
+            200199, -- Elements' Burden
+            200244, -- Enchanted Muckstompers
             200246, -- Lost Delving Lamp
+            200253, -- Snowspring Incanter's Knife
+            200254, -- Totemic Cinch
+            200292, -- Cragforge Pauldrons
+            200439, -- Earthpact Scepter
+            200563, -- Primal Ritual Shell
+            200683, -- Legguards of the Deep Strata
         },
         vignette=5127,
     },
@@ -584,11 +765,22 @@ ns.RegisterPoints(MAPID, {
         quest=72835, -- 66076
         npc=187111,
         loot={
-            {196976, quest=69176}, -- Cliffside Wylderdrake: Head Mane
-            {196992, quest=69192}, -- Cliffside Wylderdrake: Heavy Horns
-            {197403, quest=69604}, -- Renewed Proto-Drake: Club Tail
-            {200249, toy=true}, -- Mage's Chewed Wand
+            {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
+            {196992,quest=69192,}, -- Cliffside Wylderdrake: Heavy Horns
+            {197111,quest=69312,}, -- Highland Drake: Maned Head
+            {197403,quest=69604,}, -- Renewed Proto-Drake: Club Tail
+            200131, -- Reclaimed Survivalist's Dagger
+            200165, -- Aegis of Scales
+            200174, -- Bonesigil Shoulderguards
+            200193, -- Manafrond Sandals
+            200195, -- Thunderscale Legguards
+            200232, -- Raptor Talonglaive
+            {200249,toy=true,}, -- Mage's Chewed Wand
             200442, -- Basilisk Hide Jerkin
+            200445, -- Lucky Hunting Charm
+            200563, -- Primal Ritual Shell
+            200682, -- Hardened Scale Shoulderguards
+            200859, -- Seasoned Hunter's Trophy
         },
         note="In cave",
         vignette=5057,
@@ -605,10 +797,14 @@ ns.RegisterPoints(MAPID, {
         quest=72839, -- also 70648
         npc=195915,
         loot={
-            {197135, quest=69336}, -- Highland Drake: Toothy Mouth
-            {197379, quest=69580}, -- Renewed Proto-Drake: Impaler Horns
+            {197135,quest=69336,}, -- Highland Drake: Toothy Mouth
+            {197379,quest=69580,}, -- Renewed Proto-Drake: Impaler Horns
             200133, -- Volcanic Chakram
+            200163, -- Ring of Embers
             200217, -- Blazing Essence
+            200247, -- Inextinguishable Gavel
+            200252, -- Molten Flak Cannon
+            200563, -- Primal Ritual Shell
         },
         route={54512137, 56202250, 56502480, r=1, g=0, b=0},
         vignette=5372,
@@ -617,6 +813,11 @@ ns.RegisterPoints(MAPID, {
         quest=72850, -- also 70751
         npc=193171,
         loot={
+            {197372,quest=69573,}, -- Renewed Proto-Drake: Purple Hair
+            {197383,quest=69584,}, -- Renewed Proto-Drake: Heavy Horns
+            {197602,quest=69806,}, -- Windborne Velocidrake: Cluster Horns
+            {197606,quest=69810,}, -- Windborne Velocidrake: Swept Horns
+            {200198,toy=true,}, -- Primalist Prison
             200208, -- Cloud Coalescing Handwraps
         },
         vignette=5387,
@@ -631,7 +832,13 @@ ns.RegisterPoints(MAPID, {
         quest=nil,
         npc=189289,
         loot={
+            {196991,quest=69191,}, -- Cliffside Wylderdrake: Black Horns
+            {197624,quest=69828,}, -- Windborne Velocidrake: Club Tail
             200144, -- Band of the Unscalable
+            200244, -- Enchanted Muckstompers
+            200246, -- Lost Delving Lamp
+            200563, -- Primal Ritual Shell
+            200683, -- Legguards of the Deep Strata
         },
         note="Under the Obsidian Citadel",
     },
@@ -640,9 +847,55 @@ ns.RegisterPoints(MAPID, {
         quest=nil,
         npc=193226,
         loot={
+            {197022,quest=69222,}, -- Cliffside Wylderdrake: Finned Neck
+            {197589,quest=69793,}, -- Windborne Velocidrake: Large Head Fin
             200281, -- Gorjo's Riding Crop
+            200435, -- Brackish Breeches
         },
     },
+    [42203940] = { -- Harkyn Grymstone
+        -- [42203940, 42203960]
+        quest=nil,
+        npc=186200,
+        loot={
+            {197131,quest=69332,}, -- Highland Drake: Hairy Cheek
+            200171, -- Grymheart Blade
+            200175, -- Repurposed Anvil
+        },
+    },
+    --[[
+    -- rest of the group with Harkyn:
+    [42003940] = { -- Snee
+            -- [42003940, 42203960]
+            quest=nil,
+            npc=185383,
+            loot={
+                    {197005,quest=69205,}, -- Cliffside Wylderdrake: Horned Nose
+                    {197019,quest=69219,}, -- Cliffside Wylderdrake: Blunt Spiked Tail
+                    200169, -- Protector's Molten Cudgel
+                    200757, -- Qalashi War-Helm
+            },
+    },
+    [42003940] = { -- Voll
+            quest=nil,
+            npc=185383,
+            loot={
+                    200169, -- Protector's Molten Cudgel
+                    200757, -- Qalashi War-Helm
+            },
+    },
+    [42203940] = { -- Groth
+            -- [42203940, 42203960]
+            quest=nil,
+            npc=185383,
+            loot={
+                    {197005,quest=69205,}, -- Cliffside Wylderdrake: Horned Nose
+                    {197019,quest=69219,}, -- Cliffside Wylderdrake: Blunt Spiked Tail
+                    200169, -- Protector's Molten Cudgel
+                    200757, -- Qalashi War-Helm
+            },
+    },
+    ]]
 })
 
 -- Symbols of Hope
