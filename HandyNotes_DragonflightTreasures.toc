@@ -32,6 +32,7 @@ shared\DisturbedDirt.lua
 shared\TuskarrChests.lua
 shared\WarSupplyChest.lua
 shared\GrandHunts.lua
+shared\Recipes.lua
 
 achievements\FragmentsOfHistory.lua
 achievements\HighestPeaks.lua
