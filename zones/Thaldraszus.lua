@@ -504,4 +504,19 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         },
         vignette=5437,
     },
+    --[[
+    [] = { -- Liskanoth
+        -- TODO: location, quest
+        quest=nil,
+        worldquest=nil,
+        npc=193533,
+        loot={
+                200743, -- Frozen Footwraps
+                200744, -- Glacial Bindings
+                200745, -- Horns of the Futurebane
+                200746, -- Icebound Girdle
+                200763, -- Frosted Scale Drape
+        },
+    },
+    --]]
 })

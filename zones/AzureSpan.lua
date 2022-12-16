@@ -659,6 +659,20 @@ ns.RegisterPoints(ns.AZURESPAN, {
         note="Kill the gnolls to summon",
         vignette=5158, -- Thieving Gnolls (also 5484 Sharpfang)
     },
+    --[[
+    [] = { -- Bazual
+        quest=nil,
+        worldquest=nil,
+        npc=193532,
+        loot={
+                200654, -- Magmatic Vestments
+                200660, -- Cinderfang Wrap
+                200661, -- Basalt Brood Stompers
+                200663, -- Shackles of the Dreaded Flame
+                200761, -- Smoldering Sulfuron Signet
+        },
+    },
+    --]]
 })
 
 -- Ley Line in the Span

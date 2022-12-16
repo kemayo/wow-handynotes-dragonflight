@@ -1,8 +1,13 @@
 local myname, ns = ...
 
---[[ mining walls
+--[[
+mining walls
 52344167 herb
 41079405 ?
+
+
+Tarjin's Tales @ 1616261
+Tale of the Outsider: unlocked 70767, listened 70768
 --]]
 
 ns.RegisterPoints(ns.WAKINGSHORES, {
@@ -895,6 +900,18 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
             },
     },
     ]]
+    [55107740] = { -- Basrikron
+        quest=69930, -- 72056
+        worldquest=69930,
+        npc=193535,
+        loot={
+            200736, -- Belt of Living Earth
+            200739, -- Stony Cragwalkers
+            200740, -- Petrified Bracelets
+            200742, -- Hardened Shale Breastplate
+            200762, -- Earthspeaker's Brooch
+        },
+    },
 })
 
 -- Symbols of Hope

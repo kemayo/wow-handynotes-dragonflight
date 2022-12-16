@@ -784,6 +784,18 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         },
         path=43004800, -- TODO: improve this
     },
+    [82007600] = { -- Strunraan
+        quest=69929,
+        worldquest=69929,
+        npc=193534,
+        loot={
+            200676, -- Static-Charged Scale
+            200687, -- Stormshale Cuffs
+            200688, -- Tights of Twisting Winds
+            200733, -- Storm Chaser's Waistguard
+            200734, -- Striders of the Sky's Misery
+        },
+    },
 })
 
 -- Who's a Good Bakar?

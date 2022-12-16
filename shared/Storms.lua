@@ -10,7 +10,7 @@ Maeleera 193677 + Fieraan 193678 + Leerain 193679
 @ Waking Shores 32605620
 
 Voraazka 193674: 69969 + 74038
-@ Waking Shores 27547344, vignette 5241
+@ Waking Shores 27767202, vignette 5241
 Dropped: 200136 -- Monsoonic Armbands
 
 
