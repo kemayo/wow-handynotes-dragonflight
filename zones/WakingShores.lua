@@ -29,6 +29,7 @@ ns.RegisterPoints(MAPID, {
         active={ns.conditions.QuestComplete(70527), ns.conditions.Item(199061), any=true}, -- A Guide To Rare Fish
         nearby={40924140, label="{spell:199061:Fragrant Plant Scent}"},
         note="Find {item:199061} in other treasures to make this appear, then use the Fragrant Plant nearby",
+        vignette=5397,
     },
     [61347079] = { -- Ruby Gem Cluster
         criteria=54713,

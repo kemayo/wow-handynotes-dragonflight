@@ -27,6 +27,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
     [64853986] = {},
     [66347010] = {}, -- bugged?
     [69513968] = {},
+    [71436627] = {},
     [72233891] = {},
 }, dirt)
 ns.RegisterPoints(ns.OHNAHRANPLAINS, {
@@ -69,11 +70,16 @@ ns.RegisterPoints(ns.AZURESPAN, {
     [59361966] = {},
     [65163016] = {note="In cave"},
     [65193152] = {},
+    [65911302] = {},
+    [66101129] = {note="In cave"},
     [68301743] = {},
     [72344323] = {note="In cave"},
     [78923703] = {},
 }, dirt)
 ns.RegisterPoints(ns.THALDRASZUS, {
+    [35718450] = {},
+    [36828367] = {},
+    [38198193] = {},
     [39018418] = {},
     [46377208] = {},
     [47917274] = {},

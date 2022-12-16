@@ -529,7 +529,7 @@ ns.RegisterPoints(MAPID, {
     --[[
     [] = { -- Moth'go Deeploom
         criteria=56119,
-        quest=nil,
+        quest=74068,
         npc=193735,
         loot={
             {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane

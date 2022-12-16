@@ -334,8 +334,9 @@ ns.RegisterPoints(MAPID, {
             200445, -- Lucky Hunting Charm
         },
         note="In cave, talk to {npc:193206:Boomhooch the Lost} to summon",
-        path=47537168,
+        path={47537168, note="Upper level"},
         vignette=4958,
+        minimap=true,
     },
     [52806760] = { -- Craggravated Elemental
         criteria=56154,

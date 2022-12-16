@@ -18,9 +18,10 @@ Grand hunt spoils: 200468 (epic), 200513 (rare), 200515 (uncommon), 200516 (comm
 {194089, quest=71046}, -- Bakar Companion Color: Orange
 {194095, quest=71052}, -- Ohuna Companion Color: Sepia
 
-Siege on Dragonsbane Keep: 7267 @ Waking Shores 30607790, quest 71210 (+72671)
+Siege on Dragonsbane Keep: 7267 @ Waking Shores 30607790, quest 71210 (+72671) / 70866+74295
 Dragonbane Keep Strongbox: 200072 (epic)
 192007, -- Wyrmforged Sabatons
+192008, -- Wyrmforged Gauntlets
 --]]
 
 local hunt = {
