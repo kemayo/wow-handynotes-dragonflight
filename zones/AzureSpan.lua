@@ -96,6 +96,15 @@ ns.RegisterPoints(ns.AZURESPAN, {
         path={66433179, note="Blink through the blocked cave entrance with a duck above it"},
         requires=ns.conditions.Class("MAGE"),
     },
+    [67601860] = { -- Primal Bear Cub
+        quest=nil,
+        label="{npc:196768:Primal Bear Cub}",
+        loot={{201838, pet=3359}}, -- Snowclaw Cub
+        -- A Dryadic Remedy: 67606 + 69935
+        hide_before={ns.conditions.QuestComplete(69935)},
+        active={ns.conditions.Item(197744, 3), ns.conditions.Item(198356)}, -- Hornswog Hunk + Honey Snack
+        note="Complete {quest:67606}, buy the {item:198356} from {npc:193310:Dealer Vexil} in Waking Shores; you must have the Honorary Dryad title active",
+    }
 })
 
 -- Rares
