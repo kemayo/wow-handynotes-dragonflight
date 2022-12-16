@@ -4,6 +4,7 @@ local dirt = {
     label="Disturbed Dirt",
     loot={
         192055, -- Dragon Isles Artifact
+        201391, -- Drakonid Enforcer's Hidesplitter
     },
     -- quest 72023 (after 70822 Lost Expedition Camp) at basecamp *says* it unlocks these, but I saw them before
     requires=ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 5), -- also 70813(Digging Up Treasure) / 72026
@@ -16,10 +17,15 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
     [23709660] = {note="In cave"},
     [29079001] = {},
     [33918519] = {note="In cave"},
+    [35858968] = {},
+    [35938774] = {},
+    [37798898] = {},
     [38259517] = {note="In cave"},
     [43134536] = {},
     [44289043] = {},
+    [44799229] = {note="In cave"},
     [45597369] = {note="In cave"},
+    [46288927] = {},
     [50767598] = {},
     [53464420] = {},
     [54795018] = {},
@@ -29,6 +35,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
     [69513968] = {},
     [71436627] = {},
     [72233891] = {},
+    -- [75492173] = {note="In cave"},
 }, dirt)
 ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [38706676] = {}, -- by an ancient stone
@@ -43,6 +50,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [68892204] = {},
     [70244147] = {},
     [74838850] = {},
+    [75492173] = {},
     [76365115] = {},
     [76485475] = {},
     [77664604] = {},
@@ -85,6 +93,11 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     [47917274] = {},
     [48495154] = {},
     [50278321] = {},
+    [50397827] = {},
+    [53327640] = {},
+    [55227461] = {},
+    [58748633] = {},
+    [60507774] = {},
     [61057953] = {},
     [62296972] = {},
 }, dirt)

@@ -4,6 +4,13 @@ local myname, ns = ...
 40857586 ?
 --]]
 
+-- PRIMALIST_TOMORROW = 2085
+-- AZMERLOTH = 2092
+-- GNOLL_WAR = 2090
+-- SHIFTING_SANDS = 2091
+-- PANDAREN_REVOLUTION = 2088
+-- BLACK_EMPIRE = 2089
+
 ns.RegisterPoints(ns.THALDRASZUS, {
     -- https://www.wowhead.com/beta/achievement=16301/treasures-of-thaldraszus
     [33957694] = { -- Cracked Hourglass
