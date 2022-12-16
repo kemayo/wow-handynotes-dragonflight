@@ -1,13 +1,11 @@
 local myname, ns = ...
 
-local MAPID = ns.WAKINGSHORES -- Waking Shores
-
 --[[ mining walls
 52344167 herb
 41079405 ?
 --]]
 
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.WAKINGSHORES, {
     -- https://www.wowhead.com/beta/achievement=16297/treasures-of-the-waking-shores
     [65804182] = { -- Replica Dragon Goblet
         criteria=54698,
@@ -94,7 +92,7 @@ ns.RegisterPoints(MAPID, {
     minimap=true,
 })
 
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.WAKINGSHORES, {
     [43156738] = { -- FullSails Supply Chest
         quest=65965,
         label="FullSails Supply Chest",
@@ -129,7 +127,7 @@ local drink = ns.nodeMaker{
     minimap=true,
     requires=ns.conditions.OnQuest(65875), -- A Dragon's Day Off
 }
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.WAKINGSHORES, {
     [20163958] = { -- A Dragon's Day Off
         label="{quest:65875}",
         quest=65875,
@@ -155,7 +153,7 @@ ns.RegisterPoints(MAPID, {
 })
 
 -- Rares
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.WAKINGSHORES, {
     -- https://www.wowhead.com/beta/achievement=16676/adventurer-of-the-waking-shores
     [52535855] = { -- Gushgut the Beaksinker
         criteria=56033,
@@ -699,14 +697,14 @@ local drakewing = {
     },
     minimap=true,
 }
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.WAKINGSHORES, {
     [49806960] = {route={49806960, 49807220, 48007680, 47207700, r=1, g=1, b=0}},
     [52205060] = {route={52205060, 53605320, 55205820, r=1, g=1, b=0}},
     [69205480] = {route={69205480, 69405940, 67606020, 63605860, r=1, g=1, b=0}},
     [72824701] = {},
 }, drakewing)
 
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.WAKINGSHORES, {
     [46725013] = { -- Primal Scythid Queen
         quest=66074, -- 57559, 62396
         npc=184853,
@@ -900,7 +898,7 @@ ns.RegisterPoints(MAPID, {
 })
 
 -- Symbols of Hope
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.WAKINGSHORES, {
     [73193776] = { -- Wingrest Embassy
         criteria=55841,
         quest=72096,

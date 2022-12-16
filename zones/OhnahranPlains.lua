@@ -1,7 +1,5 @@
 local myname, ns = ...
 
-local MAPID = ns.OHNAHRANPLAINS -- Ohn'ahran Plains
-
 -- forgotten dragon treasure: 53246888
 
 -- Aylaag camp SE: areaPoi 7101
@@ -9,7 +7,7 @@ local MAPID = ns.OHNAHRANPLAINS -- Ohn'ahran Plains
 
 -- Aylaag caravan: vignette 5453, rewards caravan strongbox 200094, no quest completion
 
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     -- https://www.wowhead.com/beta/achievement=16299/treasures-of-the-ohnahran-plains
     [32413815] = { -- Nokhud Warspear
         criteria=54707,
@@ -71,7 +69,7 @@ ns.RegisterPoints(MAPID, {
     achievement=16299, -- Treasures
     minimap=true,
 })
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [56017879] = {
         quest=71033,
         label="Water-Bound Chest",
@@ -106,7 +104,7 @@ ns.RegisterPoints(MAPID, {
 })
 
 -- Divine Kiss of Ohn'ahra mount:
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [57593192] = { -- Ohn'ahra
         npc=194796,
         quest=72512, -- A Whispering Breeze
@@ -136,7 +134,7 @@ ns.RegisterPoints(MAPID, {
 -- Lizi's Reins mount:
 -- https://www.wowhead.com/beta/item=192799/lizis-reins#comments:id=5443480
 -- (It's the Patient Bufonid again)
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [56127701] = {
         npc=190014, -- Initiate Radiya
         quest={71195, 71203, any=true}, -- 71203 is the daily
@@ -186,7 +184,7 @@ local ancestor = function(details)
         minimap=true,
     }, details)
 end
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [85662085] = {
         achievement=16423,
         label="{spell:369277:Essence of Awakening}",
@@ -214,7 +212,7 @@ ns.RegisterPoints(MAPID, {
 })
 
 -- Rares
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     -- https://www.wowhead.com/beta/achievement=16677/adventurer-of-the-ohnahran-plains
     [20403800] = { -- Sparkspitter Vrak
         criteria=56062,
@@ -626,7 +624,7 @@ ns.RegisterPoints(MAPID, {
 }, {
     achievement=16677, -- Adventurer
 })
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [81447834] = { -- Seereel, the Spring
         -- TODO: find the spawn point in Azure Span, which presumably exists?
         achievement=16678, -- Adventurer of the *Azure Span*
@@ -789,7 +787,7 @@ ns.RegisterPoints(MAPID, {
 })
 
 -- Who's a Good Bakar?
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [40915658] = { -- Alli
         criteria=55348,
         npc=197569,
@@ -893,7 +891,7 @@ ns.RegisterPoints(MAPID, {
     -- icon=930453, -- Inv_stbernarddogpet
 })
 -- Hugo
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [55605240] = {},
     [70636364] = {},
     [71193156] = {},
@@ -908,7 +906,7 @@ ns.RegisterPoints(MAPID, {
 })
 
 -- Sleeping on the Job
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [33515321] = {criteria=55776, npc=198064,}, -- Dreamguard Felyasra
     [29876222] = {criteria=55777, npc=198068, path=29696022}, -- Dreamguard Erezsra
     [25296540] = {criteria=55778, npc=198069,}, -- Dreamguard Sayliasra

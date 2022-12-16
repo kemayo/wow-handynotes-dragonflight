@@ -1,13 +1,11 @@
 local myname, ns = ...
 
-local MAPID = ns.AZURESPAN -- Azure Span
-
 -- heart of the deck (66846), in case it becomes relevant later...
 -- 66992 dragon
 -- 66983 life-giver
 -- 66995 adaptive
 
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.AZURESPAN, {
     -- https://www.wowhead.com/beta/achievement=16300/treasures-of-the-azure-span
     [45135939] = { -- Forgotten Jewel Box
         criteria=54804,
@@ -61,7 +59,7 @@ ns.RegisterPoints(MAPID, {
     minimap=true,
 })
 
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.AZURESPAN, {
     [45635482] = { -- for The Great Shellkhan in Thaldraszus
         achievement=16679, criteria=56155,
         quest=72121,
@@ -101,7 +99,7 @@ ns.RegisterPoints(MAPID, {
 })
 
 -- Rares
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.AZURESPAN, {
     -- https://www.wowhead.com/beta/achievement=16678/adventurer-of-the-azure-span
     [59405520] = { -- Wilrive
         criteria=56097,
@@ -587,7 +585,7 @@ ns.RegisterPoints(MAPID, {
 }, {
     achievement=16678, -- Adventurer
 })
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.AZURESPAN, {
     [23443327] = { -- Cascade
         npc=186962,
         quest=72836, -- 72358?
@@ -665,7 +663,7 @@ ns.RegisterPoints(MAPID, {
 
 -- Ley Line in the Span
 -- https://www.wowhead.com/achievement=16638/ley-line-in-the-span
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.AZURESPAN, {
     [43786190] = {criteria=55972, quest=72138,}, -- Azure Archives
     [26303631] = {criteria=55973, quest=72139,}, -- Ancient Outlook
     [65402835] = {criteria=55976, quest=72140,}, -- Slyvern Plunge

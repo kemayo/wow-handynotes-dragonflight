@@ -1,12 +1,10 @@
 local myname, ns = ...
 
-local MAPID = ns.THALDRASZUS -- Thaldraszus
-
 --[[ mining walls
 40857586 ?
 --]]
 
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.THALDRASZUS, {
     -- https://www.wowhead.com/beta/achievement=16301/treasures-of-thaldraszus
     [33957694] = { -- Cracked Hourglass
         criteria=54810,
@@ -65,7 +63,7 @@ ns.RegisterPoints(MAPID, {
 })
 
 -- Rares
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.THALDRASZUS, {
     -- https://www.wowhead.com/beta/achievement=16679/adventurer-of-thaldraszus
     [51534871] = { -- Razk'vex the Untamed
         criteria=56133,
@@ -421,7 +419,7 @@ ns.RegisterPoints(MAPID, {
 }, {
     achievement=16679, -- Adventurer
 })
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.THALDRASZUS, {
     [37538339] = { -- Private Shikzar
         quest=70986,
         npc=193127,
