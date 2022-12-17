@@ -5,6 +5,7 @@ mining walls
 52344167 herb
 41079405 ?
 
+Promised to rescue Wu'De Prepfoot @ 35154722: 70709
 
 Tarjin's Tales @ 1616261
 Tale of the Outsider: unlocked 70767, listened 70768
@@ -230,7 +231,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
         loot={},
         minimap=true, -- just a neutral mob wandering, no vignette
     },
-    [52906590] = { -- Brundin the Dragonbane
+    [34607110] = { -- Brundin the Dragonbane
         criteria=56038,
         quest=73890, -- TODO: verify; got this for killing the mammoth when it was all that was left
         npc=192738,
@@ -462,7 +463,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
     },
     [31825440] = { -- Death's Shadow
         criteria=56053,
-        quest=67027, -- check
+        quest=73074, -- 67027 vignette
         npc=190985,
         loot={
             200159, -- Blaze Ring
@@ -473,7 +474,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
     },
     [23825742] = { -- Shas'ith
         criteria=56054,
-        quest=66903, -- check
+        quest=74077, -- 66903 vignette
         npc=189822,
         loot={
             {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane

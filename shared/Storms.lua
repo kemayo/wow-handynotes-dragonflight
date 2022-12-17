@@ -3,6 +3,7 @@
 Stormed Off: 16461
 
 Waking Shores Air: areaPoi 7249
+Waking Shores Ice: areaPoi 7256 ~29,54
 Azure Span Fire: areaPoi 7238 ~60,67
 
 Iceblade Trio: 69971 + 74009
@@ -23,5 +24,8 @@ Bouldron 193644
 
 Zurgaz Corebreaker
 @ Azure Span 60306731, vignette 5244
+
+Gravlion
+@ Azure Span 59876845, vignette 5233
 
 ]]

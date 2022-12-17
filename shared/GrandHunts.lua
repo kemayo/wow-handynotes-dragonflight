@@ -19,7 +19,8 @@ Grand hunt spoils: 200468 (epic), 200513 (rare), 200515 (uncommon), 200516 (comm
 {194095, quest=71052}, -- Ohuna Companion Color: Sepia
 
 Siege on Dragonsbane Keep: 7267 @ Waking Shores 30607790, quest 71210 (+72671) / 70866+74295
-Dragonbane Keep Strongbox: 200072 (epic)
+-- 74295 seems to be the daily, for the blue strongbox (202142)
+Dragonbane Keep Strongbox: 200072 (epic),
 192007, -- Wyrmforged Sabatons
 192008, -- Wyrmforged Gauntlets
 --]]
