@@ -10,7 +10,7 @@ local dirt = {
     -- quest 72023 (after 70822 Lost Expedition Camp) at basecamp *says* it unlocks these, but I saw them before
     requires=ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 5), -- also 70813(Digging Up Treasure) / 72026
     texture=ns.atlas_texture("Professions_Tracking_Ore", {r=0.5, g=1, b=0.5, scale=0.9}),
-    group="disturbeddirt",
+    group="disturbeddirt", always=true,
     vignette=5466,
 }
 
@@ -18,6 +18,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
     [23709660] = {note="In cave"},
     [29079001] = {},
     [33918519] = {note="In cave"},
+    [35548962] = {},
     [35858968] = {},
     [35938774] = {},
     [36358681] = {},
@@ -103,15 +104,18 @@ ns.RegisterPoints(ns.AZURESPAN, {
     [78923703] = {},
 }, dirt)
 ns.RegisterPoints(ns.THALDRASZUS, {
+    [34556598] = {},
     [35718450] = {},
     [36828367] = {},
     [38198193] = {},
     [39018418] = {},
+    [42616654] = {},
     [46377208] = {},
     [47917274] = {},
     [48495154] = {},
     [50278321] = {},
     [50397827] = {},
+    [51115967] = {},
     [53327640] = {},
     [55227461] = {},
     [58748633] = {},

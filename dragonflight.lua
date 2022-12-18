@@ -57,13 +57,19 @@ ns.SUPERRARE = ns.nodeMaker{
     note="This is a \"super rare\" which can drop higher level loot",
 }
 
--- Intro:
--- Talked to Azurathel: 72285
--- Talked to Genn and Shaw: 72286
--- Talked to Turalyon and Shaw: 72287
+--[[
+notes:
+Intro:
+Talked to Azurathel: 72285
+Talked to Genn and Shaw: 72286
+Talked to Turalyon and Shaw: 72287
 
--- Rescued Waddles: 70872
+Rescued Waddles: 70872
 
--- Talked to Lethanak at the Life Pools: 72059
+Talked to Lethanak at the Life Pools: 72059
 
--- unlocked dragon customization: 68797
+unlocked dragon customization: 68797
+
+Herbalism: looted Dreambloom Petal 71859
+
+--]]

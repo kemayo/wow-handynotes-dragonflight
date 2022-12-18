@@ -85,7 +85,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
         related={
             [23074372] = {label="{item:201420}", loot={201420}, note="Kill gnolls in the Inn", active=false,}, -- Gnolan's House Special
             [34824533] = {label="{item:201421}", loot={201421}, note="Kill Darktooth gnolls", active=false,}, -- Tuskarr Jerky
-            [58234353] = {label="{item:201422}", loot={201422}, note="Kill gnolls; you may need to have done {quest:66730} or {quest:66270} before this will drop", active=false,}, -- Flash Frozen Meat
+            [57704280] = {label="{item:201422}", loot={201422}, note="Kill gnolls; you may need to have done {quest:66730} or {quest:66270} before this will drop", active=false,}, -- Flash Frozen Meat
         },
         texture=ns.atlas_texture("stablemaster", {r=0, g=0.8, b=1, scale=1.2}),
         minimap=true,
@@ -349,9 +349,9 @@ ns.RegisterPoints(ns.AZURESPAN, {
         note="Use crystals in the tower to the North and bring the energies to {npc:193782}",
         nearby={70402370, label="{spell:382076}"},
     },
-    [49463607] = { -- Fisherman Tinnak
+    [49343819] = { -- Fisherman Tinnak
         criteria=56115,
-        quest=74064, -- 70792
+        quest=72730, -- 72254 (had 70792+74064 before)
         npc=193691,
         loot={
             {196985,quest=69185,}, -- Cliffside Wylderdrake: Horned Jaw
@@ -369,11 +369,12 @@ ns.RegisterPoints(ns.AZURESPAN, {
             200563, -- Primal Ritual Shell
         },
         hide_before=ns.conditions.MajorFaction(ns.FACTION_ISKAARA, 7),
+        minimap=true,
         vignette=5475,
         related={
-            [50523672] = {label="{item:381654:Broken Fishing Pole}", note="Click this first!",},
-            [49973821] = {label="{item:385046:Torn Fishing Net}", note="Click this second!",},
-            [49223842] = {label="{item:385047:Old Harpoon}", note="Click this Third! {npc:193691: Fisherman Tinnak's Ghost} spawns closely nearby.",},
+            [50523672] = {label="{item:381654:Broken Fishing Pole}", note="Click this first!", minimap=true,},
+            [49973821] = {label="{item:385046:Torn Fishing Net}", note="Click this second!", minimap=true,},
+            [49223842] = {label="{item:385047:Old Harpoon}", note="Click this third! {npc:193691: Fisherman Tinnak's Ghost} spawns closely nearby", minimap=true,},
         },
     },
     [13604860] = { -- Bisquius

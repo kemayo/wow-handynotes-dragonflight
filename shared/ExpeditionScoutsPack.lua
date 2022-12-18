@@ -19,7 +19,7 @@ local scoutpack = {
     -- quest 72023 (after 70822 Lost Expedition Camp) at basecamp *says* it unlocks these, but I saw them before
     requires=ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 2),
     texture=ns.atlas_texture("VignetteLoot", {r=0.5, g=1, b=0.5, scale=0.9}),
-    group="scoutpack",
+    group="scoutpack", always=true,
     vignette=5468,
 }
 ns.RegisterPoints(ns.WAKINGSHORES, {
@@ -276,8 +276,12 @@ ns.RegisterPoints(ns.AZURESPAN, {
     [71713541] = {},
     [71784392] = {},
     [72604267] = {},
+    [75163843] = {},
+    [77343866] = {},
     [77883303] = {},
+    [78203510] = {},
     [78963094] = {},
+    [79632956] = {},
 }, scoutpack)
 ns.RegisterPoints(ns.THALDRASZUS, {
     [34107306] = {},

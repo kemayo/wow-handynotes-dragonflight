@@ -4,7 +4,13 @@ Stormed Off: 16461
 
 Waking Shores Air: areaPoi 7249
 Waking Shores Ice: areaPoi 7256 ~29,54
-Azure Span Fire: areaPoi 7238 ~60,67
+Waking Shores Thunder: areaPoi 7257 ~64,26
+Ohn'ahran Plains Sand: areaPoi 7222 ~34,38
+Azure Span Sand: areaPoi 7238 ~60,67
+Azure Span Fire: areaPoi 7231 ~12,38
+Azure Span Snow: areaPoi 7236 ~47,21
+Thaldraszus Primalist Future Sand: areaPoi 7299 ~60,82
+
 
 Iceblade Trio: 69971 + 74009
 Maeleera 193677 + Fieraan 193678 + Leerain 193679
@@ -27,5 +33,9 @@ Zurgaz Corebreaker
 
 Gravlion
 @ Azure Span 59876845, vignette 5233
+@ Ohn'Ahran Plains 36763686, vignette 5233
+
+Infernum
+@ Azure Span 13013293, vignette 5228
 
 ]]
