@@ -240,6 +240,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
             {196982,quest=69182,}, -- Cliffside Wylderdrake: Ears
             {197150,quest=69351,}, -- Highland Drake: Spiked Club Tail
             200168, -- Gnoll Hide Belt
+            200266, -- Gnollish Chewtoy Launcher
             200283, -- Gnoll-Gnawed Breeches
         },
         vignette=5187,
@@ -269,6 +270,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
             {197138,quest=69339,}, -- Highland Drake: Striped Pattern
             {197586,quest=69790,}, -- Windborne Velocidrake: Spiked Back
             198974, -- Elegantly Engraved Embellishment
+            200154, -- Rubyscale Band
             200758, -- Breastplate of Storied Antiquity
             200875, -- Seeker's Bands
         },
@@ -305,20 +307,17 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         quest=nil,
         npc=197009,
         loot={
-            {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
             {197106,quest=69307,}, -- Highland Drake: Finned Head
-            {197111,quest=69312,}, -- Highland Drake: Maned Head
             {197400,quest=69601,}, -- Renewed Proto-Drake: Shark Snout
-            198976, -- Exceedingly Soft Skin
             200131, -- Reclaimed Survivalist's Dagger
             200174, -- Bonesigil Shoulderguards
+            200186, -- Amberquill Shroud
             200193, -- Manafrond Sandals
             200195, -- Thunderscale Legguards
             200232, -- Raptor Talonglaive
             {200249,toy=true,}, -- Mage's Chewed Wand
             200434, -- Anund's Mana-Singed Amice
             200442, -- Basilisk Hide Jerkin
-            200445, -- Lucky Hunting Charm
             200446, -- Crystalized Sigil
             200563, -- Primal Ritual Shell
             200859, -- Seasoned Hunter's Trophy
@@ -343,6 +342,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
             {196992,quest=69192,}, -- Cliffside Wylderdrake: Heavy Horns
             {197403,quest=69604,}, -- Renewed Proto-Drake: Club Tail
             200165, -- Aegis of Scales
+            200682, -- Hardened Scale Shoulderguards
         },
         vignette=5378,
         -- hide_before=ns.MAXLEVEL, -- TODO
@@ -352,8 +352,10 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         quest=69857,
         npc=193173,
         loot={
+            {197372,quest=69573,}, -- Renewed Proto-Drake: Purple Hair
             {197602,quest=69806,}, -- Windborne Velocidrake: Cluster Horns
             {197606,quest=69810,}, -- Windborne Velocidrake: Swept Horns
+            {200198,toy=true,}, -- Primalist Prison
             200542, -- Breezy Companion
             200563, -- Primal Ritual Shell
         },
@@ -382,9 +384,13 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
             {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
             200131, -- Reclaimed Survivalist's Dagger
             200174, -- Bonesigil Shoulderguards
+            200193, -- Manafrond Sandals
             200216, -- Water Heating Cord
             200232, -- Raptor Talonglaive
             {200249,toy=true,}, -- Mage's Chewed Wand
+            200442, -- Basilisk Hide Jerkin
+            200445, -- Lucky Hunting Charm
+            200563, -- Primal Ritual Shell
             200859, -- Seasoned Hunter's Trophy
             200942, -- Vibrant Emulsion
         },
@@ -396,10 +402,13 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         quest=69871,
         npc=193212,
         loot={
+            200131, -- Reclaimed Survivalist's Dagger
             200174, -- Bonesigil Shoulderguards
             200186, -- Amberquill Shroud
             200193, -- Manafrond Sandals
+            200195, -- Thunderscale Legguards
             200197, -- Armoredon Herding Crook
+            200232, -- Raptor Talonglaive
         },
         vignette=5195,
         -- hide_before=ns.MAXLEVEL, -- TODO
@@ -411,6 +420,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         loot={
             {197149,quest=69350,}, -- Highland Drake: Club Tail
             {197608,quest=69812,}, -- Windborne Velocidrake: Gray Horns
+            200203, -- Repurposed Giant's Thimble
             200684, -- Emerald Tailbone
         },
         note="Patrols",
@@ -422,10 +432,14 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         quest=69856,
         npc=193170,
         loot={
+            {197111,quest=69312,}, -- Highland Drake: Maned Head
+            200186, -- Amberquill Shroud
             200193, -- Manafrond Sandals
             {200249,toy=true,}, -- Mage's Chewed Wand
             200433, -- Footwraps of Subjugation
+            200442, -- Basilisk Hide Jerkin
             200563, -- Primal Ritual Shell
+            200859, -- Seasoned Hunter's Trophy
         },
         vignette=5182,
         -- hide_before=ns.MAXLEVEL, -- TODO
@@ -466,6 +480,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
             200232, -- Raptor Talonglaive
             {200249,toy=true,}, -- Mage's Chewed Wand
             200442, -- Basilisk Hide Jerkin
+            200445, -- Lucky Hunting Charm
             200563, -- Primal Ritual Shell
             200859, -- Seasoned Hunter's Trophy
         },
@@ -476,8 +491,13 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         quest=74073, -- 69865?
         npc=193215,
         loot={
+            {197383,quest=69584,}, -- Renewed Proto-Drake: Heavy Horns
+            {200198,toy=true,}, -- Primalist Prison
+            200292, -- Cragforge Pauldrons
+            200294, -- Primal Chain Hauberk
+            200313, -- Earthen Protoscale Drape
+            200439, -- Earthpact Scepter
             200735, -- Magically Magical Faerie Flower
-            200293, -- Primal Scion's Twinblade
         },
         vignette=5190,
         related={
@@ -588,7 +608,9 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         criteria=56093,
         quest=nil,
         npc=195223,
-        loot={},
+        loot={
+            198976, -- Exceedingly Soft Skin
+        },
     },
     [32823817] = { -- Makhra the Ashtouched
         criteria=56094,
@@ -705,6 +727,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
             200137, -- Chitin Dreadbringer
             200174, -- Bonesigil Shoulderguards
             200186, -- Amberquill Shroud
+            200193, -- Manafrond Sandals
             200195, -- Thunderscale Legguards
             200232, -- Raptor Talonglaive
             {200249,toy=true,}, -- Mage's Chewed Wand
@@ -758,10 +781,8 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         quest=69837, -- 72849
         npc=193133,
         loot={
-            {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
             {197111,quest=69312,}, -- Highland Drake: Maned Head
             {198409,toy=true,}, -- Personal Shell
-            200195, -- Thunderscale Legguards
             {200249,toy=true,}, -- Mage's Chewed Wand
         },
         note="Behind the waterfall",
@@ -779,6 +800,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
             200195, -- Thunderscale Legguards
             200232, -- Raptor Talonglaive
             {200249,toy=true,}, -- Mage's Chewed Wand
+            200442, -- Basilisk Hide Jerkin
             200563, -- Primal Ritual Shell
             200859, -- Seasoned Hunter's Trophy
         },

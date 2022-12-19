@@ -85,8 +85,9 @@ ns.RegisterPoints(ns.THALDRASZUS, {
             200165, -- Aegis of Scales
             200174, -- Bonesigil Shoulderguards
             200186, -- Amberquill Shroud
-            200195, -- Thunderscale Legguards
+            200193, -- Manafrond Sandals
             {200249,toy=true,}, -- Mage's Chewed Wand
+            200442, -- Basilisk Hide Jerkin
             200445, -- Lucky Hunting Charm
             200563, -- Primal Ritual Shell
             200682, -- Hardened Scale Shoulderguards
@@ -103,6 +104,8 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         npc=193126,
         loot={
             {197008,quest=69208,}, -- Cliffside Wylderdrake: Narrow Stripes Pattern
+            {197135,quest=69336,}, -- Highland Drake: Toothy Mouth
+            200133, -- Volcanic Chakram
             {200148,toy=true,}, -- A Collection Of Me
             200163, -- Ring of Embers
             200252, -- Molten Flak Cannon
@@ -136,8 +139,10 @@ ns.RegisterPoints(ns.THALDRASZUS, {
             {197111,quest=69312,}, -- Highland Drake: Maned Head
             200131, -- Reclaimed Survivalist's Dagger
             200174, -- Bonesigil Shoulderguards
+            200186, -- Amberquill Shroud
             200193, -- Manafrond Sandals
             200195, -- Thunderscale Legguards
+            200232, -- Raptor Talonglaive
             {200249,toy=true,}, -- Mage's Chewed Wand
             200442, -- Basilisk Hide Jerkin
             200445, -- Lucky Hunting Charm
@@ -159,6 +164,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
             200232, -- Raptor Talonglaive
             {200249,toy=true,}, -- Mage's Chewed Wand
             200436, -- Gorestained Hauberk
+            200442, -- Basilisk Hide Jerkin
             200445, -- Lucky Hunting Charm
         },
     },
@@ -168,8 +174,11 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         npc=193688,
         loot={
             {197100,quest=69301,}, -- Highland Drake: Crested Brow
+            {197138,quest=69339,}, -- Highland Drake: Striped Pattern
             {197586,quest=69790,}, -- Windborne Velocidrake: Spiked Back
+            200138, -- Ancient Dancer's Longspear
             200146, -- Phenran's Discordant Smasher
+            200303, -- Dreamweaver Acolyte's Staff
         },
         vignette=5248,
         -- hide_before=ns.MAXLEVEL, -- TODO
@@ -182,6 +191,8 @@ ns.RegisterPoints(ns.THALDRASZUS, {
             {197111,quest=69312,}, -- Highland Drake: Maned Head
             200174, -- Bonesigil Shoulderguards
             200193, -- Manafrond Sandals
+            200195, -- Thunderscale Legguards
+            200232, -- Raptor Talonglaive
             200257, -- Decay Infused Branch
             200563, -- Primal Ritual Shell
         },
@@ -227,9 +238,12 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         quest=69875,
         npc=193234,
         loot={
+            {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
             {197135,quest=69336,}, -- Highland Drake: Toothy Mouth
             200133, -- Volcanic Chakram
             200163, -- Ring of Embers
+            200186, -- Amberquill Shroud
+            200217, -- Blazing Essence
             {200249,toy=true,}, -- Mage's Chewed Wand
             200284, -- Phoenix Feather Pendant
             200442, -- Basilisk Hide Jerkin
@@ -245,6 +259,9 @@ ns.RegisterPoints(ns.THALDRASZUS, {
             {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
             {197111,quest=69312,}, -- Highland Drake: Maned Head
             200131, -- Reclaimed Survivalist's Dagger
+            200174, -- Bonesigil Shoulderguards
+            200186, -- Amberquill Shroud
+            200193, -- Manafrond Sandals
             200195, -- Thunderscale Legguards
             200232, -- Raptor Talonglaive
             {200249,toy=true,}, -- Mage's Chewed Wand
@@ -278,10 +295,12 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         quest=69859,
         npc=193176,
         loot={
+            {197008,quest=69208,}, -- Cliffside Wylderdrake: Narrow Stripes Pattern
             {197130,quest=69331,}, -- Highland Drake: Stag Horns
             {197372,quest=69573,}, -- Renewed Proto-Drake: Purple Hair
             {197606,quest=69810,}, -- Windborne Velocidrake: Swept Horns
             {200148,toy=true,}, -- A Collection Of Me
+            200172, -- Zephyrdance Signet
             200202, -- Tomorrow's Chains
             200306, -- Tempest Shawl
             200563, -- Primal Ritual Shell
@@ -297,10 +316,13 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         loot={
             {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
             {197111,quest=69312,}, -- Highland Drake: Maned Head
+            200131, -- Reclaimed Survivalist's Dagger
             200174, -- Bonesigil Shoulderguards
             200186, -- Amberquill Shroud
+            200193, -- Manafrond Sandals
             200195, -- Thunderscale Legguards
             200232, -- Raptor Talonglaive
+            200442, -- Basilisk Hide Jerkin
             200445, -- Lucky Hunting Charm
             200563, -- Primal Ritual Shell
             200859, -- Seasoned Hunter's Trophy
@@ -317,10 +339,12 @@ ns.RegisterPoints(ns.THALDRASZUS, {
             {197111,quest=69312,}, -- Highland Drake: Maned Head
             200131, -- Reclaimed Survivalist's Dagger
             200174, -- Bonesigil Shoulderguards
+            200186, -- Amberquill Shroud
+            200193, -- Manafrond Sandals
             200195, -- Thunderscale Legguards
             200232, -- Raptor Talonglaive
-            {200249,toy=true,}, -- Mage's Chewed Wand
             200442, -- Basilisk Hide Jerkin
+            200445, -- Lucky Hunting Charm
             200563, -- Primal Ritual Shell
             200859, -- Seasoned Hunter's Trophy
         },
@@ -333,10 +357,12 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         npc=183984,
         loot={
             {197111,quest=69312,}, -- Highland Drake: Maned Head
-            200214, -- Grasp of the Weeping Widow
             200131, -- Reclaimed Survivalist's Dagger
             200186, -- Amberquill Shroud
+            200193, -- Manafrond Sandals
+            200214, -- Grasp of the Weeping Widow
             200445, -- Lucky Hunting Charm
+            200859, -- Seasoned Hunter's Trophy
         },
         note="In cave, talk to {npc:193206:Boomhooch the Lost} to summon",
         path={47537168, note="Upper level"},
@@ -401,6 +427,9 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         quest=69882,
         npc=193241,
         loot={
+            {197008,quest=69208,}, -- Cliffside Wylderdrake: Narrow Stripes Pattern
+            {197022,quest=69222,}, -- Cliffside Wylderdrake: Finned Neck
+            {200148,toy=true,}, -- A Collection Of Me
             200185, -- Grips of the Everflowing Ocean
             200552, -- Torrent Caller's Shell
         },
@@ -432,7 +461,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         npc=193127,
         loot={},
         vignette=5406,
-        note = "Ask him what's wrong. He attacks after.",
+        note = "Ask him what's wrong",
     },
     [36808557] = { -- Lookout Mordren
         quest=72813, -- 69967 on vignette?
@@ -442,7 +471,8 @@ ns.RegisterPoints(ns.THALDRASZUS, {
             {197379,quest=69580,}, -- Renewed Proto-Drake: Impaler Horns
             {197383,quest=69584,}, -- Renewed Proto-Drake: Heavy Horns
             {197602,quest=69806,}, -- Windborne Velocidrake: Cluster Horns
-            -- 200122, -- Temporal Spyglass
+            200122, -- Temporal Spyglass
+            200163, -- Ring of Embers
             200182, -- Riveted Drape
             {200198,toy=true,}, -- Primalist Prison
             200217, -- Blazing Essence

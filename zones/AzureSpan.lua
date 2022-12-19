@@ -183,11 +183,11 @@ ns.RegisterPoints(ns.AZURESPAN, {
             200193, -- Manafrond Sandals
             200195, -- Thunderscale Legguards
             200232, -- Raptor Talonglaive
+            {200249,toy=true,}, -- Mage's Chewed Wand
             200442, -- Basilisk Hide Jerkin
             200445, -- Lucky Hunting Charm
             200563, -- Primal Ritual Shell
             200859, -- Seasoned Hunter's Trophy
-            {200249, toy=true}, -- Mage's Chewed Wand
         },
     },
     [08804860] = { -- Brackle
@@ -200,11 +200,13 @@ ns.RegisterPoints(ns.AZURESPAN, {
             {197111,quest=69312,}, -- Highland Drake: Maned Head
             {197589,quest=69793,}, -- Windborne Velocidrake: Large Head Fin
             198974, -- Elegantly Engraved Embellishment
+            200131, -- Reclaimed Survivalist's Dagger
             200151, -- Seamist Blade
             200174, -- Bonesigil Shoulderguards
             200186, -- Amberquill Shroud
             200193, -- Manafrond Sandals
             200195, -- Thunderscale Legguards
+            200232, -- Raptor Talonglaive
             200435, -- Brackish Breeches
             200445, -- Lucky Hunting Charm
             200448, -- Abyssal Ward
@@ -291,9 +293,13 @@ ns.RegisterPoints(ns.AZURESPAN, {
         npc=193149,
         loot={
             {196991,quest=69191,}, -- Cliffside Wylderdrake: Black Horns
+            {197149,quest=69350,}, -- Highland Drake: Club Tail
             {197608,quest=69812,}, -- Windborne Velocidrake: Gray Horns
             200203, -- Repurposed Giant's Thimble
+            200244, -- Enchanted Muckstompers
             200279, -- Competitive Throwing Gauntlets
+            200563, -- Primal Ritual Shell
+            200684, -- Emerald Tailbone
         },
         vignette=5440,
         -- hide_before=ns.MAXLEVEL, -- TODO
@@ -304,8 +310,12 @@ ns.RegisterPoints(ns.AZURESPAN, {
         npc=193251,
         loot={
             {197111,quest=69312,}, -- Highland Drake: Maned Head
+            200174, -- Bonesigil Shoulderguards
             200186, -- Amberquill Shroud
+            200232, -- Raptor Talonglaive
+            {200249,toy=true,}, -- Mage's Chewed Wand
             200442, -- Basilisk Hide Jerkin
+            200563, -- Primal Ritual Shell
             200755, -- Gruffy's Dented Horn
             200859, -- Seasoned Hunter's Trophy
         },
@@ -318,9 +328,12 @@ ns.RegisterPoints(ns.AZURESPAN, {
         npc=193269,
         loot={
             200174, -- Bonesigil Shoulderguards
+            200186, -- Amberquill Shroud
             200193, -- Manafrond Sandals
             200206, -- Behemoth Slayer Greatbow
+            200232, -- Raptor Talonglaive
             {200249,toy=true,}, -- Mage's Chewed Wand
+            200563, -- Primal Ritual Shell
         },
         vignette=5210,
         -- hide_before=ns.MAXLEVEL, -- TODO
@@ -423,7 +436,6 @@ ns.RegisterPoints(ns.AZURESPAN, {
             200211, -- Snowman's Icy Gaze
             200245, -- Leviathan Lure
             200552, -- Torrent Caller's Shell
-            200563, -- Primal Ritual Shell
         },
         vignette=5200,
         note="Collect 10x {npc:193424:Arcane Energy} for {npc:193255: Archmage Cleary} nearby",
@@ -492,14 +504,14 @@ ns.RegisterPoints(ns.AZURESPAN, {
         quest=74004,
         npc=197356,
         loot={
-            {196973, quest=69173}, -- Cliffside Wylderdrake: Dual Horned Chin
-            {196982, quest=69182}, -- Cliffside Wylderdrake: Ears
-            {196986, quest=69186}, -- Cliffside Wylderdrake: Black Hair
-            {197150, quest=69351}, -- Highland Drake: Spiked Club Tail
-            {200178, toy=true}, -- Infected Ichor
-            200283, -- Gnoll-Gnawed Breeches
-            200266, -- Gnollish Chewtoy Launcher
+            {196973,quest=69173,}, -- Cliffside Wylderdrake: Dual Horned Chin
+            {196982,quest=69182,}, -- Cliffside Wylderdrake: Ears
+            {196986,quest=69186,}, -- Cliffside Wylderdrake: Black Hair
+            {197150,quest=69351,}, -- Highland Drake: Spiked Club Tail
             200127, -- Gold-Alloy Blade
+            {200178,toy=true,}, -- Infected Ichor
+            200266, -- Gnollish Chewtoy Launcher
+            200283, -- Gnoll-Gnawed Breeches
             200432, -- Rotguard Cowl
         },
         vignette=5416,
@@ -561,21 +573,19 @@ ns.RegisterPoints(ns.AZURESPAN, {
         npc=193634,
         loot={
             {197022,quest=69222,}, -- Cliffside Wylderdrake: Finned Neck
-            {197111,quest=69312,}, -- Highland Drake: Maned Head
             {197589,quest=69793,}, -- Windborne Velocidrake: Large Head Fin
             200086, -- Khaz'gorite-infused Resin
             200131, -- Reclaimed Survivalist's Dagger
             200151, -- Seamist Blade
             200174, -- Bonesigil Shoulderguards
             200186, -- Amberquill Shroud
-            200193, -- Manafrond Sandals
             200195, -- Thunderscale Legguards
-            {200249,toy=true,}, -- Mage's Chewed Wand
+            200232, -- Raptor Talonglaive
+            200435, -- Brackish Breeches
             200442, -- Basilisk Hide Jerkin
             200445, -- Lucky Hunting Charm
             200448, -- Abyssal Ward
             200552, -- Torrent Caller's Shell
-            200563, -- Primal Ritual Shell
         },
     },
     [] = { -- Swagraal the Swollen
