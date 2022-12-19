@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v36
+
+* More loot data obtained
+* Some position fixes for rares in Thaldraszus
+
 ## Changed in v35
 
 * Add some recipes that are findable in the open world
