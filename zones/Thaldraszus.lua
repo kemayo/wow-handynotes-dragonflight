@@ -369,9 +369,9 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         vignette=4958,
         minimap=true,
     },
-    [52806760] = { -- Craggravated Elemental
+    [45798526] = { -- Craggravated Elemental
         criteria=56154,
-        quest=69964,
+        quest=74061, -- vignette 69964
         npc=193663,
         loot={
             {196991,quest=69191,}, -- Cliffside Wylderdrake: Black Horns
@@ -380,6 +380,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
             200298, -- Stoneshaped Greatbelt
             200563, -- Primal Ritual Shell
         },
+        note="Break down the rock wall; *doesn't* require mining",
         vignette=5237,
     },
     [38436824] = { -- The Great Shellkhan
