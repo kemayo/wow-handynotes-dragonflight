@@ -199,9 +199,9 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         vignette=5204,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [57208420] = { -- Phleep
+    [58398489] = { -- Phleep
         criteria=56142,
-        quest=69866,
+        quest=74021, -- vignette 69866
         npc=193210,
         loot={
             {197008,quest=69208,}, -- Cliffside Wylderdrake: Narrow Stripes Pattern
