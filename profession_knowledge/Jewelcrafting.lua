@@ -51,14 +51,14 @@ ns.RegisterPoints(ns.AZURESPAN, {
         loot = {
             198664, -- Crystalline Overgrowth
         },
-        quest = nil,
+        quest = 70277,
     },
     [44606120] = {
         note = "Azure Archives, locked behind a minigame. There is a chest inside the pond with a large silver key. Click it to receive a buff. While buff is active, click 3 nearby crystals.",
         loot = {
             201016, -- Harmonic Crystal Harmonizer
         },
-        quest = nil,
+        quest = 70271,
     },
 }, dfjcknowledge)
 

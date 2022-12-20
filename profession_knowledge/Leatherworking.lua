@@ -16,7 +16,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
         loot = {
             198711, -- Poacher's Pack
         },
-        quest = nil,
+        quest = 70308,
     },
     [64302540] = {
         note = "Lying next to dead red dragon.",
@@ -50,7 +50,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
         loot = {
             198658, -- Decay-Infused Tanning Oil
         },
-        quest = nil,
+        quest = 70266,
     },
     [57504130] = {
         note = "Snowhide camp east of Camp Antonidas.",

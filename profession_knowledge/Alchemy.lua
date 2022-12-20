@@ -16,14 +16,14 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
         loot = {
             198685, -- Well Insulated Mug
         },
-        quest = nil,
+        quest = 70289,
     },
     [55008100] = {
         note = "Middle of the Icy Crater",
         loot = {
             198663, -- Frostforged Potion
         },
-        quest = nil,
+        quest = 70274,
     },
 }, dfalcknowledge)
 
@@ -33,7 +33,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         loot = {
             198710, -- Canteen of Suspicious Water
         },
-        quest = nil,
+        quest = 70305,
     },
 }, dfalcknowledge)
 
@@ -43,14 +43,14 @@ ns.RegisterPoints(ns.AZURESPAN, {
         loot = {
             198599, -- Experimental Decay Sample
         },
-        quest = nil,
+        quest = 70208,
     },
     [67001320] = {
         note = "Outside Timbermaw log house next to vase.",
         loot = {
             198712, -- Firewater Power Sample
         },
-        quest = nil,
+        quest = 70309,
     },
 }, dfalcknowledge)
 
@@ -60,13 +60,13 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         loot = {
             201003, -- Furry Gloop
         },
-        quest = nil,
+        quest = 70278,
     },
     [59503840] = {
         note = "Small purple glowing potion, hidden in bushes. Difficult to see.",
         loot = {
             198697, -- Contraband Concoction
         },
-        quest = nil,
+        quest = 70301,
     },
 }, dfalcknowledge)

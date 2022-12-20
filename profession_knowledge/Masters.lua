@@ -9,14 +9,14 @@ local master = {
 
 ns.RegisterPoints(ns.WAKINGSHORES, {
     [73276971] = { -- Zenzi
-        quest=nil,
+        quest=70259,
         npc=194844,
         currency=2033,
         requires=ns.conditions.Profession(ns.PROF_DF_SKINNING),
         active=ns.conditions.Profession(ns.PROF_DF_SKINNING, 25),
     },
     [60827591] = { -- Grigori Vialtry
-        quest=nil,
+        quest=70247,
         npc=194829,
         currency=2024,
         requires=ns.conditions.Profession(ns.PROF_DF_ALCHEMY),
@@ -72,7 +72,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
         active=ns.conditions.Profession(ns.PROF_DF_INSCRIPTION, 25),
     },
     [46224076] = { -- Pluutar
-        quest=nil,
+        quest=70255,
         npc=194841,
         currency=2029,
         requires=ns.conditions.Profession(ns.PROF_DF_JEWELCRAFTING),

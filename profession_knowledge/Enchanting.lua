@@ -63,7 +63,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
         loot = {
             198694, -- Enriched Earthen Shard
         },
-        quest = nil,
+        quest = 70298,
     },
 }, dfenchknowledge)
 
