@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v37
+
+* Add the Otto mount
+* Add the remainder of the profession knowledge questids, thanks to Shifted
+
 ## Changed in v36
 
 * More loot data obtained
