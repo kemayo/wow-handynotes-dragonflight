@@ -17,7 +17,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         criteria=54810,
         quest=70607,
         loot={},
-        active={ns.conditions.QuestComplete(70537), ns.conditions.Item(199068), any=true}, -- Sorrowful Letter
+        active={ns.conditions.QuestComplete(70537), ns.conditions.Item(199068), any=true}, -- Time-Lost Memo
         note="Find {item:199068} in other treasures",
     },
     [58158005] = { -- Sandy Wooden Duck

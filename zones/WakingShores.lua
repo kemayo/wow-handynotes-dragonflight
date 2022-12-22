@@ -19,6 +19,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
         loot={
             {202019, toy=true}, -- Golden Dragon Goblet
         },
+        active={ns.conditions.QuestComplete(70409), ns.conditions.Item(198854), any=true}, -- Archeologist Artifact Notes
         related={
             [76343420] = {quest=70409,loot={{198854,quest=70409}},atlas="poi-workorders",}, -- Archeologist Artifact Notes
         },
@@ -468,10 +469,9 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
             [66185530] = {quest=70864,label="{item:200066}",note="Top of tower",inbag=200066,atlas="Islands-AzeriteChest",}, -- Well-Preserved Bone
         },
     },
-    [30005530] = { -- Worldcarver A'tir
-        -- TODO: verify vignette-coords
+    [30025538] = { -- Worldcarver A'tir
         criteria=56052,
-        quest=70763,
+        quest=74090, -- vignete 70763
         npc=186859,
         loot={
             {197135,quest=69336,}, -- Highland Drake: Toothy Mouth
@@ -573,7 +573,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
         },
         vignette=5513,
     },
-    [33115569] = ns.SUPERRARE{ -- Turboris
+    [33635572] = ns.SUPERRARE{ -- Turboris
         criteria=56058,
         quest=74054,
         npc=187886,

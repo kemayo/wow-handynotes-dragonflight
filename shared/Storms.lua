@@ -38,4 +38,7 @@ Gravlion
 Infernum
 @ Azure Span 13013293, vignette 5228
 
+Rouen Icewind 193682: 69973 + 74027
+@ Waking Shores 30525606, vignette 5245
+
 ]]
