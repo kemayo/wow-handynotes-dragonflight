@@ -74,11 +74,13 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         quest=71033,
         label="Water-Bound Chest",
         loot={
+            201442, -- Primal Revenant's Frostblade
+            201443, -- Primal Revenant's Icewall
             197948, -- Stone Sentinel's Greatsword
             197955, -- Sword of the Eternal Guard
         },
         note="Survive the trial of the elements",
-        vignette=5407,
+        vignette=5407, -- and areaPoi 7265
     },
     [82317322] = { -- The Great Swog
         npc=191608,
@@ -806,8 +808,8 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         },
         path=43004800, -- TODO: improve this
     },
-    [82007600] = { -- Strunraan
-        quest=69929,
+    [83507630] = { -- Strunraan
+        quest=69929, -- 72055
         worldquest=69929,
         npc=193534,
         loot={
