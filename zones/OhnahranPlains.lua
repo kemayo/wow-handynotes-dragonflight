@@ -205,7 +205,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
             [74706980] = ancestor{criteria=55307, quest=71172, active=ns.conditions.Item(190327)}, -- The Carving Winds Ancestor, Awakened Air
             [63265727] = ancestor{criteria=55308, quest=71173, active=ns.conditions.Item(197788, 2)}, -- Sylvan Glade Ancestor, 2x Braised Bruffalon Brisket
             [54707838] = ancestor{criteria=55309, quest=71174, active=ns.conditions.Item(202071)}, -- Ohn'iri Springs Ancestor, Elemental Mote
-            [41635670] = ancestor{criteria=55310, quest=71175, active=ns.conditions.Item(190501)}, -- Teerakai Ancestor, Primal Molten Greatbelt (Blacksmithing)
+            [41635670] = ancestor{criteria=55310, quest=71175, active=ns.conditions.Item(199049)}, -- Teerakai Ancestor, Fire-Blessed Greatsword
             [32757029] = ancestor{criteria=55311, quest=71176, active=ns.conditions.Item(191470, 5)}, -- The Eternal Kurgans Ancestor, 5x Writhebark (Herbalism)
         },
     },
