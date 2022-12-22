@@ -1,5 +1,12 @@
 # Changelog
 
+## Changed in v38
+
+* Add Magic-Bound Chests (with Dragonscale Expedition rep 16)
+* Honor Our Ancestors: Teerakai Ancestor got hotfixed to want a Fire-Blessed Greatsword instead
+* Show all the treasure-maps in dirt/packs/chests
+* Some minor adjustments to points in Ohn'ahran Plains
+
 ## Changed in v37
 
 * Add the Otto mount
