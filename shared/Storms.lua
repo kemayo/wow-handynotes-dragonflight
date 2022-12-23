@@ -10,6 +10,7 @@ Azure Span Sand: areaPoi 7238 ~60,67
 Azure Span Fire: areaPoi 7231 ~12,38
 Azure Span Snow: areaPoi 7236 ~47,21
 Thaldraszus Primalist Future Sand: areaPoi 7299 ~60,82
+Thaldraszus Tyrhold Sand: areaPoi 7246 ~59,59
 
 
 Iceblade Trio: 69971 + 74009
@@ -40,5 +41,8 @@ Infernum
 
 Rouen Icewind 193682: 69973 + 74027
 @ Waking Shores 30525606, vignette 5245
+
+Crystalus 193645: 69952 + 73989
+@ Waking Shores 31865691, vignette
 
 ]]

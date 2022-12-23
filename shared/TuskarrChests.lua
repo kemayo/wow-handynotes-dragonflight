@@ -73,6 +73,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
     [58806840] = tuskarr,
     [58905480] = tuskarr,
     [59006670] = tuskarr,
+    [59235652] = tuskarr,
     [60505900] = tuskarr,
 })
 ns.RegisterPoints(2132, { -- Kargpaw's Den

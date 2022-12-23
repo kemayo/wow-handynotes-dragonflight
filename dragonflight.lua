@@ -71,6 +71,7 @@ Talked to Lethanak at the Life Pools: 72059
 
 unlocked dragon customization: 68797
 
-Herbalism: looted Dreambloom Petal 71859
+Herbalism: looted Dreambloom Petal 71858 71859
+Inscriptions: looted Iskaaean Trading Ledger 66376
 
 --]]
