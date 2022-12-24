@@ -59,8 +59,11 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
 ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [38706676] = {}, -- by an ancient stone
     [38825561] = {note="In cave"},
+    [39555456] = {},
+    [42325560] = {},
     [43326632] = {},
     [44686402] = {},
+    [46345357] = {},
     [47296085] = {},
     [48857035] = {},
     [51946274] = {},

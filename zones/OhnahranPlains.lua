@@ -367,9 +367,9 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         vignette=5183,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [43805560] = { -- Ronsak the Decimator
+    [43145573] = { -- Ronsak the Decimator
         criteria=56071,
-        quest=69878,
+        quest=74026, -- vignette 69878
         npc=193227,
         loot={
             {197016,quest=69216,}, -- Cliffside Wylderdrake: Maned Tail
@@ -821,6 +821,14 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
             200688, -- Tights of Twisting Winds
             200733, -- Storm Chaser's Waistguard
             200734, -- Striders of the Sky's Misery
+        },
+    },
+    [60417127] = { -- Nergazurai
+        quest=74093,
+        npc=195895, -- 59027499
+        route={
+            60417127, 58807080, 57807360, 58207460, 62207600, 63807600, 66807300, 65207060, 65206820,
+            66005880, 68805560, 68605160, 67205100, 68805680, 65605980, 65206900, r=1, g=0, b=0, loop=true,
         },
     },
 })
