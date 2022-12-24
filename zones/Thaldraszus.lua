@@ -423,9 +423,9 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         vignette=5235,
         note="Interact with the egg inside the cave",
     },
-    [62208180] = { -- Lord Epochbrgl
+    [62288178] = { -- Lord Epochbrgl
         criteria=56157,
-        quest=69882,
+        quest=74066, -- vignette 69882
         npc=193241,
         loot={
             {197008,quest=69208,}, -- Cliffside Wylderdrake: Narrow Stripes Pattern
@@ -434,6 +434,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
             200185, -- Grips of the Everflowing Ocean
             200552, -- Torrent Caller's Shell
         },
+        note="In building; if {npc:193257:Unstable Time Rift} is up, click to summon",
         vignette=5203,
     },
     [59105874] = ns.SUPERRARE{ -- Ancient Protector
