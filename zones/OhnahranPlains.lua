@@ -138,38 +138,41 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
 -- (It's the Patient Bufonid again)
 ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [56127701] = {
-        npc=190014, -- Initiate Radiya
-        quest={71195, 71203, any=true}, -- 71203 is the daily
-        progress={71196, 71197, 71198, 71199, 71195},
-        loot={
-            {192799, mount=1639}, -- Lizi's Reins
-        },
+        quest={71199, 71203, any=true}, -- 71199 is day 4, 71203 is the daily
         hide_before=ns.conditions.QuestComplete(66676), -- Sneaking In
-        active={ns.conditions.MajorFaction(2503, 9), ns.conditions.Level(70)}, -- Maruuk rank 9
-        texture=ns.atlas_texture("stablemaster", {r=0, g=0.5, b=1}), scale=1.2, minimap=true,
-        note=function()
-            local function q(quest, label)
-                return (C_QuestLog.IsQuestFlaggedCompleted(quest) and GREEN_FONT_COLOR or RED_FONT_COLOR):WrapTextInColorCode(label)
-            end
-            return "Gather items over a week of quests:\n"..
-                q(71196, "Day 1") ..": 20x {item:192615} from insects\n"..
-                q(71197, "Day 2") ..": 20x {item:192658} from plant mobs\n"..
-                q(71198, "Day 3") ..": 10x {item:194966} from fishing\n"..
-                q(71199, "Day 4") ..": 20x {item:192636} from animals\n"..
-                q(71195, "Day 5") ..": 1x {item:200598} from {npc:190015:Ohn Meluun}"
-        end,
+    },
+    [57667232] = {
+        -- relocates here for day 5...
+        quest={71195, 71203, any=true}, -- 71203 is the daily
+        requires=ns.conditions.QuestComplete(71199), -- day 4 done
         related={
             [53517898] = {
                 label="{item:200598}",
-                npc=190015,
-                quest=71195,
-                hide_before=ns.conditions.QuestComplete(71199), -- day 4
+                npc=190015, -- Ohn Meluun
                 loot={200598}, -- Meluun's Green Curry
                 atlas="food", minimap=true,
             },
         },
     },
 }, {
+    npc=190014, -- Initiate Radiya
+    loot={
+        {192799, mount=1639}, -- Lizi's Reins
+    },
+    progress={71196, 71197, 71198, 71199, 71195},
+    active={ns.conditions.MajorFaction(2503, 9), ns.conditions.Level(70)}, -- Maruuk rank 9
+    texture=ns.atlas_texture("stablemaster", {r=0, g=0.5, b=1}), scale=1.2, minimap=true,
+    note=function()
+        local function q(quest, label)
+            return (C_QuestLog.IsQuestFlaggedCompleted(quest) and GREEN_FONT_COLOR or RED_FONT_COLOR):WrapTextInColorCode(label)
+        end
+        return "Gather items over a week of quests:\n"..
+            q(71196, "Day 1") ..": 20x {item:192615} from insects\n"..
+            q(71197, "Day 2") ..": 20x {item:192658} from plant mobs\n"..
+            q(71198, "Day 3") ..": 10x {item:194966} from fishing\n"..
+            q(71199, "Day 4") ..": 20x {item:192636} from animals\n"..
+            q(71195, "Day 5") ..": 1x {item:200598} from {npc:190015:Ohn Meluun}"
+    end,
     group="dailymount"
 })
 
