@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v39
+
+* Show Initiate Radiya's new location on day 5 of the Lizi's Reins quest chain
+* More dirt locations
+* Fix so that loot shows more reliably on some map POIs
+
 ## Changed in v38
 
 * Add Magic-Bound Chests (with Dragonscale Expedition rep 16)
