@@ -1,6 +1,8 @@
 ## Interface: 100002
 ## Title: HandyNotes: Dragonflight Treasures
+## Title-ruRU: HandyNotes: Сокровища на Драконьих островах
 ## Notes: Where are the hidden treasures in the Dragon Isles?
+## Notes-ruRU: Показывает на карте, где спрятаны сокровища на Драконьих островах
 ## Author: Kemayo
 ## Version: @project-version@
 ## DefaultState: enabled
