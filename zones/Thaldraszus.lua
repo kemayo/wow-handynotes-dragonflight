@@ -185,7 +185,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     },
     [52805920] = { -- Matriarch Remalla
         criteria=56141,
-        quest=69883,
+        quest=74013, -- vignette 69883
         npc=193246,
         loot={
             {197111,quest=69312,}, -- Highland Drake: Maned Head
