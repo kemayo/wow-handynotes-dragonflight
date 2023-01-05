@@ -17,6 +17,7 @@ local dirt = {
         192055, -- Dragon Isles Artifact
         201390, -- Devastating Drakonid Waraxe
         201391, -- Drakonid Enforcer's Hidesplitter
+        201396, -- Hidepiercing Claw Extensions
     },
     -- quest 72023 (after 70822 Lost Expedition Camp) at basecamp *says* it unlocks these, but I saw them before
     requires=ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 5), -- also 70813(Digging Up Treasure) / 72026
@@ -119,9 +120,15 @@ ns.RegisterPoints(ns.AZURESPAN, {
     [20052526] = {},
     [29872621] = {},
     [34754639] = {},
+    [35153956] = {},
     [36264755] = {},
     [40325093] = {},
+    [41984236] = {},
     [44153092] = {},
+    [46862239] = {},
+    [47192372] = {},
+    [53883561] = {},
+    [58272621] = {},
     [59361966] = {},
     [65163016] = {note="In cave"},
     [65193152] = {},
@@ -129,6 +136,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
     [66101129] = {note="In cave"},
     [68301743] = {},
     [72344323] = {note="In cave"},
+    [73384059] = {},
     [78923703] = {},
 }, dirt)
 ns.RegisterPoints(ns.THALDRASZUS, {
@@ -137,6 +145,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     [36478409] = {},
     [36547317] = {},
     [36828367] = {},
+    [37607978] = {},
     [38198193] = {},
     [38758225] = {},
     [39018418] = {},
@@ -146,10 +155,12 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     [46377208] = {},
     [47917274] = {},
     [48495154] = {},
+    [50006056] = {},
     [50278321] = {},
     [50397827] = {},
     [51115967] = {},
     [53327640] = {},
+    [53495976] = {},
     [55227461] = {},
     [58748633] = {},
     [60507774] = {},

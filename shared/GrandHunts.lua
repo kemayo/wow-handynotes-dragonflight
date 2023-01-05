@@ -115,5 +115,9 @@ ns.RegisterPoints(ns.AZURESPAN, {
         },
         vignette=5281,
     },
-
+    [33214095] = { -- Tenmod
+        npc=194763,
+        quest=73938,
+        vignette=5283,
+    }
 }, hunt)
