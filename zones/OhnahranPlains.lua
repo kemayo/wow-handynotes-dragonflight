@@ -138,7 +138,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
 -- (It's the Patient Bufonid again)
 ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [56127701] = {
-        quest={71199, 71203, any=true}, -- 71199 is day 4, 71203 is the daily
+        quest={71209, 71203, any=true}, -- 71199 is day 4, 71203 is the daily
         hide_before=ns.conditions.QuestComplete(66676), -- Sneaking In
     },
     [57667232] = {
