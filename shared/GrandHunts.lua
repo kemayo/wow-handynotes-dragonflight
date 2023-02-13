@@ -62,6 +62,12 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
         },
         vignette=5255,
     },
+    [23328912] = { -- Tomnu
+        quest=70519, -- 73940
+        npc=193722,
+        loot={},
+        vignette=5254,
+    },
 }, hunt)
 
 ns.RegisterPoints(ns.OHNAHRANPLAINS, {
