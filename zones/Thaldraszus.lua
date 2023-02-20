@@ -170,7 +170,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     },
     [59806100] = { -- Phenran
         criteria=56140,
-        quest=69976,
+        quest=74020, -- 69976,
         npc=193688,
         loot={
             {197100,quest=69301,}, -- Highland Drake: Crested Brow
@@ -544,7 +544,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         },
     },
     [59406120] = { -- Overloading Defense Matrix
-        quest=74449,
+        quest=74449, -- 74565
         npc=201550,
         loot={
             203677, -- Watcher's 'Neck' Ring

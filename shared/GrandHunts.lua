@@ -36,6 +36,7 @@ local hunt = {
 ns.RegisterPoints(ns.WAKINGSHORES, {
     [41158455] = { -- Degmakh
         npc=194251,
+        quest=73911,
         loot={
             198990, -- Drakewatcher's Cord
         },
@@ -43,6 +44,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
     },
     [47767707] = { -- Muugurv
         npc=194225,
+        quest=73927,
         loot={
             198985, -- Drakewatcher's Vestement
         },
@@ -125,5 +127,10 @@ ns.RegisterPoints(ns.AZURESPAN, {
         npc=194763,
         quest=73938,
         vignette=5283,
-    }
+    },
+    [66385959] = { -- Arkhuu
+        npc=195300,
+        quest=73907,
+        vignette=5361,
+    },
 }, hunt)

@@ -112,7 +112,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
     -- https://www.wowhead.com/beta/achievement=16678/adventurer-of-the-azure-span
     [59405520] = { -- Wilrive
         criteria=56097,
-        quest=69948, -- didn't actually trigger
+        quest=73900, -- 69948 didn't actually trigger
         npc=193632,
         loot={
             {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
@@ -123,6 +123,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
             200193, -- Manafrond Sandals
             200195, -- Thunderscale Legguards
             200232, -- Raptor Talonglaive
+            200212, -- Sand-Encrusted Greaves
             {200249,toy=true,}, -- Mage's Chewed Wand
             200442, -- Basilisk Hide Jerkin
             200445, -- Lucky Hunting Charm

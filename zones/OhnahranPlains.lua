@@ -674,9 +674,11 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [81207780] = { -- Astray Splasher
         achievement=16678, -- Adventurer of the *Azure Span*
         criteria=56130,
-        quest=nil,
+        quest=74057, -- 72400? an iskaar rep level hit at the same time...
         npc=197411,
-        loot={},
+        loot={
+            200164, -- Iceloop
+        },
     },
     [59926695] = { -- Prozela Galeshot
         quest=72815, -- 69968 also
