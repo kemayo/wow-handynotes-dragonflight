@@ -16,9 +16,10 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     [33957694] = { -- Cracked Hourglass
         criteria=54810,
         quest=70607,
-        loot={},
+        loot={169951}, -- Broken Hourglass
         active={ns.conditions.QuestComplete(70537), ns.conditions.Item(199068), any=true}, -- Time-Lost Memo
         note="Find {item:199068} in other treasures",
+        vignette=5379,
     },
     [58158005] = { -- Sandy Wooden Duck
         criteria=54811,
