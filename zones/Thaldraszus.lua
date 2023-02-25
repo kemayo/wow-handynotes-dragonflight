@@ -560,6 +560,13 @@ ns.RegisterPoints(ns.THALDRASZUS, {
             203677, -- Watcher's 'Neck' Ring
         },
     },
+    [59566227] = { -- Overseer Stonetongue
+        quest=74566, -- 74448
+        npc=201552,
+        loot={
+            203665, -- Stonetongues Hood
+        },
+    },
     [60008190] = { -- Liskanoth
         -- also primalist future @ 53686325
         quest=69928, -- 72057
