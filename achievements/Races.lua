@@ -38,6 +38,9 @@ local Race = ns.Class{
 			{196987, quest=69187}, -- Cliffside Wylderdrake: Blonde Hair
 			{196966, quest=69166, note=ADVANCED_LABEL}, -- Cliffside Wylderdrake: Gold and Orange Armor
 		}, finalLoot),
+		[ns.FORBIDDENREACH] = {
+			-- Forbidden Reach Racer title
+		},
 	},
 	group="races",
 	note="Rewards are for zone-wide and continent-wide completion",
@@ -108,4 +111,12 @@ ns.RegisterPoints(ns.THALDRASZUS, {
 	[60294159] = Race(70059, {15899, 15902}, {2098, 2099}), -- Academy Ascent
 	[39517619] = Race(70157, {15905, 15908}, {2101, 2102}), -- Garden Gallivant
 	[58053361] = Race(70161, {15911, 15914}, {2103, 2104}), -- Caverns Criss-Cross
+})
+ns.RegisterPoints(ns.FORBIDDENREACH, {
+	[76136563] = Race(73017, {17216, 17219, 17222}, {2201, 2207, 2213}), -- Stormsunder Crater Circuit
+	[31326573] = Race(73020, {17225, 17239, 17242}, {2202, 2208, 2214}), -- Morqut Ascent
+	[63095195] = Race(73025, {17245, 17248, 17251}, {2203, 2209, 2215}), -- Aerie Chasm Cruise
+	[63658406] = Race(73029, {17254, 17257, 17260}, {2204, 2210, 2216}), -- Southern Reach Route
+	[41361455] = Race(73033, {17263, 17266, 17269}, {2205, 2211, 2217}), -- Caldera Coaster
+	[49426006] = Race(73061, {17272, 17275, 17278}, {2206, 2212, 2218}), -- Forbidden Reach Rush
 })
