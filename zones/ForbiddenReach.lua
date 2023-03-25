@@ -244,4 +244,19 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
 }, {
     achievement=17525, -- Champion of the Forbidden Reach
 })
+
+ns.RegisterPoints(ns.FORBIDDENREACH, {
+    [48197366] = {criteria=58501, loot={204338}, path=51915963}, -- The Burden of Lapisagos
+    [64783441] = {criteria=58502, loot={204316}, path=60313860}, -- A Soldier's Journal
+    [71046733] = {criteria=58503, loot={204335}}, -- A Song of the Depths
+    [34930891] = {criteria=58504, loot={204328}}, -- Return of the Nightsquall
+    [57456342] = {criteria=58505, loot={204321}}, -- Lost Expedition Notes
+    [61553378] = {criteria=58506, loot={204317}}, -- Words of the Wyrmslayer
+    -- In the vaults:
+    -- [] = {criteria=58660, loot={204691}}, -- Living Book
+    -- [] = {criteria=58661, loot={204181}}, -- Opera of the Aspects
+    -- [] = {criteria=58507, loot={204185}}, -- The Old Gods and the Ordering of Azeroth (Annotated)
+}, {
+    achievement=17530, -- Librarian of the Reach
+    texture=ns.atlas_texture("profession", {r=1, g=1, b=0}),
 })
