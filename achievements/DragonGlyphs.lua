@@ -77,3 +77,14 @@ ns.RegisterPoints(ns.THALDRASZUS, {
 ns.RegisterPoints(ns.VALDRAKKEN, {
     [59183784] = {criteria=55815}, -- Valdrakken
 }, GLYPH{achievement=16578})
+
+ns.RegisterPoints(ns.FORBIDDENREACH, {
+    [18381320] = {criteria=58238, --[[achievement=17398--]]}, -- Winglord's Perch
+    [20569140] = {criteria=58239, --[[achievement=17399--]]}, -- Talon's Watch
+    [62543238] = {criteria=58240, --[[achievement=17400--]]}, -- Froststone Peak
+    [79553264] = {criteria=58241, --[[achievement=17401--]]}, -- Dragonskull Island
+    [77295510] = {criteria=58242, --[[achievement=17402--]]}, -- Stormsunder Mountain
+    [48516897] = {criteria=58243, --[[achievement=17403--]]}, -- The Frosted Spine
+    [59056508] = {criteria=58244, --[[achievement=17404--]]}, -- Talonlords' Perch
+    [37693069] = {criteria=58245, --[[achievement=17405--]]}, -- Caldera of the Menders
+}, GLYPH{achievement=17411})
