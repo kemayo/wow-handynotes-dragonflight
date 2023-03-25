@@ -8,7 +8,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
         quest=nil,
         npc=200960,
         loot={
-            191930, -- Wakyn
+            {191930, pet=3261}, -- Wakyn
         },
         vignette=5520,
     },
