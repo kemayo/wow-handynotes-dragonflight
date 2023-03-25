@@ -46,7 +46,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [29005720] = { -- Amephyst
         criteria=58486,
-        quest=nil,
+        quest=74333,
         npc=200743,
         loot={
             204219, -- Design: Unstable Elementium
@@ -63,13 +63,13 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [44727943] = { -- Galakhad
         criteria=58464,
-        quest=nil,
+        quest=74342,
         npc=200717,
         vignette=5498,
     },
     [55905141] = { -- Luttrok
         criteria=58485,
-        quest=nil,
+        quest=74332,
         npc=200742,
         loot={
             {193235, pet=3285}, -- Luvvy
@@ -79,7 +79,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [80005900] = { -- Tidesmith Zarviss
         criteria=58480,
-        quest=nil,
+        quest=74325,
         npc=200730,
         loot={
             191260, -- Serevite Repair Hammer
@@ -95,7 +95,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [56003940] = { -- Agni Blazehoof
         criteria=58484,
-        quest=nil,
+        quest=74331,
         npc=200740,
         loot={
             191360, -- Bottled Putrescence
@@ -106,7 +106,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [61202680] = { -- Fimbol
         criteria=58483,
-        quest=nil,
+        quest=74330,
         npc=200739,
         loot={
             198199, -- Reinforced Machine Chassis
@@ -115,7 +115,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [43204900] = { -- Tectonus
         criteria=58474,
-        quest=nil,
+        quest=74300,
         npc=200619,
         loot={
             204233, -- Impenetrable Elemental Core
@@ -123,7 +123,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [55203660] = { -- Manathema
         criteria=58476,
-        quest=nil,
+        quest=74306,
         npc=200621,
         loot={
             204224, -- Speck of Arcane Awareness
@@ -131,7 +131,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [31205340] = { -- Gareed
         criteria=58478,
-        quest=nil,
+        quest=74321,
         npc=200722,
         loot={
             204225, -- Perfect Windfeather
@@ -139,7 +139,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [23006680] = { -- Sir Pinchalot
         criteria=58475,
-        quest=nil,
+        quest=74305,
         npc=200620,
     },
     [61723400] = { -- Wyrmslayer Angvardi
@@ -163,7 +163,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [36731223] = { -- Ookbeard
         criteria=58471,
-        quest=nil,
+        quest=74349,
         npc=200956,
         loot={
             {197636,quest=69847,}, -- Windborne Velocidrake: Shrieker Pattern
@@ -172,7 +172,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [37004700] = { -- Snarfang
         criteria=58477,
-        quest=nil,
+        quest=74307,
         npc=200622,
         loot={
             204232, -- Slyvern Alpha Claw
@@ -180,7 +180,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [49204180] = { -- Arcantrix
         criteria=58481,
-        quest=nil,
+        quest=74328,
         npc=200737,
         loot={
             198413, -- Serene Pigment
@@ -216,7 +216,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [56405900] = { -- Kangalo
         criteria=58482,
-        quest=nil,
+        quest=74329,
         npc=200738,
         loot={
             204228, -- Undigested Hochenblume Petal
@@ -224,7 +224,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [45003640] = { -- Faunos
         criteria=58479,
-        quest=nil,
+        quest=74322,
         npc=200725,
         loot={
             204231, -- Kingly Sheepskin Pelt
