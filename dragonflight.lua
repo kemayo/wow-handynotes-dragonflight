@@ -40,6 +40,7 @@ ns.defaults.profile.groupsHidden = {
     disturbeddirt = true,
     tuskarrchests = true,
     warsupply = true,
+    titanchests = true,
 }
 
 ns.groups["junk"] = BAG_FILTER_JUNK
@@ -48,6 +49,7 @@ ns.groups["disturbeddirt"] = "{spell:340561:Disturbed Dirt}"
 ns.groups["magicbound"] = "{npc:191905:Magic-Bound Chest}"
 ns.groups["tuskarrchests"] = "{item:200071:Sacred Tuskarr Totem}"
 ns.groups["warsupply"] = "War Supply Chest"
+ns.groups["titanchests"] = "Titan Chest"
 ns.groups["glyphs"] = "Dragon Glyphs"
 ns.groups["dailymount"] = "Daily Mounts"
 ns.groups["races"] = "{achievement:15939:Dragon Racing Completionist}"

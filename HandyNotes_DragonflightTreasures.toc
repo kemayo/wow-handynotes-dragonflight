@@ -36,6 +36,7 @@ shared\DisturbedDirt.lua
 shared\MagicBoundChest.lua
 shared\TuskarrChests.lua
 shared\WarSupplyChest.lua
+shared\TitanChests.lua
 shared\GrandHunts.lua
 shared\Recipes.lua
 

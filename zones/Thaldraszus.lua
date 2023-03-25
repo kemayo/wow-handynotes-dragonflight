@@ -4,6 +4,8 @@ local myname, ns = ...
 40857586 ?
 --]]
 
+-- stuffed the review box full at the Serene Dreams spa: 72357
+
 -- PRIMALIST_TOMORROW = 2085
 -- AZMERLOTH = 2092
 -- GNOLL_WAR = 2090
