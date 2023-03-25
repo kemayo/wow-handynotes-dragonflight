@@ -27,6 +27,7 @@ zones\AzureSpan.lua
 zones\OhnahranPlains.lua
 zones\Thaldraszus.lua
 zones\WakingShores.lua
+zones\ForbiddenReach.lua
 
 zones\ForbiddenReachIntro.lua
 
