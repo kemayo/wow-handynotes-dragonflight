@@ -261,6 +261,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     spell=405714,
     note="The kids are stealthed; talk to them for a gift",
     atlas="Vehicle-GrummleConvoy",
+    minimap=true,
 })
 
 --[[
@@ -306,4 +307,5 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
 }, {
     achievement=17530, -- Librarian of the Reach
     texture=ns.atlas_texture("profession", {r=1, g=1, b=0}),
+    minimap=true,
 })
