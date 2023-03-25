@@ -4,8 +4,9 @@ local myname, ns = ...
 
 ns.RegisterPoints(ns.FORBIDDENREACH, {
     [45917966] = { -- Warden Entrix
+        -- interior map: 2102 42908450
         criteria=58470,
-        quest=nil,
+        quest=73367, -- 74348
         npc=200960,
         loot={
             {191930, pet=3261}, -- Wakyn
@@ -14,28 +15,34 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
         path=51935938,
     },
     [51717276] = { -- Pyrachniss
+        -- interior map: 2102 67175616
         criteria=58472,
-        quest=nil,
+        quest=73385, -- 74350
         npc=200978,
         loot={
             {197590,quest=69794,}, -- Windborne Velocidrake: Small Head Fin
         },
         vignette=5521,
+        note="Jump down using the whirlwind for a slow fall",
+        path=51935939,
     },
     [32852931] = { -- Duzalgor
         criteria=58462,
-        quest=nil,
+        quest=73118, -- 74340
         npc=200610, -- also 203674
         vignette=5492,
+        note="Inside; grab a {spell:371045:Toxin Antidote} first",
+        path=36803250,
     },
     [78205066] = { -- Volcanakk
         criteria=58473,
-        quest=nil,
+        quest=73225, -- 74351
         npc=200911,
         loot={
             {197617,quest=69821,}, -- Windborne Velocidrake: Heavy Scales
         },
         vignette=5515,
+        path=74505464,
     },
     [29005720] = { -- Amephyst
         criteria=58486,
@@ -51,7 +58,8 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
         criteria=58830,
         quest=nil,
         npc=203353,
-        notes="Spawns anywhere",
+        note="Spawns anywhere",
+        vignette=5635,
     },
     [44727943] = { -- Galakhad
         criteria=58464,
@@ -59,13 +67,15 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
         npc=200717,
         vignette=5498,
     },
-    [55805140] = { -- Luttrok
+    [55905141] = { -- Luttrok
         criteria=58485,
         quest=nil,
         npc=200742,
         loot={
-            193235, -- Luvvy
+            {193235, pet=3285}, -- Luvvy
         },
+        vignette=5507,
+        note="Summon with Cooking",
     },
     [80005900] = { -- Tidesmith Zarviss
         criteria=58480,
@@ -78,8 +88,10 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [28003860] = { -- Gahz'raxes
         criteria=58459,
-        quest=nil,
+        quest=73095, -- 74337
         npc=200537,
+        note="In underwater cave",
+        path=26744144,
     },
     [56003940] = { -- Agni Blazehoof
         criteria=58484,
@@ -189,7 +201,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [58174826] = { -- Vraken the Hunter
         criteria=58458,
-        quest=nil,
+        quest=73111, -- 74336
         npc=200584,
         loot={
             {193364, pet=3291}, -- Scruffles
@@ -198,7 +210,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [47722071] = { -- Reisa the Drowned
         criteria=58461,
-        quest=nil,
+        quest=73117, -- 74339
         npc=200600,
         vignette=5491,
     },
@@ -226,7 +238,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [41021436] = { -- Ishyra
         criteria=58460,
-        quest=nil,
+        quest=73100, -- 74338
         npc=200579,
         vignette=5489,
     },
@@ -238,7 +250,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     },
     [43949052] = { -- Grugoth the Hullcrusher
         criteria=58465,
-        quest=nil,
+        quest=73154, -- 74343
         npc=200721,
         vignette=5500,
     },
