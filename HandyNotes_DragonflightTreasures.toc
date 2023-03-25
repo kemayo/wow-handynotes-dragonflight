@@ -24,10 +24,11 @@ dragonflight.lua
 
 zones\DragonIsles.lua
 zones\AzureSpan.lua
-zones\ForbiddenReach.lua
 zones\OhnahranPlains.lua
 zones\Thaldraszus.lua
 zones\WakingShores.lua
+
+zones\ForbiddenReachIntro.lua
 
 shared\ExpeditionScoutsPack.lua
 shared\DisturbedDirt.lua

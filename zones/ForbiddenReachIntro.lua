@@ -1,8 +1,8 @@
 local myname, ns = ...
 
-local MAPID = ns.FORBIDDENREACHINTRO -- Forbidden Reach
+-- Dracthyr intro:
 
-ns.RegisterPoints(MAPID, {
+ns.RegisterPoints(ns.FORBIDDENREACHINTRO, {
 	-- treasures
 	[42113436] = { -- Bag of Enchanted Winds
 		quest=65909,
