@@ -265,7 +265,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     },
     [39807000] = { -- Riverwalker Tamopo
         criteria=56148,
-        quest=69880,
+        quest=74024, -- 69880
         npc=193240,
         loot={
             {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
@@ -279,6 +279,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
             {200249,toy=true,}, -- Mage's Chewed Wand
             200442, -- Basilisk Hide Jerkin
             200859, -- Seasoned Hunter's Trophy
+            200137, -- Chitin Dreadbringer
         },
         vignette=5201,
         -- hide_before=ns.MAXLEVEL, -- TODO
