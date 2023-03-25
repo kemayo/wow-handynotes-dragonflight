@@ -3,7 +3,7 @@ local myname, ns = ...
 -- Zone added in 10.0.7
 
 ns.RegisterPoints(ns.FORBIDDENREACH, {
-    [54917966] = { -- Warden Entrix
+    [45917966] = { -- Warden Entrix
         criteria=58470,
         quest=nil,
         npc=200960,
@@ -11,6 +11,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
             {191930, pet=3261}, -- Wakyn
         },
         vignette=5520,
+        path=51935938,
     },
     [51717276] = { -- Pyrachniss
         criteria=58472,
