@@ -246,6 +246,53 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
 })
 
 ns.RegisterPoints(ns.FORBIDDENREACH, {
+    [29804740] = {},
+    [35404080] = {},
+    [37402300] = {},
+    [41403820] = {},
+    [54404660] = {},
+    [54405540] = {},
+    [62606140] = {},
+    [62606160] = {},
+    [63805060] = {},
+    [74003740] = {},
+}, {
+    npc=203280, -- To'no and Little Ko (203286)
+    spell=405714,
+    note="The kids are stealthed; talk to them for a gift",
+    atlas="Vehicle-GrummleConvoy",
+})
+
+--[[
+ns.RegisterPoints(ns.FORBIDDENREACH, {
+    [42605200] = { -- Elusive Frenzied Amberfur
+        quest=nil,
+        npc=202436,
+    },
+    [0] = { -- Goldenfur Skyfox
+        quest=nil,
+        npc=203675,
+    },
+    [0] = { -- Elusive Auric Argali
+        quest=nil,
+        npc=202441,
+    },
+    [0] = { -- Vinyeti
+        quest=nil,
+        npc=199163,
+    },
+    [0] = { -- PH Vrykul
+        quest=nil,
+        npc=200980,
+    },
+    [0] = { -- Rarebear
+        quest=nil,
+        npc=199210,
+    },
+})
+--]]
+
+ns.RegisterPoints(ns.FORBIDDENREACH, {
     [48197366] = {criteria=58501, loot={204338}, path=51915963}, -- The Burden of Lapisagos
     [64783441] = {criteria=58502, loot={204316}, path=60313860}, -- A Soldier's Journal
     [71046733] = {criteria=58503, loot={204335}}, -- A Song of the Depths
