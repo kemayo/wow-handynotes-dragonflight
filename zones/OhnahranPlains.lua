@@ -537,7 +537,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     --]]
     [85221544] = { -- Hamett
         criteria=56082,
-        quest=nil,
+        quest=73951,
         npc=187781,
         loot={},
     },
