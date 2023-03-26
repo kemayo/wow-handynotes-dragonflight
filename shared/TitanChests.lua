@@ -29,7 +29,6 @@ local chest = {
     requires=ns.conditions.MajorFaction(ns.FACTION_VALDRAKKEN, 2),
     texture=ns.atlas_texture("VignetteLoot", {r=0.5, g=1, b=1, scale=0.9}),
     group="titanchests", always=true,
-    vignette=5467,
 }
 
 ns.RegisterPoints(ns.THALDRASZUS, {
