@@ -310,6 +310,7 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     [48197366] = {criteria=58501, loot={204338}, path=51915963}, -- The Burden of Lapisagos
     -- ^ 2102 @ 52405970
     [64783441] = {criteria=58502, loot={204316}, path=60313860}, -- A Soldier's Journal
+    -- ^ 2154 @ 64765652
     [71046733] = {criteria=58503, loot={204335}}, -- A Song of the Depths
     [34930891] = {criteria=58504, loot={204328}}, -- Return of the Nightsquall
     [57456342] = {criteria=58505, loot={204321}}, -- Lost Expedition Notes

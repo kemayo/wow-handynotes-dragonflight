@@ -81,6 +81,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         },
         note="Survive the trial of the elements",
         vignette=5407, -- and areaPoi 7265
+        areaPoi=7265,
     },
     [82317322] = { -- The Great Swog
         npc=191608,
