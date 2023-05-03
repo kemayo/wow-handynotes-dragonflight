@@ -1,4 +1,4 @@
-## Interface: 100007
+## Interface: 100100
 ## Title: HandyNotes: Dragonflight Treasures
 ## Title-ruRU: HandyNotes: Сокровища на Драконьих островах
 ## Notes: Where are the hidden treasures in the Dragon Isles?
