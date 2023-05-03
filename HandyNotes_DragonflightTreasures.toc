@@ -28,6 +28,7 @@ zones\OhnahranPlains.lua
 zones\Thaldraszus.lua
 zones\WakingShores.lua
 zones\ForbiddenReach.lua
+zones\ZaralekCavern.lua
 
 zones\ForbiddenReachIntro.lua
 
