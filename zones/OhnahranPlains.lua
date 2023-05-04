@@ -780,8 +780,8 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         path=24503340,
         vignette=5131,
     },
-    [72615598] = { -- Biryuk
-        quest=nil,
+    [73785597] = { -- Biryuk
+        quest=73903,
         npc=193168,
         loot={}, -- only supplies and commendations
     },
