@@ -324,3 +324,17 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     texture=ns.atlas_texture("profession", {r=1, g=1, b=0}),
     minimap=true,
 })
+
+ns.RegisterVignettes(ns.FORBIDDENREACH, {
+    [5614] = {}, -- Forbidden Hoard
+    [5463] = {}, -- Forbidden Hoard (locked)
+}, {
+    loot={
+        {197000, quest=69200}, -- Cliffside Wylderdrake: Coiled Horns
+        {203463, quest=74359}, -- Atrenosh's Journal
+        202667, -- Sealed Artifact Scroll
+        202668, -- Sealed Spirit Scroll
+        202669, -- Sealed Fish Scroll
+        202670, -- Sealed Knowledge Scroll
+    },
+})
