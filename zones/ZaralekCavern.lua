@@ -71,7 +71,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
             204847, -- Recipe: Rocks on the Rocks
             205320, -- Greatbelt of the Stronk
             205313, -- Brullo's Wristbraces
-        }
+        },
         vignette=5652,
     },
     [55841899] = { -- Professor Gastrinax
