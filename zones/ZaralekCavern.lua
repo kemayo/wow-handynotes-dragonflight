@@ -28,14 +28,14 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     --]]
     [56207380] = { -- Alcanon
         criteria=59188,
-        quest=nil,
+        quest=75284, -- 75285
         npc=203515,
         loot={
             {203307,quest=73795,}, -- Winding Slitherdrake: Plated Brow
             205309, -- Loyal Attendant's Gaze
             205318, -- Guardian Golem's Legplates
         },
-        vignette=nil,
+        vignette=5646,
     },
     [48367509] = { -- Aquifon
         criteria=59185,
@@ -51,7 +51,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     },
     [57786911] = { -- Underlight Queen
         criteria=59191,
-        quest=nil,
+        quest=75297, -- 75298
         npc=203593,
         loot={
             {205159, pet=3551}, -- Teardrop Moth
@@ -100,7 +100,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     },
     [28875085] = { -- Dinn (Jrumm?)
         criteria=59206,
-        quest=nil,
+        quest=75352, -- 75353
         npc=203646,
         loot={
             {203320,quest=73808,}, -- Winding Slitherdrake: Ears
@@ -136,7 +136,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     },
     [39407061] = { -- Viridian King
         criteria=59210,
-        quest=75366,
+        quest=75365, -- 75366
         npc=201029,
         loot={
             {203345,quest=73836,}, -- Winding Slitherdrake: Split Jaw Horns
@@ -148,7 +148,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     },
     [60293933] = { -- Kapraku (Kaprachu?)
         criteria=59184,
-        quest=75269,
+        quest=75268, -- 75269
         npc=203466,
         loot={
             {205341,quest=75743,}, -- Winding Slitherdrake: Heavy Scales
@@ -168,7 +168,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     },
     [32445127] = { -- Emberdusk
         criteria=59209,
-        quest=75364,
+        quest=75361, -- 75364
         npc=203664,
         loot={
             {203363,quest=73855,}, -- Winding Slitherdrake: Large Finned Throat
@@ -179,7 +179,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     },
     [65435587] = { -- Kob'rok
         criteria=59183,
-        quest=75267,
+        quest=75266, -- 75267
         npc=203462,
         loot={
             {206021, pet=3545}, -- Kob'rok's Luminescent Scale
@@ -202,7 +202,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     },
     [42176584] = { -- Karokta
         criteria=59199,
-        quest=75334,
+        quest=75333, -- 75334
         npc=203625,
         loot={
             {203358,quest=73850,}, -- Winding Slitherdrake: Small Finned Tail
@@ -213,9 +213,9 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
         },
         vignette=5653,
     },
-    [53604120] = { -- Klakatak
+    [53724114] = { -- Klakatak
         criteria=59198,
-        quest=75322,
+        quest=75321, -- 75322
         npc=203618,
         loot={
             205308, -- Clacking Clawguards
@@ -226,7 +226,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     },
     [36425329] = { -- Skornak
         criteria=59205,
-        quest=nil,
+        quest=75348, -- 75349
         npc=203643,
         loot={
             {203321,quest=73809,}, -- Winding Slitherdrake: Curled Cheek Horn
@@ -238,7 +238,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     },
     [53106421] = { -- Spinmarrow
         criteria=59187,
-        quest=nil,
+        quest=75275, -- 75276
         npc=203480,
         loot={
             {203318,quest=73806,}, -- Winding Slitherdrake: Hairy Crest
@@ -246,7 +246,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
             205305, -- Zaralek Arachnid Armbands
             205326, -- Crystalweb Chelicera
         },
-        path=54986573,
+        path=54796586,
     },
     [37954642] = { -- Subterrax
         criteria=59208,
