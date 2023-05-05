@@ -20,11 +20,6 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
         quest=nil,
         npc=204096,
     },
-    [0] = { -- Spinmarrow
-        criteria=59187,
-        quest=nil,
-        npc=203480,
-    },
     [0] = { -- Hadexia
         criteria=59197,
         quest=nil,
@@ -38,8 +33,9 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     --]]
     [48367509] = { -- Aquifon
         criteria=59185,
-        quest=nil,
+        quest=75270, -- 75271
         npc=203468,
+        loot={205295}, -- Sediment Sifters
         vignette=5640,
     },
     [57786911] = { -- Underlight Queen
@@ -50,7 +46,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     },
     [41518613] = { -- Brullo the Strong (Brulsef the Stronk?)
         criteria=59202,
-        quest=nil,
+        quest=75325, -- 75326
         npc=203621,
         vignette=5652,
     },
@@ -151,6 +147,12 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
         npc=203643,
         vignette=5659,
     },
+    [53106421] = { -- Spinmarrow
+        criteria=59187,
+        quest=nil,
+        npc=203480,
+        path=54986573,
+    },
     [37954642] = { -- Subterrax
         criteria=59208,
         quest=75360,
@@ -159,7 +161,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     },
     [41383744] = { -- Magtembo (magmanesha?)
         criteria=59203,
-        quest=75340,
+        quest=75339, -- 75340
         npc=200111,
         vignette=5656,
     },
@@ -289,28 +291,63 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
 })
 
 ns.RegisterPoints(ns.ZARALEKCAVERN, {
-    -- [] = {criteria=59222, quest=73697}, -- Ancient Zaqali Chest
-    -- [] = {criteria=59220, quest=72986}, -- Blazing Shadowflame Chest
+    [36634881] = {criteria=59222, quest=73697, vignette=5534, nearby={36454821, label="Magma Bottle"}}, -- Ancient Zaqali Chest
+    [28524794] = {criteria=59220, quest=72986, vignette=5523, note="Equip your {item:15138:Onyxia Scale Cloak} to loot this (really)"}, -- Blazing Shadowflame Chest
     -- [] = {criteria=59225, quest=75232}, -- Bloody Body
-    -- [] = {criteria=59226, quest=73706}, -- Charred Egg
+    [30054193] = {criteria=59226, quest=73706, vignette=5539, note="On the high ledge"}, -- Charred Egg
     -- [] = {criteria=59224, quest=75187}, -- Chest of the Flights
     -- [] = {criteria=59228, quest=74986}, -- Crystal-Encased Chest
     [62705377] = {criteria=59223, quest=75019, vignette=5593, note="Underwater"}, -- Long-Lost Cache
-    -- [] = {criteria=59227, quest=74995}, -- Old Trunk
+    [43068257] = { -- Old Trunk
+        criteria=59227, quest=74995,
+        loot={204810}, -- Drogbar Rocks
+        related={
+            [42988255] = {label="{npc:204277:Thieving Rock Mouse}", quest=75526, minimap=true,},
+            [42148014] = {label="{npc:204277:Thieving Rock Mouse}", quest=75527, hide_before=ns.conditions.QuestComplete(75526), minimap=true,},
+            [41728145] = {label="{npc:204277:Thieving Rock Mouse}", quest=75534, hide_before=ns.conditions.QuestComplete(75527), minimap=true,},
+            [42758221] = {label="{npc:204277:Thieving Rock Mouse}", quest=75535, hide_before=ns.conditions.QuestComplete(75534), minimap=true,},
+            [43728386] = {label="{npc:204277:Thieving Rock Mouse}", hide_before=ns.conditions.QuestComplete(75535), minimap=true,},
+        },
+        note="Find the {npc:204277:Thieving Rock Mouse} 5x nearby",
+    },
     -- [] = {criteria=59221, quest=73410}, -- Seething Cache
-    -- [] = {criteria=59219, quest=73395}, -- Well-Chewed Chest
+    [29764055] = {criteria=59219, quest=73395, vignette=5522, path=30394148, nearby={30124074}, note="Get the key from the bear"}, -- Well-Chewed Chest
 }, {
     achievement=17786, -- Treasures of Zaralek Cavern
 })
 
 ns.RegisterPoints(ns.ZARALEKCAVERN, {
-    [56684936] = { -- Moth-Pilfered Pouch
+    [56684936] = {
         label="Moth-Pilfered Pouch",
         quest=75320,
         -- npc=203225, -- Struggling mothling
         loot={205191}, -- Underlight Globe
         note="Stand under {npc:203225:Struggling Mothling} it as it bounces on you",
         vignette=5658, -- 5650 once dropped
+    },
+    [57956632] = {
+        label="Dreamer's Bounty",
+        quest=75762,
+        loot={205194}, -- Fractured Crystalspine Quill
+        note="Get a {npc:201068:Preying Duskmoth} to use {spell:400066:Drowsy Dust} on you, quickly kill it, then open the chest",
+        vignette=5712,
+    },
+    [48451083] = {
+        label="Fealty's Reward",
+        quest=75514,
+        loot={205195}, -- Drakeforged Magma Charm
+        note="/kneel by the nearby statue",
+        related={
+            [43572302] = {label="Statue", note="/kneel", minimap=true,},
+        },
+    },
+    [48421636] = {
+        label="Molten Hoard",
+        quest=75515,
+        loot={205981}, -- Molten Primal Fang
+        vignette=5686,
+        note="Underground, where the magma is coming from",
+        path=48531838,
     },
     [62065534] = { -- Waterlogged Bundle
         label="Waterlogged Bundle",
@@ -332,3 +369,12 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
 ns.RegisterPoints(2184, { -- starting cave
     [63688296] = {quest=75303, vignette=5648},
 }, STASH)
+
+local RITUAL = {
+    label="Ritual Offerings",
+    texture=ns.atlas_texture("VignetteLoot", {r=1, g=0.5, b=0.5, scale=0.9}),
+}
+ns.RegisterPoints(ns.ZARALEKCAVERN, {
+    [27344217] = {quest=73553, vignette=5531},
+    [32634418] = {quest=73551, vignette=5529},
+}, RITUAL)
