@@ -385,6 +385,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
         npc=202874,
     },
     [0] = { -- Pahi'rys
+        -- in a dig
         quest=nil,
         npc=205540,
         loot={
@@ -477,6 +478,12 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
         note="Underwater",
         vignette=5592,
     },
+    [64177497] = {
+        label="Nal ks'kol Reliquary",
+        quest=75745,
+        hide_before=ns.conditions.QuestComplete(72963), -- The Upper Hand
+        vignette=5711,
+    }
 })
 
 local STASH = {
@@ -515,4 +522,5 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     [40415197] = {},
     [55076345] = {},
     [57444585] = {},
+    [58557141] = {},
 }, TRASH)
