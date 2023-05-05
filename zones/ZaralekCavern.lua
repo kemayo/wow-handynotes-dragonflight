@@ -42,8 +42,8 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
         quest=75270, -- 75271
         npc=203468,
         loot={
+            {205154, pet=3548}, -- Aquapo
             205090, -- Zaralek Surveyor's Barrier
-            205154, -- Aquapo
             205295, -- Sediment Sifters
             205306, -- Aquiferous Raiment
         },
@@ -65,6 +65,13 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
         criteria=59202,
         quest=75325, -- 75326
         npc=203621,
+        loot={
+            -- All actually from the Chest of Massive Gains
+            {205114, pet=3533}, -- Brul
+            204847, -- Recipe: Rocks on the Rocks
+            205320, -- Greatbelt of the Stronk
+            205313, -- Brullo's Wristbraces
+        }
         vignette=5652,
     },
     [55841899] = { -- Professor Gastrinax
@@ -225,6 +232,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
             {203321,quest=73809,}, -- Winding Slitherdrake: Curled Cheek Horn
             205294, -- Sandals of Molten Scorn
             205301, -- Hardened Lava Handwraps
+            {205463, toy=true}, -- Skornak's Lava Ball
         },
         vignette=5659,
     },
