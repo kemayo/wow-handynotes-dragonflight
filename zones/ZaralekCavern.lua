@@ -408,7 +408,16 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     -- [] = {criteria=59225, quest=75232}, -- Bloody Body
     [30054193] = {criteria=59226, quest=73706, vignette=5539, note="On the high ledge"}, -- Charred Egg
     -- [] = {criteria=59224, quest=75187}, -- Chest of the Flights
-    -- [] = {criteria=59228, quest=74986}, -- Crystal-Encased Chest
+    [36407426] = { -- Crystal-Encased Chest
+        criteria=59228, quest=74986, -- 75601 for unlock
+        loot={205192}, -- Volatile Crystal Shard
+        related={
+            [37766880] = {label="Purple Crystal",quest=74987,note="On floating rock",minimap=true,},
+            [39367326] = {label="Yellow Crystal",quest=75559,note="On floating rock",minimap=true,},
+        },
+        vignette=5690,
+        note="Use two nearby crystals",
+    },
     [62705377] = {criteria=59223, quest=75019, vignette=5593, note="Underwater"}, -- Long-Lost Cache
     [43068257] = { -- Old Trunk
         criteria=59227, quest=74995,
@@ -464,7 +473,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     [62065534] = { -- Waterlogged Bundle
         label="Waterlogged Bundle",
         quest=75015, -- 75814? probably one is a barter-brick
-        -- loot={},
+        loot={204985}, -- Barter Brick
         note="Underwater",
         vignette=5592,
     },
@@ -487,6 +496,23 @@ local RITUAL = {
     texture=ns.atlas_texture("VignetteLoot", {r=1, g=0.5, b=0.5, scale=0.9}),
 }
 ns.RegisterPoints(ns.ZARALEKCAVERN, {
-    [27344217] = {quest=73553, vignette=5531},
+    [38184991] = {quest=73548, vignette=5528, note="In cave"},
     [32634418] = {quest=73551, vignette=5529},
+    [30055141] = {quest=73552, vignette=5530}, -- verify quest
+    [32015277] = {quest=73552, vignette=5530},
+    [27344217] = {quest=73553, vignette=5531},
+    [28175154] = {quest=73553, vignette=5531}, -- verify quest
 }, RITUAL)
+
+local TRASH = {
+    label="Smelly Trash Pile",
+    texture=ns.atlas_texture("VignetteLoot", {r=0.5, g=0.5, b=1, scale=0.9}),
+    vignette=5714,
+}
+ns.RegisterPoints(ns.ZARALEKCAVERN, {
+    [35754907] = {},
+    [37056988] = {},
+    [40415197] = {},
+    [55076345] = {},
+    [57444585] = {},
+}, TRASH)
