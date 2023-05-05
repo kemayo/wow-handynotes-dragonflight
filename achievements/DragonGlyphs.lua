@@ -88,3 +88,14 @@ ns.RegisterPoints(ns.FORBIDDENREACH, {
     [59056508] = {criteria=58244, --[[achievement=17404--]]}, -- Talonlords' Perch
     [37693069] = {criteria=58245, --[[achievement=17405--]]}, -- Caldera of the Menders
 }, GLYPH{achievement=17411})
+
+ns.RegisterPoints(ns.ZARALEKCAVERN, {
+    [41608030] = {criteria=59544, --[[achievement=17510--]]}, -- Dragon Glyphs: Glimmerogg
+    [62707030] = {criteria=59545, --[[achievement=17511--]]}, -- Dragon Glyphs: Nal ks'kol
+    [54705480] = {criteria=59546, --[[achievement=17512--]]}, -- Dragon Glyphs: Loamm
+    [30404520] = {criteria=59547, --[[achievement=17513--]]}, -- Dragon Glyphs: Zaqali Caldera
+    [55202780] = {criteria=59548, --[[achievement=17514--]]}, -- Dragon Glyphs: Slitherdrake Roost
+    [72004830] = {criteria=59549, --[[achievement=17515--]]}, -- Dragon Glyphs: The Throughway
+    [46503620] = {criteria=59550, --[[achievement=17516--]]}, -- Dragon Glyphs: Acidbite Ravine
+    [48000440] = {criteria=59551, --[[achievement=17517--]]}, -- Dragon Glyphs: Aberrus Approach
+}, GLYPH{achievement=18150})
