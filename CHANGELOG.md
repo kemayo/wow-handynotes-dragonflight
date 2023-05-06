@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v47
+
+* More Zaralek Cavern data
+
 ## Changed in v46
 
 * Updated for 10.1.0 and Zaralek Cavern
