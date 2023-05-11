@@ -81,16 +81,16 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     [48001700] = {
         loot={204990}, -- Lava-Drenched Shadow Crystal
         quest=nil,
-        vignette=nil,
+        vignette=5681,
     },
     [36666933] = {
         loot={205001}, -- Resonating Arcane Crystal
         quest=nil,
-        vignette=nil,
+        vignette=5683,
     },
     [62395380] = {
         loot={204999}, -- Shimmering Aqueous Orb
         quest=nil,
-        vignette=nil,
+        vignette=5682,
     },
 }, dfenchknowledge)
