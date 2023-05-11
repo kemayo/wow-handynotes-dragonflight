@@ -70,3 +70,22 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         quest = 70301,
     },
 }, dfalcknowledge)
+
+ns.RegisterPoints(ns.ZARALEKCAVERN, {
+    [62104112] = {
+        loot={205212}, -- Marrow-Ripened Slime
+        quest=nil,
+        vignette=nil,
+    },
+    [52681830] = {
+        loot={205211}, -- Nutrient Diluted Protofluid from Malnourished Specimen
+        quest=nil,
+        vignette=nil,
+    },
+    [40485918] = {
+        loot={205213}, -- Suspicious Mold
+        quest=nil,
+        vignette=nil,
+    },
+
+}, dfalcknowledge)

@@ -76,3 +76,21 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         quest = 70342,
     },
 }, dfenchknowledge)
+
+ns.RegisterPoints(ns.ZARALEKCAVERN, {
+    [48001700] = {
+        loot={204990}, -- Lava-Drenched Shadow Crystal
+        quest=nil,
+        vignette=nil,
+    },
+    [36666933] = {
+        loot={205001}, -- Resonating Arcane Crystal
+        quest=nil,
+        vignette=nil,
+    },
+    [62395380] = {
+        loot={204999}, -- Shimmering Aqueous Orb
+        quest=nil,
+        vignette=nil,
+    },
+}, dfenchknowledge)
