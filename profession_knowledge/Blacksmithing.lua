@@ -89,17 +89,17 @@ ns.RegisterPoints(ns.THALDRASZUS, {
 ns.RegisterPoints(ns.ZARALEKCAVERN, {
     [48302195] = {
         loot={205987}, -- Brimstone Rescue Ring
-        quest=nil,
+        quest=76079,
         vignette=5734,
     },
     [57155464] = {
         loot={205986}, -- Well-Worn Kiln
-        quest=nil,
+        quest=76078,
         vignette=5733,
     },
     [27534287] = {
         loot={205988}, -- Zaqali Elder Spear
-        quest=nil,
+        quest=76080,
         vignette=5735,
     },
 }, dfbsknowledge)
