@@ -73,42 +73,42 @@ ns.RegisterPoints(ns.THALDRASZUS, {
 ns.RegisterPoints(ns.ZARALEKCAVERN, {
     [37825883] = {
         loot={204475}, -- Busted Wyrmhole Generator
-        quest=nil,
+        quest=75186,
         vignette=5618,
     },
     [50514793] = {
         loot={204471}, -- Defective Survival Pack
-        quest=nil,
+        quest=75184,
         vignette=5617,
     },
     [49447901] = {
         loot={204853}, -- Discarded Dracothyst Drill
-        quest=nil,
+        quest=75431,
         vignette=5672,
     },
     [57657394] = {
         loot={204850}, -- Handful of Khaz'gorite Bolts
-        quest=nil,
+        quest=75430,
         vignette=5671, -- Bolts and Brass
     },
     [48172793] = {
         loot={204470}, -- Haphazardly Discarded Bomb
-        quest=nil,
+        quest=75183,
         vignette=5616,
     },
     [49875925] = {
         loot={204480}, -- Inconspicuous Data Miner
-        quest=nil,
+        quest=75188,
         vignette=5620,
     },
     [48484864] = {
         loot={204469}, -- Misplaced Aberrus Outflow Blueprints
-        quest=nil,
+        quest=75180,
         vignette=5615,
     },
     [48101659] = {
         loot={204855}, -- Overclocked Determination Core
-        quest=nil,
+        quest=75433,
         vignette=5673, -- Molten Scoutbot
     },
 }, dfengknowledge)
