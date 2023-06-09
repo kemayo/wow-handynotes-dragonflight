@@ -82,17 +82,17 @@ ns.RegisterPoints(ns.THALDRASZUS, {
 ns.RegisterPoints(ns.ZARALEKCAVERN, {
     [54413247] = {
         loot={205219}, -- Broken Barter Boulder
-        quest=nil,
+        quest=75654,
         vignette=5698,
     },
     [34474543] = {
         loot={205216}, -- Gently Jostled Jewels
-        quest=nil,
+        quest=75653,
         vignette=5697,
     },
     [40378066] = {
         loot={205214}, -- Snubbed Snail Shells
-        quest=nil,
+        quest=75652,
         vignette=5696,
     },
 }, dfjcknowledge)
