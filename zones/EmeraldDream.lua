@@ -66,6 +66,7 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
         criteria=62961,
         quest=78006,
         vignette=5832,
+        note="In the tree",
     },
     [47105310] = { -- Reliquary of Ursol
         criteria=62955,
@@ -133,10 +134,27 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
         loot={210686}, -- Grovekeeper's Barrier
         vignette=5954,
     },
+    [55324538] = {
+        quest=78551,
+        loot={210678}, -- Verdant Gleaner's Scythe
+        vignette=5955,
+        path=54764451,
+    },
 }, {
     label="Unwaking Echo",
     note="/sleep to open",
 })
+
+-- Small Somnut
+--[[
+-- No quests, basically everywhere, might not even be worth showing
+-- https://www.wowhead.com/object=408719/small-somnut#comments
+ns.RegisterPoints(ns.EMERALDDREAM, {
+    [32936563] = {},
+    [57185350] = {},
+    [52003800] = {note="Stuck in a wall"},
+}, {vignette=5833, label="Small Somnut"}
+]]
 
 -- Rares
 ns.RegisterPoints(ns.EMERALDDREAM, {
@@ -163,8 +181,12 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
         quest=77878,
         npc=209929, -- also 214131
         loot={
+            208332, -- Horns of the Envoy
+            208337, -- Leaf Steward's Leggings
+            208340, -- Stag's Flourishing Mantle
             208365, -- Winter's Stand
         },
+        note="Loot nearby {item:208881:Shiversnap Blossom} and throw into the well",
         vignette=5816,
     },
     [40457263] = { -- Moragh the Slothful
