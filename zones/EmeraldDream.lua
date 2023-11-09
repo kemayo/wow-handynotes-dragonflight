@@ -10,6 +10,7 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
             [41706250] = {label="{npc:210060:Triflesnatcher}",note="Follow until the treasure appears"},
         },
         note="Follow the nearby {npc:210060:Triflesnatcher} until the treasure appears",
+        vignette=5812,
     },
     [47503490] = { -- Hidden Moonkin Stash
         criteria=62953,
@@ -17,10 +18,12 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
         loot={
             {210725, toy=true}, -- Owl Post
         },
+        vignette=5826,
     },
     [39106550] = { -- Crystalline Glowblossom
         criteria=62954,
         quest=77950,
+        vignette=5981,
     },
     [37303070] = { -- Pineshrew Cache
         criteria=62956,
@@ -28,6 +31,7 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
         loot={
             {210411, toy=true}, -- Fast Growing Seed
         },
+        vignette=5872,
     },
     [61605960] = { -- Magical Bloom
         criteria=62960,
@@ -38,10 +42,12 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
             [62906040] = {label="{npc:210544:Laughing Podling}",note="Follow until the treasure appears"},
         },
         note="Follow the nearby {npc:210544:Laughing Podling} until the treasure appears",
+        vignette=5831, -- also 5926, 5927
     },
     [55305730] = { -- Odd Burl
         criteria=62961,
         quest=78006,
+        vignette=5832,
     },
     [47105310] = { -- Reliquary of Ursol
         criteria=62955,
@@ -50,6 +56,8 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
             210434, -- Visage of Ursol
         },
         note="Bring a Mark of Ursol here. If you can be a bear, you don't need the Mark. (Pandaren count!)",
+        -- vignette=5907,
+        minimap=true,
     },
     [64101920] = { -- Reliquary of Aviana
         criteria=62957,
@@ -58,6 +66,7 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
             210659, -- Branch of Aviana
         },
         note="Bring a Mark of Aviana here. If you can have wings, you don't need the Mark.",
+        minimap=true,
     },
     [63407300] = { -- Reliquary of Ashamane
         criteria=62958,
@@ -66,6 +75,7 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
             210631, -- Branch of Ashamane
         },
         note="Bring a Mark of Ashamane here. If you can stealth, you don't need the Mark",
+        minimap=true,
     },
     [33208330] = { -- Reliquary of Goldrinn
         criteria=62959,
@@ -74,10 +84,11 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
             210660, -- Claw of Lo'Gosh
         },
         note="Bring a Mark of Goldrinn here. If you can be a wolf, you don't need the Mark. (Worgen count!)",
+        minimap=true,
     },
 }, {
     achievement=19317, -- Treasures
-    minimap=true,
+    -- minimap=true,
 })
 
 -- Rares
