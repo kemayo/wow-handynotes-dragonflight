@@ -55,9 +55,8 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
         loot={
             210434, -- Visage of Ursol
         },
-        note="Bring a Mark of Ursol here. If you can be a bear, you don't need the Mark. (Pandaren count!)",
+        note="Use a Mark of Ursol and come here with {spell:423306:Bear Spirit Guardian}. If you can be a bear, you don't need the Mark. (Pandaren count!)",
         -- vignette=5907,
-        minimap=true,
     },
     [64101920] = { -- Reliquary of Aviana
         criteria=62957,
@@ -65,17 +64,17 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
         loot={
             210659, -- Branch of Aviana
         },
-        note="Bring a Mark of Aviana here. If you can have wings, you don't need the Mark.",
-        minimap=true,
+        note="Use a Mark of Aviana and come here with {spell:425432:Winged Spirit Guardian}. If you can have wings, you don't need the Mark.",
     },
-    [63407300] = { -- Reliquary of Ashamane
+    [63437155] = { -- Reliquary of Ashamane
         criteria=62958,
         quest=78359,
+        hide_before=ns.conditions.QuestComplete(76320), -- Wild Gods in Our Midst
         loot={
             210631, -- Branch of Ashamane
         },
-        note="Bring a Mark of Ashamane here. If you can stealth, you don't need the Mark",
-        minimap=true,
+        note="Inside the Barrows of Reverie",
+        vignette=5935,
     },
     [33208330] = { -- Reliquary of Goldrinn
         criteria=62959,
@@ -83,12 +82,39 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
         loot={
             210660, -- Claw of Lo'Gosh
         },
-        note="Bring a Mark of Goldrinn here. If you can be a wolf, you don't need the Mark. (Worgen count!)",
-        minimap=true,
+        note="Use a Mark of Goldrinn and come here with {spell:425408:Wolf Spirit Guardian}. If you can be a wolf, you don't need the Mark. (Worgen count!)",
     },
 }, {
     achievement=19317, -- Treasures
     -- minimap=true,
+})
+ns.RegisterPoints(2254, { -- Barrows of Reverie
+    [62903510] = { -- Reliquary of Ashamane
+        criteria=62958,
+        quest=78359, -- 78365 for turn-in
+        hide_before=ns.conditions.QuestComplete(76320), -- Wild Gods in Our Midst
+        loot={
+            210631, -- Branch of Ashamane
+        },
+        note="Use a Mark of Ashamane and come here with {spell:425426:Panther Spirit Guardian}. If you can stealth, you don't need the Mark",
+        related={
+            [39006660] = {label="Mark of Ashamane", minimap=true},
+        },
+        vignette=5935, -- Statue of the Ashen Panther
+    },
+}, {
+    achievement=19317, -- Treasures
+})
+
+ns.RegisterPoints(ns.EMERALDDREAM, {
+    [69585285] = {
+        quest=78550,
+        loot={210686}, -- Grovekeeper's Barrier
+        vignette=5954,
+    },
+}, {
+    label="Unwaking Echo",
+    note="/sleep to open",
 })
 
 -- Rares
