@@ -99,3 +99,14 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     [46503620] = {criteria=59550, --[[achievement=17516--]]}, -- Dragon Glyphs: Acidbite Ravine
     [48000440] = {criteria=59551, --[[achievement=17517--]]}, -- Dragon Glyphs: Aberrus Approach
 }, GLYPH{achievement=18150})
+
+ns.RegisterPoints(ns.EMERALDDREAM, {
+    [60303010] = {criteria=62823, --[[achievement=19296--]]}, -- Eye of Ysera
+    [21202670] = {criteria=62824, --[[achievement=19297--]]}, -- Furnace Coil
+    [33704560] = {criteria=62825, --[[achievement=19298--]]}, -- Smoldering Copse
+    [29902120] = {criteria=62826, --[[achievement=19299--]]}, -- Cinder Summit
+    [45504580] = {criteria=62827, --[[achievement=19300--]]}, -- Dreamsurge Basin
+    [49906430] = {criteria=62828, --[[achievement=19301--]]}, -- Amirdrassil
+    [31708070] = {criteria=62829, --[[achievement=19302--]]}, -- Whorlwing Basin
+    [61607540] = {criteria=62830, --[[achievement=19303--]]}, -- Wakeful Vista
+}, GLYPH{achievement=19306})
