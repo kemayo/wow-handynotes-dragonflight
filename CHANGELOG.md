@@ -1,5 +1,13 @@
 # Changelog
 
+## Changed in v51
+
+* Updated for 10.2.0
+* Adds Treasures of the Emerald Dream
+* Adds Adventurer of the Emerald Dream, and miscellaneous other rares in the zone
+    * A few questids are still missing, so some rares won't show completion properly yet
+* Adds new Dragon Glyphs in Emerald Dream
+
 ## Changed in v50
 
 * Updated for 10.1.7 (and also 10.1.5)
