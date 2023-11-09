@@ -1,5 +1,22 @@
 local myname, ns = ...
 
+--[[
+Unlocking the Dream Wardens: 77572, 77887
+Legend of Elun'ahir: 78831, item:210049
+]]
+
+-- Portal
+ns.RegisterPoints(ns.VALDRAKKEN, {
+    [62815726] = {
+        label="Portal to Emerald Dream",
+        texture=ns.atlas_texture("MagePortalAlliance", {r=0, g=1, b=0, scale=1.4}),
+        active=ns.conditions.QuestComplete(77572),
+        note="You must unlock {majorfaction:2574} before this is available",
+        minimap=true,
+    },
+})
+
+-- Treasures
 ns.RegisterPoints(ns.EMERALDDREAM, {
     [34095634] = { -- Triflesnatch's Roving Trove
         criteria=62952,
