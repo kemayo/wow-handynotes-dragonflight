@@ -744,7 +744,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
 }, drakewing)
 
 ns.RegisterPoints(ns.WAKINGSHORES, {
-    [46725013] = { -- Primal Scythid Queen
+    [81213783] = { -- Primal Scythid Queen
         quest=66074, -- 57559, 62396
         npc=184853,
         loot={
