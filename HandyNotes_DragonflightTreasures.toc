@@ -29,6 +29,7 @@ zones\Thaldraszus.lua
 zones\WakingShores.lua
 zones\ForbiddenReach.lua
 zones\ZaralekCavern.lua
+zones\EmeraldDream.lua
 
 zones\ForbiddenReachIntro.lua
 
