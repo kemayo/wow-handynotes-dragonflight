@@ -37,10 +37,11 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
         },
         vignette=5826,
     },
-    [39106550] = { -- Crystalline Glowblossom
+    [39106552] = { -- Crystalline Glowblossom
         criteria=62954,
         quest=77950,
         vignette=5981,
+        note="Climb the tree",
     },
     [37303070] = { -- Pineshrew Cache
         criteria=62956,
@@ -50,30 +51,31 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
         },
         vignette=5872,
     },
-    [61605960] = { -- Magical Bloom
+    [61605956] = { -- Magical Bloom
         criteria=62960,
-        quest=78005,
+        quest=78005, -- 78033 for treasure appearance
         hide_before=ns.conditions.QuestComplete(77818), -- The Cruel
         related={
-            [64306130] = {label="{npc:210544:Laughing Podling}",note="Follow until the treasure appears"},
-            [62906040] = {label="{npc:210544:Laughing Podling}",note="Follow until the treasure appears"},
+            [64316131] = {label="{npc:210544:Laughing Podling}",note="Follow until the treasure appears"},
+            [62946039] = {label="{npc:210544:Laughing Podling}",note="Follow until the treasure appears"},
         },
         note="Follow the nearby {npc:210544:Laughing Podling} until the treasure appears",
         vignette=5831, -- also 5926, 5927
     },
-    [55305730] = { -- Odd Burl
+    [55275725] = { -- Odd Burl
         criteria=62961,
         quest=78006,
         vignette=5832,
     },
     [47105310] = { -- Reliquary of Ursol
         criteria=62955,
-        quest=78107,
+        quest=78107, -- 78095 for treasure appearing
         loot={
             210434, -- Visage of Ursol
         },
         note="Use a Mark of Ursol and come here with {spell:423306:Bear Spirit Guardian}. If you can be a bear, you don't need the Mark. (Pandaren count!)",
-        -- vignette=5907,
+        nearby={48015246, label="Mark of Ursol"},
+        vignette=5870, -- Statue of the Bear Lord
     },
     [64101920] = { -- Reliquary of Aviana
         criteria=62957,
@@ -82,6 +84,7 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
             210659, -- Branch of Aviana
         },
         note="Use a Mark of Aviana and come here with {spell:425432:Winged Spirit Guardian}. If you can have wings, you don't need the Mark.",
+        vignette=5936, -- Statue of the Sky Mistress
     },
     [63437155] = { -- Reliquary of Ashamane
         criteria=62958,
@@ -91,7 +94,7 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
             210631, -- Branch of Ashamane
         },
         note="Inside the Barrows of Reverie",
-        vignette=5935,
+        vignette=5935, -- Statue of the Ashen Panther
     },
     [33208330] = { -- Reliquary of Goldrinn
         criteria=62959,
@@ -100,6 +103,7 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
             210660, -- Claw of Lo'Gosh
         },
         note="Use a Mark of Goldrinn and come here with {spell:425408:Wolf Spirit Guardian}. If you can be a wolf, you don't need the Mark. (Worgen count!)",
+        vignette=5937, -- Statue of the Great Wolf
     },
 }, {
     achievement=19317, -- Treasures
@@ -108,7 +112,7 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
 ns.RegisterPoints(2254, { -- Barrows of Reverie
     [62903510] = { -- Reliquary of Ashamane
         criteria=62958,
-        quest=78359, -- 78365 for turn-in
+        quest=78359, -- 78365 for treasure appearing
         hide_before=ns.conditions.QuestComplete(76320), -- Wild Gods in Our Midst
         loot={
             210631, -- Branch of Ashamane
@@ -163,7 +167,7 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
         },
         vignette=5816,
     },
-    [40407220] = { -- Moragh the Slothful
+    [40457263] = { -- Moragh the Slothful
         criteria=62942,
         quest=78210,
         npc=210045,
@@ -256,11 +260,12 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
     [43603100] = { -- Surging Lasher
         criteria=62941,
         additional={57805220, 60806400, 59007200},
-        quest=nil,
+        quest=78263,
         npc=210111,
         loot={
             208330, -- Piercing Touch of the Vine
             208367, -- Lasher's Red Thorn
+            207761, -- Technique: Grotto Netherwing Drake: Chin Tendrils
         },
     },
     [63803620] = { -- Molten Leadspike
