@@ -110,3 +110,12 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
         vignette=5741,
     },
 }, dfinsknowledge)
+
+ns.RegisterPoints(ns.EMERALDDREAM, {
+    [63507152] = {
+        hide_before=ns.conditions.QuestComplete(76320), -- Wild Gods in Our Midst
+        loot={210459}, -- Grove Keeper's Pillar
+        quest=78412,
+        vignette=5944,
+    },
+}, dfinsknowledge)
