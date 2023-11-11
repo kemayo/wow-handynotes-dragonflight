@@ -88,3 +88,21 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
         vignette=5680,
     },
 }, dflwknowledge)
+
+ns.RegisterPoints(ns.EMERALDDREAM, {
+    [37457102] = {
+        loot={210211}, -- Molted Faerie Dragon Scales
+        quest=78299,
+        vignette=5930,
+    },
+    [37263068] = {
+        loot={210215}, -- Dreamtalon Claw
+        quest=78305,
+        vignette=5931,
+    },
+    [41756649] = {
+        loot={210208}, -- Tuft of Dreamsaber Fur
+        quest=78298,
+        vignette=5929,
+    },
+}, dflwknowledge)

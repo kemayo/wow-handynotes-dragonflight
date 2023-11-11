@@ -95,3 +95,21 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
         vignette=5737,
     },
 }, dftlrknowledge)
+
+ns.RegisterPoints(ns.EMERALDDREAM, {
+    [53272792] = {
+        loot={210461}, -- Exceedingly Soft Wildercloth
+        quest=78414,
+        vignette=5946,
+    },
+    [40708616] = {
+        loot={210463}, -- Snuggle Buddy
+        quest=78416,
+        vignette=5948,
+    },
+    [49836148] = {
+        loot={210462}, -- Plush Pillow
+        quest=78415,
+        vignette=5947,
+    },
+}, dftlrknowledge)

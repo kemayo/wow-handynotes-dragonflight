@@ -112,3 +112,26 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
         vignette=5673, -- Molten Scoutbot
     },
 }, dfengknowledge)
+
+ns.RegisterPoints(ns.EMERALDDREAM, {
+    [39555228] = {
+        loot={210193}, -- Experimental Dreamcatcher
+        quest=78278,
+        vignette=5919,
+    },
+    [62663627] = {
+        loot={210197}, -- Unhatched Battery
+        quest=78281,
+        vignette=5922,
+    },
+}, dfengknowledge)
+ns.RegisterPoints(2254, { -- Barrows of Reverie
+    [49266865] = {
+        hide_before=ns.conditions.QuestComplete(76320), -- Wild Gods in Our Midst
+        loot={210194}, -- Insomniotron
+        quest=78279,
+        vignette=5920,
+        parent=true, -- 62607480
+        note="Inside the Barrows of Reverie",
+    },
+}, dfengknowledge)
