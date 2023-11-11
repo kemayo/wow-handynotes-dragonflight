@@ -6,6 +6,14 @@ local myname, ns = ...
 -- 66995 adaptive
 
 ns.RegisterPoints(ns.AZURESPAN, {
+    [66911275] = {
+        hide_before=ns.conditions.QuestComplete(72547), -- Academic Acquisitions
+        texture=ns.atlas_texture("profession", {scale=1.2}),
+        label="{faction:2526:Winterpelt Furbolg}",
+    },
+})
+
+ns.RegisterPoints(ns.AZURESPAN, {
     -- https://www.wowhead.com/beta/achievement=16300/treasures-of-the-azure-span
     [45135939] = { -- Forgotten Jewel Box
         criteria=54804,
