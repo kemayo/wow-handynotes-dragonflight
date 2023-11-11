@@ -153,6 +153,9 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
     [32936563] = {},
     [57185350] = {},
     [52003800] = {note="Stuck in a wall"},
+    [63447358] = {},
+    [66256328] = {note="On the branch"},
+    [66496315] = {note="Under the branch, but stuck in a wall"},
 }, {vignette=5833, label="Small Somnut"}
 ]]
 
