@@ -96,3 +96,21 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
         vignette=5696,
     },
 }, dfjcknowledge)
+
+ns.RegisterPoints(ns.EMERALDDREAM, {
+    [33234657] = {
+        loot={210200}, -- Petrified Hope
+        quest=78282,
+        vignette=5923,
+    },
+    [43513336] = {
+        loot={210201}, -- Handful of Pebbles
+        quest=78283,
+        vignette=5924, -- Unpolished Blemish
+    },
+    [58955389] = {
+        loot={210202}, -- Coalesced Dreamstone
+        quest=78285,
+        vignette=5925,
+    },
+}, dfjcknowledge)

@@ -118,4 +118,14 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
         quest=78412,
         vignette=5944,
     },
+    [55642749] = {
+        loot={210458}, -- Winnie's Notes on Flora and Fauna
+        quest=78411,
+        vignette=5943,
+    },
+    [36044664] = {
+        loot={210460}, -- Primalist Shadowbinding Rune
+        quest=78413,
+        vignette=5945,
+    },
 }, dfinsknowledge)

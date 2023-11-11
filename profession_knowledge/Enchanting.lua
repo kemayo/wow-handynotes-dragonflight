@@ -94,3 +94,21 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
         vignette=5682,
     },
 }, dfenchknowledge)
+
+ns.RegisterPoints(ns.EMERALDDREAM, {
+    [66367420] = {
+        loot={210234}, -- Essence of Dreams
+        quest=78310,
+        vignette=5934,
+    },
+    [46162051] = {
+        loot={210231}, -- Everburning Core
+        quest=78309,
+        vignette=5933,
+    },
+    [38373020] = {
+        loot={210228}, -- Pure Dream Water
+        quest=78308,
+        vignette=5932,
+    },
+}, dfenchknowledge)

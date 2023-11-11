@@ -89,3 +89,26 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     },
 
 }, dfalcknowledge)
+
+ns.RegisterPoints(ns.EMERALDDREAM, {
+    [54053264] = {
+        loot={210184}, -- Half-Filled Dreamless Sleep Potion
+        quest=78264,
+        vignette=5916,
+    },
+    [36214663] = {
+        loot={210190}, -- Blazeroot
+        quest=78275,
+        vignette=5918, -- Root of the Problem
+    },
+}, dfalcknowledge)
+ns.RegisterPoints(2254, { -- Barrows of Reverie
+    [50914943] = {
+        hide_before=ns.conditions.QuestComplete(76320), -- Wild Gods in Our Midst
+        loot={210185}, -- Splash Potion of Narcolepsy
+        quest=78269,
+        vignette=5917,
+        parent=true, -- 62707370
+        note="Inside the Barrows of Reverie",
+    },
+}, dfalcknowledge)

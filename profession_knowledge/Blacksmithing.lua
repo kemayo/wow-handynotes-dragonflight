@@ -103,3 +103,21 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
         vignette=5735,
     },
 }, dfbsknowledge)
+
+ns.RegisterPoints(ns.EMERALDDREAM, {
+    [49836299] = {
+        loot={210464}, -- Amirdrassil Defender's Shield
+        quest=78417,
+        vignette=5949,
+    },
+    [36344679] = {
+        loot={210465}, -- Deathstalker Chassis
+        quest=78418,
+        vignette=5950,
+    },
+    [37292294] = {
+        loot={210466}, -- Flamesworn Render
+        quest=78419,
+        vignette=5951,
+    },
+}, dfbsknowledge)
