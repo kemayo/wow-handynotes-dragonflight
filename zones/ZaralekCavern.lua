@@ -527,3 +527,22 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     [57444585] = {},
     [58557141] = {},
 }, TRASH)
+
+local HAT = {
+    npc=205010, -- Curious Top Hat
+    loot={{205021, pet=3521}}, -- Lord Stantley
+    note="Use a {item:205686:Clacking Claw} from {npc:203618:Klakatak} to stop it running away",
+    texture=ns.atlas_texture("transmog-nav-slot-head", {r=1, g=0.5, b=0.75, scale=1.3}),
+    minimap=true,
+}
+ns.RegisterPoints(ns.ZARALEKCAVERN, {
+    [38866432] = {},
+    [43967748] = {},
+    [51586689] = {},
+    [61576953] = {},
+    [63205572] = {},
+    [60323734] = {note="Inside the cave"}, --  on interior map
+}, HAT)
+ns.RegisterPoints(2184, { -- starting cave
+    [69236586] = {},
+}, HAT)
