@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v53
+
+* Note where the winterpelt furbolg camp is after you've unlocked it
+* Assorted minor data updates
+
 ## Changed in v52
 
 * Show the portal to the Emerald Dream in Valdrakken
