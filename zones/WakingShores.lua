@@ -340,7 +340,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
     },
     [69016482] = { -- Smogswog the Firebreather
         criteria=56044,
-        quest=69668,
+        quest=74031, -- 69668
         npc=193120,
         loot={
             {197379,quest=69580,}, -- Renewed Proto-Drake: Impaler Horns
