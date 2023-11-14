@@ -23,16 +23,17 @@ local chest = {
 }
 
 ns.RegisterPoints(ns.WAKINGSHORES, {
-    [23789089] = {}, -- Apex Canopy
     [22507486] = {}, -- Dragonbane Keep
+    [23789089] = {}, -- Apex Canopy
+    [30474721] = {path=30595144}, -- Obsidian Citadel Cave
+    [36238567] = {},
     [36908747] = {}, -- Dragonscale Basecamp
     [43045822] = {}, -- Obsidian Bulwark
-    [55424497] = {}, -- Uktulut Blackwater
-    [72206051] = {path=71755872}, -- Skytop Observatory
-    [62917986] = {}, -- Ruby Life Pools
     [51711860] = {}, -- Life-Binder Observatory
+    [55434499] = {}, -- Uktulut Blackwater
+    [62917986] = {}, -- Ruby Life Pools
     [64364285] = {path=63764061}, -- Life Vault Ruins
-    [30474721] = {path=30595144}, -- Obsidian Citadel Cave
+    [72166049] = {path=71755872}, -- Skytop Observatory
 }, chest)
 ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [31457160] = {}, -- The Eternal Kurgans
