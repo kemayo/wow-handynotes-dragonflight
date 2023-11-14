@@ -9,7 +9,7 @@ Legend of Elun'ahir: 78831, item:210049
 ns.RegisterPoints(ns.VALDRAKKEN, {
     [62815726] = {
         label="Portal to Emerald Dream",
-        texture=ns.atlas_texture("MagePortalAlliance", {r=0, g=1, b=0, scale=1.4}),
+        texture=ns.atlas_texture("dreamsurge_fire-portal-icon", {r=0, g=1, b=0, scale=2}),
         active=ns.conditions.QuestComplete(77572),
         note="You must unlock {majorfaction:2574} before this is available",
         minimap=true,
