@@ -37,15 +37,15 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
 }, chest)
 ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [31457160] = {}, -- The Eternal Kurgans
-    [39316792] = {}, -- Terrakai Underwater
     [38945595] = {}, -- Terrakai Cave
+    [39316792] = {}, -- Terrakai Underwater
     [53845721] = {path=53185650}, -- Thunderspine Thicket
-    [61028017] = {path=61427741}, -- Ohn
-    [85106638] = {path=84576633}, -- Sagecrest Pines
-    [82653290] = {}, -- Mudfin Village
-    [55013121] = {}, -- Maruukai
+    [55013124] = {}, -- Maruukai
     [55455025] = {path=57705081}, -- Sylvan Glade
+    [61028017] = {path=61427741}, -- Ohn
     [80958080] = {path=79938057}, -- Forkriver Crossing
+    [82663293] = {}, -- Mudfin Village
+    [85106638] = {path=84576633}, -- Sagecrest Pines
 }, chest)
 ns.RegisterPoints(ns.AZURESPAN, {
     [65652784] = {}, -- Rhonin
