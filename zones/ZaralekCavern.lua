@@ -519,6 +519,7 @@ local TRASH = {
     label="Smelly Trash Pile",
     texture=ns.atlas_texture("VignetteLoot", {r=0.5, g=0.5, b=1, scale=0.9}),
     vignette=5714,
+    group="junk",
 }
 ns.RegisterPoints(ns.ZARALEKCAVERN, {
     [31175207] = {},
