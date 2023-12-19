@@ -564,29 +564,29 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         loot={},
         vignette=5087,
     },
-    --[[
-    [] = { -- Sulfurion
+    [77868271] = { -- Sulfurion
         criteria=56086,
         quest=nil,
         npc=191842,
         loot={},
         vignette=5135,
+        path=76768206,
     },
-    [] = { -- Porta the Overgrown
+    [59716810] = { -- Porta the Overgrown
         criteria=56087,
         quest=nil,
         npc=191950,
         loot={},
         vignette=5136,
+        active=ns.conditions.Item(194426, 5), -- Enriched Soil
     },
-    [] = { -- The Jolly Giant
+    [27715557] = { -- The Jolly Giant
         criteria=56088,
-        quest=nil,
+        quest=73976,
         npc=195204,
         loot={},
         vignette=5352,
     },
-    --]]
     [84214784] = { -- Windscale the Stormborn
         criteria=56089,
         quest=nil,
