@@ -22,9 +22,9 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
         criteria=62952,
         quest=77872,
         related={
-            [39705210] = {label="{npc:210060:Triflesnatcher}",note="Follow until the treasure appears"},
-            [42205620] = {label="{npc:210060:Triflesnatcher}",note="Follow until the treasure appears"},
-            [41706250] = {label="{npc:210060:Triflesnatcher}",note="Follow until the treasure appears"},
+            [39705210] = {label="{npc:210060:Triflesnatcher}",note="Follow until the treasure appears", quest=77855},
+            [42205620] = {label="{npc:210060:Triflesnatcher}",note="Follow until the treasure appears", quest=77857}, -- 77505?
+            [41706250] = {label="{npc:210060:Triflesnatcher}",note="Follow until the treasure appears", quest=77369},
         },
         note="Follow the nearby {npc:210060:Triflesnatcher} until the treasure appears",
         vignette=5812,
