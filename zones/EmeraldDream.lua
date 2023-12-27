@@ -473,4 +473,20 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
         vignette=5799,
     },
     --]]
+    [39405340] = { -- Aurostor
+        quest=77217,
+        worldquest=76367, -- Hybernation Heroes
+        npc=209574,
+        loot={
+            208429, -- Mossen Rage Waistguard
+            208435, -- Forgotten Jalgar's Girdle
+            208436, -- Flame-Etched Breastplate
+            208437, -- Crown of Freya's Chosen
+            208438, -- Grasps of Awakened Fury
+            208439, -- Rousing Earth Striders
+            208440, -- Aurostor's Sleeping Knickers
+            208441, -- Restful Dozer's Shoes
+            208443, -- Slumbering Ursine Talisman
+        },
+    },
 })
