@@ -150,9 +150,20 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
 -- No quests, basically everywhere, might not even be worth showing
 -- https://www.wowhead.com/object=408719/small-somnut#comments
 ns.RegisterPoints(ns.EMERALDDREAM, {
+    [28553410] = {},
+    [32815440] = {},
     [32936563] = {},
-    [57185350] = {},
+    [37735020] = {},
+    [38486184] = {},
+    [39184365] = {},
+    [39315799] = {},
+    [39695235] = {},
+    [40273457] = {},
+    [42246677] = {},
+    [42284821] = {},
+    [43107190] = {},
     [52003800] = {note="Stuck in a wall"},
+    [57185350] = {},
     [63447358] = {},
     [66256328] = {note="On the branch"},
     [66496315] = {note="Under the branch, but stuck in a wall"},
