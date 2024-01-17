@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v55
+
+* Updated for 10.2.5
+* Added loot for Aurostor in Emerald Dream
+* Added questids for the individual Triflesnatchers in Emerald Dream
+
 ## Changed in v54
 
 * Locations for a few remaining Adventurer rares in Ohn'Ahran Plains
