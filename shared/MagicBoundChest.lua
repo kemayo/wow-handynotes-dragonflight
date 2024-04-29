@@ -28,7 +28,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
     [30474721] = {path=30595144}, -- Obsidian Citadel Cave
     [36238567] = {},
     [36908747] = {}, -- Dragonscale Basecamp
-    [43045822] = {}, -- Obsidian Bulwark
+    [43716157] = {path=43045822}, -- Flayscale Cavern
     [51711860] = {}, -- Life-Binder Observatory
     [55434499] = {}, -- Uktulut Blackwater
     [62917986] = {}, -- Ruby Life Pools

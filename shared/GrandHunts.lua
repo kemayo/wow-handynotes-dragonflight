@@ -139,3 +139,15 @@ ns.RegisterPoints(ns.AZURESPAN, {
         vignette=5361,
     },
 }, hunt)
+
+ns.RegisterPoints(ns.THALDRASZUS, {
+    [50464639] = { -- Diluu
+        npc=195431,
+        quest=73912, -- 70519
+        vignette=5364,
+        loot={
+            200233, -- Paradox Saber
+            200204, -- Sandshine Chestplate
+        },
+    },
+}, hunt)
