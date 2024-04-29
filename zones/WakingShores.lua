@@ -896,50 +896,23 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
             200448, -- Abyssal Ward
         },
     },
-    [42203940] = { -- Harkyn Grymstone
+    [42203940] = {
+        label="Harkyn Grymstone",
         -- [42203940, 42203960]
-        quest=nil,
+        quest=74003, -- Also: 74000, 74033, 74037
         npc=186200,
         loot={
             {197131,quest=69332,}, -- Highland Drake: Hairy Cheek
             200171, -- Grymheart Blade
             200175, -- Repurposed Anvil
-        },
-    },
-    --[[
-    -- rest of the group with Harkyn:
-    [42003940] = { -- Snee
-        -- [42003940, 42203960]
-        quest=nil,
-        npc=185383,
-        loot={
+            200243, -- Titanic Scholar's Finery
+            -- Rest of the group:
+            200169, -- Protector's Molten Cudgel
+            200757, -- Qalashi War-Helm
             {197005,quest=69205,}, -- Cliffside Wylderdrake: Horned Nose
             {197019,quest=69219,}, -- Cliffside Wylderdrake: Blunt Spiked Tail
-            200169, -- Protector's Molten Cudgel
-            200757, -- Qalashi War-Helm
         },
     },
-    [42003940] = { -- Voll
-        quest=nil,
-        npc=185383,
-        loot={
-            {197019,quest=69219,}, -- Cliffside Wylderdrake: Blunt Spiked Tail
-            200169, -- Protector's Molten Cudgel
-            200757, -- Qalashi War-Helm
-        },
-    },
-    [42203940] = { -- Groth
-        -- [42203940, 42203960]
-        quest=nil,
-        npc=185383,
-        loot={
-            {197005,quest=69205,}, -- Cliffside Wylderdrake: Horned Nose
-            {197019,quest=69219,}, -- Cliffside Wylderdrake: Blunt Spiked Tail
-            200169, -- Protector's Molten Cudgel
-            200757, -- Qalashi War-Helm
-        },
-    },
-    ]]
     [55107740] = { -- Basrikron
         quest=69930, -- 72056
         worldquest=69930,
