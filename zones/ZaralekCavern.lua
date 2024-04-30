@@ -493,7 +493,7 @@ local STASH = {
 }
 ns.RegisterPoints(ns.ZARALEKCAVERN, {
     [60664621] = {quest=75302, vignette=5647},
-    [63203710] = {quest=75303, vignette=5648, note="In cave", path=60373727},
+    [63203710] = {quest=75303, vignette=5648, note="In cave", path=60373727}, -- 63603864?
 }, STASH)
 ns.RegisterPoints(2184, { -- starting cave
     [63688296] = {quest=75303, vignette=5648},
@@ -510,6 +510,7 @@ ns.RegisterPoints(ns.ZARALEKCAVERN, {
     [36034453] = {quest=73551, vignette=5529},
     [30055141] = {quest=73552, vignette=5530}, -- verify quest
     [32015277] = {quest=73552, vignette=5530},
+    [32395034] = {quest=73552, vignette=5530}, -- verify quest
     [27344217] = {quest=73553, vignette=5531},
     [28175154] = {quest=73553, vignette=5531}, -- verify quest
     [28264627] = {quest=73553, vignette=5531},
@@ -522,16 +523,21 @@ local TRASH = {
     group="junk",
 }
 ns.RegisterPoints(ns.ZARALEKCAVERN, {
+    [29024917] = {},
     [31175207] = {},
     [35754907] = {},
     [37056988] = {},
+    [39377663] = {},
     [39438314] = {},
     [40415197] = {},
     [40613568] = {},
     [41634101] = {},
     [42014541] = {},
+    [42982468] = {},
+    [43552886] = {},
     [44686197] = {},
     [48213766] = {},
+    [49641601] = {},
     [51224089] = {},
     [51984729] = {},
     [52957419] = {},
