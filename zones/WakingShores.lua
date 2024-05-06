@@ -10,6 +10,8 @@ Promised to rescue Wu'De Prepfoot @ 35154722: 70709
 Tarjin's Tales @ 1616261
 Tale of the Outsider: unlocked 70767, listened 70768
 Tale of the Elders: unlocked 70770, listened 70769
+
+Disoriented Watcher (187745) kill-quest 74092
 --]]
 
 ns.RegisterPoints(ns.WAKINGSHORES, {

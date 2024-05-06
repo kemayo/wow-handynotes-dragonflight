@@ -70,11 +70,23 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
         loot={},
         vignette=5254,
     },
+    [69546477] = { -- Galnmor
+        quest=73915,
+        npc=193853,
+        loot={},
+        vignette=5259,
+    },
+    [64886476] = { -- Salkii
+        quest=73931,
+        npc=193885,
+        loot={},
+        vignette=5260,
+    },
 }, hunt)
 
 ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [72374558] = { -- Zumakh
-        quest=70003, -- 70906
+        quest=73949, -- 70906
         npc=194624,
         loot={
             200563, -- Primal Ritual Shell
