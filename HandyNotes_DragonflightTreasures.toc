@@ -41,6 +41,7 @@ shared\WarSupplyChest.lua
 shared\TitanChests.lua
 shared\GrandHunts.lua
 shared\Recipes.lua
+shared\Pepe.lua
 
 achievements\FragmentsOfHistory.lua
 achievements\HighestPeaks.lua
