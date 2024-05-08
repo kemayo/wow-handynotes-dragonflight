@@ -236,7 +236,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     },
     [35027001] = { -- Treasure-Mad Trambladd
         criteria=56146,
-        quest=70947,
+        quest=74036, -- 70947
         npc=193146,
         loot={
             {196994,quest=69194,}, -- Cliffside Wylderdrake: Short Horns
@@ -248,7 +248,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     },
     [47805120] = { -- Eldoren the Reborn
         criteria=56147,
-        quest=69875,
+        quest=73990, -- 69875
         npc=193234,
         loot={
             {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
@@ -306,7 +306,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     },
     [37387792] = { -- Sandana the Tempest
         criteria=56150,
-        quest=69859,
+        quest=74029, -- 69859
         npc=193176,
         loot={
             {197008,quest=69208,}, -- Cliffside Wylderdrake: Narrow Stripes Pattern
@@ -325,7 +325,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     },
     [50005180] = { -- Rokmur
         criteria=56151,
-        quest=69966,
+        quest=74025, -- 69966
         npc=193666,
         loot={
             {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane

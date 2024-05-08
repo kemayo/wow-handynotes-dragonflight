@@ -620,10 +620,11 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     },
     [32823817] = { -- Makhra the Ashtouched
         criteria=56094,
-        quest=nil,
+        quest=73968,
         npc=195409,
         loot={},
         vignette=5365,
+        note="Only when the Aylaag Camp is in the Western position",
     },
     --[[
     [] = { -- Quackers the Terrible
@@ -834,12 +835,29 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
             66005880, 68805560, 68605160, 67205100, 68805680, 65605980, 65206900, r=1, g=0, b=0, loop=true,
         },
     },
+    [36043433] = { -- Lurgan
+        quest=74546, -- 74464
+        npc=201540,
+        loot={
+            203674, -- Brutal Tramplers
+        },
+        vignette=5570,
+    },
+    [32634184] = { -- Stormcaller Narkena
+        quest=74547, -- 47465
+        npc=201539,
+        loot={
+            203676, -- Stormcaller's Grounding Shoes
+        },
+        vignette=5571,
+    },
     [33803840] = { -- Huntmaster Yrgena
-        quest=74466,
+        quest=74548, -- 74466
         npc=201538,
         loot={
             203672, -- Master Huntmaster's Wristguards
         },
+        vignette=5572,
     },
     --[[
     -- accompanied by
