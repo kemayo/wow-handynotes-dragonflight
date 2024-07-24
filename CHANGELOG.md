@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v58
+
+* Fix a usage of GetFactionInfoByID when it was removed in 11.0
+
 ## Changed in v57
 
 * Updated for 11.0.0
