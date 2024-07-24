@@ -1,5 +1,11 @@
 # Changelog
 
+## Changed in v57
+
+* Updated for 11.0.0
+* Added some minor missing locations and questids
+* Updated Krowi_WorldMapButtons-1.4 to v6
+
 ## Changed in v56
 
 * Updated for 10.2.6
