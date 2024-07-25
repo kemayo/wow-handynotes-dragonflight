@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v59
+
+* Updated Krowi_WorldMapButtons-1.4 to v7, which should fix an issue with the button on the world map sometimes overlapping the new legend button
+* Changed the name of the Dragon Glyphs group to just Glyphs
+
 ## Changed in v58
 
 * Fix a usage of GetFactionInfoByID when it was removed in 11.0
