@@ -18,9 +18,10 @@ ns.RegisterPoints(ns.AZURESPAN, {
     [45135939] = { -- Forgotten Jewel Box
         criteria=54804,
         quest=70603,
-        loot={},
+        loot={{201927, toy=true}},
         active={ns.conditions.QuestComplete(70534), ns.conditions.Item(199065), any=true}, -- Sorrowful Letter
         note="Find {item:199065} in other treasures",
+        vignette=5373,
     },
     [53964377] = { -- Gnoll Fiend Flail
         criteria=54805,
