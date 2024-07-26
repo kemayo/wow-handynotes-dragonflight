@@ -139,6 +139,15 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
         atlas="stablemaster", color={r=1, g=0, b=1}, minimap=true,
         active=ns.conditions.Toy(202042), -- Aquatic Shades
     },
+    [35754758] = { -- Broken Waygate
+        quest=74978, -- repairing the waygate
+        label="Broken Waygate",
+        atlas="flightmaster_ancientwaygate-taxi_frame_gray", scale=1.4,
+        minimap=true,
+        loot={{202278, quest=73058}}, -- Renewed Proto-Drake: Antlers
+        active=ns.conditions.Item(204278),
+        note="Bring a {item:204278:Neltharion's Toolkit} from the vaults in {zone:2107}, and repair the waygate inside the cave",
+    },
 })
 local drink = ns.nodeMaker{
     atlas="EmberCourt-32x32",
