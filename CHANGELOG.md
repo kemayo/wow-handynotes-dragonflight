@@ -1,5 +1,13 @@
 # Changelog
 
+## Changed in v60
+
+* Add the broken waygate in Waking Shores
+* Add loot to the forgotten jewel box
+* Add the missing Visage of Aurostor to Aurostor in Emerald Dream
+* Label cosmetic loot in tooltips
+* Clean up some deprecated WoW API calls for the future (and for running on beta)
+
 ## Changed in v59
 
 * Updated Krowi_WorldMapButtons-1.4 to v7, which should fix an issue with the button on the world map sometimes overlapping the new legend button
