@@ -485,7 +485,7 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
     },
     --]]
     [39405340] = { -- Aurostor
-        quest=77217,
+        quest=76367,
         worldquest=76367, -- Hybernation Heroes
         npc=209574,
         loot={
