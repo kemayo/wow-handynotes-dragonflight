@@ -498,6 +498,7 @@ ns.RegisterPoints(ns.EMERALDDREAM, {
             208440, -- Aurostor's Sleeping Knickers
             208441, -- Restful Dozer's Shoes
             208443, -- Slumbering Ursine Talisman
+            210433, -- Visage of Aurostor
         },
     },
 })
