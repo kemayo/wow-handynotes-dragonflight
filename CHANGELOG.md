@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v61
+
+* Flag cosmetic loot in tooltips
+* Fix tooltip label for multi-criteria points
+
 ## Changed in v60
 
 * Add the broken waygate in Waking Shores
