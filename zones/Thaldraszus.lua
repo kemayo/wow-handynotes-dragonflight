@@ -87,7 +87,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     -- https://www.wowhead.com/beta/achievement=16679/adventurer-of-thaldraszus
     [51534871] = { -- Razk'vex the Untamed
         criteria=56133,
-        quest=69853,
+        quest=73892, -- 69853?
         npc=193143,
         loot={
             {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
@@ -323,13 +323,14 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         vignette=5185,
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
-    [50005180] = { -- Rokmur
+    [50195193] = { -- Rokmur
         criteria=56151,
         quest=74025, -- 69966
         npc=193666,
         loot={
             {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
             {197111,quest=69312,}, -- Highland Drake: Maned Head
+            200137, -- Chitin Dreadbringer
             200131, -- Reclaimed Survivalist's Dagger
             200174, -- Bonesigil Shoulderguards
             200186, -- Amberquill Shroud
@@ -342,6 +343,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
             200859, -- Seasoned Hunter's Trophy
         },
         vignette=5238,
+        note="In the cave",
         -- hide_before=ns.MAXLEVEL, -- TODO
     },
     [47914980] = { -- Woolfang
