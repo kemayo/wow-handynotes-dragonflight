@@ -56,7 +56,7 @@ ns.groups["warsupply"] = "War Supply Chest"
 ns.groups["titanchests"] = "Titan Chest"
 ns.groups["glyphs"] = GLYPHS
 ns.groups["dailymount"] = "Daily Mounts"
-ns.groups["races"] = "{achievement:15939:Dragon Racing Completionist}"
+ns.groups["races"] = "{spell:369968:Racing}"
 ns.groups["professionknowledge"] = "Profession Knowledge"
 ns.groups["hunts"] = "{achievement:16540:Hunt Master}"
 
@@ -80,5 +80,7 @@ unlocked dragon customization: 68797
 
 Herbalism: looted Dreambloom Petal 71858 71859
 Inscriptions: looted Iskaaean Trading Ledger 66376
+
+Gilneas Reclaimed: after 79137, can loot Tess's Peacebloom (211788) @ 217 48855295, quest 79474
 
 --]]
