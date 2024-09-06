@@ -1,79 +1,124 @@
 local myname, ns = ...
+local _, myfullname = C_AddOns.GetAddOnInfo(myname)
+
+local races = {}
 
 -- TODO: this could be greatly simplified if I properly add multiple-achievement support to core...
+
+EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
+    local showing
+    local function ShowTooltipForRace(race, name, description)
+        local tooltip = GetAppropriateTooltip()
+        tooltip:SetOwner(WorldMapFrame, "ANCHOR_CURSOR")
+        GameTooltip_SetTitle(tooltip, name)
+        if description then
+            GameTooltip_AddNormalLine(tooltip, description)
+        end
+        race:OnTooltipShow(tooltip)
+        tooltip:AddDoubleLine(" ", myfullname:gsub("HandyNotes: ", ""), 0, 1, 1, 0, 1, 1)
+        tooltip:Show()
+        showing = tooltip
+    end
+    WorldMapFrame:RegisterCallback("SetAreaLabel", function(_, labelType, name, description)
+        if labelType ~= MAP_AREA_LABEL_TYPE.POI then return end
+        -- Sadly, there's not a convenient way I could see to just get the areaPoiID or the areaPoiInfo from this point
+        -- As such...
+        if races[name] then
+            return ShowTooltipForRace(races[name], name, description)
+        end
+        for _, race in ipairs(races) do
+            local rname = C_QuestLog.GetTitleForQuestID(race._questid)
+            if rname then
+                races[rname] = race
+            end
+            if name == rname then
+                return ShowTooltipForRace(race, name, description)
+            end
+        end
+    end)
+    WorldMapFrame:RegisterCallback("ClearAreaLabel", function(_, labelType)
+        if showing then
+            showing:Hide()
+            showing = nil
+        end
+    end)
+end)
 
 local function extend(t1, t2)
     tAppendAll(t1, t2)
     return t1
 end
 local finalLoot = {
-    199669, -- Spiked Crimson Spaulders (all bronze)
-    {199688, pet=3279}, -- Bronze Racing Enthusiast (all silver)
+    ns.rewards.Item(199669), -- Spiked Crimson Spaulders (all bronze)
+    ns.rewards.Pet(199688, 3279), -- Bronze Racing Enthusiast (all silver)
     -- Isles Racer title (IsTitleKnown(479) / GetTitleName(478))
 }
 
-local Race = ns.Class{
-    Initialize=function(self, questname, achievements, currencies)
-        self._questname = questname
-        self._achievements = achievements
-        self._currencies = currencies or {}
-    end,
-    -- achievement=15941, -- Dragon Racing Completionist: Gold
-    atlas="racing", scale=1.2,
-    requires=ns.DRAGONRIDING,
-    _loot={
-        [ns.WAKINGSHORES] = extend({
-            {197370, quest=69571}, -- Renewed Proto-Drake: Red Hair
-            {197351, quest=69552, note=ADVANCED_LABEL}, -- Renewed Proto-Drake: Gold and Red Armor
-        }, finalLoot),
-        [ns.OHNAHRANPLAINS] = extend({
-            {197599, quest=69803}, -- Windborne Velocidrake: Red Hair
-            {197580, quest=69784, note=ADVANCED_LABEL}, -- Windborne Velocidrake: Gold and Red Armor
-        }, finalLoot),
-        [ns.AZURESPAN] = extend({
-            {197118, quest=69319}, -- Highland Drake: Brown Hair
-            {197094, quest=69295, note=ADVANCED_LABEL}, -- Highland Drake: Gold and Red Armor
-        }, finalLoot),
-        [ns.THALDRASZUS] = extend({
-            {196987, quest=69187}, -- Cliffside Wylderdrake: Blonde Hair
-            {196966, quest=69166, note=ADVANCED_LABEL}, -- Cliffside Wylderdrake: Gold and Orange Armor
-        }, finalLoot),
-        [ns.FORBIDDENREACH] = {
-            -- Forbidden Reach Racer title
+local Race = function(questid, achievements, currencies)
+    local race = ns.Getterize{
+        _questid = questid,
+        _achievements = achievements,
+        _currencies = currencies or {},
+
+        -- achievement=15941, -- Dragon Racing Completionist: Gold
+        atlas="racing", scale=1.2,
+        requires=ns.DRAGONRIDING,
+        _loot={
+            [ns.WAKINGSHORES] = extend({
+                ns.rewards.Item(197370, {quest=69571}), -- Renewed Proto-Drake: Red Hair
+                ns.rewards.Item(197351, {quest=69552, note=ADVANCED_LABEL}), -- Renewed Proto-Drake: Gold and Red Armor
+            }, finalLoot),
+            [ns.OHNAHRANPLAINS] = extend({
+                ns.rewards.Item(197599, {quest=69803}), -- Windborne Velocidrake: Red Hair
+                ns.rewards.Item(197580, {quest=69784, note=ADVANCED_LABEL}), -- Windborne Velocidrake: Gold and Red Armor
+            }, finalLoot),
+            [ns.AZURESPAN] = extend({
+                ns.rewards.Item(197118, {quest=69319}), -- Highland Drake: Brown Hair
+                ns.rewards.Item(197094, {quest=69295, note=ADVANCED_LABEL}), -- Highland Drake: Gold and Red Armor
+            }, finalLoot),
+            [ns.THALDRASZUS] = extend({
+                ns.rewards.Item(196987, {quest=69187}), -- Cliffside Wylderdrake: Blonde Hair
+                ns.rewards.Item(196966, {quest=69166, note=ADVANCED_LABEL}), -- Cliffside Wylderdrake: Gold and Orange Armor
+            }, finalLoot),
+            [ns.FORBIDDENREACH] = {
+                -- Forbidden Reach Racer title
+            },
         },
-    },
-    group="races",
-    note="Rewards are for zone-wide and continent-wide completion",
-    OnTooltipShow=function(self, tooltip)
-        for i, achievementid in pairs(self._achievements) do
-            local _, name, _, complete = GetAchievementInfo(achievementid)
-            local currencyInfo = self._currencies[i] and C_CurrencyInfo.GetCurrencyInfo(self._currencies[i])
-            tooltip:AddDoubleLine(
-                name or achievementid,
-                currencyInfo and ("%.3f s"):format(currencyInfo.quantity / 1000) or "? s",
-                complete and 0 or 1, complete and 1 or 0, 0,
-                complete and 0 or 1, complete and 1 or 0, 0
-            )
-        end
-    end,
-    __get={
-        label=function(self)
-            self.label = ("{questname:%d}"):format(self._questname)
-            return self.label
-        end,
-        found=function(self)
-            local found = {}
-            for _, aid in ipairs(self._achievements) do
-                table.insert(found, ns.conditions.Achievement(aid))
+        group="races",
+        note="Rewards are for zone-wide and continent-wide completion",
+        OnTooltipShow=function(self, tooltip)
+            for i, achievementid in pairs(self._achievements) do
+                local _, name, _, complete = GetAchievementInfo(achievementid)
+                local currencyInfo = self._currencies[i] and C_CurrencyInfo.GetCurrencyInfo(self._currencies[i])
+                tooltip:AddDoubleLine(
+                    name or achievementid,
+                    currencyInfo and ("%.3f s"):format(currencyInfo.quantity / 1000) or "? s",
+                    complete and 0 or 1, complete and 1 or 0, 0,
+                    complete and 0 or 1, complete and 1 or 0, 0
+                )
             end
-            self.found = found
-            return found
         end,
-        loot=function(self)
-            return self._loot[self._uiMapID]
-        end,
-    },
-}
+        __get={
+            label=function(self)
+                self.label = ("{questname:%d}"):format(self._questid)
+                return self.label
+            end,
+            found=function(self)
+                local found = {}
+                for _, aid in ipairs(self._achievements) do
+                    table.insert(found, ns.conditions.Achievement(aid))
+                end
+                self.found = found
+                return found
+            end,
+            loot=function(self)
+                return self._loot[self._uiMapID]
+            end,
+        },
+    }
+    table.insert(races, race)
+    return race
+end
 
 -- lines with a ? need their currency verified
 
