@@ -1,5 +1,14 @@
 # Changelog
 
+## Changed in v63
+
+* Bring in systems improvements from [my War Within plugin](https://www.curseforge.com/wow/addons/handynotes-war-within), notably:
+    * You can click on points to highlight them and their related points and routes
+    * Better pre-caching of data so that the first time you open the map it's less likely to be missing transmog information
+    * Lootless NPCs will no longer show with the only-transmog-available color
+    * Tightened up the wording of the right-click menu
+    * Fixed a bug when mousing over some of the Blizzard provided world map vignettes that I'm adding loot to
+
 ## Changed in v62
 
 * Bring in systems improvements from [my War Within plugin](https://www.curseforge.com/wow/addons/handynotes-war-within), notably:
