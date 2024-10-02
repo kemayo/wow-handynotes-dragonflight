@@ -1,5 +1,12 @@
 # Changelog
 
+## Changed in v64
+
+* Fixes an error while hovering over the Blizzard map vignettes for the Forbidden Hoard in Forbidden Reach.
+* Bring in systems improvements from [my War Within plugin](https://www.curseforge.com/wow/addons/handynotes-war-within), notably:
+    * Don't error when drawing an impossibly short route segment on the minimap
+    * Show uncompleted quest status in tooltips
+
 ## Changed in v63
 
 * Bring in systems improvements from [my War Within plugin](https://www.curseforge.com/wow/addons/handynotes-war-within), notably:
