@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v65
+
+* Updated for 11.0.5
+
 ## Changed in v64
 
 * Fixes an error while hovering over the Blizzard map vignettes for the Forbidden Hoard in Forbidden Reach.
