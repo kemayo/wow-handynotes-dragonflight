@@ -2,6 +2,3 @@ package-as: HandyNotes_DragonflightTreasures
 manual-changelog:
     filename: RECENT_CHANGES.md
     markup-type: markdown
-
-externals:
-   lib/LibUIDropDownMenu: https://repos.curseforge.com/wow/libuidropdownmenu/trunk/LibUIDropDownMenu

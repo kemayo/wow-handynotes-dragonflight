@@ -14,10 +14,6 @@
 ## RequiredDeps: HandyNotes
 ## OptionalDeps: !LibUIDropDownMenu
 
-#@non-debug@
-# lib\LibUIDropDownMenu\LibUIDropDownMenu.xml
-#@end-non-debug@
-
 handler\handler.xml
 
 dragonflight.lua
