@@ -6,6 +6,7 @@ local races = {}
 -- TODO: this could be greatly simplified if I properly add multiple-achievement support to core...
 
 EventUtil.ContinueOnAddOnLoaded("Blizzard_WorldMap", function()
+    if C_AddOns.IsAddOnLoaded("ContinentalRacing") then return end
     local showing
     local function ShowTooltipForRace(race, name, description)
         local tooltip = GetAppropriateTooltip()
