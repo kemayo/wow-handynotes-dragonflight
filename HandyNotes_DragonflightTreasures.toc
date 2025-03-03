@@ -12,7 +12,6 @@
 ## X-Wago-ID: ME6gxnK1
 ## SavedVariables: HandyNotes_DragonflightTreasuresDB
 ## RequiredDeps: HandyNotes
-## OptionalDeps: !LibUIDropDownMenu
 
 handler\handler.xml
 
