@@ -1,5 +1,10 @@
 # Changelog
 
+## Changed in v67
+
+* Updated for 11.1.5
+* Don't interfere with ContinentalRacing if it's loaded
+
 ## Changed in v66
 
 * Updated for 11.1.0
