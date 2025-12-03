@@ -1,5 +1,9 @@
 # Changelog
 
+## Changed in v70
+
+* Updated for 11.2.7
+
 ## Changed in v69
 
 * Nice.
