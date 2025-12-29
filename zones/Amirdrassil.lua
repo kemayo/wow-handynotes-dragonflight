@@ -76,28 +76,28 @@ ns.RegisterPoints(ns.AMIRDRASSIL, {
 			210424, -- Darnassian Tabard
 			210418, -- Darnassian Cloak
 			210415, -- Darnassian Moonsilver Spaulders
-			257352, -- Large Brazier of Elune (TODO: decor)
+			{257352, decor=true}, -- Large Brazier of Elune
 		},
 		note="Quartermaster",
 	},
 	[54096081] = {
 		label="{npc:216284:Mythrin'dir}",
 		loot={
-			248759, -- Amirdrassil Stool (TODO: decor)
-			246091, -- Bel'ameth Crafter's Tend (TODO: decor)
+			{248759, decor=true}, -- Amirdrassil Stool
+			{246091, decor=true}, -- Bel'ameth Crafter's Tend
 		},
 		note="Trade Goods",
 	},
 	[48385358] = {
 		label="{npc:216285:Ellandrieth}",
 		loot={
-			251022, -- Bel'ameth Traveler's Pack (TODO: decor)
-			245625, -- Bel'ameth Bench (TODO: decor)
-			245704, -- Bel'ameth Barrel (TODO: decor)
-			246089, -- Bel'ameth Wooden Table (TODO: decor)
-			246100, -- Small Bel'ameth Tent (TODO: decor)
-			248401, -- Ornamental Kaldorei Glaive (TODO: decor)
-			245655, -- Filigree Moon Lamp (TODO: decor)
+			{251022, decor=true}, -- Bel'ameth Traveler's Pack
+			{245625, decor=true}, -- Bel'ameth Bench
+			{245704, decor=true}, -- Bel'ameth Barrel
+			{246089, decor=true}, -- Bel'ameth Wooden Table
+			{246100, decor=true}, -- Small Bel'ameth Tent
+			{248401, decor=true}, -- Ornamental Kaldorei Glaive
+			{245655, decor=true}, -- Filigree Moon Lamp
 		},
 		note="General Goods",
 	},
