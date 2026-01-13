@@ -1,5 +1,51 @@
 local myname, ns = ...
 
+local TRAVEL = {
+	atlas="TaxiNode_Continent_Neutral",
+	minimap=true, scale=1.2,
+	group=TUTORIAL_TITLE35, -- Travel
+}
+
+ns.RegisterPoints(ns.AMIRDRASSIL, {
+	[55326473] = {label="{spell:109401:Portals}", note="{zone:62:Darkshore}, {zone:198:Mount Hyjal}, {zone:641:Val'sharah}"},
+	[55476366] = {label="{zone:84:Stormwind}", faction="Alliance", atlas="TaxiNode_Continent_Alliance"},
+	[51401835] = {label="{area:5072:Feathermoon Stronghold}", atlas="TaxiNode_Continent_Alliance"},
+	[58608500] = {label="{zone:715:Emerald Dreamway}", requires=ns.conditions.Class("DRUID")},
+}, TRAVEL)
+
+-- Return portals:
+ns.suppressoverlay[62] = true
+ns.suppressoverlay[69] = true
+ns.suppressoverlay[198] = true
+ns.suppressoverlay[641] = true
+
+ns.RegisterPoints(62, { -- Darkshore
+    [53701874] = {
+        label="{zone:2239:Amirdrassil}",
+        requires=ns.conditions.Expansion(LE_EXPANSION_DRAGONFLIGHT),
+        art=1176,
+    }
+}, TRAVEL)
+ns.RegisterPoints(69, { -- Feralas
+    [44914276] = {
+        label="{zone:2239:Amirdrassil}",
+        requires=ns.conditions.Expansion(LE_EXPANSION_DRAGONFLIGHT),
+    }
+}, TRAVEL)
+ns.RegisterPoints(198, { -- Mount Hyjal
+    [62502270] = {
+        label="{zone:2239:Amirdrassil}",
+        requires=ns.conditions.Expansion(LE_EXPANSION_DRAGONFLIGHT),
+        note="Not present in all phases",
+    }
+}, TRAVEL)
+ns.RegisterPoints(641, { -- Val'sharah
+    [54857187] = {
+        label="{zone:2239:Amirdrassil}",
+        requires=ns.conditions.Expansion(LE_EXPANSION_DRAGONFLIGHT),
+    }
+}, TRAVEL)
+
 ns.RegisterPoints(ns.AMIRDRASSIL, {
 	[55306436] = {
 		-- label="Kaldorei Bag",
