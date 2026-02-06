@@ -1,5 +1,14 @@
 # Changelog
 
+## Changed in v73
+
+* Framing A New Perspective: remove the quest-completion tracker
+* Expedition Scout's Pack: remove a duplicated note in tooltips about renown for Verdant Skitterfly
+* Bring in systems improvements from [my Midnight plugin](https://www.curseforge.com/wow/addons/handynotes-midnight-treasures)
+    * Performance improvement: only start caching points on-load if you're in a relevant zone
+    * Fix some adding of information to Blizzard's map pins, with Midnight changes
+    * Some changes for transmog appearance checking in Midnight
+
 ## Changed in v72
 
 * Add the Amirdrassil portals to their return zones
