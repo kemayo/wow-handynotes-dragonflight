@@ -756,11 +756,12 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
 
 ns.RegisterPoints(ns.WAKINGSHORES, {
     [81213783] = { -- Primal Scythid Queen
-        quest=66074, -- 57559, 62396
+        quest=66074, -- 57559, 62396, 72843
         npc=184853,
         loot={
             {196976,quest=69176,}, -- Cliffside Wylderdrake: Head Mane
             {197111,quest=69312,}, -- Highland Drake: Maned Head
+            200137, -- Chitin Dreadbringer
             200131, -- Reclaimed Survivalist's Dagger
             200174, -- Bonesigil Shoulderguards
             200186, -- Amberquill Shroud
