@@ -14,7 +14,7 @@ local scoutpack = {
         {199067, quest=70536, requires=ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 21)}, -- Precious Plans
         {198852, quest=70407, requires=ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 21)}, -- Bear Termination Orders
         -- ...the rest
-        {192764, mount=1617, note="Renown 25"}, -- Verdant Skitterfly
+        {192764, mount=1617, requires=ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 25)}, -- Verdant Skitterfly
         201387, -- Drakonid Stalker's Halberd
         201388, -- Dragonspawn Wingtipped Staff
         201389, -- Wingcrest Battle Staff
