@@ -69,7 +69,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
 }, {
     achievement=16301, -- Treasures
     minimap=true,
-    hide_before=ns.conditions.Level(64),
+    -- hide_before=ns.conditions.Level(64),
 })
 
 ns.RegisterPoints(ns.THALDRASZUS, {
