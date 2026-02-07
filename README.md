@@ -18,6 +18,7 @@ This includes:
 * [Fragments of History](https://www.wowhead.com/achievement=16323/fragments-of-history)
 * [Framing a New Perspective](https://www.wowhead.com/achievement=16634/framing-a-new-perspective)
 * [That's Pretty Neat!](https://www.wowhead.com/achievement=16446/thats-pretty-neat)
+* [Ancient Stones](https://www.wowhead.com/achievement=17560/ancient-stones-of-the-dragon-isles)
 * Hidden-away quests for nifty things like the [Divine Kiss of Ohn'ahra](https://www.wowhead.com/item=198821/divine-kiss-of-ohnahra), [Lizi's Reins](https://www.wowhead.com/item=192799/lizis-reins), and the [Temperamental Skyclaw](https://www.wowhead.com/news/how-to-obtain-the-temperament-skyclaw-secret-mount-in-dragonflight-330267)
 * ...and everything tucked away in the Dracthyr intro experience
 
