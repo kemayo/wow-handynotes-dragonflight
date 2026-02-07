@@ -27,7 +27,7 @@ Dragonbane Keep Strongbox: 200072 (epic),
 --]]
 
 local hunt = {
-    achievement=16545, criteria=true,
+    achievement=16545, criteria=true, -- The Best at What I Do
     group="hunts",
     texture=ns.atlas_texture("Warfront-NeutralHero", nil, 0.2),
     requires=ns.conditions.MajorFaction(ns.FACTION_MARUUK, 2), -- they start dropping trophies at 2

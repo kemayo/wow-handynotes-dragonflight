@@ -48,6 +48,10 @@ ns.defaults.profile.groupsHidden = {
     titanchests = true,
 }
 
+ns.defaults.profile.achievementsHidden = {
+    [16545] = true, -- The Best at What I Do
+}
+
 ns.groups["junk"] = BAG_FILTER_JUNK
 ns.groups["scoutpack"] = "{spell:388272:Lost Expedition Scout Packs}"
 ns.groups["disturbeddirt"] = "{spell:340561:Disturbed Dirt}"
