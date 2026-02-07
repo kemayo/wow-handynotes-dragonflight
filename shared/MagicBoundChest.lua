@@ -69,6 +69,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     [34836914] = {}, -- Valdrakken
     [42656663] = {path=42316553}, -- Valdrakken
     [61275400] = {path=59745372}, -- Tyrhold
+    [62207181] = {}, -- Cave
 }, chest)
 -- ns.RegisterPoints(ns.VALDRAKKEN, {
 -- }, chest)
