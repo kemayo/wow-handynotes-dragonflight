@@ -2,10 +2,12 @@ local myname, ns = ...
 
 local HIGHEST = {
 	achievement=15890,
+	label="{achievement:15890}",
 	achievementNotFound=true,
 	minimap=false, -- there's a flag once they're unlocked
-	texture=ns.atlas_texture("racing", {r=0, g=1, b=0}),
+	atlas="Warfronts-FieldMapIcons-Alliance-Banner-Minimap",
 	requires=ns.DRAGONRIDING,
+	loot={ns.rewards.Currency(ns.CURRENCY_DRAGONSCALE, 250)},
 	hide_before={
 		ns.conditions.MajorFaction(ns.FACTION_DRAGONSCALE, 6),
 		ns.conditions.GarrisonTalent(2164),

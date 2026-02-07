@@ -19,6 +19,13 @@ ns.FACTION_ISKAARA = 2511
 ns.FACTION_LOAMM = 2564
 ns.FACTION_DREAMWARDENS = 2574
 
+ns.CURRENCY_MARUUK = 2108 -- renown: 2002
+ns.CURRENCY_DRAGONSCALE = 2031 -- renown: 2021
+ns.CURRENCY_VALDRAKKEN = 2106 -- renown: 2088
+ns.CURRENCY_ISKAARA = 2109 -- renown: 2087
+ns.CURRENCY_LOAMM = 2420 -- renown: 2402
+ns.CURRENCY_DREAMWARDENS = 2652 -- renown: 2653
+
 -- 67030 completes alongside 66221 (moving on) and 72366; it's then also completed on any alts, unlike the others
 -- (It's what's in the vignettes as a condition for visibility)
 ns.MAXLEVEL = {ns.conditions.QuestComplete(67030), ns.conditions.Level(70)}
