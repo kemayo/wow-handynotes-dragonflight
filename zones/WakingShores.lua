@@ -985,7 +985,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
 }, {
     achievement=16584,
     note="Interact with the {npc:198123:Hope Kite}",
-    atlas="CreationCatalyst-32x32",
+    texture=ns.atlas_texture("VenthyrAssaultsQuest-32x32", {r=1, g=0.5, b=1}),
     requires=ns.DRAGONRIDING,
     minimap=true,
 })
