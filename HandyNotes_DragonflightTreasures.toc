@@ -45,6 +45,7 @@ achievements\DragonGlyphs.lua
 achievements\Races.lua
 achievements\SELFIE.lua
 achievements\ElusiveLegends.lua
+achievements\AncientStones.lua
 
 profession_knowledge\Masters.lua
 profession_knowledge\Alchemy.lua
