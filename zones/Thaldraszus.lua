@@ -77,7 +77,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         label="{questname:72528:Revival Catalyst}",
         atlas="creationcatalyst-32x32",
         scale=1.2,
-        hide_before=ns.conditions.QuestComplete(72360), -- Reviving the Machine
+        hide_before=ns.conditions.QuestCompleteOnAccount(72360), -- Reviving the Machine
         note="Bring gear here to become tier",
     },
 })
