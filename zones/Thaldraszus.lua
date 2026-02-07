@@ -82,6 +82,26 @@ ns.RegisterPoints(ns.THALDRASZUS, {
     },
 })
 
+-- Living Mud Mask pet
+ns.RegisterPoints(ns.THALDRASZUS, {
+    [40464527] = {
+        label="{quest:70377:Derelict Fashion}",
+        quest=70377,
+        loot={200586}, -- Derelict Sunglasses
+        note="Kill for the {item:200586} which begin the chain leading to {item:200872}",
+    },
+    [38604642] = {
+        label="{quest:72060:Special Treatment}",
+        quest=72060,
+        hide_before=ns.conditions.QuestComplete(70377),
+        loot={{200872, pet=3405}}, -- Living Mud Mask
+        note="Chase the {npc:198590:Sneaky Mud Mask} here",
+    },
+}, {
+    texture=ns.atlas_texture("SmallQuestBang", {r=0, g=1, b=1}),
+    minimap=true,
+})
+
 -- Rares
 ns.RegisterPoints(ns.THALDRASZUS, {
     -- https://www.wowhead.com/beta/achievement=16679/adventurer-of-thaldraszus
