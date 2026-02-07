@@ -1,5 +1,18 @@
 # Changelog
 
+## Changed in v74
+
+* Add the Ancient Stones achievements from 10.1
+* Thaldraszus: show the Living Mud Mask pet
+* Highest Peaks: improve the label/icon, note the rep reward
+* Symbols of Hope: better icon
+* The Best at What I Do: hide icons by default
+* Revival Catalyst availability is an account-quest
+* Remove the level requirement from treasures now this isn't current content
+* Bring in systems improvements from [my Midnight plugin](https://www.curseforge.com/wow/addons/handynotes-midnight-treasures)
+    * Speculative change to make it less likely the comparison tooltip will cause secret errors
+    * Improvements to how data is added to Blizzard's world map icons
+
 ## Changed in v73
 
 * Framing A New Perspective: remove the quest-completion tracker
