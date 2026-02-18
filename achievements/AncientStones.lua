@@ -19,7 +19,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     [43525652] = {criteria=58809}, -- The Gnoll Wars
     [24756593] = {criteria=58810}, -- Your Dreamer
     [32245138] = {criteria=58811}, -- Dreams in Emerald
-    [67024370] = {criteria=58812}, -- The First Kurnal
+    [67004366] = {criteria=58812}, -- The First Kurnal
     [38626671] = {criteria=58813}, -- Wind, Wood, Water
 }, stone{achievement=17562})
 

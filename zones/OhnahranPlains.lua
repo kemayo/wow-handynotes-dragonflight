@@ -452,7 +452,7 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
     },
     [58596822] = { -- Windseeker Avash
         criteria=56076,
-        quest=74088,
+        quest=74088, -- 74440
         npc=192045,
         loot={
             {197016,quest=69216,}, -- Cliffside Wylderdrake: Maned Tail

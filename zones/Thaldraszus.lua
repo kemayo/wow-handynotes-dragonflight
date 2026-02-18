@@ -34,7 +34,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         related={
             [54937543] = {quest=70538,loot={{199069,quest=70538},},atlas="poi-islands-table",active=false,}, -- Yennu's Map
         },
-        vignette=5371,
+        vignette=5371, -- Sand Pile
     },
     [52607673] = { -- Amber Gem Cluster
         criteria=54812,

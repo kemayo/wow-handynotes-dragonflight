@@ -116,6 +116,11 @@ ns.RegisterPoints(ns.OHNAHRANPLAINS, {
         npc=191450,
         vignette=5121, -- Hungry Ravine Vulture
     },
+    -- [81402116] = { -- Uranto
+    --     quest=nil,
+    --     npc=191103,
+    --     vignette=5124,
+    -- },
 }, hunt)
 
 ns.RegisterPoints(ns.AZURESPAN, {
