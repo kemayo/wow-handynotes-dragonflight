@@ -76,7 +76,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
         quest=72121,
         loot={200949}, -- Case of Fresh Gleamfish
         note="Quickly take this to {npc:191305} in Thaldraszus @ 38.4, 68.2",
-        route={45635482, 52550000, highlightOnly=true},
+        routes={{45635482, 52550000, highlightOnly=true}},
         minimap=true,
     },
     [18802540] = { -- Temperamental Skyclaw
@@ -242,7 +242,7 @@ ns.RegisterPoints(ns.AZURESPAN, {
         npc=194210,
         loot={},
         note="Patrols the icy area",
-        route={61213127, 59163080, 57562986, 54223190, 52023452, 49283837},
+        routes={{61213127, 59163080, 57562986, 54223190, 52023452, 49283837}},
         minimap=true,
     },
     [73002660] = { -- Beogoka

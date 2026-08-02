@@ -127,7 +127,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
             200859, -- Seasoned Hunter's Trophy
         },
         note="Runs around, you can jump on it",
-        route={53104363, 53124230, 51624534, 50304953, 51534871, 52714652, loop=true},
+        routes={{53104363, 53124230, 51624534, 50304953, 51534871, 52714652, loop=true}},
         minimap=true,
         vignette=5180,
     },
@@ -440,7 +440,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
         },
         note="Bring a {item:200949:Case of Fresh Gleamfish} from 45.6, 54.8 in Azure Span and give it to {npc:191416:Patient Vaargo}; other quests in the area might interfere with this",
         vignette=5439,
-        route={38436824, 32009999, highlightOnly=true},
+        routes={{38436824, 32009999, highlightOnly=true}},
     },
     [44806900] = { -- Corrupted Proto-Dragon
         criteria=56156,
@@ -530,7 +530,7 @@ ns.RegisterPoints(ns.THALDRASZUS, {
             200682, -- Hardened Scale Shoulderguards
         },
         note="Flying nearby",
-        route={37777413, 36307560, 36507860, 38407940, 40107780, 39507500, loop=true},
+        routes={{37777413, 36307560, 36507860, 38407940, 40107780, 39507500, loop=true}},
         minimap=true,
         vignette=5436,
     },

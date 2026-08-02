@@ -282,11 +282,11 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
             200563, -- Primal Ritual Shell
             200859, -- Seasoned Hunter's Trophy
         },
-        route={
+        routes={{
             52906590, 53006650, 52006670, 51306660, 49606530, 48706530, 48436605, 47706890,
             48007100, 46907360, 45407400, 42607250, 41706940, 40306820, 39306830, 37906960,
             37607070, 36507160, 34607110,
-        },
+        }},
         note="Patrols with {npc:192737:Qalashi War Mammoth}",
         minimap=true,
         vignette=5386, -- Qalashi War Party
@@ -748,9 +748,9 @@ local drakewing = {
     minimap=true,
 }
 ns.RegisterPoints(ns.WAKINGSHORES, {
-    [49806960] = {route={49806960, 49807220, 48007680, 47207700, r=1, g=1, b=0}},
-    [52205060] = {route={52205060, 53605320, 55205820, r=1, g=1, b=0}},
-    [69205480] = {route={69205480, 69405940, 67606020, 63605860, r=1, g=1, b=0}},
+    [49806960] = {routes={{49806960, 49807220, 48007680, 47207700, r=1, g=1, b=0}}},
+    [52205060] = {routes={{52205060, 53605320, 55205820, r=1, g=1, b=0}}},
+    [69205480] = {routes={{69205480, 69405940, 67606020, 63605860, r=1, g=1, b=0}}},
     [72824701] = {},
 }, drakewing)
 
@@ -858,7 +858,7 @@ ns.RegisterPoints(ns.WAKINGSHORES, {
             200252, -- Molten Flak Cannon
             200563, -- Primal Ritual Shell
         },
-        route={54512137, 56202250, 56502480, r=1, g=0, b=0},
+        routes={{54512137, 56202250, 56502480, r=1, g=0, b=0}},
         vignette=5372,
     },
     [60598286] = { -- Terillod the Devout
