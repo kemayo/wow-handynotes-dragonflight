@@ -1,5 +1,13 @@
 # Changelog
 
+## Changed in v81
+
+* Bring in systems improvements from [my Midnight plugin](https://www.curseforge.com/wow/addons/handynotes-midnight-treasures), notably:
+    * Timed world-event points show their timing in tooltips, and glow on the map while active or about to start
+    * Cosmetic set loot wasn't properly counting as knowable, so points could vanish too early
+    * Shared loot now respects the "this character only" setting
+    * Try to avoid widget-related taint when inserting on world map pins
+
 ## Changed in v80
 
 * Updated for 12.1.0
