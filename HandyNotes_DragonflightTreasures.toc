@@ -12,6 +12,7 @@
 ## X-Wago-ID: ME6gxnK1
 ## SavedVariables: HandyNotes_DragonflightTreasuresDB
 ## RequiredDeps: HandyNotes
+## AllowLoadGameType: standard
 
 handler\handler.xml
 
