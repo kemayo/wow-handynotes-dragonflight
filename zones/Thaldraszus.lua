@@ -606,6 +606,27 @@ ns.RegisterPoints(ns.THALDRASZUS, {
             200763, -- Frosted Scale Drape
         },
     },
+    [54608580] = { -- Temporal Investi-gator
+        quest=nil,
+        npc=201664,
+        loot={
+            {206993,toy=true,}, -- Investi-gator's Pocketwatch
+            200126, -- Mantle of Copious Chronologies
+            200202, -- Tomorrow's Chains
+            {200148, toy=true,}, -- A Collection of Me
+        },
+        note="Finish {quest:75935:Time Signature} questline, then:\n*Get a {item:208449:Melly's Metronographer+++} from {npc:204990:Melly Teletone}\n*Use it by {npc:203769:Bartender Bob}\nBuy {item:208448:Infinitea}\n*Drink it here then (quickly!) use the clock",
+    },
+    [59807040] = { -- Zal'kir the Chosen
+        quest=nil,
+        npc=205865,
+        loot={
+            208168, -- Black Blade of K'tanth
+            208170, -- Runeaxe of the Last Resistance
+            208172, -- Bloodstained Runecrook
+        },
+        path=59376968,
+    },
 })
 
 -- the future
