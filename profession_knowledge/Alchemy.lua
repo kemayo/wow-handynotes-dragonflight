@@ -2,7 +2,7 @@ local myname, ns = ...
 
 local dfalcknowledge = {
     note = "This can only be looted once per character.",
-    currency=2024,
+    loot={ns.rewards.Currency(2024)},
     requires = ns.conditions.Profession(ns.PROF_DF_ALCHEMY),
     hide_before = ns.conditions.Profession(ns.PROF_DF_ALCHEMY, 25),
     group = "professionknowledge",
