@@ -15,6 +15,7 @@
 
 handler\handler.xml
 
+constants.lua
 dragonflight.lua
 
 zones\DragonIsles.lua
